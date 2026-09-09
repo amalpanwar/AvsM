@@ -1,0 +1,41 @@
+name: Sync Premier League Results
+
+on:
+  schedule:
+    - cron: "20 0,6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install openpyxl
+
+      - name: Sync final scores
+        env:
+          FOOTBALL_DATA_API_TOKEN: ${{ secrets.FOOTBALL_DATA_API_TOKEN }}
+        run: python scripts/sync_results.py
+
+      - name: Commit generated data
+        run: |
+          if [[ -n "$(git status --porcelain epl-2026-GMTStandardTime.xlsx generated-data.js)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add epl-2026-GMTStandardTime.xlsx generated-data.js
+            git commit -m "Sync Premier League results"
+            git push
+          else
+            echo "No result changes to commit."
+          fi

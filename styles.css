@@ -1,0 +1,567 @@
+:root {
+  color-scheme: light;
+  --ink: #111827;
+  --muted: #64748b;
+  --line: #d7dee8;
+  --panel: #ffffff;
+  --bg: #f6f8fb;
+  --navy: #0f172a;
+  --green: #0f766e;
+  --gold: #f59e0b;
+  --red: #b42318;
+  --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.04), rgba(255, 255, 255, 0) 260px),
+    var(--bg);
+  color: var(--ink);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px clamp(16px, 4vw, 48px);
+  background: rgba(246, 248, 251, 0.9);
+  border-bottom: 1px solid rgba(215, 222, 232, 0.8);
+  backdrop-filter: blur(14px);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand img,
+.mark img {
+  width: 42px;
+  height: 42px;
+}
+
+.brand strong {
+  display: block;
+  font-size: 18px;
+}
+
+.brand span,
+.label,
+.fixture-meta,
+.team-row span,
+.history-row span,
+.user-pill,
+small {
+  color: var(--muted);
+}
+
+.user-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.user-pill span {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 6px;
+  font-weight: 800;
+}
+
+.login-screen {
+  display: grid;
+  min-height: calc(100vh - 71px);
+  place-items: center;
+  padding: 24px;
+}
+
+.login-panel {
+  width: min(420px, 100%);
+  padding: 34px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.mark {
+  display: inline-flex;
+  padding: 10px;
+  background: #eef2f7;
+  border-radius: 8px;
+}
+
+.login-panel h1,
+.scoreboard h1,
+.section-heading h1,
+.section-heading h2 {
+  margin: 12px 0 6px;
+  letter-spacing: 0;
+}
+
+.login-panel p {
+  margin: 0 0 24px;
+  color: var(--muted);
+}
+
+.login-actions,
+.pick-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.primary,
+.secondary,
+.pick-actions button,
+.settle-form button,
+.notice button,
+.ghost {
+  min-height: 42px;
+  padding: 0 14px;
+  border-radius: 8px;
+  font-weight: 750;
+}
+
+.primary,
+.pick-actions button,
+.settle-form button,
+.notice button {
+  color: #fff;
+  background: var(--navy);
+}
+
+.secondary,
+.ghost {
+  color: var(--navy);
+  background: #eef2f7;
+}
+
+.layout {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 22px clamp(16px, 4vw, 36px) 48px;
+}
+
+.logout {
+  position: fixed;
+  right: clamp(16px, 4vw, 48px);
+  bottom: 18px;
+  z-index: 7;
+  padding: 10px 14px;
+  color: var(--navy);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  margin-bottom: 18px;
+  overflow-x: auto;
+  background: #e9eef5;
+  border-radius: 8px;
+}
+
+.tabs button {
+  min-width: 104px;
+  padding: 10px 12px;
+  color: #334155;
+  background: transparent;
+  border-radius: 6px;
+  font-weight: 750;
+}
+
+.tabs .active {
+  color: var(--navy);
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(15, 23, 42, 0.08);
+}
+
+.scoreboard,
+.notice,
+.data-note,
+.fixture-card,
+.history-row,
+.table-wrap {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.data-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 16px 0;
+  padding: 12px 14px;
+}
+
+.data-note span {
+  color: var(--muted);
+  text-align: right;
+}
+
+.scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: clamp(20px, 4vw, 34px);
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(15, 118, 110, 0.82), rgba(15, 23, 42, 0.95)),
+    var(--navy);
+}
+
+.scoreboard .label,
+.scoreboard small {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.scoreboard h1 {
+  font-size: clamp(28px, 4vw, 44px);
+}
+
+.scoreboard.compact h1 {
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.totals {
+  display: flex;
+  gap: 12px;
+}
+
+.totals div {
+  display: grid;
+  min-width: 92px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+}
+
+.totals span {
+  font-weight: 900;
+}
+
+.totals strong {
+  font-size: 30px;
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 18px 0;
+  padding: 16px;
+}
+
+.notice p {
+  margin: 2px 0 0;
+  color: var(--muted);
+}
+
+.notice button {
+  margin-left: auto;
+}
+
+.notice.muted .status-dot {
+  background: var(--muted);
+}
+
+.status-dot {
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  background: var(--green);
+  border-radius: 99px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 22px 0 12px;
+}
+
+.fixture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 16px;
+}
+
+.fixture-card {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.fixture-meta,
+.fixture-title,
+.fixture-footer,
+.team-row,
+.history-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fixture-meta {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.venue {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.fixture-title h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.badge {
+  flex: 0 0 auto;
+  padding: 6px 8px;
+  color: #475569;
+  background: #eef2f7;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.badge.locked {
+  color: #064e3b;
+  background: #d1fae5;
+}
+
+.teams {
+  display: grid;
+  gap: 8px;
+}
+
+.team-row {
+  min-height: 64px;
+  padding: 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.team-row div {
+  display: grid;
+  gap: 2px;
+}
+
+.team-row b {
+  white-space: nowrap;
+  color: var(--navy);
+}
+
+.fixture-footer {
+  color: var(--navy);
+  font-size: 14px;
+}
+
+.assignment {
+  padding: 12px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 8px;
+}
+
+.assignment strong,
+.assignment span {
+  display: block;
+}
+
+.assignment span {
+  margin-top: 2px;
+  color: #7c2d12;
+}
+
+.assignment.empty {
+  color: var(--muted);
+  background: #f8fafc;
+  border-color: #e2e8f0;
+}
+
+.assignment.locked-final {
+  color: #064e3b;
+  background: #d1fae5;
+  border-color: #99f6e4;
+  font-weight: 800;
+}
+
+.settle-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 8px;
+  align-items: end;
+}
+
+.settle-form label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.settle-form input {
+  width: 100%;
+  height: 42px;
+  padding: 0 10px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.history-list {
+  display: grid;
+  gap: 10px;
+}
+
+.history-row {
+  padding: 16px;
+}
+
+.history-row div {
+  display: grid;
+  gap: 4px;
+}
+
+.history-row b {
+  color: var(--green);
+}
+
+.history-row b.void {
+  color: var(--red);
+}
+
+.empty-state {
+  margin: 0;
+  padding: 18px;
+  color: var(--muted);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.table-wrap {
+  margin-top: 18px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+
+th {
+  color: #334155;
+  background: #f8fafc;
+  font-size: 13px;
+}
+
+td:not(:first-child),
+th:not(:first-child) {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .brand span {
+    display: none;
+  }
+
+  .scoreboard,
+  .data-note,
+  .notice,
+  .fixture-title,
+  .settle-form {
+    grid-template-columns: 1fr;
+  }
+
+  .scoreboard,
+  .data-note,
+  .notice {
+    display: grid;
+  }
+
+  .data-note span {
+    text-align: left;
+  }
+
+  .totals {
+    width: 100%;
+  }
+
+  .totals div {
+    flex: 1;
+  }
+
+  .notice button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .fixture-title {
+    display: grid;
+  }
+
+  .badge {
+    width: max-content;
+  }
+}

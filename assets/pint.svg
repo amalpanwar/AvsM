@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Pint glass">
+  <rect width="96" height="96" rx="20" fill="#0f172a"/>
+  <path d="M30 18h28c3 0 6 3 6 6v7h6c7 0 12 5 12 12v10c0 7-5 12-12 12h-6v7c0 4-3 6-6 6H34c-3 0-6-2-7-5L20 25c-1-4 2-7 6-7h4Z" fill="#f8fafc"/>
+  <path d="M31 28h25l-3 39H37l-6-39Z" fill="#f59e0b"/>
+  <path d="M64 40h6c2 0 4 2 4 4v8c0 2-2 4-4 4h-6V40Z" fill="#f8fafc"/>
+  <path d="M32 22h25c2 0 4 2 4 4v5H30l-1-5c0-2 1-4 3-4Z" fill="#fff7ed"/>
+</svg>
