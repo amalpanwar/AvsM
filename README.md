@@ -19,7 +19,9 @@ If you have `npm` installed, `npm run build:data` and `npm run serve` are also w
 
 Google match cards are not a stable public data API, so the app does not scrape Google Search results. Use a football results API instead.
 
-For football-data.org:
+On GitHub, the `Sync Premier League Results` workflow uses the repository secret named `football-data-api-token`. The workflow runs four times per day, writes finished Premier League scores into `epl-2026-GMTStandardTime.xlsx`, regenerates `generated-data.js`, and pushes the update back to this repo.
+
+To run the same sync locally, either export the token in your shell or create a private `.env` file:
 
 ```bash
 cp .env.example .env
@@ -30,8 +32,6 @@ python3 scripts/sync_results.py
 The `.env` file is ignored by Git and should stay private.
 
 That script pulls finished Premier League matches, writes final scores into `epl-2026-GMTStandardTime.xlsx`, then regenerates `generated-data.js`. Refresh the app afterwards. Any saved pick for a newly finished fixture is settled automatically.
-
-When hosted on GitHub, add a repository secret named `FOOTBALL_DATA_API_TOKEN`. The included `Sync Premier League Results` workflow runs four times per day, updates the generated data when final scores appear, and pushes the change back to the repo.
 
 ## MVP Scope
 
