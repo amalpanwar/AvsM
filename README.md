@@ -15,6 +15,17 @@ Then visit `http://localhost:4174`.
 
 If you have `npm` installed, `npm run build:data` and `npm run serve` are also wired up.
 
+## GitHub Pages Deployment
+
+One-time setup in GitHub:
+
+1. Open `amalpanwar/AvsM`.
+2. Go to Settings -> Pages.
+3. Under Build and deployment, set Source to GitHub Actions.
+4. Save the setting, then rerun the `Publish GitHub Pages` workflow.
+
+The workflow publishes the static app from the repository root.
+
 ## Automatic Result Sync
 
 Google match cards are not a stable public data API, so the app does not scrape Google Search results. Use a football results API instead.
