@@ -210,15 +210,6 @@ def build_payload(now):
                 "status": "open",
                 "score": None,
                 "pintsLockedAt": now.isoformat().replace("+00:00", "Z"),
-                "hiddenModel": {
-                    key: value
-                    for key, value in prediction.items()
-                    if key
-                    not in {
-                        "home_pints",
-                        "away_pints",
-                    }
-                },
             }
         )
 
@@ -242,15 +233,6 @@ def build_payload(now):
                 "status": "recorded",
                 "score": {"home": home_score, "away": away_score},
                 "pintsLockedAt": row["date"].isoformat().replace("+00:00", "Z"),
-                "hiddenModel": {
-                    key: value
-                    for key, value in prediction.items()
-                    if key
-                    not in {
-                        "home_pints",
-                        "away_pints",
-                    }
-                },
             }
         )
 

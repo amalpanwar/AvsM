@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-09-09T06:21:49.539295Z",
-  "predictionStartsAt": "2026-09-09T06:21:49.511552Z",
+  "generatedAt": "2026-09-09T08:09:37.955831Z",
+  "predictionStartsAt": "2026-09-09T08:09:37.928378Z",
   "sourceFiles": {
     "strengths": "epl-2025-GMTStandardTime.xlsx",
     "fixtures": "epl-2026-GMTStandardTime.xlsx"
@@ -30,21 +30,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 0.996,
-        "home_probability": 0.522222,
-        "draw_probability": 0.24693,
-        "away_probability": 0.230847,
-        "home_decisive_probability": 0.693458,
-        "away_decisive_probability": 0.306542,
-        "home_fair_decimal_odds": 1.915,
-        "draw_fair_decimal_odds": 4.05,
-        "away_fair_decimal_odds": 4.332,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-32",
@@ -60,21 +46,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6261,
-        "away_lambda": 1.3945,
-        "home_probability": 0.430509,
-        "draw_probability": 0.240331,
-        "away_probability": 0.329161,
-        "home_decisive_probability": 0.566705,
-        "away_decisive_probability": 0.433295,
-        "home_fair_decimal_odds": 2.323,
-        "draw_fair_decimal_odds": 4.161,
-        "away_fair_decimal_odds": 3.038,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-33",
@@ -90,21 +62,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.3158,
-        "home_probability": 0.382676,
-        "draw_probability": 0.258962,
-        "away_probability": 0.358362,
-        "home_decisive_probability": 0.516405,
-        "away_decisive_probability": 0.483595,
-        "home_fair_decimal_odds": 2.613,
-        "draw_fair_decimal_odds": 3.862,
-        "away_fair_decimal_odds": 2.79,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-35",
@@ -120,21 +78,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0,
-        "away_lambda": 1.2105,
-        "home_probability": 0.303043,
-        "draw_probability": 0.288369,
-        "away_probability": 0.408588,
-        "home_decisive_probability": 0.425843,
-        "away_decisive_probability": 0.574157,
-        "home_fair_decimal_odds": 3.3,
-        "draw_fair_decimal_odds": 3.468,
-        "away_fair_decimal_odds": 2.447,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-37",
@@ -150,21 +94,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9129,
-        "away_lambda": 0.7697,
-        "home_probability": 0.643811,
-        "draw_probability": 0.212827,
-        "away_probability": 0.143363,
-        "home_decisive_probability": 0.817877,
-        "away_decisive_probability": 0.182123,
-        "home_fair_decimal_odds": 1.553,
-        "draw_fair_decimal_odds": 4.699,
-        "away_fair_decimal_odds": 6.975,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-40",
@@ -180,21 +110,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9183,
-        "away_lambda": 1.4737,
-        "home_probability": 0.234987,
-        "draw_probability": 0.263936,
-        "away_probability": 0.501076,
-        "home_decisive_probability": 0.319248,
-        "away_decisive_probability": 0.680752,
-        "home_fair_decimal_odds": 4.256,
-        "draw_fair_decimal_odds": 3.789,
-        "away_fair_decimal_odds": 1.996,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-39",
@@ -210,21 +126,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.726,
-        "away_lambda": 1.3582,
-        "home_probability": 0.199885,
-        "draw_probability": 0.280843,
-        "away_probability": 0.519271,
-        "home_decisive_probability": 0.277944,
-        "away_decisive_probability": 0.722056,
-        "home_fair_decimal_odds": 5.003,
-        "draw_fair_decimal_odds": 3.561,
-        "away_fair_decimal_odds": 1.926,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-34",
@@ -240,21 +142,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.1579,
-        "home_probability": 0.416548,
-        "draw_probability": 0.266593,
-        "away_probability": 0.316859,
-        "home_decisive_probability": 0.567963,
-        "away_decisive_probability": 0.432037,
-        "home_fair_decimal_odds": 2.401,
-        "draw_fair_decimal_odds": 3.751,
-        "away_fair_decimal_odds": 3.156,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-38",
@@ -270,21 +158,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4864,
-        "away_lambda": 1.7385,
-        "home_probability": 0.330783,
-        "draw_probability": 0.23138,
-        "away_probability": 0.437837,
-        "home_decisive_probability": 0.43036,
-        "away_decisive_probability": 0.56964,
-        "home_fair_decimal_odds": 3.023,
-        "draw_fair_decimal_odds": 4.322,
-        "away_fair_decimal_odds": 2.284,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-36",
@@ -300,21 +174,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 0.8081,
-        "home_probability": 0.485709,
-        "draw_probability": 0.284765,
-        "away_probability": 0.229526,
-        "home_decisive_probability": 0.67909,
-        "away_decisive_probability": 0.32091,
-        "home_fair_decimal_odds": 2.059,
-        "draw_fair_decimal_odds": 3.512,
-        "away_fair_decimal_odds": 4.357,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-42",
@@ -330,21 +190,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6171,
-        "away_lambda": 1.5212,
-        "home_probability": 0.402341,
-        "draw_probability": 0.236595,
-        "away_probability": 0.361063,
-        "home_decisive_probability": 0.527036,
-        "away_decisive_probability": 0.472964,
-        "home_fair_decimal_odds": 2.485,
-        "draw_fair_decimal_odds": 4.227,
-        "away_fair_decimal_odds": 2.77,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-50",
@@ -360,21 +206,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.078,
-        "away_lambda": 1.6842,
-        "home_probability": 0.242974,
-        "draw_probability": 0.241649,
-        "away_probability": 0.515377,
-        "home_decisive_probability": 0.320398,
-        "away_decisive_probability": 0.679602,
-        "home_fair_decimal_odds": 4.116,
-        "draw_fair_decimal_odds": 4.138,
-        "away_fair_decimal_odds": 1.94,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-43",
@@ -390,21 +222,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8711,
-        "away_lambda": 1.3582,
-        "home_probability": 0.24047,
-        "draw_probability": 0.277901,
-        "away_probability": 0.481629,
-        "home_decisive_probability": 0.333015,
-        "away_decisive_probability": 0.666985,
-        "home_fair_decimal_odds": 4.159,
-        "draw_fair_decimal_odds": 3.598,
-        "away_fair_decimal_odds": 2.076,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-44",
@@ -420,21 +238,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.4211,
-        "home_probability": 0.361416,
-        "draw_probability": 0.253264,
-        "away_probability": 0.38532,
-        "home_decisive_probability": 0.483994,
-        "away_decisive_probability": 0.516006,
-        "home_fair_decimal_odds": 2.767,
-        "draw_fair_decimal_odds": 3.948,
-        "away_fair_decimal_odds": 2.595,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-48",
@@ -450,21 +254,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8947,
-        "away_lambda": 1.5789,
-        "home_probability": 0.454167,
-        "draw_probability": 0.2211,
-        "away_probability": 0.324733,
-        "home_decisive_probability": 0.583088,
-        "away_decisive_probability": 0.416912,
-        "home_fair_decimal_odds": 2.202,
-        "draw_fair_decimal_odds": 4.523,
-        "away_fair_decimal_odds": 3.079,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-49",
@@ -480,21 +270,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0526,
-        "away_lambda": 1.2105,
-        "home_probability": 0.318139,
-        "draw_probability": 0.285276,
-        "away_probability": 0.396586,
-        "home_decisive_probability": 0.445121,
-        "away_decisive_probability": 0.554879,
-        "home_fair_decimal_odds": 3.143,
-        "draw_fair_decimal_odds": 3.505,
-        "away_fair_decimal_odds": 2.522,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-41",
@@ -510,21 +286,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.313,
-        "home_probability": 0.474348,
-        "draw_probability": 0.235035,
-        "away_probability": 0.290617,
-        "home_decisive_probability": 0.620091,
-        "away_decisive_probability": 0.379909,
-        "home_fair_decimal_odds": 2.108,
-        "draw_fair_decimal_odds": 4.255,
-        "away_fair_decimal_odds": 3.441,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-46",
@@ -540,21 +302,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.0458,
-        "home_probability": 0.470107,
-        "draw_probability": 0.261401,
-        "away_probability": 0.268492,
-        "home_decisive_probability": 0.636484,
-        "away_decisive_probability": 0.363516,
-        "home_fair_decimal_odds": 2.127,
-        "draw_fair_decimal_odds": 3.826,
-        "away_fair_decimal_odds": 3.725,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-47",
@@ -570,21 +318,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.2868,
-        "away_lambda": 0.5388,
-        "home_probability": 0.770528,
-        "draw_probability": 0.15823,
-        "away_probability": 0.071242,
-        "home_decisive_probability": 0.915367,
-        "away_decisive_probability": 0.084633,
-        "home_fair_decimal_odds": 1.298,
-        "draw_fair_decimal_odds": 6.32,
-        "away_fair_decimal_odds": 14.037,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-45",
@@ -600,21 +334,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4156,
-        "away_lambda": 1.3582,
-        "home_probability": 0.386027,
-        "draw_probability": 0.254067,
-        "away_probability": 0.359905,
-        "home_decisive_probability": 0.51751,
-        "away_decisive_probability": 0.48249,
-        "home_fair_decimal_odds": 2.59,
-        "draw_fair_decimal_odds": 3.936,
-        "away_fair_decimal_odds": 2.779,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-51",
@@ -630,21 +350,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.6044,
-        "away_lambda": 0.498,
-        "home_probability": 0.824407,
-        "draw_probability": 0.12528,
-        "away_probability": 0.050313,
-        "home_decisive_probability": 0.942481,
-        "away_decisive_probability": 0.057519,
-        "home_fair_decimal_odds": 1.213,
-        "draw_fair_decimal_odds": 7.982,
-        "away_fair_decimal_odds": 19.876,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-52",
@@ -660,21 +366,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8004,
-        "away_lambda": 1.0956,
-        "home_probability": 0.53866,
-        "draw_probability": 0.231329,
-        "away_probability": 0.230011,
-        "home_decisive_probability": 0.700767,
-        "away_decisive_probability": 0.299233,
-        "home_fair_decimal_odds": 1.856,
-        "draw_fair_decimal_odds": 4.323,
-        "away_fair_decimal_odds": 4.348,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-53",
@@ -690,21 +382,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6044,
-        "away_lambda": 1.6412,
-        "home_probability": 0.375986,
-        "draw_probability": 0.232394,
-        "away_probability": 0.39162,
-        "home_decisive_probability": 0.489817,
-        "away_decisive_probability": 0.510183,
-        "home_fair_decimal_odds": 2.66,
-        "draw_fair_decimal_odds": 4.303,
-        "away_fair_decimal_odds": 2.553,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-57",
@@ -720,21 +398,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 0.8947,
-        "home_probability": 0.547311,
-        "draw_probability": 0.24686,
-        "away_probability": 0.20583,
-        "home_decisive_probability": 0.726705,
-        "away_decisive_probability": 0.273295,
-        "home_fair_decimal_odds": 1.827,
-        "draw_fair_decimal_odds": 4.051,
-        "away_fair_decimal_odds": 4.858,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-60",
@@ -750,21 +414,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1797,
-        "away_lambda": 0.996,
-        "home_probability": 0.400554,
-        "draw_probability": 0.291618,
-        "away_probability": 0.307828,
-        "home_decisive_probability": 0.565449,
-        "away_decisive_probability": 0.434551,
-        "home_fair_decimal_odds": 2.497,
-        "draw_fair_decimal_odds": 3.429,
-        "away_fair_decimal_odds": 3.249,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-59",
@@ -780,21 +430,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8403,
-        "away_lambda": 1.4126,
-        "home_probability": 0.476646,
-        "draw_probability": 0.226797,
-        "away_probability": 0.296557,
-        "home_decisive_probability": 0.616457,
-        "away_decisive_probability": 0.383543,
-        "home_fair_decimal_odds": 2.098,
-        "draw_fair_decimal_odds": 4.409,
-        "away_fair_decimal_odds": 3.372,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-55",
@@ -810,21 +446,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9655,
-        "away_lambda": 1.4578,
-        "home_probability": 0.249973,
-        "draw_probability": 0.264775,
-        "away_probability": 0.485252,
-        "home_decisive_probability": 0.339995,
-        "away_decisive_probability": 0.660005,
-        "home_fair_decimal_odds": 4.0,
-        "draw_fair_decimal_odds": 3.777,
-        "away_fair_decimal_odds": 2.061,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-56",
@@ -840,21 +462,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2105,
-        "away_lambda": 1.1053,
-        "home_probability": 0.38489,
-        "draw_probability": 0.282041,
-        "away_probability": 0.333068,
-        "home_decisive_probability": 0.53609,
-        "away_decisive_probability": 0.46391,
-        "home_fair_decimal_odds": 2.598,
-        "draw_fair_decimal_odds": 3.546,
-        "away_fair_decimal_odds": 3.002,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-58",
@@ -870,21 +478,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2958,
-        "away_lambda": 1.4488,
-        "home_probability": 0.3376,
-        "draw_probability": 0.254889,
-        "away_probability": 0.407511,
-        "home_decisive_probability": 0.453087,
-        "away_decisive_probability": 0.546913,
-        "home_fair_decimal_odds": 2.962,
-        "draw_fair_decimal_odds": 3.923,
-        "away_fair_decimal_odds": 2.454,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-54",
@@ -900,21 +494,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 0.8947,
-        "home_probability": 0.463858,
-        "draw_probability": 0.282071,
-        "away_probability": 0.254071,
-        "home_decisive_probability": 0.646106,
-        "away_decisive_probability": 0.353894,
-        "home_fair_decimal_odds": 2.156,
-        "draw_fair_decimal_odds": 3.545,
-        "away_fair_decimal_odds": 3.936,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-64",
@@ -930,21 +510,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.274,
-        "away_lambda": 1.9559,
-        "home_probability": 0.247736,
-        "draw_probability": 0.219535,
-        "away_probability": 0.532729,
-        "home_decisive_probability": 0.317421,
-        "away_decisive_probability": 0.682579,
-        "home_fair_decimal_odds": 4.037,
-        "draw_fair_decimal_odds": 4.555,
-        "away_fair_decimal_odds": 1.877,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-62",
@@ -960,21 +526,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9764,
-        "away_lambda": 1.3786,
-        "home_probability": 0.514212,
-        "draw_probability": 0.218214,
-        "away_probability": 0.267574,
-        "home_decisive_probability": 0.65774,
-        "away_decisive_probability": 0.34226,
-        "home_fair_decimal_odds": 1.945,
-        "draw_fair_decimal_odds": 4.583,
-        "away_fair_decimal_odds": 3.737,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-65",
@@ -990,21 +542,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5789,
-        "away_lambda": 1.0526,
-        "home_probability": 0.495477,
-        "draw_probability": 0.251481,
-        "away_probability": 0.253041,
-        "home_decisive_probability": 0.661944,
-        "away_decisive_probability": 0.338056,
-        "home_fair_decimal_odds": 2.018,
-        "draw_fair_decimal_odds": 3.976,
-        "away_fair_decimal_odds": 3.952,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-67",
@@ -1020,21 +558,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.3684,
-        "away_lambda": 0.7368,
-        "home_probability": 0.737304,
-        "draw_probability": 0.164658,
-        "away_probability": 0.098038,
-        "home_decisive_probability": 0.882638,
-        "away_decisive_probability": 0.117362,
-        "home_fair_decimal_odds": 1.356,
-        "draw_fair_decimal_odds": 6.073,
-        "away_fair_decimal_odds": 10.2,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-68",
@@ -1050,21 +574,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7641,
-        "away_lambda": 1.6299,
-        "home_probability": 0.414781,
-        "draw_probability": 0.226188,
-        "away_probability": 0.359031,
-        "home_decisive_probability": 0.536023,
-        "away_decisive_probability": 0.463977,
-        "home_fair_decimal_odds": 2.411,
-        "draw_fair_decimal_odds": 4.421,
-        "away_fair_decimal_odds": 2.785,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-61",
@@ -1080,21 +590,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 0.7697,
-        "home_probability": 0.539168,
-        "draw_probability": 0.2652,
-        "away_probability": 0.195631,
-        "home_decisive_probability": 0.733762,
-        "away_decisive_probability": 0.266238,
-        "home_fair_decimal_odds": 1.855,
-        "draw_fair_decimal_odds": 3.771,
-        "away_fair_decimal_odds": 5.112,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-63",
@@ -1110,21 +606,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5245,
-        "away_lambda": 0.996,
-        "home_probability": 0.495227,
-        "draw_probability": 0.257498,
-        "away_probability": 0.247275,
-        "home_decisive_probability": 0.666971,
-        "away_decisive_probability": 0.333029,
-        "home_fair_decimal_odds": 2.019,
-        "draw_fair_decimal_odds": 3.884,
-        "away_fair_decimal_odds": 4.044,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-66",
@@ -1140,21 +622,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.4261,
-        "home_probability": 0.360414,
-        "draw_probability": 0.252977,
-        "away_probability": 0.386609,
-        "home_decisive_probability": 0.482467,
-        "away_decisive_probability": 0.517533,
-        "home_fair_decimal_odds": 2.775,
-        "draw_fair_decimal_odds": 3.953,
-        "away_fair_decimal_odds": 2.587,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-69",
@@ -1170,21 +638,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.5808,
-        "away_lambda": 1.562,
-        "home_probability": 0.13612,
-        "draw_probability": 0.250495,
-        "away_probability": 0.613385,
-        "home_decisive_probability": 0.181613,
-        "away_decisive_probability": 0.818387,
-        "home_fair_decimal_odds": 7.346,
-        "draw_fair_decimal_odds": 3.992,
-        "away_fair_decimal_odds": 1.63,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-70",
@@ -1200,21 +654,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1579,
-        "away_lambda": 1.6316,
-        "home_probability": 0.270713,
-        "draw_probability": 0.245375,
-        "away_probability": 0.483912,
-        "home_decisive_probability": 0.358738,
-        "away_decisive_probability": 0.641262,
-        "home_fair_decimal_odds": 3.694,
-        "draw_fair_decimal_odds": 4.075,
-        "away_fair_decimal_odds": 2.066,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-77",
@@ -1230,21 +670,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.4737,
-        "home_probability": 0.37726,
-        "draw_probability": 0.24548,
-        "away_probability": 0.37726,
-        "home_decisive_probability": 0.5,
-        "away_decisive_probability": 0.5,
-        "home_fair_decimal_odds": 2.651,
-        "draw_fair_decimal_odds": 4.074,
-        "away_fair_decimal_odds": 2.651,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-72",
@@ -1260,21 +686,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2196,
-        "away_lambda": 1.5937,
-        "home_probability": 0.292256,
-        "draw_probability": 0.247178,
-        "away_probability": 0.460566,
-        "home_decisive_probability": 0.388214,
-        "away_decisive_probability": 0.611786,
-        "home_fair_decimal_odds": 3.422,
-        "draw_fair_decimal_odds": 4.046,
-        "away_fair_decimal_odds": 2.171,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-71",
@@ -1290,21 +702,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7114,
-        "away_lambda": 0.5229,
-        "home_probability": 0.665202,
-        "draw_probability": 0.226584,
-        "away_probability": 0.108213,
-        "home_decisive_probability": 0.860084,
-        "away_decisive_probability": 0.139916,
-        "home_fair_decimal_odds": 1.503,
-        "draw_fair_decimal_odds": 4.413,
-        "away_fair_decimal_odds": 9.241,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-74",
@@ -1320,21 +718,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 0.8947,
-        "home_probability": 0.547311,
-        "draw_probability": 0.24686,
-        "away_probability": 0.20583,
-        "home_decisive_probability": 0.726705,
-        "away_decisive_probability": 0.273295,
-        "home_fair_decimal_odds": 1.827,
-        "draw_fair_decimal_odds": 4.051,
-        "away_fair_decimal_odds": 4.858,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-73",
@@ -1350,21 +734,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2269,
-        "away_lambda": 1.4714,
-        "home_probability": 0.315754,
-        "draw_probability": 0.256043,
-        "away_probability": 0.428203,
-        "home_decisive_probability": 0.424425,
-        "away_decisive_probability": 0.575575,
-        "home_fair_decimal_odds": 3.167,
-        "draw_fair_decimal_odds": 3.906,
-        "away_fair_decimal_odds": 2.335,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-75",
@@ -1380,21 +750,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8621,
-        "away_lambda": 0.8851,
-        "home_probability": 0.3262,
-        "draw_probability": 0.334854,
-        "away_probability": 0.338946,
-        "home_decisive_probability": 0.490418,
-        "away_decisive_probability": 0.509582,
-        "home_fair_decimal_odds": 3.066,
-        "draw_fair_decimal_odds": 2.986,
-        "away_fair_decimal_odds": 2.95,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-76",
@@ -1410,21 +766,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 1.1579,
-        "home_probability": 0.483912,
-        "draw_probability": 0.245375,
-        "away_probability": 0.270713,
-        "home_decisive_probability": 0.641262,
-        "away_decisive_probability": 0.358738,
-        "home_fair_decimal_odds": 2.066,
-        "draw_fair_decimal_odds": 4.075,
-        "away_fair_decimal_odds": 3.694,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-78",
@@ -1440,21 +782,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6044,
-        "away_lambda": 0.996,
-        "home_probability": 0.515467,
-        "draw_probability": 0.249609,
-        "away_probability": 0.234925,
-        "home_decisive_probability": 0.686931,
-        "away_decisive_probability": 0.313069,
-        "home_fair_decimal_odds": 1.94,
-        "draw_fair_decimal_odds": 4.006,
-        "away_fair_decimal_odds": 4.257,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-79",
@@ -1470,21 +798,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.4065,
-        "away_lambda": 1.5756,
-        "home_probability": 0.56053,
-        "draw_probability": 0.192598,
-        "away_probability": 0.246872,
-        "home_decisive_probability": 0.694239,
-        "away_decisive_probability": 0.305761,
-        "home_fair_decimal_odds": 1.784,
-        "draw_fair_decimal_odds": 5.192,
-        "away_fair_decimal_odds": 4.051,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-80",
@@ -1500,21 +814,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.588,
-        "away_lambda": 0.9055,
-        "home_probability": 0.533755,
-        "draw_probability": 0.251612,
-        "away_probability": 0.214633,
-        "home_decisive_probability": 0.713206,
-        "away_decisive_probability": 0.286794,
-        "home_fair_decimal_odds": 1.874,
-        "draw_fair_decimal_odds": 3.974,
-        "away_fair_decimal_odds": 4.659,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-84",
@@ -1530,21 +830,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2269,
-        "away_lambda": 1.6978,
-        "home_probability": 0.276624,
-        "draw_probability": 0.239136,
-        "away_probability": 0.48424,
-        "home_decisive_probability": 0.363565,
-        "away_decisive_probability": 0.636435,
-        "home_fair_decimal_odds": 3.615,
-        "draw_fair_decimal_odds": 4.182,
-        "away_fair_decimal_odds": 2.065,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-81",
@@ -1560,21 +846,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8421,
-        "away_lambda": 0.9055,
-        "home_probability": 0.594205,
-        "draw_probability": 0.224755,
-        "away_probability": 0.18104,
-        "home_decisive_probability": 0.766474,
-        "away_decisive_probability": 0.233526,
-        "home_fair_decimal_odds": 1.683,
-        "draw_fair_decimal_odds": 4.449,
-        "away_fair_decimal_odds": 5.524,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-83",
@@ -1590,21 +862,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.677,
-        "away_lambda": 1.3311,
-        "home_probability": 0.456219,
-        "draw_probability": 0.23876,
-        "away_probability": 0.305021,
-        "home_decisive_probability": 0.599311,
-        "away_decisive_probability": 0.400689,
-        "home_fair_decimal_odds": 2.192,
-        "draw_fair_decimal_odds": 4.188,
-        "away_fair_decimal_odds": 3.278,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-85",
@@ -1620,21 +878,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 0.8947,
-        "home_probability": 0.506978,
-        "draw_probability": 0.264266,
-        "away_probability": 0.228756,
-        "home_decisive_probability": 0.689078,
-        "away_decisive_probability": 0.310922,
-        "home_fair_decimal_odds": 1.972,
-        "draw_fair_decimal_odds": 3.784,
-        "away_fair_decimal_odds": 4.371,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-86",
@@ -1650,21 +894,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.2237,
-        "home_probability": 0.442848,
-        "draw_probability": 0.252116,
-        "away_probability": 0.305036,
-        "home_decisive_probability": 0.592135,
-        "away_decisive_probability": 0.407865,
-        "home_fair_decimal_odds": 2.258,
-        "draw_fair_decimal_odds": 3.966,
-        "away_fair_decimal_odds": 3.278,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-88",
@@ -1680,21 +910,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1234,
-        "away_lambda": 0.6972,
-        "home_probability": 0.703927,
-        "draw_probability": 0.186365,
-        "away_probability": 0.109708,
-        "home_decisive_probability": 0.865163,
-        "away_decisive_probability": 0.134837,
-        "home_fair_decimal_odds": 1.421,
-        "draw_fair_decimal_odds": 5.366,
-        "away_fair_decimal_odds": 9.115,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-90",
@@ -1710,21 +926,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.118,
-        "away_lambda": 1.5439,
-        "home_probability": 0.27527,
-        "draw_probability": 0.253464,
-        "away_probability": 0.471266,
-        "home_decisive_probability": 0.36873,
-        "away_decisive_probability": 0.63127,
-        "home_fair_decimal_odds": 3.633,
-        "draw_fair_decimal_odds": 3.945,
-        "away_fair_decimal_odds": 2.122,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-82",
@@ -1740,21 +942,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8004,
-        "away_lambda": 0.8466,
-        "home_probability": 0.599511,
-        "draw_probability": 0.22774,
-        "away_probability": 0.172749,
-        "home_decisive_probability": 0.776307,
-        "away_decisive_probability": 0.223693,
-        "home_fair_decimal_odds": 1.668,
-        "draw_fair_decimal_odds": 4.391,
-        "away_fair_decimal_odds": 5.789,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-87",
@@ -1770,21 +958,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9873,
-        "away_lambda": 1.3582,
-        "home_probability": 0.27255,
-        "draw_probability": 0.274312,
-        "away_probability": 0.453139,
-        "home_decisive_probability": 0.375574,
-        "away_decisive_probability": 0.624426,
-        "home_fair_decimal_odds": 3.669,
-        "draw_fair_decimal_odds": 3.645,
-        "away_fair_decimal_odds": 2.207,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-89",
@@ -1800,21 +974,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5027,
-        "away_lambda": 1.4261,
-        "home_probability": 0.39393,
-        "draw_probability": 0.246167,
-        "away_probability": 0.359903,
-        "home_decisive_probability": 0.52257,
-        "away_decisive_probability": 0.47743,
-        "home_fair_decimal_odds": 2.539,
-        "draw_fair_decimal_odds": 4.062,
-        "away_fair_decimal_odds": 2.779,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-91",
@@ -1830,21 +990,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1579,
-        "away_lambda": 0.5789,
-        "home_probability": 0.739364,
-        "draw_probability": 0.174841,
-        "away_probability": 0.085796,
-        "home_decisive_probability": 0.896025,
-        "away_decisive_probability": 0.103975,
-        "home_fair_decimal_odds": 1.353,
-        "draw_fair_decimal_odds": 5.719,
-        "away_fair_decimal_odds": 11.656,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-92",
@@ -1860,21 +1006,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6878,
-        "away_lambda": 0.996,
-        "home_probability": 0.535953,
-        "draw_probability": 0.241419,
-        "away_probability": 0.222629,
-        "home_decisive_probability": 0.70652,
-        "away_decisive_probability": 0.29348,
-        "home_fair_decimal_odds": 1.866,
-        "draw_fair_decimal_odds": 4.142,
-        "away_fair_decimal_odds": 4.492,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-93",
@@ -1890,21 +1022,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1379,
-        "away_lambda": 1.5099,
-        "home_probability": 0.286134,
-        "draw_probability": 0.255846,
-        "away_probability": 0.45802,
-        "home_decisive_probability": 0.38451,
-        "away_decisive_probability": 0.61549,
-        "home_fair_decimal_odds": 3.495,
-        "draw_fair_decimal_odds": 3.909,
-        "away_fair_decimal_odds": 2.183,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-94",
@@ -1920,21 +1038,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.4211,
-        "home_probability": 0.361416,
-        "draw_probability": 0.253264,
-        "away_probability": 0.38532,
-        "home_decisive_probability": 0.483994,
-        "away_decisive_probability": 0.516006,
-        "home_fair_decimal_odds": 2.767,
-        "draw_fair_decimal_odds": 3.948,
-        "away_fair_decimal_odds": 2.595,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-95",
@@ -1950,21 +1054,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3612,
-        "away_lambda": 0.7697,
-        "home_probability": 0.508517,
-        "draw_probability": 0.27977,
-        "away_probability": 0.211713,
-        "home_decisive_probability": 0.706048,
-        "away_decisive_probability": 0.293952,
-        "home_fair_decimal_odds": 1.967,
-        "draw_fair_decimal_odds": 3.574,
-        "away_fair_decimal_odds": 4.723,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-96",
@@ -1980,21 +1070,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7895,
-        "away_lambda": 1.5263,
-        "home_probability": 0.441312,
-        "draw_probability": 0.227677,
-        "away_probability": 0.331011,
-        "home_decisive_probability": 0.571409,
-        "away_decisive_probability": 0.428591,
-        "home_fair_decimal_odds": 2.266,
-        "draw_fair_decimal_odds": 4.392,
-        "away_fair_decimal_odds": 3.021,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-97",
@@ -2010,21 +1086,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.236,
-        "home_probability": 0.399491,
-        "draw_probability": 0.26297,
-        "away_probability": 0.337539,
-        "home_decisive_probability": 0.542029,
-        "away_decisive_probability": 0.457971,
-        "home_fair_decimal_odds": 2.503,
-        "draw_fair_decimal_odds": 3.803,
-        "away_fair_decimal_odds": 2.963,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-98",
@@ -2040,21 +1102,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9111,
-        "away_lambda": 1.3039,
-        "home_probability": 0.516197,
-        "draw_probability": 0.222831,
-        "away_probability": 0.260972,
-        "home_decisive_probability": 0.664201,
-        "away_decisive_probability": 0.335799,
-        "home_fair_decimal_odds": 1.937,
-        "draw_fair_decimal_odds": 4.488,
-        "away_fair_decimal_odds": 3.832,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-99",
@@ -2070,21 +1118,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.7623,
-        "away_lambda": 1.6661,
-        "home_probability": 0.169015,
-        "draw_probability": 0.24118,
-        "away_probability": 0.589805,
-        "home_decisive_probability": 0.222734,
-        "away_decisive_probability": 0.777266,
-        "home_fair_decimal_odds": 5.917,
-        "draw_fair_decimal_odds": 4.146,
-        "away_fair_decimal_odds": 1.695,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-100",
@@ -2100,21 +1134,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.225,
-        "away_lambda": 1.4488,
-        "home_probability": 0.319459,
-        "draw_probability": 0.257754,
-        "away_probability": 0.422788,
-        "home_decisive_probability": 0.430394,
-        "away_decisive_probability": 0.569606,
-        "home_fair_decimal_odds": 3.13,
-        "draw_fair_decimal_odds": 3.88,
-        "away_fair_decimal_odds": 2.365,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-101",
@@ -2130,21 +1150,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.2677,
-        "home_probability": 0.419882,
-        "draw_probability": 0.254364,
-        "away_probability": 0.325754,
-        "home_decisive_probability": 0.56312,
-        "away_decisive_probability": 0.43688,
-        "home_fair_decimal_odds": 2.382,
-        "draw_fair_decimal_odds": 3.931,
-        "away_fair_decimal_odds": 3.07,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-102",
@@ -2160,21 +1166,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6261,
-        "away_lambda": 0.8466,
-        "home_probability": 0.55818,
-        "draw_probability": 0.247134,
-        "away_probability": 0.194686,
-        "home_decisive_probability": 0.741407,
-        "away_decisive_probability": 0.258593,
-        "home_fair_decimal_odds": 1.792,
-        "draw_fair_decimal_odds": 4.046,
-        "away_fair_decimal_odds": 5.136,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-103",
@@ -2190,21 +1182,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3775,
-        "away_lambda": 0.9983,
-        "home_probability": 0.45577,
-        "draw_probability": 0.272015,
-        "away_probability": 0.272216,
-        "home_decisive_probability": 0.62607,
-        "away_decisive_probability": 0.37393,
-        "home_fair_decimal_odds": 2.194,
-        "draw_fair_decimal_odds": 3.676,
-        "away_fair_decimal_odds": 3.674,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-104",
@@ -2220,21 +1198,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6515,
-        "away_lambda": 1.1319,
-        "home_probability": 0.494813,
-        "draw_probability": 0.244062,
-        "away_probability": 0.261124,
-        "home_decisive_probability": 0.654569,
-        "away_decisive_probability": 0.345431,
-        "home_fair_decimal_odds": 2.021,
-        "draw_fair_decimal_odds": 4.097,
-        "away_fair_decimal_odds": 3.83,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-105",
@@ -2250,21 +1214,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.1579,
-        "home_probability": 0.444166,
-        "draw_probability": 0.258223,
-        "away_probability": 0.297612,
-        "home_decisive_probability": 0.598786,
-        "away_decisive_probability": 0.401214,
-        "home_fair_decimal_odds": 2.251,
-        "draw_fair_decimal_odds": 3.873,
-        "away_fair_decimal_odds": 3.36,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-106",
@@ -2280,21 +1230,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.1579,
-        "home_probability": 0.416548,
-        "draw_probability": 0.266593,
-        "away_probability": 0.316859,
-        "home_decisive_probability": 0.567963,
-        "away_decisive_probability": 0.432037,
-        "home_fair_decimal_odds": 2.401,
-        "draw_fair_decimal_odds": 3.751,
-        "away_fair_decimal_odds": 3.156,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-107",
@@ -2310,21 +1246,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6044,
-        "away_lambda": 1.3582,
-        "home_probability": 0.432914,
-        "draw_probability": 0.242747,
-        "away_probability": 0.324339,
-        "home_decisive_probability": 0.571689,
-        "away_decisive_probability": 0.428311,
-        "home_fair_decimal_odds": 2.31,
-        "draw_fair_decimal_odds": 4.12,
-        "away_fair_decimal_odds": 3.083,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-108",
@@ -2340,21 +1262,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.5318,
-        "away_lambda": 0.5388,
-        "home_probability": 0.80625,
-        "draw_probability": 0.134997,
-        "away_probability": 0.058753,
-        "home_decisive_probability": 0.932078,
-        "away_decisive_probability": 0.067922,
-        "home_fair_decimal_odds": 1.24,
-        "draw_fair_decimal_odds": 7.408,
-        "away_fair_decimal_odds": 17.02,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-109",
@@ -2370,21 +1278,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0454,
-        "away_lambda": 2.0374,
-        "home_probability": 0.18771,
-        "draw_probability": 0.20957,
-        "away_probability": 0.60272,
-        "home_decisive_probability": 0.237478,
-        "away_decisive_probability": 0.762522,
-        "home_fair_decimal_odds": 5.327,
-        "draw_fair_decimal_odds": 4.772,
-        "away_fair_decimal_odds": 1.659,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-110",
@@ -2400,21 +1294,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1579,
-        "away_lambda": 1.6316,
-        "home_probability": 0.270713,
-        "draw_probability": 0.245375,
-        "away_probability": 0.483912,
-        "home_decisive_probability": 0.358738,
-        "away_decisive_probability": 0.641262,
-        "home_fair_decimal_odds": 3.694,
-        "draw_fair_decimal_odds": 4.075,
-        "away_fair_decimal_odds": 2.066,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-111",
@@ -2430,21 +1310,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5626,
-        "away_lambda": 0.7968,
-        "home_probability": 0.555131,
-        "draw_probability": 0.254211,
-        "away_probability": 0.190658,
-        "home_decisive_probability": 0.744354,
-        "away_decisive_probability": 0.255646,
-        "home_fair_decimal_odds": 1.801,
-        "draw_fair_decimal_odds": 3.934,
-        "away_fair_decimal_odds": 5.245,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-112",
@@ -2460,21 +1326,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3612,
-        "away_lambda": 0.7697,
-        "home_probability": 0.508517,
-        "draw_probability": 0.27977,
-        "away_probability": 0.211713,
-        "home_decisive_probability": 0.706048,
-        "away_decisive_probability": 0.293952,
-        "home_fair_decimal_odds": 1.967,
-        "draw_fair_decimal_odds": 3.574,
-        "away_fair_decimal_odds": 4.723,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-113",
@@ -2490,21 +1342,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0,
-        "away_lambda": 1.2105,
-        "home_probability": 0.303043,
-        "draw_probability": 0.288369,
-        "away_probability": 0.408588,
-        "home_decisive_probability": 0.425843,
-        "away_decisive_probability": 0.574157,
-        "home_fair_decimal_odds": 3.3,
-        "draw_fair_decimal_odds": 3.468,
-        "away_fair_decimal_odds": 2.447,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-114",
@@ -2520,21 +1358,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5572,
-        "away_lambda": 1.7725,
-        "home_probability": 0.341021,
-        "draw_probability": 0.227802,
-        "away_probability": 0.431177,
-        "home_decisive_probability": 0.441623,
-        "away_decisive_probability": 0.558377,
-        "home_fair_decimal_odds": 2.932,
-        "draw_fair_decimal_odds": 4.39,
-        "away_fair_decimal_odds": 2.319,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-115",
@@ -2550,21 +1374,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8512,
-        "away_lambda": 1.313,
-        "home_probability": 0.50074,
-        "draw_probability": 0.22705,
-        "away_probability": 0.27221,
-        "home_decisive_probability": 0.64783,
-        "away_decisive_probability": 0.35217,
-        "home_fair_decimal_odds": 1.997,
-        "draw_fair_decimal_odds": 4.404,
-        "away_fair_decimal_odds": 3.674,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-116",
@@ -2580,21 +1390,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.2632,
-        "home_probability": 0.407374,
-        "draw_probability": 0.258126,
-        "away_probability": 0.334501,
-        "home_decisive_probability": 0.549114,
-        "away_decisive_probability": 0.450886,
-        "home_fair_decimal_odds": 2.455,
-        "draw_fair_decimal_odds": 3.874,
-        "away_fair_decimal_odds": 2.99,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-117",
@@ -2610,21 +1406,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.1053,
-        "home_probability": 0.469754,
-        "draw_probability": 0.255259,
-        "away_probability": 0.274987,
-        "home_decisive_probability": 0.630761,
-        "away_decisive_probability": 0.369239,
-        "home_fair_decimal_odds": 2.129,
-        "draw_fair_decimal_odds": 3.918,
-        "away_fair_decimal_odds": 3.637,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-118",
@@ -2640,21 +1422,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1942,
-        "away_lambda": 1.1952,
-        "home_probability": 0.600362,
-        "draw_probability": 0.200252,
-        "away_probability": 0.199385,
-        "home_decisive_probability": 0.75069,
-        "away_decisive_probability": 0.24931,
-        "home_fair_decimal_odds": 1.666,
-        "draw_fair_decimal_odds": 4.994,
-        "away_fair_decimal_odds": 5.015,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-119",
@@ -2670,21 +1438,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.98,
-        "away_lambda": 1.6661,
-        "home_probability": 0.221874,
-        "draw_probability": 0.243535,
-        "away_probability": 0.534591,
-        "home_decisive_probability": 0.293304,
-        "away_decisive_probability": 0.706696,
-        "home_fair_decimal_odds": 4.507,
-        "draw_fair_decimal_odds": 4.106,
-        "away_fair_decimal_odds": 1.871,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-120",
@@ -2700,21 +1454,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1797,
-        "away_lambda": 1.1771,
-        "home_probability": 0.360813,
-        "draw_probability": 0.279614,
-        "away_probability": 0.359573,
-        "home_decisive_probability": 0.500861,
-        "away_decisive_probability": 0.499139,
-        "home_fair_decimal_odds": 2.772,
-        "draw_fair_decimal_odds": 3.576,
-        "away_fair_decimal_odds": 2.781,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-121",
@@ -2730,21 +1470,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 0.996,
-        "home_probability": 0.453837,
-        "draw_probability": 0.272991,
-        "away_probability": 0.273172,
-        "home_decisive_probability": 0.624253,
-        "away_decisive_probability": 0.375747,
-        "home_fair_decimal_odds": 2.203,
-        "draw_fair_decimal_odds": 3.663,
-        "away_fair_decimal_odds": 3.661,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-122",
@@ -2760,21 +1486,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3358,
-        "away_lambda": 1.0458,
-        "home_probability": 0.433173,
-        "draw_probability": 0.27422,
-        "away_probability": 0.292607,
-        "home_decisive_probability": 0.596838,
-        "away_decisive_probability": 0.403162,
-        "home_fair_decimal_odds": 2.309,
-        "draw_fair_decimal_odds": 3.647,
-        "away_fair_decimal_odds": 3.418,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-123",
@@ -2790,21 +1502,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9583,
-        "away_lambda": 1.4261,
-        "home_probability": 0.253199,
-        "draw_probability": 0.26822,
-        "away_probability": 0.478581,
-        "home_decisive_probability": 0.346005,
-        "away_decisive_probability": 0.653995,
-        "home_fair_decimal_odds": 3.949,
-        "draw_fair_decimal_odds": 3.728,
-        "away_fair_decimal_odds": 2.09,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-124",
@@ -2820,21 +1518,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3212,
-        "away_lambda": 1.245,
-        "home_probability": 0.385091,
-        "draw_probability": 0.265707,
-        "away_probability": 0.349201,
-        "home_decisive_probability": 0.524438,
-        "away_decisive_probability": 0.475562,
-        "home_fair_decimal_odds": 2.597,
-        "draw_fair_decimal_odds": 3.764,
-        "away_fair_decimal_odds": 2.864,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-125",
@@ -2850,21 +1534,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.2237,
-        "home_probability": 0.442848,
-        "draw_probability": 0.252116,
-        "away_probability": 0.305036,
-        "home_decisive_probability": 0.592135,
-        "away_decisive_probability": 0.407865,
-        "home_fair_decimal_odds": 2.258,
-        "draw_fair_decimal_odds": 3.966,
-        "away_fair_decimal_odds": 3.278,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-126",
@@ -2880,21 +1550,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.4737,
-        "home_probability": 0.37726,
-        "draw_probability": 0.24548,
-        "away_probability": 0.37726,
-        "home_decisive_probability": 0.5,
-        "away_decisive_probability": 0.5,
-        "home_fair_decimal_odds": 2.651,
-        "draw_fair_decimal_odds": 4.074,
-        "away_fair_decimal_odds": 2.651,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-127",
@@ -2910,21 +1566,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7278,
-        "away_lambda": 0.7697,
-        "home_probability": 0.60251,
-        "draw_probability": 0.233982,
-        "away_probability": 0.163508,
-        "home_decisive_probability": 0.786548,
-        "away_decisive_probability": 0.213452,
-        "home_fair_decimal_odds": 1.66,
-        "draw_fair_decimal_odds": 4.274,
-        "away_fair_decimal_odds": 6.116,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-128",
@@ -2940,21 +1582,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.8584,
-        "away_lambda": 0.6338,
-        "home_probability": 0.827353,
-        "draw_probability": 0.116505,
-        "away_probability": 0.056142,
-        "home_decisive_probability": 0.936454,
-        "away_decisive_probability": 0.063546,
-        "home_fair_decimal_odds": 1.209,
-        "draw_fair_decimal_odds": 8.583,
-        "away_fair_decimal_odds": 17.812,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-129",
@@ -2970,21 +1598,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6987,
-        "away_lambda": 2.0374,
-        "home_probability": 0.326847,
-        "draw_probability": 0.212172,
-        "away_probability": 0.460982,
-        "home_decisive_probability": 0.41487,
-        "away_decisive_probability": 0.58513,
-        "home_fair_decimal_odds": 3.06,
-        "draw_fair_decimal_odds": 4.713,
-        "away_fair_decimal_odds": 2.169,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-130",
@@ -3000,21 +1614,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2377,
-        "away_lambda": 1.193,
-        "home_probability": 0.373563,
-        "draw_probability": 0.274469,
-        "away_probability": 0.351968,
-        "home_decisive_probability": 0.514882,
-        "away_decisive_probability": 0.485118,
-        "home_fair_decimal_odds": 2.677,
-        "draw_fair_decimal_odds": 3.643,
-        "away_fair_decimal_odds": 2.841,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-131",
@@ -3030,21 +1630,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.0526,
-        "home_probability": 0.482118,
-        "draw_probability": 0.256358,
-        "away_probability": 0.261524,
-        "home_decisive_probability": 0.64832,
-        "away_decisive_probability": 0.35168,
-        "home_fair_decimal_odds": 2.074,
-        "draw_fair_decimal_odds": 3.901,
-        "away_fair_decimal_odds": 3.824,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-132",
@@ -3060,21 +1646,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6261,
-        "away_lambda": 1.0956,
-        "home_probability": 0.497048,
-        "draw_probability": 0.24668,
-        "away_probability": 0.256272,
-        "home_decisive_probability": 0.65981,
-        "away_decisive_probability": 0.34019,
-        "home_fair_decimal_odds": 2.012,
-        "draw_fair_decimal_odds": 4.054,
-        "away_fair_decimal_odds": 3.902,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-133",
@@ -3090,21 +1662,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2577,
-        "away_lambda": 1.5212,
-        "home_probability": 0.314516,
-        "draw_probability": 0.251415,
-        "away_probability": 0.434069,
-        "home_decisive_probability": 0.420147,
-        "away_decisive_probability": 0.579853,
-        "home_fair_decimal_odds": 3.179,
-        "draw_fair_decimal_odds": 3.977,
-        "away_fair_decimal_odds": 2.304,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-134",
@@ -3120,21 +1678,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5572,
-        "away_lambda": 1.6412,
-        "home_probability": 0.364985,
-        "draw_probability": 0.234145,
-        "away_probability": 0.400871,
-        "home_decisive_probability": 0.476571,
-        "away_decisive_probability": 0.523429,
-        "home_fair_decimal_odds": 2.74,
-        "draw_fair_decimal_odds": 4.271,
-        "away_fair_decimal_odds": 2.495,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-135",
@@ -3150,21 +1694,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4628,
-        "away_lambda": 1.039,
-        "home_probability": 0.468864,
-        "draw_probability": 0.262591,
-        "away_probability": 0.268545,
-        "home_decisive_probability": 0.635826,
-        "away_decisive_probability": 0.364174,
-        "home_fair_decimal_odds": 2.133,
-        "draw_fair_decimal_odds": 3.808,
-        "away_fair_decimal_odds": 3.724,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-136",
@@ -3180,21 +1710,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.1053,
-        "home_probability": 0.469754,
-        "draw_probability": 0.255259,
-        "away_probability": 0.274987,
-        "home_decisive_probability": 0.630761,
-        "away_decisive_probability": 0.369239,
-        "home_fair_decimal_odds": 2.129,
-        "draw_fair_decimal_odds": 3.918,
-        "away_fair_decimal_odds": 3.637,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-137",
@@ -3210,21 +1726,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0526,
-        "away_lambda": 1.2632,
-        "home_probability": 0.556017,
-        "draw_probability": 0.212261,
-        "away_probability": 0.231722,
-        "home_decisive_probability": 0.705839,
-        "away_decisive_probability": 0.294161,
-        "home_fair_decimal_odds": 1.799,
-        "draw_fair_decimal_odds": 4.711,
-        "away_fair_decimal_odds": 4.316,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-138",
@@ -3240,21 +1742,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8294,
-        "away_lambda": 1.1545,
-        "home_probability": 0.531591,
-        "draw_probability": 0.229051,
-        "away_probability": 0.239358,
-        "home_decisive_probability": 0.689528,
-        "away_decisive_probability": 0.310472,
-        "home_fair_decimal_odds": 1.881,
-        "draw_fair_decimal_odds": 4.366,
-        "away_fair_decimal_odds": 4.178,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-139",
@@ -3270,21 +1758,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9437,
-        "away_lambda": 1.1454,
-        "home_probability": 0.299013,
-        "draw_probability": 0.298418,
-        "away_probability": 0.402569,
-        "home_decisive_probability": 0.426198,
-        "away_decisive_probability": 0.573802,
-        "home_fair_decimal_odds": 3.344,
-        "draw_fair_decimal_odds": 3.351,
-        "away_fair_decimal_odds": 2.484,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-140",
@@ -3300,21 +1774,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.6388,
-        "away_lambda": 2.1053,
-        "home_probability": 0.100294,
-        "draw_probability": 0.184667,
-        "away_probability": 0.715039,
-        "home_decisive_probability": 0.12301,
-        "away_decisive_probability": 0.87699,
-        "home_fair_decimal_odds": 9.971,
-        "draw_fair_decimal_odds": 5.415,
-        "away_fair_decimal_odds": 1.399,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-141",
@@ -3330,21 +1790,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.5299,
-        "away_lambda": 0.7221,
-        "home_probability": 0.765837,
-        "draw_probability": 0.149217,
-        "away_probability": 0.084945,
-        "home_decisive_probability": 0.900156,
-        "away_decisive_probability": 0.099844,
-        "home_fair_decimal_odds": 1.306,
-        "draw_fair_decimal_odds": 6.702,
-        "away_fair_decimal_odds": 11.772,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-142",
@@ -3360,21 +1806,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2523,
-        "away_lambda": 0.9508,
-        "home_probability": 0.432159,
-        "draw_probability": 0.286726,
-        "away_probability": 0.281115,
-        "home_decisive_probability": 0.60588,
-        "away_decisive_probability": 0.39412,
-        "home_fair_decimal_odds": 2.314,
-        "draw_fair_decimal_odds": 3.488,
-        "away_fair_decimal_odds": 3.557,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-143",
@@ -3390,21 +1822,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.2632,
-        "home_probability": 0.407374,
-        "draw_probability": 0.258126,
-        "away_probability": 0.334501,
-        "home_decisive_probability": 0.549114,
-        "away_decisive_probability": 0.450886,
-        "home_fair_decimal_odds": 2.455,
-        "draw_fair_decimal_odds": 3.874,
-        "away_fair_decimal_odds": 2.99,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-144",
@@ -3420,21 +1838,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8966,
-        "away_lambda": 1.562,
-        "home_probability": 0.216118,
-        "draw_probability": 0.25447,
-        "away_probability": 0.529412,
-        "home_decisive_probability": 0.289885,
-        "away_decisive_probability": 0.710115,
-        "home_fair_decimal_odds": 4.627,
-        "draw_fair_decimal_odds": 3.93,
-        "away_fair_decimal_odds": 1.889,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-145",
@@ -3450,21 +1854,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6878,
-        "away_lambda": 0.996,
-        "home_probability": 0.535953,
-        "draw_probability": 0.241419,
-        "away_probability": 0.222629,
-        "home_decisive_probability": 0.70652,
-        "away_decisive_probability": 0.29348,
-        "home_fair_decimal_odds": 1.866,
-        "draw_fair_decimal_odds": 4.142,
-        "away_fair_decimal_odds": 4.492,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-146",
@@ -3480,21 +1870,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.3684,
-        "home_probability": 0.371916,
-        "draw_probability": 0.256167,
-        "away_probability": 0.371916,
-        "home_decisive_probability": 0.5,
-        "away_decisive_probability": 0.5,
-        "home_fair_decimal_odds": 2.689,
-        "draw_fair_decimal_odds": 3.904,
-        "away_fair_decimal_odds": 2.689,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-147",
@@ -3510,21 +1886,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 0.8947,
-        "home_probability": 0.463858,
-        "draw_probability": 0.282071,
-        "away_probability": 0.254071,
-        "home_decisive_probability": 0.646106,
-        "away_decisive_probability": 0.353894,
-        "home_fair_decimal_odds": 2.156,
-        "draw_fair_decimal_odds": 3.545,
-        "away_fair_decimal_odds": 3.936,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-148",
@@ -3540,21 +1902,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1597,
-        "away_lambda": 0.9055,
-        "home_probability": 0.660448,
-        "draw_probability": 0.193511,
-        "away_probability": 0.146041,
-        "home_decisive_probability": 0.818917,
-        "away_decisive_probability": 0.181083,
-        "home_fair_decimal_odds": 1.514,
-        "draw_fair_decimal_odds": 5.168,
-        "away_fair_decimal_odds": 6.847,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-149",
@@ -3570,21 +1918,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.2051,
-        "away_lambda": 1.0141,
-        "home_probability": 0.643762,
-        "draw_probability": 0.193813,
-        "away_probability": 0.162425,
-        "home_decisive_probability": 0.798527,
-        "away_decisive_probability": 0.201473,
-        "home_fair_decimal_odds": 1.553,
-        "draw_fair_decimal_odds": 5.16,
-        "away_fair_decimal_odds": 6.157,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-150",
@@ -3600,21 +1934,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2704,
-        "away_lambda": 1.2677,
-        "home_probability": 0.366815,
-        "draw_probability": 0.267664,
-        "away_probability": 0.365521,
-        "home_decisive_probability": 0.500883,
-        "away_decisive_probability": 0.499117,
-        "home_fair_decimal_odds": 2.726,
-        "draw_fair_decimal_odds": 3.736,
-        "away_fair_decimal_odds": 2.736,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-151",
@@ -3630,21 +1950,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.0526,
-        "home_probability": 0.482118,
-        "draw_probability": 0.256358,
-        "away_probability": 0.261524,
-        "home_decisive_probability": 0.64832,
-        "away_decisive_probability": 0.35168,
-        "home_fair_decimal_odds": 2.074,
-        "draw_fair_decimal_odds": 3.901,
-        "away_fair_decimal_odds": 3.824,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-152",
@@ -3660,21 +1966,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9347,
-        "away_lambda": 0.747,
-        "home_probability": 0.654155,
-        "draw_probability": 0.209441,
-        "away_probability": 0.136404,
-        "home_decisive_probability": 0.827459,
-        "away_decisive_probability": 0.172541,
-        "home_fair_decimal_odds": 1.529,
-        "draw_fair_decimal_odds": 4.775,
-        "away_fair_decimal_odds": 7.331,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-153",
@@ -3690,21 +1982,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4973,
-        "away_lambda": 0.8081,
-        "home_probability": 0.535319,
-        "draw_probability": 0.26218,
-        "away_probability": 0.202501,
-        "home_decisive_probability": 0.725541,
-        "away_decisive_probability": 0.274459,
-        "home_fair_decimal_odds": 1.868,
-        "draw_fair_decimal_odds": 3.814,
-        "away_fair_decimal_odds": 4.938,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-154",
@@ -3720,21 +1998,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5789,
-        "away_lambda": 1.0526,
-        "home_probability": 0.495477,
-        "draw_probability": 0.251481,
-        "away_probability": 0.253041,
-        "home_decisive_probability": 0.661944,
-        "away_decisive_probability": 0.338056,
-        "home_fair_decimal_odds": 2.018,
-        "draw_fair_decimal_odds": 3.976,
-        "away_fair_decimal_odds": 3.952,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-155",
@@ -3750,21 +2014,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.274,
-        "away_lambda": 1.3582,
-        "home_probability": 0.349514,
-        "draw_probability": 0.261752,
-        "away_probability": 0.388733,
-        "home_decisive_probability": 0.473438,
-        "away_decisive_probability": 0.526562,
-        "home_fair_decimal_odds": 2.861,
-        "draw_fair_decimal_odds": 3.82,
-        "away_fair_decimal_odds": 2.572,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-156",
@@ -3780,21 +2030,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 0.8081,
-        "home_probability": 0.569432,
-        "draw_probability": 0.246085,
-        "away_probability": 0.184483,
-        "home_decisive_probability": 0.7553,
-        "away_decisive_probability": 0.2447,
-        "home_fair_decimal_odds": 1.756,
-        "draw_fair_decimal_odds": 4.064,
-        "away_fair_decimal_odds": 5.421,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-157",
@@ -3810,21 +2046,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6044,
-        "away_lambda": 1.1771,
-        "home_probability": 0.472804,
-        "draw_probability": 0.247248,
-        "away_probability": 0.279948,
-        "home_decisive_probability": 0.628101,
-        "away_decisive_probability": 0.371899,
-        "home_fair_decimal_odds": 2.115,
-        "draw_fair_decimal_odds": 4.045,
-        "away_fair_decimal_odds": 3.572,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-158",
@@ -3840,21 +2062,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.3684,
-        "away_lambda": 0.7368,
-        "home_probability": 0.737304,
-        "draw_probability": 0.164658,
-        "away_probability": 0.098038,
-        "home_decisive_probability": 0.882638,
-        "away_decisive_probability": 0.117362,
-        "home_fair_decimal_odds": 1.356,
-        "draw_fair_decimal_odds": 6.073,
-        "away_fair_decimal_odds": 10.2,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-159",
@@ -3870,21 +2078,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8348,
-        "away_lambda": 1.0934,
-        "home_probability": 0.275666,
-        "draw_probability": 0.311676,
-        "away_probability": 0.412658,
-        "home_decisive_probability": 0.400488,
-        "away_decisive_probability": 0.599512,
-        "home_fair_decimal_odds": 3.628,
-        "draw_fair_decimal_odds": 3.208,
-        "away_fair_decimal_odds": 2.423,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-160",
@@ -3900,21 +2094,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2704,
-        "away_lambda": 0.996,
-        "home_probability": 0.426611,
-        "draw_probability": 0.282699,
-        "away_probability": 0.290691,
-        "home_decisive_probability": 0.594744,
-        "away_decisive_probability": 0.405256,
-        "home_fair_decimal_odds": 2.344,
-        "draw_fair_decimal_odds": 3.537,
-        "away_fair_decimal_odds": 3.44,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-161",
@@ -3930,21 +2110,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0327,
-        "away_lambda": 0.996,
-        "home_probability": 0.613409,
-        "draw_probability": 0.208642,
-        "away_probability": 0.177949,
-        "home_decisive_probability": 0.775135,
-        "away_decisive_probability": 0.224865,
-        "home_fair_decimal_odds": 1.63,
-        "draw_fair_decimal_odds": 4.793,
-        "away_fair_decimal_odds": 5.62,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-162",
@@ -3960,21 +2126,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.6842,
-        "home_probability": 0.325117,
-        "draw_probability": 0.236138,
-        "away_probability": 0.438745,
-        "home_decisive_probability": 0.425623,
-        "away_decisive_probability": 0.574377,
-        "home_fair_decimal_odds": 3.076,
-        "draw_fair_decimal_odds": 4.235,
-        "away_fair_decimal_odds": 2.279,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-163",
@@ -3990,21 +2142,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.5517,
-        "away_lambda": 1.562,
-        "home_probability": 0.128859,
-        "draw_probability": 0.249589,
-        "away_probability": 0.621552,
-        "home_decisive_probability": 0.171718,
-        "away_decisive_probability": 0.828282,
-        "home_fair_decimal_odds": 7.76,
-        "draw_fair_decimal_odds": 4.007,
-        "away_fair_decimal_odds": 1.609,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-164",
@@ -4020,21 +2158,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3212,
-        "away_lambda": 1.039,
-        "home_probability": 0.430758,
-        "draw_probability": 0.275857,
-        "away_probability": 0.293385,
-        "home_decisive_probability": 0.594852,
-        "away_decisive_probability": 0.405148,
-        "home_fair_decimal_odds": 2.321,
-        "draw_fair_decimal_odds": 3.625,
-        "away_fair_decimal_odds": 3.408,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-165",
@@ -4050,21 +2174,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4156,
-        "away_lambda": 0.996,
-        "home_probability": 0.466606,
-        "draw_probability": 0.268304,
-        "away_probability": 0.265089,
-        "home_decisive_probability": 0.637705,
-        "away_decisive_probability": 0.362295,
-        "home_fair_decimal_odds": 2.143,
-        "draw_fair_decimal_odds": 3.727,
-        "away_fair_decimal_odds": 3.772,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-166",
@@ -4080,21 +2190,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.5263,
-        "home_probability": 0.429268,
-        "draw_probability": 0.230432,
-        "away_probability": 0.340301,
-        "home_decisive_probability": 0.557803,
-        "away_decisive_probability": 0.442197,
-        "home_fair_decimal_odds": 2.33,
-        "draw_fair_decimal_odds": 4.34,
-        "away_fair_decimal_odds": 2.939,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-167",
@@ -4110,21 +2206,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 1.1579,
-        "home_probability": 0.483912,
-        "draw_probability": 0.245375,
-        "away_probability": 0.270713,
-        "home_decisive_probability": 0.641262,
-        "away_decisive_probability": 0.358738,
-        "home_fair_decimal_odds": 2.066,
-        "draw_fair_decimal_odds": 4.075,
-        "away_fair_decimal_odds": 3.694,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-168",
@@ -4140,21 +2222,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9819,
-        "away_lambda": 1.5212,
-        "home_probability": 0.485101,
-        "draw_probability": 0.217128,
-        "away_probability": 0.297771,
-        "home_decisive_probability": 0.619642,
-        "away_decisive_probability": 0.380358,
-        "home_fair_decimal_odds": 2.061,
-        "draw_fair_decimal_odds": 4.606,
-        "away_fair_decimal_odds": 3.358,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-169",
@@ -4170,21 +2238,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3721,
-        "away_lambda": 2.1732,
-        "home_probability": 0.237943,
-        "draw_probability": 0.204889,
-        "away_probability": 0.557167,
-        "home_decisive_probability": 0.299258,
-        "away_decisive_probability": 0.700742,
-        "home_fair_decimal_odds": 4.203,
-        "draw_fair_decimal_odds": 4.881,
-        "away_fair_decimal_odds": 1.795,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-170",
@@ -4200,21 +2254,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3575,
-        "away_lambda": 2.0351,
-        "home_probability": 0.254325,
-        "draw_probability": 0.214215,
-        "away_probability": 0.531459,
-        "home_decisive_probability": 0.323658,
-        "away_decisive_probability": 0.676342,
-        "home_fair_decimal_odds": 3.932,
-        "draw_fair_decimal_odds": 4.668,
-        "away_fair_decimal_odds": 1.882,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-171",
@@ -4230,21 +2270,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9165,
-        "away_lambda": 1.4443,
-        "home_probability": 0.486966,
-        "draw_probability": 0.221708,
-        "away_probability": 0.291326,
-        "home_decisive_probability": 0.625686,
-        "away_decisive_probability": 0.374314,
-        "home_fair_decimal_odds": 2.054,
-        "draw_fair_decimal_odds": 4.51,
-        "away_fair_decimal_odds": 3.433,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-172",
@@ -4260,21 +2286,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 1.1579,
-        "home_probability": 0.483912,
-        "draw_probability": 0.245375,
-        "away_probability": 0.270713,
-        "home_decisive_probability": 0.641262,
-        "away_decisive_probability": 0.358738,
-        "home_fair_decimal_odds": 2.066,
-        "draw_fair_decimal_odds": 4.075,
-        "away_fair_decimal_odds": 3.694,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-173",
@@ -4290,21 +2302,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1724,
-        "away_lambda": 1.5099,
-        "home_probability": 0.29494,
-        "draw_probability": 0.254889,
-        "away_probability": 0.450172,
-        "home_decisive_probability": 0.395833,
-        "away_decisive_probability": 0.604167,
-        "home_fair_decimal_odds": 3.391,
-        "draw_fair_decimal_odds": 3.923,
-        "away_fair_decimal_odds": 2.221,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-174",
@@ -4320,21 +2318,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9909,
-        "away_lambda": 1.9559,
-        "home_probability": 0.185999,
-        "draw_probability": 0.215638,
-        "away_probability": 0.598363,
-        "home_decisive_probability": 0.237134,
-        "away_decisive_probability": 0.762866,
-        "home_fair_decimal_odds": 5.376,
-        "draw_fair_decimal_odds": 4.637,
-        "away_fair_decimal_odds": 1.671,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-175",
@@ -4350,21 +2334,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8711,
-        "away_lambda": 1.3582,
-        "home_probability": 0.24047,
-        "draw_probability": 0.277901,
-        "away_probability": 0.481629,
-        "home_decisive_probability": 0.333015,
-        "away_decisive_probability": 0.666985,
-        "home_fair_decimal_odds": 4.159,
-        "draw_fair_decimal_odds": 3.598,
-        "away_fair_decimal_odds": 2.076,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-176",
@@ -4380,21 +2350,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8421,
-        "away_lambda": 1.0526,
-        "home_probability": 0.558419,
-        "draw_probability": 0.227265,
-        "away_probability": 0.214317,
-        "home_decisive_probability": 0.722652,
-        "away_decisive_probability": 0.277348,
-        "home_fair_decimal_odds": 1.791,
-        "draw_fair_decimal_odds": 4.4,
-        "away_fair_decimal_odds": 4.666,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-177",
@@ -4410,21 +2366,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.6842,
-        "home_probability": 0.325117,
-        "draw_probability": 0.236138,
-        "away_probability": 0.438745,
-        "home_decisive_probability": 0.425623,
-        "away_decisive_probability": 0.574377,
-        "home_fair_decimal_odds": 3.076,
-        "draw_fair_decimal_odds": 4.235,
-        "away_fair_decimal_odds": 2.279,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-178",
@@ -4440,21 +2382,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9819,
-        "away_lambda": 0.9236,
-        "home_probability": 0.620175,
-        "draw_probability": 0.21125,
-        "away_probability": 0.168575,
-        "home_decisive_probability": 0.786276,
-        "away_decisive_probability": 0.213724,
-        "home_fair_decimal_odds": 1.612,
-        "draw_fair_decimal_odds": 4.734,
-        "away_fair_decimal_odds": 5.932,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-179",
@@ -4470,21 +2398,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8294,
-        "away_lambda": 1.9015,
-        "home_probability": 0.378155,
-        "draw_probability": 0.214994,
-        "away_probability": 0.40685,
-        "home_decisive_probability": 0.481723,
-        "away_decisive_probability": 0.518277,
-        "home_fair_decimal_odds": 2.644,
-        "draw_fair_decimal_odds": 4.651,
-        "away_fair_decimal_odds": 2.458,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-180",
@@ -4500,21 +2414,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0381,
-        "away_lambda": 1.5439,
-        "home_probability": 0.254967,
-        "draw_probability": 0.254973,
-        "away_probability": 0.490059,
-        "home_decisive_probability": 0.342226,
-        "away_decisive_probability": 0.657774,
-        "home_fair_decimal_odds": 3.922,
-        "draw_fair_decimal_odds": 3.922,
-        "away_fair_decimal_odds": 2.041,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-181",
@@ -4530,21 +2430,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.0866,
-        "home_probability": 0.446716,
-        "draw_probability": 0.26499,
-        "away_probability": 0.288295,
-        "home_decisive_probability": 0.607768,
-        "away_decisive_probability": 0.392232,
-        "home_fair_decimal_odds": 2.239,
-        "draw_fair_decimal_odds": 3.774,
-        "away_fair_decimal_odds": 3.469,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-182",
@@ -4560,21 +2446,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1579,
-        "away_lambda": 0.5789,
-        "home_probability": 0.739364,
-        "draw_probability": 0.174841,
-        "away_probability": 0.085796,
-        "home_decisive_probability": 0.896025,
-        "away_decisive_probability": 0.103975,
-        "home_fair_decimal_odds": 1.353,
-        "draw_fair_decimal_odds": 5.719,
-        "away_fair_decimal_odds": 11.656,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-183",
@@ -4590,21 +2462,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.677,
-        "away_lambda": 1.0458,
-        "home_probability": 0.521292,
-        "draw_probability": 0.242435,
-        "away_probability": 0.236273,
-        "home_decisive_probability": 0.688115,
-        "away_decisive_probability": 0.311885,
-        "home_fair_decimal_odds": 1.918,
-        "draw_fair_decimal_odds": 4.125,
-        "away_fair_decimal_odds": 4.232,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-184",
@@ -4620,21 +2478,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4156,
-        "away_lambda": 1.3582,
-        "home_probability": 0.386027,
-        "draw_probability": 0.254067,
-        "away_probability": 0.359905,
-        "home_decisive_probability": 0.51751,
-        "away_decisive_probability": 0.48249,
-        "home_fair_decimal_odds": 2.59,
-        "draw_fair_decimal_odds": 3.936,
-        "away_fair_decimal_odds": 2.779,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-185",
@@ -4650,21 +2494,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1797,
-        "away_lambda": 0.9621,
-        "home_probability": 0.408417,
-        "draw_probability": 0.293692,
-        "away_probability": 0.297891,
-        "home_decisive_probability": 0.578242,
-        "away_decisive_probability": 0.421758,
-        "home_fair_decimal_odds": 2.448,
-        "draw_fair_decimal_odds": 3.405,
-        "away_fair_decimal_odds": 3.357,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-186",
@@ -4680,21 +2510,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2105,
-        "away_lambda": 0.9983,
-        "home_probability": 0.40898,
-        "draw_probability": 0.288466,
-        "away_probability": 0.302553,
-        "home_decisive_probability": 0.574787,
-        "away_decisive_probability": 0.425213,
-        "home_fair_decimal_odds": 2.445,
-        "draw_fair_decimal_odds": 3.467,
-        "away_fair_decimal_odds": 3.305,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-187",
@@ -4710,21 +2526,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7895,
-        "away_lambda": 1.0526,
-        "home_probability": 0.546342,
-        "draw_probability": 0.232067,
-        "away_probability": 0.221591,
-        "home_decisive_probability": 0.711445,
-        "away_decisive_probability": 0.288555,
-        "home_fair_decimal_odds": 1.83,
-        "draw_fair_decimal_odds": 4.309,
-        "away_fair_decimal_odds": 4.513,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-188",
@@ -4740,21 +2542,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1234,
-        "away_lambda": 0.824,
-        "home_probability": 0.672967,
-        "draw_probability": 0.193248,
-        "away_probability": 0.133785,
-        "home_decisive_probability": 0.834169,
-        "away_decisive_probability": 0.165831,
-        "home_fair_decimal_odds": 1.486,
-        "draw_fair_decimal_odds": 5.175,
-        "away_fair_decimal_odds": 7.475,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-189",
@@ -4770,21 +2558,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1252,
-        "away_lambda": 0.8851,
-        "home_probability": 0.410334,
-        "draw_probability": 0.304474,
-        "away_probability": 0.285192,
-        "home_decisive_probability": 0.589962,
-        "away_decisive_probability": 0.410038,
-        "home_fair_decimal_odds": 2.437,
-        "draw_fair_decimal_odds": 3.284,
-        "away_fair_decimal_odds": 3.506,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-190",
@@ -4800,21 +2574,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 1.0526,
-        "home_probability": 0.426112,
-        "draw_probability": 0.275757,
-        "away_probability": 0.298131,
-        "home_decisive_probability": 0.588355,
-        "away_decisive_probability": 0.411645,
-        "home_fair_decimal_odds": 2.347,
-        "draw_fair_decimal_odds": 3.626,
-        "away_fair_decimal_odds": 3.354,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-191",
@@ -4830,21 +2590,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.3067,
-        "away_lambda": 0.5478,
-        "home_probability": 0.771515,
-        "draw_probability": 0.156934,
-        "away_probability": 0.07155,
-        "home_decisive_probability": 0.915131,
-        "away_decisive_probability": 0.084869,
-        "home_fair_decimal_odds": 1.296,
-        "draw_fair_decimal_odds": 6.372,
-        "away_fair_decimal_odds": 13.976,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-192",
@@ -4860,21 +2606,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8512,
-        "away_lambda": 1.313,
-        "home_probability": 0.50074,
-        "draw_probability": 0.22705,
-        "away_probability": 0.27221,
-        "home_decisive_probability": 0.64783,
-        "away_decisive_probability": 0.35217,
-        "home_fair_decimal_odds": 1.997,
-        "draw_fair_decimal_odds": 4.404,
-        "away_fair_decimal_odds": 3.674,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-193",
@@ -4890,21 +2622,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.931,
-        "away_lambda": 1.6661,
-        "home_probability": 0.209944,
-        "draw_probability": 0.243373,
-        "away_probability": 0.546683,
-        "home_decisive_probability": 0.277474,
-        "away_decisive_probability": 0.722526,
-        "home_fair_decimal_odds": 4.763,
-        "draw_fair_decimal_odds": 4.109,
-        "away_fair_decimal_odds": 1.829,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-194",
@@ -4920,21 +2638,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.274,
-        "away_lambda": 1.4669,
-        "home_probability": 0.328639,
-        "draw_probability": 0.254579,
-        "away_probability": 0.416782,
-        "home_decisive_probability": 0.440877,
-        "away_decisive_probability": 0.559123,
-        "home_fair_decimal_odds": 3.043,
-        "draw_fair_decimal_odds": 3.928,
-        "away_fair_decimal_odds": 2.399,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-195",
@@ -4950,21 +2654,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4156,
-        "away_lambda": 1.1771,
-        "home_probability": 0.424741,
-        "draw_probability": 0.262111,
-        "away_probability": 0.313147,
-        "home_decisive_probability": 0.575617,
-        "away_decisive_probability": 0.424383,
-        "home_fair_decimal_odds": 2.354,
-        "draw_fair_decimal_odds": 3.815,
-        "away_fair_decimal_odds": 3.193,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-196",
@@ -4980,21 +2670,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.2237,
-        "home_probability": 0.442848,
-        "draw_probability": 0.252116,
-        "away_probability": 0.305036,
-        "home_decisive_probability": 0.592135,
-        "away_decisive_probability": 0.407865,
-        "home_fair_decimal_odds": 2.258,
-        "draw_fair_decimal_odds": 3.966,
-        "away_fair_decimal_odds": 3.278,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-197",
@@ -5010,21 +2686,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1053,
-        "away_lambda": 1.5212,
-        "home_probability": 0.275846,
-        "draw_probability": 0.255701,
-        "away_probability": 0.468453,
-        "home_decisive_probability": 0.370612,
-        "away_decisive_probability": 0.629388,
-        "home_fair_decimal_odds": 3.625,
-        "draw_fair_decimal_odds": 3.911,
-        "away_fair_decimal_odds": 2.135,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-198",
@@ -5040,21 +2702,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7695,
-        "away_lambda": 0.9236,
-        "home_probability": 0.573124,
-        "draw_probability": 0.232575,
-        "away_probability": 0.194301,
-        "home_decisive_probability": 0.746814,
-        "away_decisive_probability": 0.253186,
-        "home_fair_decimal_odds": 1.745,
-        "draw_fair_decimal_odds": 4.3,
-        "away_fair_decimal_odds": 5.147,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-199",
@@ -5070,21 +2718,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0526,
-        "away_lambda": 1.2105,
-        "home_probability": 0.318139,
-        "draw_probability": 0.285276,
-        "away_probability": 0.396586,
-        "home_decisive_probability": 0.445121,
-        "away_decisive_probability": 0.554879,
-        "home_fair_decimal_odds": 3.143,
-        "draw_fair_decimal_odds": 3.505,
-        "away_fair_decimal_odds": 2.522,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-200",
@@ -5100,21 +2734,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4973,
-        "away_lambda": 1.313,
-        "home_probability": 0.416129,
-        "draw_probability": 0.251073,
-        "away_probability": 0.332797,
-        "home_decisive_probability": 0.555634,
-        "away_decisive_probability": 0.444366,
-        "home_fair_decimal_odds": 2.403,
-        "draw_fair_decimal_odds": 3.983,
-        "away_fair_decimal_odds": 3.005,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-201",
@@ -5130,21 +2750,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.0526,
-        "home_probability": 0.482118,
-        "draw_probability": 0.256358,
-        "away_probability": 0.261524,
-        "home_decisive_probability": 0.64832,
-        "away_decisive_probability": 0.35168,
-        "home_fair_decimal_odds": 2.074,
-        "draw_fair_decimal_odds": 3.901,
-        "away_fair_decimal_odds": 3.824,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-202",
@@ -5160,21 +2766,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.51,
-        "away_lambda": 1.4941,
-        "home_probability": 0.382089,
-        "draw_probability": 0.242819,
-        "away_probability": 0.375091,
-        "home_decisive_probability": 0.504621,
-        "away_decisive_probability": 0.495379,
-        "home_fair_decimal_odds": 2.617,
-        "draw_fair_decimal_odds": 4.118,
-        "away_fair_decimal_odds": 2.666,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-203",
@@ -5190,21 +2782,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5572,
-        "away_lambda": 1.0458,
-        "home_probability": 0.491598,
-        "draw_probability": 0.253604,
-        "away_probability": 0.254798,
-        "home_decisive_probability": 0.658629,
-        "away_decisive_probability": 0.341371,
-        "home_fair_decimal_odds": 2.034,
-        "draw_fair_decimal_odds": 3.943,
-        "away_fair_decimal_odds": 3.925,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-204",
@@ -5220,21 +2798,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3212,
-        "away_lambda": 0.9621,
-        "home_probability": 0.448951,
-        "draw_probability": 0.279019,
-        "away_probability": 0.27203,
-        "home_decisive_probability": 0.622695,
-        "away_decisive_probability": 0.377305,
-        "home_fair_decimal_odds": 2.227,
-        "draw_fair_decimal_odds": 3.584,
-        "away_fair_decimal_odds": 3.676,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-205",
@@ -5250,21 +2814,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2105,
-        "away_lambda": 1.1053,
-        "home_probability": 0.38489,
-        "draw_probability": 0.282041,
-        "away_probability": 0.333068,
-        "home_decisive_probability": 0.53609,
-        "away_decisive_probability": 0.46391,
-        "home_fair_decimal_odds": 2.598,
-        "draw_fair_decimal_odds": 3.546,
-        "away_fair_decimal_odds": 3.002,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-206",
@@ -5280,21 +2830,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8421,
-        "away_lambda": 1.5789,
-        "home_probability": 0.199926,
-        "draw_probability": 0.252517,
-        "away_probability": 0.547557,
-        "home_decisive_probability": 0.267465,
-        "away_decisive_probability": 0.732535,
-        "home_fair_decimal_odds": 5.002,
-        "draw_fair_decimal_odds": 3.96,
-        "away_fair_decimal_odds": 1.826,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-207",
@@ -5310,21 +2846,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7278,
-        "away_lambda": 0.996,
-        "home_probability": 0.545508,
-        "draw_probability": 0.237529,
-        "away_probability": 0.216963,
-        "home_decisive_probability": 0.715448,
-        "away_decisive_probability": 0.284552,
-        "home_fair_decimal_odds": 1.833,
-        "draw_fair_decimal_odds": 4.21,
-        "away_fair_decimal_odds": 4.609,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-208",
@@ -5340,21 +2862,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.2868,
-        "away_lambda": 0.8874,
-        "home_probability": 0.688413,
-        "draw_probability": 0.180933,
-        "away_probability": 0.130655,
-        "home_decisive_probability": 0.840484,
-        "away_decisive_probability": 0.159516,
-        "home_fair_decimal_odds": 1.453,
-        "draw_fair_decimal_odds": 5.527,
-        "away_fair_decimal_odds": 7.654,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-209",
@@ -5370,21 +2878,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0254,
-        "away_lambda": 1.1545,
-        "home_probability": 0.574839,
-        "draw_probability": 0.212891,
-        "away_probability": 0.212269,
-        "home_decisive_probability": 0.730317,
-        "away_decisive_probability": 0.269683,
-        "home_fair_decimal_odds": 1.74,
-        "draw_fair_decimal_odds": 4.697,
-        "away_fair_decimal_odds": 4.711,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-210",
@@ -5400,21 +2894,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3975,
-        "away_lambda": 1.4035,
-        "home_probability": 0.372248,
-        "draw_probability": 0.252762,
-        "away_probability": 0.37499,
-        "home_decisive_probability": 0.498165,
-        "away_decisive_probability": 0.501835,
-        "home_fair_decimal_odds": 2.686,
-        "draw_fair_decimal_odds": 3.956,
-        "away_fair_decimal_odds": 2.667,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-211",
@@ -5430,21 +2910,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8603,
-        "away_lambda": 0.4233,
-        "home_probability": 0.724501,
-        "draw_probability": 0.19946,
-        "away_probability": 0.076038,
-        "home_decisive_probability": 0.905016,
-        "away_decisive_probability": 0.094984,
-        "home_fair_decimal_odds": 1.38,
-        "draw_fair_decimal_odds": 5.014,
-        "away_fair_decimal_odds": 13.151,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-212",
@@ -5460,21 +2926,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1434,
-        "away_lambda": 1.4488,
-        "home_probability": 0.298286,
-        "draw_probability": 0.260719,
-        "away_probability": 0.440995,
-        "home_decisive_probability": 0.403481,
-        "away_decisive_probability": 0.596519,
-        "home_fair_decimal_odds": 3.352,
-        "draw_fair_decimal_odds": 3.836,
-        "away_fair_decimal_odds": 2.268,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-213",
@@ -5490,21 +2942,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8966,
-        "away_lambda": 1.3537,
-        "home_probability": 0.248266,
-        "draw_probability": 0.277715,
-        "away_probability": 0.474019,
-        "home_decisive_probability": 0.343723,
-        "away_decisive_probability": 0.656277,
-        "home_fair_decimal_odds": 4.028,
-        "draw_fair_decimal_odds": 3.601,
-        "away_fair_decimal_odds": 2.11,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-214",
@@ -5520,21 +2958,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4628,
-        "away_lambda": 1.3447,
-        "home_probability": 0.400776,
-        "draw_probability": 0.251929,
-        "away_probability": 0.347295,
-        "home_decisive_probability": 0.535746,
-        "away_decisive_probability": 0.464254,
-        "home_fair_decimal_odds": 2.495,
-        "draw_fair_decimal_odds": 3.969,
-        "away_fair_decimal_odds": 2.879,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-215",
@@ -5550,21 +2974,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4701,
-        "away_lambda": 1.0866,
-        "home_probability": 0.459592,
-        "draw_probability": 0.260662,
-        "away_probability": 0.279746,
-        "home_decisive_probability": 0.621626,
-        "away_decisive_probability": 0.378374,
-        "home_fair_decimal_odds": 2.176,
-        "draw_fair_decimal_odds": 3.836,
-        "away_fair_decimal_odds": 3.575,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-216",
@@ -5580,21 +2990,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.2237,
-        "home_probability": 0.442848,
-        "draw_probability": 0.252116,
-        "away_probability": 0.305036,
-        "home_decisive_probability": 0.592135,
-        "away_decisive_probability": 0.407865,
-        "home_fair_decimal_odds": 2.258,
-        "draw_fair_decimal_odds": 3.966,
-        "away_fair_decimal_odds": 3.278,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-217",
@@ -5610,21 +3006,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.5212,
-        "home_probability": 0.3551,
-        "draw_probability": 0.245386,
-        "away_probability": 0.399514,
-        "home_decisive_probability": 0.470572,
-        "away_decisive_probability": 0.529428,
-        "home_fair_decimal_odds": 2.816,
-        "draw_fair_decimal_odds": 4.075,
-        "away_fair_decimal_odds": 2.503,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-218",
@@ -5640,21 +3022,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.3358,
-        "away_lambda": 1.5756,
-        "home_probability": 0.546825,
-        "draw_probability": 0.196706,
-        "away_probability": 0.256469,
-        "home_decisive_probability": 0.680728,
-        "away_decisive_probability": 0.319272,
-        "home_fair_decimal_odds": 1.829,
-        "draw_fair_decimal_odds": 5.084,
-        "away_fair_decimal_odds": 3.899,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-219",
@@ -5670,21 +3038,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2341,
-        "away_lambda": 1.5099,
-        "home_probability": 0.310609,
-        "draw_probability": 0.252994,
-        "away_probability": 0.436397,
-        "home_decisive_probability": 0.415806,
-        "away_decisive_probability": 0.584194,
-        "home_fair_decimal_odds": 3.219,
-        "draw_fair_decimal_odds": 3.953,
-        "away_fair_decimal_odds": 2.291,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-220",
@@ -5700,21 +3054,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 1.0526,
-        "home_probability": 0.426112,
-        "draw_probability": 0.275757,
-        "away_probability": 0.298131,
-        "home_decisive_probability": 0.588355,
-        "away_decisive_probability": 0.411645,
-        "home_fair_decimal_odds": 2.347,
-        "draw_fair_decimal_odds": 3.626,
-        "away_fair_decimal_odds": 3.354,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-221",
@@ -5730,21 +3070,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 0.7697,
-        "home_probability": 0.579463,
-        "draw_probability": 0.245513,
-        "away_probability": 0.175024,
-        "home_decisive_probability": 0.768023,
-        "away_decisive_probability": 0.231977,
-        "home_fair_decimal_odds": 1.726,
-        "draw_fair_decimal_odds": 4.073,
-        "away_fair_decimal_odds": 5.714,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-222",
@@ -5760,21 +3086,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6842,
-        "away_lambda": 1.1579,
-        "home_probability": 0.496705,
-        "draw_probability": 0.241046,
-        "away_probability": 0.262249,
-        "home_decisive_probability": 0.65446,
-        "away_decisive_probability": 0.34554,
-        "home_fair_decimal_odds": 2.013,
-        "draw_fair_decimal_odds": 4.149,
-        "away_fair_decimal_odds": 3.813,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-223",
@@ -5790,21 +3102,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5572,
-        "away_lambda": 1.4261,
-        "home_probability": 0.407248,
-        "draw_probability": 0.243221,
-        "away_probability": 0.349531,
-        "home_decisive_probability": 0.538134,
-        "away_decisive_probability": 0.461866,
-        "home_fair_decimal_odds": 2.456,
-        "draw_fair_decimal_odds": 4.111,
-        "away_fair_decimal_odds": 2.861,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-224",
@@ -5820,21 +3118,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3212,
-        "away_lambda": 1.5846,
-        "home_probability": 0.318865,
-        "draw_probability": 0.24512,
-        "away_probability": 0.436015,
-        "home_decisive_probability": 0.422405,
-        "away_decisive_probability": 0.577595,
-        "home_fair_decimal_odds": 3.136,
-        "draw_fair_decimal_odds": 4.08,
-        "away_fair_decimal_odds": 2.293,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-225",
@@ -5850,21 +3134,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8421,
-        "away_lambda": 1.0526,
-        "home_probability": 0.558419,
-        "draw_probability": 0.227265,
-        "away_probability": 0.214317,
-        "home_decisive_probability": 0.722652,
-        "away_decisive_probability": 0.277348,
-        "home_fair_decimal_odds": 1.791,
-        "draw_fair_decimal_odds": 4.4,
-        "away_fair_decimal_odds": 4.666,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-226",
@@ -5880,21 +3150,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.1579,
-        "home_probability": 0.444166,
-        "draw_probability": 0.258223,
-        "away_probability": 0.297612,
-        "home_decisive_probability": 0.598786,
-        "away_decisive_probability": 0.401214,
-        "home_fair_decimal_odds": 2.251,
-        "draw_fair_decimal_odds": 3.873,
-        "away_fair_decimal_odds": 3.36,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-227",
@@ -5910,21 +3166,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4192,
-        "away_lambda": 0.9508,
-        "home_probability": 0.478557,
-        "draw_probability": 0.269124,
-        "away_probability": 0.252319,
-        "home_decisive_probability": 0.654772,
-        "away_decisive_probability": 0.345228,
-        "home_fair_decimal_odds": 2.09,
-        "draw_fair_decimal_odds": 3.716,
-        "away_fair_decimal_odds": 3.963,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-228",
@@ -5940,21 +3182,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3067,
-        "away_lambda": 0.9508,
-        "home_probability": 0.447612,
-        "draw_probability": 0.280982,
-        "away_probability": 0.271406,
-        "home_decisive_probability": 0.622533,
-        "away_decisive_probability": 0.377467,
-        "home_fair_decimal_odds": 2.234,
-        "draw_fair_decimal_odds": 3.559,
-        "away_fair_decimal_odds": 3.685,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-229",
@@ -5970,21 +3198,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6987,
-        "away_lambda": 1.4941,
-        "home_probability": 0.427018,
-        "draw_probability": 0.233326,
-        "away_probability": 0.339656,
-        "home_decisive_probability": 0.556974,
-        "away_decisive_probability": 0.443026,
-        "home_fair_decimal_odds": 2.342,
-        "draw_fair_decimal_odds": 4.286,
-        "away_fair_decimal_odds": 2.944,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-230",
@@ -6000,21 +3214,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.118,
-        "away_lambda": 1.193,
-        "home_probability": 0.340194,
-        "draw_probability": 0.282639,
-        "away_probability": 0.377167,
-        "home_decisive_probability": 0.47423,
-        "away_decisive_probability": 0.52577,
-        "home_fair_decimal_odds": 2.939,
-        "draw_fair_decimal_odds": 3.538,
-        "away_fair_decimal_odds": 2.651,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-231",
@@ -6030,21 +3230,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.4555,
-        "away_lambda": 0.7221,
-        "home_probability": 0.754547,
-        "draw_probability": 0.155743,
-        "away_probability": 0.08971,
-        "home_decisive_probability": 0.893741,
-        "away_decisive_probability": 0.106259,
-        "home_fair_decimal_odds": 1.325,
-        "draw_fair_decimal_odds": 6.421,
-        "away_fair_decimal_odds": 11.147,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-232",
@@ -6060,21 +3246,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5789,
-        "away_lambda": 1.0526,
-        "home_probability": 0.495477,
-        "draw_probability": 0.251481,
-        "away_probability": 0.253041,
-        "home_decisive_probability": 0.661944,
-        "away_decisive_probability": 0.338056,
-        "home_fair_decimal_odds": 2.018,
-        "draw_fair_decimal_odds": 3.976,
-        "away_fair_decimal_odds": 3.952,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-233",
@@ -6090,21 +3262,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0,
-        "away_lambda": 1.2105,
-        "home_probability": 0.303043,
-        "draw_probability": 0.288369,
-        "away_probability": 0.408588,
-        "home_decisive_probability": 0.425843,
-        "away_decisive_probability": 0.574157,
-        "home_fair_decimal_odds": 3.3,
-        "draw_fair_decimal_odds": 3.468,
-        "away_fair_decimal_odds": 2.447,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-234",
@@ -6120,21 +3278,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1797,
-        "away_lambda": 1.039,
-        "home_probability": 0.390784,
-        "draw_probability": 0.288904,
-        "away_probability": 0.320313,
-        "home_decisive_probability": 0.549551,
-        "away_decisive_probability": 0.450449,
-        "home_fair_decimal_odds": 2.559,
-        "draw_fair_decimal_odds": 3.461,
-        "away_fair_decimal_odds": 3.122,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-235",
@@ -6150,21 +3294,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1434,
-        "away_lambda": 1.4488,
-        "home_probability": 0.298286,
-        "draw_probability": 0.260719,
-        "away_probability": 0.440995,
-        "home_decisive_probability": 0.403481,
-        "away_decisive_probability": 0.596519,
-        "home_fair_decimal_odds": 3.352,
-        "draw_fair_decimal_odds": 3.836,
-        "away_fair_decimal_odds": 2.268,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-236",
@@ -6180,21 +3310,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.3684,
-        "home_probability": 0.371916,
-        "draw_probability": 0.256167,
-        "away_probability": 0.371916,
-        "home_decisive_probability": 0.5,
-        "away_decisive_probability": 0.5,
-        "home_fair_decimal_odds": 2.689,
-        "draw_fair_decimal_odds": 3.904,
-        "away_fair_decimal_odds": 2.689,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-237",
@@ -6210,21 +3326,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7895,
-        "away_lambda": 1.3786,
-        "home_probability": 0.472322,
-        "draw_probability": 0.230508,
-        "away_probability": 0.29717,
-        "home_decisive_probability": 0.61381,
-        "away_decisive_probability": 0.38619,
-        "home_fair_decimal_odds": 2.117,
-        "draw_fair_decimal_odds": 4.338,
-        "away_fair_decimal_odds": 3.365,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-238",
@@ -6240,21 +3342,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9111,
-        "away_lambda": 1.7385,
-        "home_probability": 0.426148,
-        "draw_probability": 0.216995,
-        "away_probability": 0.356858,
-        "home_decisive_probability": 0.544246,
-        "away_decisive_probability": 0.455754,
-        "home_fair_decimal_odds": 2.347,
-        "draw_fair_decimal_odds": 4.608,
-        "away_fair_decimal_odds": 2.802,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-239",
@@ -6270,21 +3358,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1252,
-        "away_lambda": 1.1454,
-        "home_probability": 0.352053,
-        "draw_probability": 0.285852,
-        "away_probability": 0.362095,
-        "home_decisive_probability": 0.492969,
-        "away_decisive_probability": 0.507031,
-        "home_fair_decimal_odds": 2.84,
-        "draw_fair_decimal_odds": 3.498,
-        "away_fair_decimal_odds": 2.762,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-240",
@@ -6300,21 +3374,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.225,
-        "away_lambda": 1.0866,
-        "home_probability": 0.393108,
-        "draw_probability": 0.281975,
-        "away_probability": 0.324917,
-        "home_decisive_probability": 0.547485,
-        "away_decisive_probability": 0.452515,
-        "home_fair_decimal_odds": 2.544,
-        "draw_fair_decimal_odds": 3.546,
-        "away_fair_decimal_odds": 3.078,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-241",
@@ -6330,21 +3390,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9746,
-        "away_lambda": 1.4443,
-        "home_probability": 0.499716,
-        "draw_probability": 0.218113,
-        "away_probability": 0.282171,
-        "home_decisive_probability": 0.639116,
-        "away_decisive_probability": 0.360884,
-        "home_fair_decimal_odds": 2.001,
-        "draw_fair_decimal_odds": 4.585,
-        "away_fair_decimal_odds": 3.544,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-242",
@@ -6360,21 +3406,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.5263,
-        "home_probability": 0.429268,
-        "draw_probability": 0.230432,
-        "away_probability": 0.340301,
-        "home_decisive_probability": 0.557803,
-        "away_decisive_probability": 0.442197,
-        "home_fair_decimal_odds": 2.33,
-        "draw_fair_decimal_odds": 4.34,
-        "away_fair_decimal_odds": 2.939,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-243",
@@ -6390,21 +3422,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.069,
-        "away_lambda": 1.1454,
-        "home_probability": 0.335857,
-        "draw_probability": 0.289904,
-        "away_probability": 0.374239,
-        "home_decisive_probability": 0.472974,
-        "away_decisive_probability": 0.527026,
-        "home_fair_decimal_odds": 2.977,
-        "draw_fair_decimal_odds": 3.449,
-        "away_fair_decimal_odds": 2.672,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-244",
@@ -6420,21 +3438,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6515,
-        "away_lambda": 1.2224,
-        "home_probability": 0.474106,
-        "draw_probability": 0.242728,
-        "away_probability": 0.283166,
-        "home_decisive_probability": 0.626071,
-        "away_decisive_probability": 0.373929,
-        "home_fair_decimal_odds": 2.109,
-        "draw_fair_decimal_odds": 4.12,
-        "away_fair_decimal_odds": 3.531,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-245",
@@ -6450,21 +3454,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5245,
-        "away_lambda": 1.2677,
-        "home_probability": 0.432715,
-        "draw_probability": 0.250858,
-        "away_probability": 0.316427,
-        "home_decisive_probability": 0.577614,
-        "away_decisive_probability": 0.422386,
-        "home_fair_decimal_odds": 2.311,
-        "draw_fair_decimal_odds": 3.986,
-        "away_fair_decimal_odds": 3.16,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-246",
@@ -6480,21 +3470,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 0.8947,
-        "home_probability": 0.506978,
-        "draw_probability": 0.264266,
-        "away_probability": 0.228756,
-        "home_decisive_probability": 0.689078,
-        "away_decisive_probability": 0.310922,
-        "home_fair_decimal_odds": 1.972,
-        "draw_fair_decimal_odds": 3.784,
-        "away_fair_decimal_odds": 4.371,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-247",
@@ -6510,21 +3486,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8421,
-        "away_lambda": 1.5789,
-        "home_probability": 0.199926,
-        "draw_probability": 0.252517,
-        "away_probability": 0.547557,
-        "home_decisive_probability": 0.267465,
-        "away_decisive_probability": 0.732535,
-        "home_fair_decimal_odds": 5.002,
-        "draw_fair_decimal_odds": 3.96,
-        "away_fair_decimal_odds": 1.826,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-248",
@@ -6540,21 +3502,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8403,
-        "away_lambda": 1.1952,
-        "home_probability": 0.524704,
-        "draw_probability": 0.228225,
-        "away_probability": 0.247071,
-        "home_decisive_probability": 0.679867,
-        "away_decisive_probability": 0.320133,
-        "home_fair_decimal_odds": 1.906,
-        "draw_fair_decimal_odds": 4.382,
-        "away_fair_decimal_odds": 4.047,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-249",
@@ -6570,21 +3518,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7641,
-        "away_lambda": 2.1732,
-        "home_probability": 0.318513,
-        "draw_probability": 0.205111,
-        "away_probability": 0.476376,
-        "home_decisive_probability": 0.400701,
-        "away_decisive_probability": 0.599299,
-        "home_fair_decimal_odds": 3.14,
-        "draw_fair_decimal_odds": 4.875,
-        "away_fair_decimal_odds": 2.099,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-250",
@@ -6600,21 +3534,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8385,
-        "away_lambda": 2.2456,
-        "home_probability": 0.125425,
-        "draw_probability": 0.182188,
-        "away_probability": 0.692388,
-        "home_decisive_probability": 0.153366,
-        "away_decisive_probability": 0.846634,
-        "home_fair_decimal_odds": 7.973,
-        "draw_fair_decimal_odds": 5.489,
-        "away_fair_decimal_odds": 1.444,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-251",
@@ -6630,21 +3550,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 0.996,
-        "home_probability": 0.482017,
-        "draw_probability": 0.262537,
-        "away_probability": 0.255445,
-        "home_decisive_probability": 0.653616,
-        "away_decisive_probability": 0.346384,
-        "home_fair_decimal_odds": 2.075,
-        "draw_fair_decimal_odds": 3.809,
-        "away_fair_decimal_odds": 3.915,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-252",
@@ -6660,21 +3566,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.3067,
-        "away_lambda": 0.4233,
-        "home_probability": 0.801007,
-        "draw_probability": 0.146336,
-        "away_probability": 0.052657,
-        "home_decisive_probability": 0.938317,
-        "away_decisive_probability": 0.061683,
-        "home_fair_decimal_odds": 1.248,
-        "draw_fair_decimal_odds": 6.834,
-        "away_fair_decimal_odds": 18.991,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-253",
@@ -6690,21 +3582,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.1053,
-        "home_probability": 0.521535,
-        "draw_probability": 0.236901,
-        "away_probability": 0.241563,
-        "home_decisive_probability": 0.683444,
-        "away_decisive_probability": 0.316556,
-        "home_fair_decimal_odds": 1.917,
-        "draw_fair_decimal_odds": 4.221,
-        "away_fair_decimal_odds": 4.14,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-254",
@@ -6720,21 +3598,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4156,
-        "away_lambda": 1.1771,
-        "home_probability": 0.424741,
-        "draw_probability": 0.262111,
-        "away_probability": 0.313147,
-        "home_decisive_probability": 0.575617,
-        "away_decisive_probability": 0.424383,
-        "home_fair_decimal_odds": 2.354,
-        "draw_fair_decimal_odds": 3.815,
-        "away_fair_decimal_odds": 3.193,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-255",
@@ -6750,21 +3614,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.3158,
-        "home_probability": 0.382676,
-        "draw_probability": 0.258962,
-        "away_probability": 0.358362,
-        "home_decisive_probability": 0.516405,
-        "away_decisive_probability": 0.483595,
-        "home_fair_decimal_odds": 2.613,
-        "draw_fair_decimal_odds": 3.862,
-        "away_fair_decimal_odds": 2.79,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-256",
@@ -6780,21 +3630,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.1409,
-        "home_probability": 0.434291,
-        "draw_probability": 0.263069,
-        "away_probability": 0.302639,
-        "home_decisive_probability": 0.589325,
-        "away_decisive_probability": 0.410675,
-        "home_fair_decimal_odds": 2.303,
-        "draw_fair_decimal_odds": 3.801,
-        "away_fair_decimal_odds": 3.304,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-257",
@@ -6810,21 +3646,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7895,
-        "away_lambda": 1.0526,
-        "home_probability": 0.546342,
-        "draw_probability": 0.232067,
-        "away_probability": 0.221591,
-        "home_decisive_probability": 0.711445,
-        "away_decisive_probability": 0.288555,
-        "home_fair_decimal_odds": 1.83,
-        "draw_fair_decimal_odds": 4.309,
-        "away_fair_decimal_odds": 4.513,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-258",
@@ -6840,21 +3662,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0417,
-        "away_lambda": 0.5388,
-        "home_probability": 0.72864,
-        "draw_probability": 0.18501,
-        "away_probability": 0.08635,
-        "home_decisive_probability": 0.894048,
-        "away_decisive_probability": 0.105952,
-        "home_fair_decimal_odds": 1.372,
-        "draw_fair_decimal_odds": 5.405,
-        "away_fair_decimal_odds": 11.581,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-259",
@@ -6870,21 +3678,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9437,
-        "away_lambda": 1.562,
-        "home_probability": 0.228121,
-        "draw_probability": 0.254249,
-        "away_probability": 0.51763,
-        "home_decisive_probability": 0.305894,
-        "away_decisive_probability": 0.694106,
-        "home_fair_decimal_odds": 4.384,
-        "draw_fair_decimal_odds": 3.933,
-        "away_fair_decimal_odds": 1.932,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-260",
@@ -6900,21 +3694,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0436,
-        "away_lambda": 0.9508,
-        "home_probability": 0.370032,
-        "draw_probability": 0.308575,
-        "away_probability": 0.321393,
-        "home_decisive_probability": 0.535173,
-        "away_decisive_probability": 0.464827,
-        "home_fair_decimal_odds": 2.702,
-        "draw_fair_decimal_odds": 3.241,
-        "away_fair_decimal_odds": 3.111,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-261",
@@ -6930,21 +3710,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5681,
-        "away_lambda": 1.5937,
-        "home_probability": 0.37657,
-        "draw_probability": 0.235865,
-        "away_probability": 0.387564,
-        "home_decisive_probability": 0.492806,
-        "away_decisive_probability": 0.507194,
-        "home_fair_decimal_odds": 2.656,
-        "draw_fair_decimal_odds": 4.24,
-        "away_fair_decimal_odds": 2.58,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-262",
@@ -6960,21 +3726,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7895,
-        "away_lambda": 1.5263,
-        "home_probability": 0.441312,
-        "draw_probability": 0.227677,
-        "away_probability": 0.331011,
-        "home_decisive_probability": 0.571409,
-        "away_decisive_probability": 0.428591,
-        "home_fair_decimal_odds": 2.266,
-        "draw_fair_decimal_odds": 4.392,
-        "away_fair_decimal_odds": 3.021,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-263",
@@ -6990,21 +3742,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9655,
-        "away_lambda": 0.8851,
-        "home_probability": 0.360227,
-        "draw_probability": 0.322993,
-        "away_probability": 0.31678,
-        "home_decisive_probability": 0.532088,
-        "away_decisive_probability": 0.467912,
-        "home_fair_decimal_odds": 2.776,
-        "draw_fair_decimal_odds": 3.096,
-        "away_fair_decimal_odds": 3.157,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-264",
@@ -7020,21 +3758,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3212,
-        "away_lambda": 1.7114,
-        "home_probability": 0.296823,
-        "draw_probability": 0.236641,
-        "away_probability": 0.466536,
-        "home_decisive_probability": 0.388838,
-        "away_decisive_probability": 0.611162,
-        "home_fair_decimal_odds": 3.369,
-        "draw_fair_decimal_odds": 4.226,
-        "away_fair_decimal_odds": 2.143,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-265",
@@ -7050,21 +3774,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9056,
-        "away_lambda": 0.9055,
-        "home_probability": 0.608261,
-        "draw_probability": 0.218283,
-        "away_probability": 0.173456,
-        "home_decisive_probability": 0.778109,
-        "away_decisive_probability": 0.221891,
-        "home_fair_decimal_odds": 1.644,
-        "draw_fair_decimal_odds": 4.581,
-        "away_fair_decimal_odds": 5.765,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-266",
@@ -7080,21 +3790,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1053,
-        "away_lambda": 1.6842,
-        "home_probability": 0.24955,
-        "draw_probability": 0.241495,
-        "away_probability": 0.508954,
-        "home_decisive_probability": 0.329003,
-        "away_decisive_probability": 0.670997,
-        "home_fair_decimal_odds": 4.007,
-        "draw_fair_decimal_odds": 4.141,
-        "away_fair_decimal_odds": 1.965,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-267",
@@ -7110,21 +3806,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.1579,
-        "home_probability": 0.416548,
-        "draw_probability": 0.266593,
-        "away_probability": 0.316859,
-        "home_decisive_probability": 0.567963,
-        "away_decisive_probability": 0.432037,
-        "home_fair_decimal_odds": 2.401,
-        "draw_fair_decimal_odds": 3.751,
-        "away_fair_decimal_odds": 3.156,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-268",
@@ -7140,21 +3822,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1325,
-        "away_lambda": 1.6299,
-        "home_probability": 0.264747,
-        "draw_probability": 0.245888,
-        "away_probability": 0.489365,
-        "home_decisive_probability": 0.351072,
-        "away_decisive_probability": 0.648928,
-        "home_fair_decimal_odds": 3.777,
-        "draw_fair_decimal_odds": 4.067,
-        "away_fair_decimal_odds": 2.043,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-269",
@@ -7170,21 +3838,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0254,
-        "away_lambda": 1.4941,
-        "home_probability": 0.500166,
-        "draw_probability": 0.214768,
-        "away_probability": 0.285065,
-        "home_decisive_probability": 0.636967,
-        "away_decisive_probability": 0.363033,
-        "home_fair_decimal_odds": 1.999,
-        "draw_fair_decimal_odds": 4.656,
-        "away_fair_decimal_odds": 3.508,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-270",
@@ -7200,21 +3854,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3176,
-        "away_lambda": 2.0351,
-        "home_probability": 0.245778,
-        "draw_probability": 0.214012,
-        "away_probability": 0.54021,
-        "home_decisive_probability": 0.312699,
-        "away_decisive_probability": 0.687301,
-        "home_fair_decimal_odds": 4.069,
-        "draw_fair_decimal_odds": 4.673,
-        "away_fair_decimal_odds": 1.851,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-271",
@@ -7230,21 +3870,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.1771,
-        "home_probability": 0.41229,
-        "draw_probability": 0.26573,
-        "away_probability": 0.32198,
-        "home_decisive_probability": 0.561496,
-        "away_decisive_probability": 0.438504,
-        "home_fair_decimal_odds": 2.425,
-        "draw_fair_decimal_odds": 3.763,
-        "away_fair_decimal_odds": 3.106,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-272",
@@ -7260,21 +3886,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0835,
-        "away_lambda": 0.5478,
-        "home_probability": 0.733953,
-        "draw_probability": 0.180843,
-        "away_probability": 0.085204,
-        "home_decisive_probability": 0.895986,
-        "away_decisive_probability": 0.104014,
-        "home_fair_decimal_odds": 1.362,
-        "draw_fair_decimal_odds": 5.53,
-        "away_fair_decimal_odds": 11.737,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-273",
@@ -7290,21 +3902,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.1053,
-        "home_probability": 0.521535,
-        "draw_probability": 0.236901,
-        "away_probability": 0.241563,
-        "home_decisive_probability": 0.683444,
-        "away_decisive_probability": 0.316556,
-        "home_fair_decimal_odds": 1.917,
-        "draw_fair_decimal_odds": 4.221,
-        "away_fair_decimal_odds": 4.14,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-274",
@@ -7320,21 +3918,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6878,
-        "away_lambda": 0.7697,
-        "home_probability": 0.593078,
-        "draw_probability": 0.238725,
-        "away_probability": 0.168197,
-        "home_decisive_probability": 0.779059,
-        "away_decisive_probability": 0.220941,
-        "home_fair_decimal_odds": 1.686,
-        "draw_fair_decimal_odds": 4.189,
-        "away_fair_decimal_odds": 5.945,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-275",
@@ -7350,21 +3934,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.3158,
-        "home_probability": 0.382676,
-        "draw_probability": 0.258962,
-        "away_probability": 0.358362,
-        "home_decisive_probability": 0.516405,
-        "away_decisive_probability": 0.483595,
-        "home_fair_decimal_odds": 2.613,
-        "draw_fair_decimal_odds": 3.862,
-        "away_fair_decimal_odds": 2.79,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-276",
@@ -7380,21 +3950,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.1053,
-        "home_probability": 0.469754,
-        "draw_probability": 0.255259,
-        "away_probability": 0.274987,
-        "home_decisive_probability": 0.630761,
-        "away_decisive_probability": 0.369239,
-        "home_fair_decimal_odds": 2.129,
-        "draw_fair_decimal_odds": 3.918,
-        "away_fair_decimal_odds": 3.637,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-277",
@@ -7410,21 +3966,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6661,
-        "away_lambda": 1.0866,
-        "home_probability": 0.508957,
-        "draw_probability": 0.243224,
-        "away_probability": 0.247819,
-        "home_decisive_probability": 0.672533,
-        "away_decisive_probability": 0.327467,
-        "home_fair_decimal_odds": 1.965,
-        "draw_fair_decimal_odds": 4.111,
-        "away_fair_decimal_odds": 4.035,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-278",
@@ -7440,21 +3982,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8784,
-        "away_lambda": 0.6655,
-        "home_probability": 0.663307,
-        "draw_probability": 0.212102,
-        "away_probability": 0.124591,
-        "home_decisive_probability": 0.841869,
-        "away_decisive_probability": 0.158131,
-        "home_fair_decimal_odds": 1.508,
-        "draw_fair_decimal_odds": 4.715,
-        "away_fair_decimal_odds": 8.026,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-279",
@@ -7470,21 +3998,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9074,
-        "away_lambda": 0.8851,
-        "home_probability": 0.341275,
-        "draw_probability": 0.329672,
-        "away_probability": 0.329053,
-        "home_decisive_probability": 0.509117,
-        "away_decisive_probability": 0.490883,
-        "home_fair_decimal_odds": 2.93,
-        "draw_fair_decimal_odds": 3.033,
-        "away_fair_decimal_odds": 3.039,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-280",
@@ -7500,21 +4014,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1797,
-        "away_lambda": 1.3582,
-        "home_probability": 0.324592,
-        "draw_probability": 0.266386,
-        "away_probability": 0.409022,
-        "home_decisive_probability": 0.442456,
-        "away_decisive_probability": 0.557544,
-        "home_fair_decimal_odds": 3.081,
-        "draw_fair_decimal_odds": 3.754,
-        "away_fair_decimal_odds": 2.445,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-281",
@@ -7530,21 +4030,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 0.7697,
-        "home_probability": 0.495689,
-        "draw_probability": 0.285763,
-        "away_probability": 0.218548,
-        "home_decisive_probability": 0.694012,
-        "away_decisive_probability": 0.305988,
-        "home_fair_decimal_odds": 2.017,
-        "draw_fair_decimal_odds": 3.499,
-        "away_fair_decimal_odds": 4.576,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-282",
@@ -7560,21 +4046,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6842,
-        "away_lambda": 1.1579,
-        "home_probability": 0.496705,
-        "draw_probability": 0.241046,
-        "away_probability": 0.262249,
-        "home_decisive_probability": 0.65446,
-        "away_decisive_probability": 0.34554,
-        "home_fair_decimal_odds": 2.013,
-        "draw_fair_decimal_odds": 4.149,
-        "away_fair_decimal_odds": 3.813,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-283",
@@ -7590,21 +4062,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.755,
-        "away_lambda": 1.6978,
-        "home_probability": 0.163533,
-        "draw_probability": 0.237183,
-        "away_probability": 0.599284,
-        "home_decisive_probability": 0.21438,
-        "away_decisive_probability": 0.78562,
-        "home_fair_decimal_odds": 6.115,
-        "draw_fair_decimal_odds": 4.216,
-        "away_fair_decimal_odds": 1.669,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-284",
@@ -7620,21 +4078,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1053,
-        "away_lambda": 1.6842,
-        "home_probability": 0.24955,
-        "draw_probability": 0.241495,
-        "away_probability": 0.508954,
-        "home_decisive_probability": 0.329003,
-        "away_decisive_probability": 0.670997,
-        "home_fair_decimal_odds": 4.007,
-        "draw_fair_decimal_odds": 4.141,
-        "away_fair_decimal_odds": 1.965,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-285",
@@ -7650,21 +4094,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.069,
-        "away_lambda": 0.8851,
-        "home_probability": 0.393021,
-        "draw_probability": 0.311011,
-        "away_probability": 0.295968,
-        "home_decisive_probability": 0.570431,
-        "away_decisive_probability": 0.429569,
-        "home_fair_decimal_odds": 2.544,
-        "draw_fair_decimal_odds": 3.215,
-        "away_fair_decimal_odds": 3.379,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-286",
@@ -7680,21 +4110,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.0458,
-        "home_probability": 0.442081,
-        "draw_probability": 0.271196,
-        "away_probability": 0.286723,
-        "home_decisive_probability": 0.606584,
-        "away_decisive_probability": 0.393416,
-        "home_fair_decimal_odds": 2.262,
-        "draw_fair_decimal_odds": 3.687,
-        "away_fair_decimal_odds": 3.488,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-287",
@@ -7710,21 +4126,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7895,
-        "away_lambda": 1.0526,
-        "home_probability": 0.546342,
-        "draw_probability": 0.232067,
-        "away_probability": 0.221591,
-        "home_decisive_probability": 0.711445,
-        "away_decisive_probability": 0.288555,
-        "home_fair_decimal_odds": 1.83,
-        "draw_fair_decimal_odds": 4.309,
-        "away_fair_decimal_odds": 4.513,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-288",
@@ -7740,21 +4142,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6279,
-        "away_lambda": 1.1409,
-        "home_probability": 0.486937,
-        "draw_probability": 0.245931,
-        "away_probability": 0.267132,
-        "home_decisive_probability": 0.645745,
-        "away_decisive_probability": 0.354255,
-        "home_fair_decimal_odds": 2.054,
-        "draw_fair_decimal_odds": 4.066,
-        "away_fair_decimal_odds": 3.743,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-289",
@@ -7770,21 +4158,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4065,
-        "away_lambda": 0.996,
-        "home_probability": 0.464168,
-        "draw_probability": 0.269206,
-        "away_probability": 0.266626,
-        "home_decisive_probability": 0.635155,
-        "away_decisive_probability": 0.364845,
-        "home_fair_decimal_odds": 2.154,
-        "draw_fair_decimal_odds": 3.715,
-        "away_fair_decimal_odds": 3.751,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-290",
@@ -7800,21 +4174,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.118,
-        "away_lambda": 1.9649,
-        "home_probability": 0.212363,
-        "draw_probability": 0.217346,
-        "away_probability": 0.57029,
-        "home_decisive_probability": 0.271337,
-        "away_decisive_probability": 0.728663,
-        "home_fair_decimal_odds": 4.709,
-        "draw_fair_decimal_odds": 4.601,
-        "away_fair_decimal_odds": 1.753,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-291",
@@ -7830,21 +4190,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0835,
-        "away_lambda": 0.4233,
-        "home_probability": 0.765728,
-        "draw_probability": 0.170986,
-        "away_probability": 0.063285,
-        "home_decisive_probability": 0.923662,
-        "away_decisive_probability": 0.076338,
-        "home_fair_decimal_odds": 1.306,
-        "draw_fair_decimal_odds": 5.848,
-        "away_fair_decimal_odds": 15.802,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-292",
@@ -7860,21 +4206,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0363,
-        "away_lambda": 1.3786,
-        "home_probability": 0.527136,
-        "draw_probability": 0.214202,
-        "away_probability": 0.258662,
-        "home_decisive_probability": 0.670829,
-        "away_decisive_probability": 0.329171,
-        "home_fair_decimal_odds": 1.897,
-        "draw_fair_decimal_odds": 4.668,
-        "away_fair_decimal_odds": 3.866,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-293",
@@ -7890,21 +4222,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5789,
-        "away_lambda": 1.0526,
-        "home_probability": 0.495477,
-        "draw_probability": 0.251481,
-        "away_probability": 0.253041,
-        "home_decisive_probability": 0.661944,
-        "away_decisive_probability": 0.338056,
-        "home_fair_decimal_odds": 2.018,
-        "draw_fair_decimal_odds": 3.976,
-        "away_fair_decimal_odds": 3.952,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-294",
@@ -7920,21 +4238,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2269,
-        "away_lambda": 1.5891,
-        "home_probability": 0.294829,
-        "draw_probability": 0.247348,
-        "away_probability": 0.457823,
-        "home_decisive_probability": 0.39172,
-        "away_decisive_probability": 0.60828,
-        "home_fair_decimal_odds": 3.392,
-        "draw_fair_decimal_odds": 4.043,
-        "away_fair_decimal_odds": 2.184,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-295",
@@ -7950,21 +4254,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7967,
-        "away_lambda": 1.313,
-        "home_probability": 0.488288,
-        "draw_probability": 0.230871,
-        "away_probability": 0.280841,
-        "home_decisive_probability": 0.634858,
-        "away_decisive_probability": 0.365142,
-        "home_fair_decimal_odds": 2.048,
-        "draw_fair_decimal_odds": 4.331,
-        "away_fair_decimal_odds": 3.561,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-296",
@@ -7980,21 +4270,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.6842,
-        "home_probability": 0.325117,
-        "draw_probability": 0.236138,
-        "away_probability": 0.438745,
-        "home_decisive_probability": 0.425623,
-        "away_decisive_probability": 0.574377,
-        "home_fair_decimal_odds": 3.076,
-        "draw_fair_decimal_odds": 4.235,
-        "away_fair_decimal_odds": 2.279,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-297",
@@ -8010,21 +4286,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.1579,
-        "home_probability": 0.444166,
-        "draw_probability": 0.258223,
-        "away_probability": 0.297612,
-        "home_decisive_probability": 0.598786,
-        "away_decisive_probability": 0.401214,
-        "home_fair_decimal_odds": 2.251,
-        "draw_fair_decimal_odds": 3.873,
-        "away_fair_decimal_odds": 3.36,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-298",
@@ -8040,21 +4302,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1234,
-        "away_lambda": 0.9508,
-        "home_probability": 0.64261,
-        "draw_probability": 0.198745,
-        "away_probability": 0.158644,
-        "home_decisive_probability": 0.802005,
-        "away_decisive_probability": 0.197995,
-        "home_fair_decimal_odds": 1.556,
-        "draw_fair_decimal_odds": 5.032,
-        "away_fair_decimal_odds": 6.303,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-299",
@@ -8070,21 +4318,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.2868,
-        "away_lambda": 1.3582,
-        "home_probability": 0.582888,
-        "draw_probability": 0.196911,
-        "away_probability": 0.220201,
-        "home_decisive_probability": 0.725807,
-        "away_decisive_probability": 0.274193,
-        "home_fair_decimal_odds": 1.716,
-        "draw_fair_decimal_odds": 5.078,
-        "away_fair_decimal_odds": 4.541,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-300",
@@ -8100,21 +4334,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.98,
-        "away_lambda": 1.2496,
-        "home_probability": 0.289984,
-        "draw_probability": 0.285566,
-        "away_probability": 0.424449,
-        "home_decisive_probability": 0.405894,
-        "away_decisive_probability": 0.594106,
-        "home_fair_decimal_odds": 3.448,
-        "draw_fair_decimal_odds": 3.502,
-        "away_fair_decimal_odds": 2.356,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-301",
@@ -8130,21 +4350,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1053,
-        "away_lambda": 1.4488,
-        "home_probability": 0.288326,
-        "draw_probability": 0.261966,
-        "away_probability": 0.449708,
-        "home_decisive_probability": 0.390667,
-        "away_decisive_probability": 0.609333,
-        "home_fair_decimal_odds": 3.468,
-        "draw_fair_decimal_odds": 3.817,
-        "away_fair_decimal_odds": 2.224,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-302",
@@ -8160,21 +4366,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.51,
-        "away_lambda": 1.0956,
-        "home_probability": 0.467812,
-        "draw_probability": 0.256909,
-        "away_probability": 0.275279,
-        "home_decisive_probability": 0.629548,
-        "away_decisive_probability": 0.370452,
-        "home_fair_decimal_odds": 2.138,
-        "draw_fair_decimal_odds": 3.892,
-        "away_fair_decimal_odds": 3.633,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-303",
@@ -8190,21 +4382,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4628,
-        "away_lambda": 0.9621,
-        "home_probability": 0.487403,
-        "draw_probability": 0.264332,
-        "away_probability": 0.248265,
-        "home_decisive_probability": 0.662531,
-        "away_decisive_probability": 0.337469,
-        "home_fair_decimal_odds": 2.052,
-        "draw_fair_decimal_odds": 3.783,
-        "away_fair_decimal_odds": 4.028,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-304",
@@ -8220,21 +4398,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8421,
-        "away_lambda": 1.5789,
-        "home_probability": 0.199926,
-        "draw_probability": 0.252517,
-        "away_probability": 0.547557,
-        "home_decisive_probability": 0.267465,
-        "away_decisive_probability": 0.732535,
-        "home_fair_decimal_odds": 5.002,
-        "draw_fair_decimal_odds": 3.96,
-        "away_fair_decimal_odds": 1.826,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-305",
@@ -8250,21 +4414,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.7931,
-        "away_lambda": 1.0934,
-        "home_probability": 0.262597,
-        "draw_probability": 0.314471,
-        "away_probability": 0.422932,
-        "home_decisive_probability": 0.383057,
-        "away_decisive_probability": 0.616943,
-        "home_fair_decimal_odds": 3.808,
-        "draw_fair_decimal_odds": 3.18,
-        "away_fair_decimal_odds": 2.364,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-306",
@@ -8280,21 +4430,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.3311,
-        "home_probability": 0.406364,
-        "draw_probability": 0.25184,
-        "away_probability": 0.341795,
-        "home_decisive_probability": 0.543152,
-        "away_decisive_probability": 0.456848,
-        "home_fair_decimal_odds": 2.461,
-        "draw_fair_decimal_odds": 3.971,
-        "away_fair_decimal_odds": 2.926,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-307",
@@ -8310,21 +4446,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5426,
-        "away_lambda": 0.7697,
-        "home_probability": 0.557152,
-        "draw_probability": 0.256488,
-        "away_probability": 0.18636,
-        "home_decisive_probability": 0.749352,
-        "away_decisive_probability": 0.250648,
-        "home_fair_decimal_odds": 1.795,
-        "draw_fair_decimal_odds": 3.899,
-        "away_fair_decimal_odds": 5.366,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-308",
@@ -8340,21 +4462,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0526,
-        "away_lambda": 1.2632,
-        "home_probability": 0.556017,
-        "draw_probability": 0.212261,
-        "away_probability": 0.231722,
-        "home_decisive_probability": 0.705839,
-        "away_decisive_probability": 0.294161,
-        "home_fair_decimal_odds": 1.799,
-        "draw_fair_decimal_odds": 4.711,
-        "away_fair_decimal_odds": 4.316,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-309",
@@ -8370,21 +4478,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 1.0526,
-        "home_probability": 0.426112,
-        "draw_probability": 0.275757,
-        "away_probability": 0.298131,
-        "home_decisive_probability": 0.588355,
-        "away_decisive_probability": 0.411645,
-        "home_fair_decimal_odds": 2.347,
-        "draw_fair_decimal_odds": 3.626,
-        "away_fair_decimal_odds": 3.354,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-310",
@@ -8400,21 +4494,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2377,
-        "away_lambda": 1.5439,
-        "home_probability": 0.305454,
-        "draw_probability": 0.250407,
-        "away_probability": 0.444139,
-        "home_decisive_probability": 0.407493,
-        "away_decisive_probability": 0.592507,
-        "home_fair_decimal_odds": 3.274,
-        "draw_fair_decimal_odds": 3.993,
-        "away_fair_decimal_odds": 2.252,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-311",
@@ -8430,21 +4510,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0091,
-        "away_lambda": 0.5976,
-        "home_probability": 0.707352,
-        "draw_probability": 0.192824,
-        "away_probability": 0.099824,
-        "home_decisive_probability": 0.876329,
-        "away_decisive_probability": 0.123671,
-        "home_fair_decimal_odds": 1.414,
-        "draw_fair_decimal_odds": 5.186,
-        "away_fair_decimal_odds": 10.018,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-312",
@@ -8460,21 +4526,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0962,
-        "away_lambda": 0.9508,
-        "home_probability": 0.637177,
-        "draw_probability": 0.201271,
-        "away_probability": 0.161552,
-        "home_decisive_probability": 0.797739,
-        "away_decisive_probability": 0.202261,
-        "home_fair_decimal_odds": 1.569,
-        "draw_fair_decimal_odds": 4.968,
-        "away_fair_decimal_odds": 6.19,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-313",
@@ -8490,21 +4542,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4701,
-        "away_lambda": 1.4488,
-        "home_probability": 0.381317,
-        "draw_probability": 0.246834,
-        "away_probability": 0.371849,
-        "home_decisive_probability": 0.506286,
-        "away_decisive_probability": 0.493714,
-        "home_fair_decimal_odds": 2.622,
-        "draw_fair_decimal_odds": 4.051,
-        "away_fair_decimal_odds": 2.689,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-314",
@@ -8520,21 +4558,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6044,
-        "away_lambda": 1.7725,
-        "home_probability": 0.351734,
-        "draw_probability": 0.226537,
-        "away_probability": 0.421728,
-        "home_decisive_probability": 0.454753,
-        "away_decisive_probability": 0.545247,
-        "home_fair_decimal_odds": 2.843,
-        "draw_fair_decimal_odds": 4.414,
-        "away_fair_decimal_odds": 2.371,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-315",
@@ -8550,21 +4574,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5245,
-        "away_lambda": 0.7697,
-        "home_probability": 0.552478,
-        "draw_probability": 0.258764,
-        "away_probability": 0.188758,
-        "home_decisive_probability": 0.745347,
-        "away_decisive_probability": 0.254653,
-        "home_fair_decimal_odds": 1.81,
-        "draw_fair_decimal_odds": 3.865,
-        "away_fair_decimal_odds": 5.298,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-316",
@@ -8580,21 +4590,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.2237,
-        "home_probability": 0.442848,
-        "draw_probability": 0.252116,
-        "away_probability": 0.305036,
-        "home_decisive_probability": 0.592135,
-        "away_decisive_probability": 0.407865,
-        "home_fair_decimal_odds": 2.258,
-        "draw_fair_decimal_odds": 3.966,
-        "away_fair_decimal_odds": 3.278,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-317",
@@ -8610,21 +4606,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.5789,
-        "home_probability": 0.331429,
-        "draw_probability": 0.243997,
-        "away_probability": 0.424574,
-        "home_decisive_probability": 0.438396,
-        "away_decisive_probability": 0.561604,
-        "home_fair_decimal_odds": 3.017,
-        "draw_fair_decimal_odds": 4.098,
-        "away_fair_decimal_odds": 2.355,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-318",
@@ -8640,21 +4622,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.2868,
-        "away_lambda": 0.6972,
-        "home_probability": 0.732928,
-        "draw_probability": 0.16981,
-        "away_probability": 0.097261,
-        "home_decisive_probability": 0.882844,
-        "away_decisive_probability": 0.117156,
-        "home_fair_decimal_odds": 1.364,
-        "draw_fair_decimal_odds": 5.889,
-        "away_fair_decimal_odds": 10.282,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-319",
@@ -8670,21 +4638,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6987,
-        "away_lambda": 1.7657,
-        "home_probability": 0.374217,
-        "draw_probability": 0.223988,
-        "away_probability": 0.401795,
-        "home_decisive_probability": 0.482231,
-        "away_decisive_probability": 0.517769,
-        "home_fair_decimal_odds": 2.672,
-        "draw_fair_decimal_odds": 4.465,
-        "away_fair_decimal_odds": 2.489,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-320",
@@ -8700,21 +4654,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1978,
-        "away_lambda": 1.5099,
-        "home_probability": 0.301406,
-        "draw_probability": 0.254136,
-        "away_probability": 0.444458,
-        "home_decisive_probability": 0.404103,
-        "away_decisive_probability": 0.595897,
-        "home_fair_decimal_odds": 3.318,
-        "draw_fair_decimal_odds": 3.935,
-        "away_fair_decimal_odds": 2.25,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-321",
@@ -8730,21 +4670,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8421,
-        "away_lambda": 1.3582,
-        "home_probability": 0.232389,
-        "draw_probability": 0.278635,
-        "away_probability": 0.488975,
-        "home_decisive_probability": 0.322152,
-        "away_decisive_probability": 0.677848,
-        "home_fair_decimal_odds": 4.303,
-        "draw_fair_decimal_odds": 3.589,
-        "away_fair_decimal_odds": 2.045,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-322",
@@ -8760,21 +4686,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6842,
-        "away_lambda": 1.1579,
-        "home_probability": 0.496705,
-        "draw_probability": 0.241046,
-        "away_probability": 0.262249,
-        "home_decisive_probability": 0.65446,
-        "away_decisive_probability": 0.34554,
-        "home_fair_decimal_odds": 2.013,
-        "draw_fair_decimal_odds": 4.149,
-        "away_fair_decimal_odds": 3.813,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-323",
@@ -8790,21 +4702,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8566,
-        "away_lambda": 0.8081,
-        "home_probability": 0.621862,
-        "draw_probability": 0.220462,
-        "away_probability": 0.157676,
-        "home_decisive_probability": 0.797731,
-        "away_decisive_probability": 0.202269,
-        "home_fair_decimal_odds": 1.608,
-        "draw_fair_decimal_odds": 4.536,
-        "away_fair_decimal_odds": 6.342,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-324",
@@ -8820,21 +4718,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9909,
-        "away_lambda": 1.811,
-        "home_probability": 0.204413,
-        "draw_probability": 0.229423,
-        "away_probability": 0.566164,
-        "home_decisive_probability": 0.265272,
-        "away_decisive_probability": 0.734728,
-        "home_fair_decimal_odds": 4.892,
-        "draw_fair_decimal_odds": 4.359,
-        "away_fair_decimal_odds": 1.766,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-325",
@@ -8850,21 +4734,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2269,
-        "away_lambda": 1.3447,
-        "home_probability": 0.339754,
-        "draw_probability": 0.26507,
-        "away_probability": 0.395176,
-        "home_decisive_probability": 0.462295,
-        "away_decisive_probability": 0.537705,
-        "home_fair_decimal_odds": 2.943,
-        "draw_fair_decimal_odds": 3.773,
-        "away_fair_decimal_odds": 2.531,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-326",
@@ -8880,21 +4750,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.3786,
-        "home_probability": 0.460112,
-        "draw_probability": 0.233881,
-        "away_probability": 0.306007,
-        "home_decisive_probability": 0.600575,
-        "away_decisive_probability": 0.399425,
-        "home_fair_decimal_odds": 2.173,
-        "draw_fair_decimal_odds": 4.276,
-        "away_fair_decimal_odds": 3.268,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-327",
@@ -8910,21 +4766,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9819,
-        "away_lambda": 1.1952,
-        "home_probability": 0.556172,
-        "draw_probability": 0.216966,
-        "away_probability": 0.226862,
-        "home_decisive_probability": 0.710278,
-        "away_decisive_probability": 0.289722,
-        "home_fair_decimal_odds": 1.798,
-        "draw_fair_decimal_odds": 4.609,
-        "away_fair_decimal_odds": 4.408,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-328",
@@ -8940,21 +4782,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8947,
-        "away_lambda": 1.5789,
-        "home_probability": 0.454167,
-        "draw_probability": 0.2211,
-        "away_probability": 0.324733,
-        "home_decisive_probability": 0.583088,
-        "away_decisive_probability": 0.416912,
-        "home_fair_decimal_odds": 2.202,
-        "draw_fair_decimal_odds": 4.523,
-        "away_fair_decimal_odds": 3.079,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-329",
@@ -8970,21 +4798,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0163,
-        "away_lambda": 0.8851,
-        "home_probability": 0.376491,
-        "draw_probability": 0.317117,
-        "away_probability": 0.306392,
-        "home_decisive_probability": 0.551326,
-        "away_decisive_probability": 0.448674,
-        "home_fair_decimal_odds": 2.656,
-        "draw_fair_decimal_odds": 3.153,
-        "away_fair_decimal_odds": 3.264,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-330",
@@ -9000,21 +4814,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1579,
-        "away_lambda": 1.6316,
-        "home_probability": 0.270713,
-        "draw_probability": 0.245375,
-        "away_probability": 0.483912,
-        "home_decisive_probability": 0.358738,
-        "away_decisive_probability": 0.641262,
-        "home_fair_decimal_odds": 3.694,
-        "draw_fair_decimal_odds": 4.075,
-        "away_fair_decimal_odds": 2.066,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-331",
@@ -9030,21 +4830,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9347,
-        "away_lambda": 0.6474,
-        "home_probability": 0.679727,
-        "draw_probability": 0.204492,
-        "away_probability": 0.115781,
-        "home_decisive_probability": 0.854457,
-        "away_decisive_probability": 0.145543,
-        "home_fair_decimal_odds": 1.471,
-        "draw_fair_decimal_odds": 4.89,
-        "away_fair_decimal_odds": 8.637,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-332",
@@ -9060,21 +4846,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5245,
-        "away_lambda": 1.2677,
-        "home_probability": 0.432715,
-        "draw_probability": 0.250858,
-        "away_probability": 0.316427,
-        "home_decisive_probability": 0.577614,
-        "away_decisive_probability": 0.422386,
-        "home_fair_decimal_odds": 2.311,
-        "draw_fair_decimal_odds": 3.986,
-        "away_fair_decimal_odds": 3.16,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-333",
@@ -9090,21 +4862,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.5789,
-        "home_probability": 0.331429,
-        "draw_probability": 0.243997,
-        "away_probability": 0.424574,
-        "home_decisive_probability": 0.438396,
-        "away_decisive_probability": 0.561604,
-        "home_fair_decimal_odds": 3.017,
-        "draw_fair_decimal_odds": 4.098,
-        "away_fair_decimal_odds": 2.355,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-334",
@@ -9120,21 +4878,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.931,
-        "away_lambda": 1.2496,
-        "home_probability": 0.275932,
-        "draw_probability": 0.287952,
-        "away_probability": 0.436116,
-        "home_decisive_probability": 0.387519,
-        "away_decisive_probability": 0.612481,
-        "home_fair_decimal_odds": 3.624,
-        "draw_fair_decimal_odds": 3.473,
-        "away_fair_decimal_odds": 2.293,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-335",
@@ -9150,21 +4894,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2523,
-        "away_lambda": 0.9508,
-        "home_probability": 0.432159,
-        "draw_probability": 0.286726,
-        "away_probability": 0.281115,
-        "home_decisive_probability": 0.60588,
-        "away_decisive_probability": 0.39412,
-        "home_fair_decimal_odds": 2.314,
-        "draw_fair_decimal_odds": 3.488,
-        "away_fair_decimal_odds": 3.557,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-336",
@@ -9180,21 +4910,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7895,
-        "away_lambda": 1.5263,
-        "home_probability": 0.441312,
-        "draw_probability": 0.227677,
-        "away_probability": 0.331011,
-        "home_decisive_probability": 0.571409,
-        "away_decisive_probability": 0.428591,
-        "home_fair_decimal_odds": 2.266,
-        "draw_fair_decimal_odds": 4.392,
-        "away_fair_decimal_odds": 3.021,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-337",
@@ -9210,21 +4926,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8421,
-        "away_lambda": 1.0526,
-        "home_probability": 0.558419,
-        "draw_probability": 0.227265,
-        "away_probability": 0.214317,
-        "home_decisive_probability": 0.722652,
-        "away_decisive_probability": 0.277348,
-        "home_fair_decimal_odds": 1.791,
-        "draw_fair_decimal_odds": 4.4,
-        "away_fair_decimal_odds": 4.666,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-338",
@@ -9240,21 +4942,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6661,
-        "away_lambda": 1.4488,
-        "home_probability": 0.428675,
-        "draw_probability": 0.236416,
-        "away_probability": 0.334909,
-        "home_decisive_probability": 0.561399,
-        "away_decisive_probability": 0.438601,
-        "home_fair_decimal_odds": 2.333,
-        "draw_fair_decimal_odds": 4.23,
-        "away_fair_decimal_odds": 2.986,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-339",
@@ -9270,21 +4958,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.5318,
-        "away_lambda": 0.6972,
-        "home_probability": 0.771566,
-        "draw_probability": 0.147292,
-        "away_probability": 0.081142,
-        "home_decisive_probability": 0.904841,
-        "away_decisive_probability": 0.095159,
-        "home_fair_decimal_odds": 1.296,
-        "draw_fair_decimal_odds": 6.789,
-        "away_fair_decimal_odds": 12.324,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-340",
@@ -9300,21 +4974,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1343,
-        "away_lambda": 0.7697,
-        "home_probability": 0.441614,
-        "draw_probability": 0.310335,
-        "away_probability": 0.248051,
-        "home_decisive_probability": 0.640331,
-        "away_decisive_probability": 0.359669,
-        "home_fair_decimal_odds": 2.264,
-        "draw_fair_decimal_odds": 3.222,
-        "away_fair_decimal_odds": 4.031,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-341",
@@ -9330,21 +4990,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.3582,
-        "home_probability": 0.373979,
-        "draw_probability": 0.256717,
-        "away_probability": 0.369305,
-        "home_decisive_probability": 0.503144,
-        "away_decisive_probability": 0.496856,
-        "home_fair_decimal_odds": 2.674,
-        "draw_fair_decimal_odds": 3.895,
-        "away_fair_decimal_odds": 2.708,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-342",
@@ -9360,21 +5006,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6171,
-        "away_lambda": 1.1409,
-        "home_probability": 0.484255,
-        "draw_probability": 0.246843,
-        "away_probability": 0.268903,
-        "home_decisive_probability": 0.642966,
-        "away_decisive_probability": 0.357034,
-        "home_fair_decimal_odds": 2.065,
-        "draw_fair_decimal_odds": 4.051,
-        "away_fair_decimal_odds": 3.719,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-343",
@@ -9390,21 +5022,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5245,
-        "away_lambda": 0.7697,
-        "home_probability": 0.552478,
-        "draw_probability": 0.258764,
-        "away_probability": 0.188758,
-        "home_decisive_probability": 0.745347,
-        "away_decisive_probability": 0.254653,
-        "home_fair_decimal_odds": 1.81,
-        "draw_fair_decimal_odds": 3.865,
-        "away_fair_decimal_odds": 5.298,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-344",
@@ -9420,21 +5038,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.4211,
-        "home_probability": 0.361416,
-        "draw_probability": 0.253264,
-        "away_probability": 0.38532,
-        "home_decisive_probability": 0.483994,
-        "away_decisive_probability": 0.516006,
-        "home_fair_decimal_odds": 2.767,
-        "draw_fair_decimal_odds": 3.948,
-        "away_fair_decimal_odds": 2.595,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-345",
@@ -9450,21 +5054,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5789,
-        "away_lambda": 1.0526,
-        "home_probability": 0.495477,
-        "draw_probability": 0.251481,
-        "away_probability": 0.253041,
-        "home_decisive_probability": 0.661944,
-        "away_decisive_probability": 0.338056,
-        "home_fair_decimal_odds": 2.018,
-        "draw_fair_decimal_odds": 3.976,
-        "away_fair_decimal_odds": 3.952,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-346",
@@ -9480,21 +5070,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8421,
-        "away_lambda": 1.4261,
-        "home_probability": 0.221903,
-        "draw_probability": 0.270479,
-        "away_probability": 0.507617,
-        "home_decisive_probability": 0.304177,
-        "away_decisive_probability": 0.695823,
-        "home_fair_decimal_odds": 4.506,
-        "draw_fair_decimal_odds": 3.697,
-        "away_fair_decimal_odds": 1.97,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-347",
@@ -9510,21 +5086,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.6951,
-        "away_lambda": 0.9191,
-        "home_probability": 0.748148,
-        "draw_probability": 0.14859,
-        "away_probability": 0.103262,
-        "home_decisive_probability": 0.878717,
-        "away_decisive_probability": 0.121283,
-        "home_fair_decimal_odds": 1.337,
-        "draw_fair_decimal_odds": 6.73,
-        "away_fair_decimal_odds": 9.684,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-348",
@@ -9540,21 +5102,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8947,
-        "away_lambda": 1.5789,
-        "home_probability": 0.454167,
-        "draw_probability": 0.2211,
-        "away_probability": 0.324733,
-        "home_decisive_probability": 0.583088,
-        "away_decisive_probability": 0.416912,
-        "home_fair_decimal_odds": 2.202,
-        "draw_fair_decimal_odds": 4.523,
-        "away_fair_decimal_odds": 3.079,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-349",
@@ -9570,21 +5118,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0163,
-        "away_lambda": 1.1454,
-        "home_probability": 0.320502,
-        "draw_probability": 0.293574,
-        "away_probability": 0.385924,
-        "home_decisive_probability": 0.453695,
-        "away_decisive_probability": 0.546305,
-        "home_fair_decimal_odds": 3.12,
-        "draw_fair_decimal_odds": 3.406,
-        "away_fair_decimal_odds": 2.591,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-350",
@@ -9600,21 +5134,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.078,
-        "away_lambda": 2.2456,
-        "home_probability": 0.170412,
-        "draw_probability": 0.19267,
-        "away_probability": 0.636918,
-        "home_decisive_probability": 0.211081,
-        "away_decisive_probability": 0.788919,
-        "home_fair_decimal_odds": 5.868,
-        "draw_fair_decimal_odds": 5.19,
-        "away_fair_decimal_odds": 1.57,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-351",
@@ -9630,21 +5150,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.0835,
-        "away_lambda": 0.6972,
-        "home_probability": 0.696416,
-        "draw_probability": 0.190605,
-        "away_probability": 0.112979,
-        "home_decisive_probability": 0.860415,
-        "away_decisive_probability": 0.139585,
-        "home_fair_decimal_odds": 1.436,
-        "draw_fair_decimal_odds": 5.246,
-        "away_fair_decimal_odds": 8.851,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-352",
@@ -9660,21 +5166,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4519,
-        "away_lambda": 0.8466,
-        "home_probability": 0.513385,
-        "draw_probability": 0.26736,
-        "away_probability": 0.219255,
-        "home_decisive_probability": 0.700733,
-        "away_decisive_probability": 0.299267,
-        "home_fair_decimal_odds": 1.948,
-        "draw_fair_decimal_odds": 3.74,
-        "away_fair_decimal_odds": 4.561,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-353",
@@ -9690,21 +5182,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0853,
-        "away_lambda": 1.1885,
-        "home_probability": 0.331835,
-        "draw_probability": 0.285147,
-        "away_probability": 0.383018,
-        "home_decisive_probability": 0.464201,
-        "away_decisive_probability": 0.535799,
-        "home_fair_decimal_odds": 3.014,
-        "draw_fair_decimal_odds": 3.507,
-        "away_fair_decimal_odds": 2.611,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-354",
@@ -9720,21 +5198,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.3684,
-        "home_probability": 0.371916,
-        "draw_probability": 0.256167,
-        "away_probability": 0.371916,
-        "home_decisive_probability": 0.5,
-        "away_decisive_probability": 0.5,
-        "home_fair_decimal_odds": 2.689,
-        "draw_fair_decimal_odds": 3.904,
-        "away_fair_decimal_odds": 2.689,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-355",
@@ -9750,21 +5214,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.8966,
-        "away_lambda": 1.1454,
-        "home_probability": 0.284861,
-        "draw_probability": 0.301417,
-        "away_probability": 0.413722,
-        "home_decisive_probability": 0.407769,
-        "away_decisive_probability": 0.592231,
-        "home_fair_decimal_odds": 3.51,
-        "draw_fair_decimal_odds": 3.318,
-        "away_fair_decimal_odds": 2.417,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-356",
@@ -9780,21 +5230,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 0.8947,
-        "home_probability": 0.547311,
-        "draw_probability": 0.24686,
-        "away_probability": 0.20583,
-        "home_decisive_probability": 0.726705,
-        "away_decisive_probability": 0.273295,
-        "home_fair_decimal_odds": 1.827,
-        "draw_fair_decimal_odds": 4.051,
-        "away_fair_decimal_odds": 4.858,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-357",
@@ -9810,21 +5246,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.1053,
-        "away_lambda": 1.6842,
-        "home_probability": 0.24955,
-        "draw_probability": 0.241495,
-        "away_probability": 0.508954,
-        "home_decisive_probability": 0.329003,
-        "away_decisive_probability": 0.670997,
-        "home_fair_decimal_odds": 4.007,
-        "draw_fair_decimal_odds": 4.141,
-        "away_fair_decimal_odds": 1.965,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-358",
@@ -9840,21 +5262,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9129,
-        "away_lambda": 0.996,
-        "home_probability": 0.58779,
-        "draw_probability": 0.219795,
-        "away_probability": 0.192414,
-        "home_decisive_probability": 0.75338,
-        "away_decisive_probability": 0.24662,
-        "home_fair_decimal_odds": 1.701,
-        "draw_fair_decimal_odds": 4.55,
-        "away_fair_decimal_odds": 5.197,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-359",
@@ -9870,21 +5278,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.4773,
-        "away_lambda": 1.0866,
-        "home_probability": 0.677323,
-        "draw_probability": 0.174315,
-        "away_probability": 0.148362,
-        "home_decisive_probability": 0.820317,
-        "away_decisive_probability": 0.179683,
-        "home_fair_decimal_odds": 1.476,
-        "draw_fair_decimal_odds": 5.737,
-        "away_fair_decimal_odds": 6.74,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-360",
@@ -9900,21 +5294,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5426,
-        "away_lambda": 1.313,
-        "home_probability": 0.42745,
-        "draw_probability": 0.248131,
-        "away_probability": 0.324419,
-        "home_decisive_probability": 0.568517,
-        "away_decisive_probability": 0.431483,
-        "home_fair_decimal_odds": 2.339,
-        "draw_fair_decimal_odds": 4.03,
-        "away_fair_decimal_odds": 3.082,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-361",
@@ -9930,21 +5310,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.4488,
-        "home_probability": 0.369166,
-        "draw_probability": 0.24923,
-        "away_probability": 0.381604,
-        "home_decisive_probability": 0.491717,
-        "away_decisive_probability": 0.508283,
-        "home_fair_decimal_odds": 2.709,
-        "draw_fair_decimal_odds": 4.012,
-        "away_fair_decimal_odds": 2.621,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-362",
@@ -9960,21 +5326,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.1053,
-        "home_probability": 0.521535,
-        "draw_probability": 0.236901,
-        "away_probability": 0.241563,
-        "home_decisive_probability": 0.683444,
-        "away_decisive_probability": 0.316556,
-        "home_fair_decimal_odds": 1.917,
-        "draw_fair_decimal_odds": 4.221,
-        "away_fair_decimal_odds": 4.14,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-363",
@@ -9990,21 +5342,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.7967,
-        "away_lambda": 1.313,
-        "home_probability": 0.488288,
-        "draw_probability": 0.230871,
-        "away_probability": 0.280841,
-        "home_decisive_probability": 0.634858,
-        "away_decisive_probability": 0.365142,
-        "home_fair_decimal_odds": 2.048,
-        "draw_fair_decimal_odds": 4.331,
-        "away_fair_decimal_odds": 3.561,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-364",
@@ -10020,21 +5358,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.755,
-        "away_lambda": 1.8336,
-        "home_probability": 0.148428,
-        "draw_probability": 0.221189,
-        "away_probability": 0.630383,
-        "home_decisive_probability": 0.190583,
-        "away_decisive_probability": 0.809417,
-        "home_fair_decimal_odds": 6.737,
-        "draw_fair_decimal_odds": 4.521,
-        "away_fair_decimal_odds": 1.586,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-365",
@@ -10050,21 +5374,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.5789,
-        "away_lambda": 1.0526,
-        "home_probability": 0.495477,
-        "draw_probability": 0.251481,
-        "away_probability": 0.253041,
-        "home_decisive_probability": 0.661944,
-        "away_decisive_probability": 0.338056,
-        "home_fair_decimal_odds": 2.018,
-        "draw_fair_decimal_odds": 3.976,
-        "away_fair_decimal_odds": 3.952,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-366",
@@ -10080,21 +5390,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 0.8081,
-        "home_probability": 0.529101,
-        "draw_probability": 0.265064,
-        "away_probability": 0.205835,
-        "home_decisive_probability": 0.719928,
-        "away_decisive_probability": 0.280072,
-        "home_fair_decimal_odds": 1.89,
-        "draw_fair_decimal_odds": 3.773,
-        "away_fair_decimal_odds": 4.858,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-367",
@@ -10110,21 +5406,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.2051,
-        "away_lambda": 0.7606,
-        "home_probability": 0.703522,
-        "draw_probability": 0.181775,
-        "away_probability": 0.114703,
-        "home_decisive_probability": 0.859815,
-        "away_decisive_probability": 0.140185,
-        "home_fair_decimal_odds": 1.421,
-        "draw_fair_decimal_odds": 5.501,
-        "away_fair_decimal_odds": 8.718,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-368",
@@ -10140,21 +5422,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.8294,
-        "away_lambda": 1.4941,
-        "home_probability": 0.457014,
-        "draw_probability": 0.22616,
-        "away_probability": 0.316826,
-        "home_decisive_probability": 0.59058,
-        "away_decisive_probability": 0.40942,
-        "home_fair_decimal_odds": 2.188,
-        "draw_fair_decimal_odds": 4.422,
-        "away_fair_decimal_odds": 3.156,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-369",
@@ -10170,21 +5438,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0526,
-        "away_lambda": 1.2105,
-        "home_probability": 0.318139,
-        "draw_probability": 0.285276,
-        "away_probability": 0.396586,
-        "home_decisive_probability": 0.445121,
-        "away_decisive_probability": 0.554879,
-        "home_fair_decimal_odds": 3.143,
-        "draw_fair_decimal_odds": 3.505,
-        "away_fair_decimal_odds": 2.522,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-370",
@@ -10200,21 +5454,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.0381,
-        "away_lambda": 2.1053,
-        "home_probability": 0.178216,
-        "draw_probability": 0.203369,
-        "away_probability": 0.618415,
-        "home_decisive_probability": 0.223712,
-        "away_decisive_probability": 0.776288,
-        "home_fair_decimal_odds": 5.611,
-        "draw_fair_decimal_odds": 4.917,
-        "away_fair_decimal_odds": 1.617,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-371",
@@ -10230,21 +5470,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.9347,
-        "away_lambda": 0.5478,
-        "home_probability": 0.705779,
-        "draw_probability": 0.198519,
-        "away_probability": 0.095701,
-        "home_decisive_probability": 0.880594,
-        "away_decisive_probability": 0.119406,
-        "home_fair_decimal_odds": 1.417,
-        "draw_fair_decimal_odds": 5.037,
-        "away_fair_decimal_odds": 10.449,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-372",
@@ -10260,21 +5486,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.51,
-        "away_lambda": 1.2949,
-        "home_probability": 0.423192,
-        "draw_probability": 0.250912,
-        "away_probability": 0.325895,
-        "home_decisive_probability": 0.564944,
-        "away_decisive_probability": 0.435056,
-        "home_fair_decimal_odds": 2.363,
-        "draw_fair_decimal_odds": 3.985,
-        "away_fair_decimal_odds": 3.068,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-373",
@@ -10290,21 +5502,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4628,
-        "away_lambda": 1.245,
-        "home_probability": 0.422016,
-        "draw_probability": 0.255984,
-        "away_probability": 0.322,
-        "home_decisive_probability": 0.567214,
-        "away_decisive_probability": 0.432786,
-        "home_fair_decimal_odds": 2.37,
-        "draw_fair_decimal_odds": 3.906,
-        "away_fair_decimal_odds": 3.106,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-374",
@@ -10320,21 +5518,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 1.4737,
-        "home_probability": 0.37726,
-        "draw_probability": 0.24548,
-        "away_probability": 0.37726,
-        "home_decisive_probability": 0.5,
-        "away_decisive_probability": 0.5,
-        "home_fair_decimal_odds": 2.651,
-        "draw_fair_decimal_odds": 4.074,
-        "away_fair_decimal_odds": 2.651,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-375",
@@ -10350,21 +5534,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2069,
-        "away_lambda": 1.0413,
-        "home_probability": 0.398102,
-        "draw_probability": 0.286284,
-        "away_probability": 0.315614,
-        "home_decisive_probability": 0.557788,
-        "away_decisive_probability": 0.442212,
-        "home_fair_decimal_odds": 2.512,
-        "draw_fair_decimal_odds": 3.493,
-        "away_fair_decimal_odds": 3.168,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-376",
@@ -10380,21 +5550,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.3158,
-        "away_lambda": 0.8947,
-        "home_probability": 0.463858,
-        "draw_probability": 0.282071,
-        "away_probability": 0.254071,
-        "home_decisive_probability": 0.646106,
-        "away_decisive_probability": 0.353894,
-        "home_fair_decimal_odds": 2.156,
-        "draw_fair_decimal_odds": 3.545,
-        "away_fair_decimal_odds": 3.936,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-377",
@@ -10410,21 +5566,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 1.2105,
-        "away_lambda": 1.1053,
-        "home_probability": 0.38489,
-        "draw_probability": 0.282041,
-        "away_probability": 0.333068,
-        "home_decisive_probability": 0.53609,
-        "away_decisive_probability": 0.46391,
-        "home_fair_decimal_odds": 2.598,
-        "draw_fair_decimal_odds": 3.546,
-        "away_fair_decimal_odds": 3.002,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-378",
@@ -10440,21 +5582,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.098,
-        "away_lambda": 1.313,
-        "home_probability": 0.554525,
-        "draw_probability": 0.209484,
-        "away_probability": 0.235991,
-        "home_decisive_probability": 0.701472,
-        "away_decisive_probability": 0.298528,
-        "home_fair_decimal_odds": 1.803,
-        "draw_fair_decimal_odds": 4.774,
-        "away_fair_decimal_odds": 4.237,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-379",
@@ -10470,21 +5598,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 2.1942,
-        "away_lambda": 0.9236,
-        "home_probability": 0.662786,
-        "draw_probability": 0.191104,
-        "away_probability": 0.14611,
-        "home_decisive_probability": 0.819371,
-        "away_decisive_probability": 0.180629,
-        "home_fair_decimal_odds": 1.509,
-        "draw_fair_decimal_odds": 5.233,
-        "away_fair_decimal_odds": 6.844,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     },
     {
       "id": "epl2026-380",
@@ -10500,21 +5614,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-09T06:21:49.511552Z",
-      "hiddenModel": {
-        "home_lambda": 0.9528,
-        "away_lambda": 1.4488,
-        "home_probability": 0.248064,
-        "draw_probability": 0.265978,
-        "away_probability": 0.485958,
-        "home_decisive_probability": 0.337951,
-        "away_decisive_probability": 0.662049,
-        "home_fair_decimal_odds": 4.031,
-        "draw_fair_decimal_odds": 3.76,
-        "away_fair_decimal_odds": 2.058,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-09T08:09:37.928378Z"
     }
   ],
   "recordedResults": [
@@ -10535,21 +5635,7 @@ window.AVSM_DATA = {
         "home": 3,
         "away": 0
       },
-      "pintsLockedAt": "2026-08-21T20:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 2.1579,
-        "away_lambda": 0.5789,
-        "home_probability": 0.739364,
-        "draw_probability": 0.174841,
-        "away_probability": 0.085796,
-        "home_decisive_probability": 0.896025,
-        "away_decisive_probability": 0.103975,
-        "home_fair_decimal_odds": 1.353,
-        "draw_fair_decimal_odds": 5.719,
-        "away_fair_decimal_odds": 11.656,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-08-21T20:00:00Z"
     },
     {
       "id": "epl2026-2",
@@ -10568,21 +5654,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 0
       },
-      "pintsLockedAt": "2026-08-22T12:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.3684,
-        "away_lambda": 1.5789,
-        "home_probability": 0.331429,
-        "draw_probability": 0.243997,
-        "away_probability": 0.424574,
-        "home_decisive_probability": 0.438396,
-        "away_decisive_probability": 0.561604,
-        "home_fair_decimal_odds": 3.017,
-        "draw_fair_decimal_odds": 4.098,
-        "away_fair_decimal_odds": 2.355,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-22T12:30:00Z"
     },
     {
       "id": "epl2026-3",
@@ -10601,21 +5673,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 0
       },
-      "pintsLockedAt": "2026-08-22T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.3212,
-        "away_lambda": 1.3447,
-        "home_probability": 0.364535,
-        "draw_probability": 0.260079,
-        "away_probability": 0.375386,
-        "home_decisive_probability": 0.492667,
-        "away_decisive_probability": 0.507333,
-        "home_fair_decimal_odds": 2.743,
-        "draw_fair_decimal_odds": 3.845,
-        "away_fair_decimal_odds": 2.664,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-22T15:00:00Z"
     },
     {
       "id": "epl2026-4",
@@ -10634,21 +5692,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 1
       },
-      "pintsLockedAt": "2026-08-22T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.4737,
-        "away_lambda": 0.8947,
-        "home_probability": 0.506978,
-        "draw_probability": 0.264266,
-        "away_probability": 0.228756,
-        "home_decisive_probability": 0.689078,
-        "away_decisive_probability": 0.310922,
-        "home_fair_decimal_odds": 1.972,
-        "draw_fair_decimal_odds": 3.784,
-        "away_fair_decimal_odds": 4.371,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-22T15:00:00Z"
     },
     {
       "id": "epl2026-5",
@@ -10667,21 +5711,7 @@ window.AVSM_DATA = {
         "home": 0,
         "away": 1
       },
-      "pintsLockedAt": "2026-08-22T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.2704,
-        "away_lambda": 1.0413,
-        "home_probability": 0.416101,
-        "draw_probability": 0.28046,
-        "away_probability": 0.303439,
-        "home_decisive_probability": 0.578287,
-        "away_decisive_probability": 0.421713,
-        "home_fair_decimal_odds": 2.403,
-        "draw_fair_decimal_odds": 3.566,
-        "away_fair_decimal_odds": 3.296,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-22T15:00:00Z"
     },
     {
       "id": "epl2026-6",
@@ -10700,21 +5730,7 @@ window.AVSM_DATA = {
         "home": 3,
         "away": 0
       },
-      "pintsLockedAt": "2026-08-22T17:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.5572,
-        "away_lambda": 1.236,
-        "home_probability": 0.447853,
-        "draw_probability": 0.249482,
-        "away_probability": 0.302664,
-        "home_decisive_probability": 0.596726,
-        "away_decisive_probability": 0.403274,
-        "home_fair_decimal_odds": 2.233,
-        "draw_fair_decimal_odds": 4.008,
-        "away_fair_decimal_odds": 3.304,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-22T17:30:00Z"
     },
     {
       "id": "epl2026-7",
@@ -10733,21 +5749,7 @@ window.AVSM_DATA = {
         "home": 4,
         "away": 0
       },
-      "pintsLockedAt": "2026-08-23T14:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.4701,
-        "away_lambda": 1.0866,
-        "home_probability": 0.459592,
-        "draw_probability": 0.260662,
-        "away_probability": 0.279746,
-        "home_decisive_probability": 0.621626,
-        "away_decisive_probability": 0.378374,
-        "home_fair_decimal_odds": 2.176,
-        "draw_fair_decimal_odds": 3.836,
-        "away_fair_decimal_odds": 3.575,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-23T14:00:00Z"
     },
     {
       "id": "epl2026-8",
@@ -10766,21 +5768,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 1
       },
-      "pintsLockedAt": "2026-08-23T14:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 2.7768,
-        "away_lambda": 0.9191,
-        "home_probability": 0.759929,
-        "draw_probability": 0.142428,
-        "away_probability": 0.097642,
-        "home_decisive_probability": 0.886141,
-        "away_decisive_probability": 0.113859,
-        "home_fair_decimal_odds": 1.316,
-        "draw_fair_decimal_odds": 7.021,
-        "away_fair_decimal_odds": 10.241,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-23T14:00:00Z"
     },
     {
       "id": "epl2026-9",
@@ -10799,21 +5787,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 2
       },
-      "pintsLockedAt": "2026-08-23T16:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 2.1561,
-        "away_lambda": 1.9694,
-        "home_probability": 0.433908,
-        "draw_probability": 0.202927,
-        "away_probability": 0.363165,
-        "home_decisive_probability": 0.544377,
-        "away_decisive_probability": 0.455623,
-        "home_fair_decimal_odds": 2.305,
-        "draw_fair_decimal_odds": 4.928,
-        "away_fair_decimal_odds": 2.754,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-23T16:30:00Z"
     },
     {
       "id": "epl2026-10",
@@ -10832,21 +5806,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 3
       },
-      "pintsLockedAt": "2026-08-24T20:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.4701,
-        "away_lambda": 1.4488,
-        "home_probability": 0.381317,
-        "draw_probability": 0.246834,
-        "away_probability": 0.371849,
-        "home_decisive_probability": 0.506286,
-        "away_decisive_probability": 0.493714,
-        "home_fair_decimal_odds": 2.622,
-        "draw_fair_decimal_odds": 4.051,
-        "away_fair_decimal_odds": 2.689,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-24T20:00:00Z"
     },
     {
       "id": "epl2026-15",
@@ -10865,21 +5825,7 @@ window.AVSM_DATA = {
         "home": 1,
         "away": 4
       },
-      "pintsLockedAt": "2026-08-28T20:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 0.7241,
-        "away_lambda": 1.6661,
-        "home_probability": 0.159839,
-        "draw_probability": 0.240305,
-        "away_probability": 0.599856,
-        "home_decisive_probability": 0.210399,
-        "away_decisive_probability": 0.789601,
-        "home_fair_decimal_odds": 6.256,
-        "draw_fair_decimal_odds": 4.161,
-        "away_fair_decimal_odds": 1.667,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-28T20:00:00Z"
     },
     {
       "id": "epl2026-17",
@@ -10898,21 +5844,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 2
       },
-      "pintsLockedAt": "2026-08-29T12:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.7278,
-        "away_lambda": 1.2677,
-        "home_probability": 0.482216,
-        "draw_probability": 0.236343,
-        "away_probability": 0.281441,
-        "home_decisive_probability": 0.631456,
-        "away_decisive_probability": 0.368544,
-        "home_fair_decimal_odds": 2.074,
-        "draw_fair_decimal_odds": 4.231,
-        "away_fair_decimal_odds": 3.553,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-29T12:30:00Z"
     },
     {
       "id": "epl2026-11",
@@ -10931,21 +5863,7 @@ window.AVSM_DATA = {
         "home": 1,
         "away": 1
       },
-      "pintsLockedAt": "2026-08-29T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.2105,
-        "away_lambda": 0.9508,
-        "home_probability": 0.420099,
-        "draw_probability": 0.291124,
-        "away_probability": 0.288777,
-        "home_decisive_probability": 0.592628,
-        "away_decisive_probability": 0.407372,
-        "home_fair_decimal_odds": 2.38,
-        "draw_fair_decimal_odds": 3.435,
-        "away_fair_decimal_odds": 3.463,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-29T15:00:00Z"
     },
     {
       "id": "epl2026-14",
@@ -10964,21 +5882,7 @@ window.AVSM_DATA = {
         "home": 0,
         "away": 1
       },
-      "pintsLockedAt": "2026-08-29T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.5263,
-        "away_lambda": 1.2237,
-        "home_probability": 0.442848,
-        "draw_probability": 0.252116,
-        "away_probability": 0.305036,
-        "home_decisive_probability": 0.592135,
-        "away_decisive_probability": 0.407865,
-        "home_fair_decimal_odds": 2.258,
-        "draw_fair_decimal_odds": 3.966,
-        "away_fair_decimal_odds": 3.278,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-08-29T15:00:00Z"
     },
     {
       "id": "epl2026-20",
@@ -10997,21 +5901,7 @@ window.AVSM_DATA = {
         "home": 0,
         "away": 2
       },
-      "pintsLockedAt": "2026-08-29T17:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 0.9982,
-        "away_lambda": 1.193,
-        "home_probability": 0.305881,
-        "draw_probability": 0.290187,
-        "away_probability": 0.403932,
-        "home_decisive_probability": 0.430932,
-        "away_decisive_probability": 0.569068,
-        "home_fair_decimal_odds": 3.269,
-        "draw_fair_decimal_odds": 3.446,
-        "away_fair_decimal_odds": 2.476,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-29T17:30:00Z"
     },
     {
       "id": "epl2026-13",
@@ -11030,21 +5920,7 @@ window.AVSM_DATA = {
         "home": 4,
         "away": 3
       },
-      "pintsLockedAt": "2026-08-30T14:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.2269,
-        "away_lambda": 1.245,
-        "home_probability": 0.359726,
-        "draw_probability": 0.271836,
-        "away_probability": 0.368437,
-        "home_decisive_probability": 0.494019,
-        "away_decisive_probability": 0.505981,
-        "home_fair_decimal_odds": 2.78,
-        "draw_fair_decimal_odds": 3.679,
-        "away_fair_decimal_odds": 2.714,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-30T14:00:00Z"
     },
     {
       "id": "epl2026-16",
@@ -11063,21 +5939,7 @@ window.AVSM_DATA = {
         "home": 1,
         "away": 1
       },
-      "pintsLockedAt": "2026-08-30T14:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.6316,
-        "away_lambda": 1.0458,
-        "home_probability": 0.510202,
-        "draw_probability": 0.246659,
-        "away_probability": 0.243138,
-        "home_decisive_probability": 0.677253,
-        "away_decisive_probability": 0.322747,
-        "home_fair_decimal_odds": 1.96,
-        "draw_fair_decimal_odds": 4.054,
-        "away_fair_decimal_odds": 4.113,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-30T14:00:00Z"
     },
     {
       "id": "epl2026-19",
@@ -11096,21 +5958,7 @@ window.AVSM_DATA = {
         "home": 1,
         "away": 0
       },
-      "pintsLockedAt": "2026-08-30T14:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.4065,
-        "away_lambda": 0.7697,
-        "home_probability": 0.521074,
-        "draw_probability": 0.273844,
-        "away_probability": 0.205082,
-        "home_decisive_probability": 0.717579,
-        "away_decisive_probability": 0.282421,
-        "home_fair_decimal_odds": 1.919,
-        "draw_fair_decimal_odds": 3.652,
-        "away_fair_decimal_odds": 4.876,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-30T14:00:00Z"
     },
     {
       "id": "epl2026-18",
@@ -11129,21 +5977,7 @@ window.AVSM_DATA = {
         "home": 5,
         "away": 2
       },
-      "pintsLockedAt": "2026-08-30T16:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 2.0526,
-        "away_lambda": 1.2632,
-        "home_probability": 0.556017,
-        "draw_probability": 0.212261,
-        "away_probability": 0.231722,
-        "home_decisive_probability": 0.705839,
-        "away_decisive_probability": 0.294161,
-        "home_fair_decimal_odds": 1.799,
-        "draw_fair_decimal_odds": 4.711,
-        "away_fair_decimal_odds": 4.316,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-08-30T16:30:00Z"
     },
     {
       "id": "epl2026-12",
@@ -11162,21 +5996,7 @@ window.AVSM_DATA = {
         "home": 0,
         "away": 1
       },
-      "pintsLockedAt": "2026-08-31T20:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 0.9292,
-        "away_lambda": 1.4941,
-        "home_probability": 0.234695,
-        "draw_probability": 0.261584,
-        "away_probability": 0.503721,
-        "home_decisive_probability": 0.317836,
-        "away_decisive_probability": 0.682164,
-        "home_fair_decimal_odds": 4.261,
-        "draw_fair_decimal_odds": 3.823,
-        "away_fair_decimal_odds": 1.985,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-08-31T20:00:00Z"
     },
     {
       "id": "epl2026-27",
@@ -11195,21 +6015,7 @@ window.AVSM_DATA = {
         "home": 0,
         "away": 2
       },
-      "pintsLockedAt": "2026-09-04T20:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.7368,
-        "away_lambda": 1.5263,
-        "home_probability": 0.429268,
-        "draw_probability": 0.230432,
-        "away_probability": 0.340301,
-        "home_decisive_probability": 0.557803,
-        "away_decisive_probability": 0.442197,
-        "home_fair_decimal_odds": 2.33,
-        "draw_fair_decimal_odds": 4.34,
-        "away_fair_decimal_odds": 2.939,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-04T20:00:00Z"
     },
     {
       "id": "epl2026-29",
@@ -11228,21 +6034,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 2
       },
-      "pintsLockedAt": "2026-09-05T12:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 2.2214,
-        "away_lambda": 1.9694,
-        "home_probability": 0.447039,
-        "draw_probability": 0.200632,
-        "away_probability": 0.352329,
-        "home_decisive_probability": 0.55924,
-        "away_decisive_probability": 0.44076,
-        "home_fair_decimal_odds": 2.237,
-        "draw_fair_decimal_odds": 4.984,
-        "away_fair_decimal_odds": 2.838,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-05T12:30:00Z"
     },
     {
       "id": "epl2026-22",
@@ -11261,21 +6053,7 @@ window.AVSM_DATA = {
         "home": 1,
         "away": 1
       },
-      "pintsLockedAt": "2026-09-05T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.677,
-        "away_lambda": 0.8081,
-        "home_probability": 0.580472,
-        "draw_probability": 0.240778,
-        "away_probability": 0.17875,
-        "home_decisive_probability": 0.764561,
-        "away_decisive_probability": 0.235439,
-        "home_fair_decimal_odds": 1.723,
-        "draw_fair_decimal_odds": 4.153,
-        "away_fair_decimal_odds": 5.594,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-05T15:00:00Z"
     },
     {
       "id": "epl2026-23",
@@ -11294,21 +6072,7 @@ window.AVSM_DATA = {
         "home": 1,
         "away": 1
       },
-      "pintsLockedAt": "2026-09-05T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.9056,
-        "away_lambda": 0.9055,
-        "home_probability": 0.608261,
-        "draw_probability": 0.218283,
-        "away_probability": 0.173456,
-        "home_decisive_probability": 0.778109,
-        "away_decisive_probability": 0.221891,
-        "home_fair_decimal_odds": 1.644,
-        "draw_fair_decimal_odds": 4.581,
-        "away_fair_decimal_odds": 5.765,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-05T15:00:00Z"
     },
     {
       "id": "epl2026-25",
@@ -11327,21 +6091,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 3
       },
-      "pintsLockedAt": "2026-09-05T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.5245,
-        "away_lambda": 0.996,
-        "home_probability": 0.495227,
-        "draw_probability": 0.257498,
-        "away_probability": 0.247275,
-        "home_decisive_probability": 0.666971,
-        "away_decisive_probability": 0.333029,
-        "home_fair_decimal_odds": 2.019,
-        "draw_fair_decimal_odds": 3.884,
-        "away_fair_decimal_odds": 4.044,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-05T15:00:00Z"
     },
     {
       "id": "epl2026-28",
@@ -11360,21 +6110,7 @@ window.AVSM_DATA = {
         "home": 1,
         "away": 0
       },
-      "pintsLockedAt": "2026-09-05T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 2.3684,
-        "away_lambda": 0.7368,
-        "home_probability": 0.737304,
-        "draw_probability": 0.164658,
-        "away_probability": 0.098038,
-        "home_decisive_probability": 0.882638,
-        "away_decisive_probability": 0.117362,
-        "home_fair_decimal_odds": 1.356,
-        "draw_fair_decimal_odds": 6.073,
-        "away_fair_decimal_odds": 10.2,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "neutral-promoted-prior"
-      }
+      "pintsLockedAt": "2026-09-05T15:00:00Z"
     },
     {
       "id": "epl2026-30",
@@ -11393,21 +6129,7 @@ window.AVSM_DATA = {
         "home": 0,
         "away": 0
       },
-      "pintsLockedAt": "2026-09-05T15:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 0.9437,
-        "away_lambda": 1.3537,
-        "home_probability": 0.261337,
-        "draw_probability": 0.276256,
-        "away_probability": 0.462407,
-        "home_decisive_probability": 0.36109,
-        "away_decisive_probability": 0.63891,
-        "home_fair_decimal_odds": 3.826,
-        "draw_fair_decimal_odds": 3.62,
-        "away_fair_decimal_odds": 2.163,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-05T15:00:00Z"
     },
     {
       "id": "epl2026-26",
@@ -11426,21 +6148,7 @@ window.AVSM_DATA = {
         "home": 0,
         "away": 0
       },
-      "pintsLockedAt": "2026-09-05T17:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.4211,
-        "away_lambda": 1.2632,
-        "home_probability": 0.407374,
-        "draw_probability": 0.258126,
-        "away_probability": 0.334501,
-        "home_decisive_probability": 0.549114,
-        "away_decisive_probability": 0.450886,
-        "home_fair_decimal_odds": 2.455,
-        "draw_fair_decimal_odds": 3.874,
-        "away_fair_decimal_odds": 2.99,
-        "home_prior_source": "neutral-promoted-prior",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-05T17:30:00Z"
     },
     {
       "id": "epl2026-24",
@@ -11459,21 +6167,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 2
       },
-      "pintsLockedAt": "2026-09-06T14:00:00Z",
-      "hiddenModel": {
-        "home_lambda": 1.2269,
-        "away_lambda": 1.8336,
-        "home_probability": 0.255293,
-        "draw_probability": 0.22872,
-        "away_probability": 0.515987,
-        "home_decisive_probability": 0.331,
-        "away_decisive_probability": 0.669,
-        "home_fair_decimal_odds": 3.917,
-        "draw_fair_decimal_odds": 4.372,
-        "away_fair_decimal_odds": 1.938,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-06T14:00:00Z"
     },
     {
       "id": "epl2026-21",
@@ -11492,21 +6186,7 @@ window.AVSM_DATA = {
         "home": 2,
         "away": 1
       },
-      "pintsLockedAt": "2026-09-06T16:30:00Z",
-      "hiddenModel": {
-        "home_lambda": 2.0091,
-        "away_lambda": 0.7968,
-        "home_probability": 0.656986,
-        "draw_probability": 0.203637,
-        "away_probability": 0.139377,
-        "home_decisive_probability": 0.824983,
-        "away_decisive_probability": 0.175017,
-        "home_fair_decimal_odds": 1.522,
-        "draw_fair_decimal_odds": 4.911,
-        "away_fair_decimal_odds": 7.175,
-        "home_prior_source": "epl-2025",
-        "away_prior_source": "epl-2025"
-      }
+      "pintsLockedAt": "2026-09-06T16:30:00Z"
     }
   ]
 };
