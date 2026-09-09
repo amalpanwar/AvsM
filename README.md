@@ -22,9 +22,12 @@ Google match cards are not a stable public data API, so the app does not scrape 
 For football-data.org:
 
 ```bash
-export FOOTBALL_DATA_API_TOKEN="your_api_token"
+cp .env.example .env
+# Edit .env and replace your_api_token_here with your real key.
 python3 scripts/sync_results.py
 ```
+
+The `.env` file is ignored by Git and should stay private.
 
 That script pulls finished Premier League matches, writes final scores into `epl-2026-GMTStandardTime.xlsx`, then regenerates `generated-data.js`. Refresh the app afterwards. Any saved pick for a newly finished fixture is settled automatically.
 

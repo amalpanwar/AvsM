@@ -18,6 +18,7 @@ from openpyxl.utils.datetime import from_excel
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 BUILD_SCRIPT = ROOT / "scripts" / "build_data.py"
+ENV_FILE = ROOT / ".env"
 
 TEAM_ALIASES = {
     "afc bournemouth": "bournemouth",
@@ -87,6 +88,21 @@ def result_from_match(match):
     return f"{home_score} - {away_score}"
 
 
+def load_env_file(path):
+    if not path.exists():
+        return
+
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#") or "=" not in stripped:
+            continue
+        key, value = stripped.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
 def sync_results(token, season, dry_run):
     wb = load_workbook(FIXTURE_FILE)
     ws = wb[wb.sheetnames[0]]
@@ -143,9 +159,10 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Show changes without writing the workbook.")
     args = parser.parse_args()
 
+    load_env_file(ENV_FILE)
     token = os.environ.get("FOOTBALL_DATA_API_TOKEN")
     if not token:
-        raise SystemExit("Set FOOTBALL_DATA_API_TOKEN before running this script.")
+        raise SystemExit("Set FOOTBALL_DATA_API_TOKEN in your shell or in a private .env file before running this script.")
 
     updates = sync_results(token, args.season, args.dry_run)
     if not updates:
