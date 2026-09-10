@@ -1,0 +1,486 @@
+{
+  "updatedAt": "2026-09-10T04:46:56.000077Z",
+  "source": "football-data.org",
+  "results": [
+    {
+      "id": "epl2026-1",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 1,
+      "kickoff": "2026-08-21T20:00:00Z",
+      "home": "Arsenal",
+      "away": "Coventry",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560542,
+      "settledAt": "2026-09-10T04:46:55.999426Z"
+    },
+    {
+      "id": "epl2026-2",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 2,
+      "kickoff": "2026-08-22T12:30:00Z",
+      "home": "Hull",
+      "away": "Man Utd",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560543,
+      "settledAt": "2026-09-10T04:46:55.999461Z"
+    },
+    {
+      "id": "epl2026-3",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 3,
+      "kickoff": "2026-08-22T15:00:00Z",
+      "home": "Everton",
+      "away": "Crystal Palace",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560546,
+      "settledAt": "2026-09-10T04:46:55.999490Z"
+    },
+    {
+      "id": "epl2026-4",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 4,
+      "kickoff": "2026-08-22T15:00:00Z",
+      "home": "Ipswich",
+      "away": "Sunderland",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560544,
+      "settledAt": "2026-09-10T04:46:55.999472Z"
+    },
+    {
+      "id": "epl2026-5",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 5,
+      "kickoff": "2026-08-22T15:00:00Z",
+      "home": "Nott'm Forest",
+      "away": "Leeds",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560545,
+      "settledAt": "2026-09-10T04:46:55.999480Z"
+    },
+    {
+      "id": "epl2026-6",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 6,
+      "kickoff": "2026-08-22T17:30:00Z",
+      "home": "Brentford",
+      "away": "Spurs",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560547,
+      "settledAt": "2026-09-10T04:46:55.999498Z"
+    },
+    {
+      "id": "epl2026-7",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 7,
+      "kickoff": "2026-08-23T14:00:00Z",
+      "home": "Brighton",
+      "away": "Aston Villa",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560549,
+      "settledAt": "2026-09-10T04:46:55.999512Z"
+    },
+    {
+      "id": "epl2026-8",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 8,
+      "kickoff": "2026-08-23T14:00:00Z",
+      "home": "Man City",
+      "away": "Bournemouth",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560548,
+      "settledAt": "2026-09-10T04:46:55.999505Z"
+    },
+    {
+      "id": "epl2026-9",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 9,
+      "kickoff": "2026-08-23T16:30:00Z",
+      "home": "Newcastle",
+      "away": "Liverpool",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560550,
+      "settledAt": "2026-09-10T04:46:55.999518Z"
+    },
+    {
+      "id": "epl2026-10",
+      "season": "2026/27",
+      "gameweek": 1,
+      "sequence": 10,
+      "kickoff": "2026-08-24T20:00:00Z",
+      "home": "Fulham",
+      "away": "Chelsea",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560551,
+      "settledAt": "2026-09-10T04:46:55.999528Z"
+    },
+    {
+      "id": "epl2026-11",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 11,
+      "kickoff": "2026-08-29T15:00:00Z",
+      "home": "Bournemouth",
+      "away": "Everton",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560560,
+      "settledAt": "2026-09-10T04:46:55.999549Z"
+    },
+    {
+      "id": "epl2026-12",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 12,
+      "kickoff": "2026-08-31T20:00:00Z",
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560557,
+      "settledAt": "2026-09-10T04:46:55.999595Z"
+    },
+    {
+      "id": "epl2026-13",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 13,
+      "kickoff": "2026-08-30T14:00:00Z",
+      "home": "Chelsea",
+      "away": "Brighton",
+      "score": {
+        "home": 4,
+        "away": 3
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560556,
+      "settledAt": "2026-09-10T04:46:55.999574Z"
+    },
+    {
+      "id": "epl2026-14",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 14,
+      "kickoff": "2026-08-29T15:00:00Z",
+      "home": "Coventry",
+      "away": "Hull",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560561,
+      "settledAt": "2026-09-10T04:46:55.999555Z"
+    },
+    {
+      "id": "epl2026-15",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 15,
+      "kickoff": "2026-08-28T20:00:00Z",
+      "home": "Crystal Palace",
+      "away": "Man City",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560555,
+      "settledAt": "2026-09-10T04:46:55.999534Z"
+    },
+    {
+      "id": "epl2026-16",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 16,
+      "kickoff": "2026-08-30T14:00:00Z",
+      "home": "Leeds",
+      "away": "Brentford",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560559,
+      "settledAt": "2026-09-10T04:46:55.999581Z"
+    },
+    {
+      "id": "epl2026-17",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 17,
+      "kickoff": "2026-08-29T12:30:00Z",
+      "home": "Liverpool",
+      "away": "Nott'm Forest",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560552,
+      "settledAt": "2026-09-10T04:46:55.999541Z"
+    },
+    {
+      "id": "epl2026-18",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 18,
+      "kickoff": "2026-08-30T16:30:00Z",
+      "home": "Man Utd",
+      "away": "Ipswich",
+      "score": {
+        "home": 5,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560553,
+      "settledAt": "2026-09-10T04:46:55.999589Z"
+    },
+    {
+      "id": "epl2026-19",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 19,
+      "kickoff": "2026-08-30T14:00:00Z",
+      "home": "Sunderland",
+      "away": "Fulham",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560554,
+      "settledAt": "2026-09-10T04:46:55.999568Z"
+    },
+    {
+      "id": "epl2026-20",
+      "season": "2026/27",
+      "gameweek": 2,
+      "sequence": 20,
+      "kickoff": "2026-08-29T17:30:00Z",
+      "home": "Spurs",
+      "away": "Newcastle",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560558,
+      "settledAt": "2026-09-10T04:46:55.999561Z"
+    },
+    {
+      "id": "epl2026-21",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 21,
+      "kickoff": "2026-09-06T16:30:00Z",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560570,
+      "settledAt": "2026-09-10T04:46:55.999661Z"
+    },
+    {
+      "id": "epl2026-22",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 22,
+      "kickoff": "2026-09-05T15:00:00Z",
+      "home": "Brentford",
+      "away": "Sunderland",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560565,
+      "settledAt": "2026-09-10T04:46:55.999635Z"
+    },
+    {
+      "id": "epl2026-23",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 23,
+      "kickoff": "2026-09-05T15:00:00Z",
+      "home": "Brighton",
+      "away": "Leeds",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560564,
+      "settledAt": "2026-09-10T04:46:55.999629Z"
+    },
+    {
+      "id": "epl2026-24",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 24,
+      "kickoff": "2026-09-06T14:00:00Z",
+      "home": "Everton",
+      "away": "Man Utd",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560567,
+      "settledAt": "2026-09-10T04:46:55.999654Z"
+    },
+    {
+      "id": "epl2026-25",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 25,
+      "kickoff": "2026-09-05T15:00:00Z",
+      "home": "Fulham",
+      "away": "Crystal Palace",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560568,
+      "settledAt": "2026-09-10T04:46:55.999641Z"
+    },
+    {
+      "id": "epl2026-26",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 26,
+      "kickoff": "2026-09-05T17:30:00Z",
+      "home": "Hull",
+      "away": "Aston Villa",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560569,
+      "settledAt": "2026-09-10T04:46:55.999647Z"
+    },
+    {
+      "id": "epl2026-27",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 27,
+      "kickoff": "2026-09-04T20:00:00Z",
+      "home": "Ipswich",
+      "away": "Liverpool",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560566,
+      "settledAt": "2026-09-10T04:46:55.999601Z"
+    },
+    {
+      "id": "epl2026-28",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 28,
+      "kickoff": "2026-09-05T15:00:00Z",
+      "home": "Man City",
+      "away": "Coventry",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560563,
+      "settledAt": "2026-09-10T04:46:55.999623Z"
+    },
+    {
+      "id": "epl2026-29",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 29,
+      "kickoff": "2026-09-05T12:30:00Z",
+      "home": "Newcastle",
+      "away": "Bournemouth",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560571,
+      "settledAt": "2026-09-10T04:46:55.999608Z"
+    },
+    {
+      "id": "epl2026-30",
+      "season": "2026/27",
+      "gameweek": 3,
+      "sequence": 30,
+      "kickoff": "2026-09-05T15:00:00Z",
+      "home": "Nott'm Forest",
+      "away": "Spurs",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560562,
+      "settledAt": "2026-09-10T04:46:55.999615Z"
+    }
+  ]
+}
