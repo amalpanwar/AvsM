@@ -26,6 +26,19 @@ One-time setup in GitHub:
 
 The workflow publishes the static app from the repository root.
 
+## Android App Bundle
+
+The repo includes a small Android WebView wrapper in `android/`. It loads the live app at `https://amalpanwar.github.io/AvsM/`, so the Android build stays current with the deployed web app.
+
+To generate an `.aab` file in GitHub:
+
+1. Open the repo's Actions tab.
+2. Select `Build Android App Bundle`.
+3. Run the workflow on `main`.
+4. Download the `avsm-release-aab` artifact when the workflow completes.
+
+The uploaded file is `app-release.aab`. It is suitable as a generated release bundle artifact. For Google Play distribution, add Play upload signing before publishing.
+
 ## Automatic Result Sync
 
 Google match cards are not a stable public data API, so the app does not scrape Google Search results. Use a football results API instead.
