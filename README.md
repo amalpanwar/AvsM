@@ -30,7 +30,7 @@ The workflow publishes the static app from the repository root.
 
 Google match cards are not a stable public data API, so the app does not scrape Google Search results. Use a football results API instead.
 
-On GitHub, the `Sync Premier League Results` workflow uses the repository secret named `FOOTBALL_DATA_API_TOKEN`. The workflow runs four times per day, writes finished Premier League scores into `epl-2026-GMTStandardTime.xlsx`, regenerates `generated-data.js`, and pushes the update back to this repo.
+On GitHub, the `Sync Premier League Results` workflow uses the repository secret named `FOOTBALL_DATA_API_TOKEN`. The workflow runs four times per day, writes finished Premier League scores into `data/api-results.json`, regenerates `generated-data.js`, and pushes the update back to this repo. The Excel workbook remains the fixture source and does not need to be modified for API settlement.
 
 To run the same sync locally, either export the token in your shell or create a private `.env` file:
 
@@ -42,7 +42,7 @@ python3 scripts/sync_results.py
 
 The `.env` file is ignored by Git and should stay private.
 
-That script pulls finished Premier League matches, writes final scores into `epl-2026-GMTStandardTime.xlsx`, then regenerates `generated-data.js`. Refresh the app afterwards. Any saved pick for a newly finished fixture is settled automatically.
+That script pulls finished Premier League matches, writes final scores into `data/api-results.json`, then regenerates `generated-data.js`. Refresh the app afterwards. Any saved pick for a newly finished fixture is settled automatically.
 
 ## MVP Scope
 
@@ -51,7 +51,7 @@ That script pulls finished Premier League matches, writes final scores into `epl
 - Team strengths calculated from completed `epl-2025-GMTStandardTime.xlsx` results.
 - Weighted Poisson match probabilities converted to locked 1/2/3 pint values.
 - Pick flow where the first picker chooses one team and the other player is auto-assigned the opposite team.
-- New results added to `epl-2026-GMTStandardTime.xlsx` auto-settle matching saved picks after `python3 scripts/build_data.py` is rerun.
+- API results added to `data/api-results.json` auto-settle matching saved picks after `python3 scripts/build_data.py` is rerun.
 - Draws settle as void for 0 pints each.
 - Leaderboard is calculated from the ledger, not stored as a separate total.
 - No bookmaker odds or model probabilities are displayed.
@@ -62,6 +62,6 @@ This local MVP uses generated Excel data plus localStorage persistence for priva
 
 The current local app stores the signed-in user, picks, settlements and ledger in this browser's `localStorage`. Refreshing the page keeps the session. Pressing `Reset local picks` keeps the current login and clears only test/future picks and manual settlements.
 
-For automatic settlement, run `python3 scripts/sync_results.py`, then refresh the app. If Amal or Matt had already made a pick for that fixture, the app settles it automatically using the locked pint values. Manual scoring is only a local fallback while testing.
+For automatic settlement, run `python3 scripts/sync_results.py`, then refresh the app. If Amal or Matt had already made a pick for that fixture, the app settles it automatically using the locked pint values. Manual scoring is only a local fallback while testing. API results are stored in `data/api-results.json`, so the settlement flow does not require Excel write access.
 
 Manual scores can only be entered before the estimated full-time lock window and are treated as test settlements. The app uses kickoff time plus two hours because the fixture workbook does not contain final-whistle timestamps. Once that window has passed, the app waits for API/Excel sync instead of accepting a manual score. When an API/Excel result appears, it overrides any earlier manual test score for that fixture, writes the official ledger entry, and locks settlement permanently.

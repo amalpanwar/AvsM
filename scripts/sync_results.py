@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 BUILD_SCRIPT = ROOT / "scripts" / "build_data.py"
 ENV_FILE = ROOT / ".env"
+API_RESULTS_FILE = ROOT / "data" / "api-results.json"
 
 TEAM_ALIASES = {
     "afc bournemouth": "bournemouth",
@@ -85,7 +86,11 @@ def result_from_match(match):
     away_score = full_time.get("away")
     if home_score is None or away_score is None:
         return None
-    return f"{home_score} - {away_score}"
+    return {"home": int(home_score), "away": int(away_score)}
+
+
+def format_score(score):
+    return f"{score['home']} - {score['away']}"
 
 
 def load_env_file(path):
@@ -103,6 +108,24 @@ def load_env_file(path):
             os.environ[key] = value
 
 
+def load_api_result_cache():
+    if not API_RESULTS_FILE.exists():
+        return {}
+
+    payload = json.loads(API_RESULTS_FILE.read_text(encoding="utf-8"))
+    return {item["id"]: item for item in payload.get("results", [])}
+
+
+def write_api_result_cache(results):
+    API_RESULTS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "source": "football-data.org",
+        "results": sorted(results.values(), key=lambda item: item["sequence"]),
+    }
+    API_RESULTS_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+
 def sync_results(token, season, dry_run):
     wb = load_workbook(FIXTURE_FILE)
     ws = wb[wb.sheetnames[0]]
@@ -115,8 +138,17 @@ def sync_results(token, season, dry_run):
         away = ws.cell(row_number, col["Away Team"]).value
         kickoff = parse_excel_datetime(ws.cell(row_number, col["Date"]).value)
         key = (normalise_team(home), normalise_team(away), kickoff.date())
-        sheet_rows[key] = row_number
+        sheet_rows[key] = {
+            "row_number": row_number,
+            "id": f"epl2026-{int(ws.cell(row_number, col['Match Number']).value)}",
+            "sequence": int(ws.cell(row_number, col["Match Number"]).value),
+            "gameweek": int(ws.cell(row_number, col["Round Number"]).value),
+            "kickoff": kickoff.isoformat().replace("+00:00", "Z"),
+            "home": home,
+            "away": away,
+        }
 
+    cached_results = load_api_result_cache()
     updates = []
     for match in football_data_matches(token, season):
         if match.get("status") != "FINISHED":
@@ -134,27 +166,40 @@ def sync_results(token, season, dry_run):
             (home, away, (utc_date - timedelta(days=1)).date()),
             (home, away, (utc_date + timedelta(days=1)).date()),
         ]
-        row_number = next((sheet_rows[key] for key in candidates if key in sheet_rows), None)
-        if not row_number:
+        fixture = next((sheet_rows[key] for key in candidates if key in sheet_rows), None)
+        if not fixture:
             continue
 
-        current = ws.cell(row_number, col["Result"]).value
-        if str(current or "").strip() == result:
+        cached = cached_results.get(fixture["id"])
+        if cached and cached.get("score") == result:
             continue
 
-        updates.append((row_number, ws.cell(row_number, col["Home Team"]).value, ws.cell(row_number, col["Away Team"]).value, current, result))
+        previous = format_score(cached["score"]) if cached else "blank"
+        updates.append((fixture["home"], fixture["away"], previous, format_score(result)))
         if not dry_run:
-            ws.cell(row_number, col["Result"]).value = result
+            cached_results[fixture["id"]] = {
+                "id": fixture["id"],
+                "season": "2026/27",
+                "gameweek": fixture["gameweek"],
+                "sequence": fixture["sequence"],
+                "kickoff": fixture["kickoff"],
+                "home": fixture["home"],
+                "away": fixture["away"],
+                "score": result,
+                "source": "football-data.org",
+                "sourceMatchId": match.get("id"),
+                "settledAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            }
 
     if updates and not dry_run:
-        wb.save(FIXTURE_FILE)
+        write_api_result_cache(cached_results)
         subprocess.run([sys.executable, str(BUILD_SCRIPT)], cwd=ROOT, check=True)
 
     return updates
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Sync Premier League final scores into the local EPL2026 workbook.")
+    parser = argparse.ArgumentParser(description="Sync Premier League final scores into the generated API result cache.")
     parser.add_argument("--season", default="2026", help="Season start year for football-data.org, e.g. 2026 for 2026/27.")
     parser.add_argument("--dry-run", action="store_true", help="Show changes without writing the workbook.")
     args = parser.parse_args()
@@ -171,8 +216,7 @@ def main():
 
     verb = "Would update" if args.dry_run else "Updated"
     print(f"{verb} {len(updates)} result(s):")
-    for _, home, away, old, new in updates:
-        previous = old if old else "blank"
+    for home, away, previous, new in updates:
         print(f"- {home} vs {away}: {previous} -> {new}")
 
 

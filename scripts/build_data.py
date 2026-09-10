@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 HISTORY_FILE = ROOT / "epl-2025-GMTStandardTime.xlsx"
 FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 OUT_FILE = ROOT / "generated-data.js"
+API_RESULTS_FILE = ROOT / "data" / "api-results.json"
 
 
 def parse_excel_datetime(value):
@@ -30,6 +31,32 @@ def parse_result(value):
         return None
     left, right = str(value).split("-")
     return int(left.strip()), int(right.strip())
+
+
+def load_api_results():
+    if not API_RESULTS_FILE.exists():
+        return {}
+
+    payload = json.loads(API_RESULTS_FILE.read_text(encoding="utf-8"))
+    results = {}
+    for item in payload.get("results", []):
+        score = item.get("score") or {}
+        home_score = score.get("home")
+        away_score = score.get("away")
+        if home_score is None or away_score is None:
+            continue
+        results[item["id"]] = {
+            "result": (int(home_score), int(away_score)),
+            "source": "api",
+        }
+    return results
+
+
+def source_path(path):
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
 
 
 def read_rows(path: Path):
@@ -179,7 +206,18 @@ def first_picker_for_round(rows_in_round):
 def build_payload(now):
     history_rows = read_rows(HISTORY_FILE)
     fixture_rows = read_rows(FIXTURE_FILE)
+    api_results = load_api_results()
     strengths = build_strengths(history_rows)
+
+    for row in fixture_rows:
+        api_result = api_results.get(f"epl2026-{row['match_number']}")
+        if api_result:
+            row["result"] = api_result["result"]
+            row["result_source"] = api_result["source"]
+        elif row["result"]:
+            row["result_source"] = "excel"
+        else:
+            row["result_source"] = None
 
     first_pickers = {}
     rounds = defaultdict(list)
@@ -232,6 +270,7 @@ def build_payload(now):
                 "awayPints": prediction["away_pints"],
                 "status": "recorded",
                 "score": {"home": home_score, "away": away_score},
+                "resultSource": row["result_source"],
                 "pintsLockedAt": row["date"].isoformat().replace("+00:00", "Z"),
             }
         )
@@ -242,6 +281,7 @@ def build_payload(now):
         "sourceFiles": {
             "strengths": HISTORY_FILE.name,
             "fixtures": FIXTURE_FILE.name,
+            "apiResults": source_path(API_RESULTS_FILE),
         },
         "model": {
             "version": "weighted-poisson-epl2025-v1",
