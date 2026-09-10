@@ -1,4 +1,5 @@
 const STORAGE_KEY = "avsm-state-v2";
+const MATCH_SETTLEMENT_LOCK_MS = 2 * 60 * 60 * 1000;
 
 const USERS = {
   A: { code: "A", name: "Amal" },
@@ -55,17 +56,21 @@ function allFixtures() {
   });
 }
 
+function recordedFixtures() {
+  return generated.recordedResults.map((fixture) => {
+    const localResult = state.localResults[fixture.id];
+    if (!localResult) return { ...fixture, source: "api" };
+    return { ...fixture, status: localResult.status, score: localResult.score, source: localResult.source || "manual" };
+  });
+}
+
 function openFixtures() {
   return allFixtures().filter((fixture) => fixture.status === "open");
 }
 
 function historyFixtures() {
   return [
-    ...generated.recordedResults.map((fixture) => {
-      const localResult = state.localResults[fixture.id];
-      if (!localResult) return fixture;
-      return { ...fixture, status: localResult.status, score: localResult.score };
-    }),
+    ...recordedFixtures(),
     ...allFixtures().filter((fixture) => fixture.status === "settled" || fixture.status === "void"),
   ].sort((a, b) => new Date(b.kickoff) - new Date(a.kickoff));
 }
@@ -151,18 +156,34 @@ function hasLedgerEntry(fixtureId) {
   return state.ledger.some((item) => item.fixtureId === fixtureId);
 }
 
-function isSettledFixture(fixture) {
-  return hasLedgerEntry(fixture.id) || fixture.status === "settled" || fixture.status === "void";
+function fixtureLedger(fixtureId) {
+  return state.ledger.filter((item) => item.fixtureId === fixtureId);
 }
 
-function ledgerRowsForResult(fixture, pick, createdAt) {
+function isSettledFixture(fixture) {
+  return hasLedgerEntry(fixture.id) || fixture.status === "settled" || fixture.status === "void" || fixture.status === "recorded";
+}
+
+function matchHasPassed(fixture) {
+  return Date.now() >= new Date(fixture.kickoff).getTime() + MATCH_SETTLEMENT_LOCK_MS;
+}
+
+function canManualSettle(fixture) {
+  return fixture.status === "open" && !hasLedgerEntry(fixture.id) && !matchHasPassed(fixture);
+}
+
+function sameScore(left, right) {
+  return Boolean(left && right && left.home === right.home && left.away === right.away);
+}
+
+function ledgerRowsForResult(fixture, pick, createdAt, source) {
   const homeScore = fixture.score.home;
   const awayScore = fixture.score.away;
 
   if (homeScore === awayScore) {
     return [
-      { id: `${fixture.id}-A-void`, fixtureId: fixture.id, userId: "A", pintsChange: 0, reason: "Draw void", createdAt },
-      { id: `${fixture.id}-M-void`, fixtureId: fixture.id, userId: "M", pintsChange: 0, reason: "Draw void", createdAt },
+      { id: `${fixture.id}-A-void`, fixtureId: fixture.id, userId: "A", pintsChange: 0, reason: "Draw void", source, createdAt },
+      { id: `${fixture.id}-M-void`, fixtureId: fixture.id, userId: "M", pintsChange: 0, reason: "Draw void", source, createdAt },
     ];
   }
 
@@ -177,6 +198,7 @@ function ledgerRowsForResult(fixture, pick, createdAt) {
       userId: winningUser,
       pintsChange: teamPints(fixture, winningTeam),
       reason: `${winningTeam} won`,
+      source,
       createdAt,
     },
   ];
@@ -188,13 +210,24 @@ function reconcileRecordedResults() {
 
   for (const fixture of generated.recordedResults) {
     const pick = state.picks[fixture.id];
-    if (!pick || hasLedgerEntry(fixture.id) || !fixture.score) continue;
+    const localResult = state.localResults[fixture.id];
+    const ledger = fixtureLedger(fixture.id);
+    const alreadyApiSettled =
+      localResult?.source === "api" &&
+      sameScore(localResult.score, fixture.score) &&
+      ledger.length > 0 &&
+      ledger.every((item) => item.source === "api");
+
+    if (!pick || !fixture.score || alreadyApiSettled) continue;
 
     state.localResults[fixture.id] = {
       status: fixture.score.home === fixture.score.away ? "void" : "settled",
       score: fixture.score,
+      source: "api",
+      locked: true,
     };
-    state.ledger.push(...ledgerRowsForResult(fixture, pick, createdAt));
+    state.ledger = state.ledger.filter((item) => item.fixtureId !== fixture.id);
+    state.ledger.push(...ledgerRowsForResult(fixture, pick, createdAt, "api"));
     changed = true;
   }
 
@@ -220,7 +253,7 @@ function placePick(fixtureId, team) {
 function settleFixture(fixtureId, homeScore, awayScore) {
   const fixture = allFixtures().find((item) => item.id === fixtureId);
   const pick = state.picks[fixtureId];
-  if (!fixture || !pick || fixture.status !== "open" || isSettledFixture(fixture)) return;
+  if (!fixture || !pick || !canManualSettle(fixture)) return;
 
   const score = { home: homeScore, away: awayScore };
   const createdAt = new Date().toISOString();
@@ -228,11 +261,11 @@ function settleFixture(fixtureId, homeScore, awayScore) {
   const fixtureWithScore = { ...fixture, score };
 
   if (homeScore === awayScore) {
-    state.localResults[fixtureId] = { status: "void", score };
-    state.ledger.push(...ledgerRowsForResult(fixtureWithScore, pick, createdAt));
+    state.localResults[fixtureId] = { status: "void", score, source: "manual", locked: false };
+    state.ledger.push(...ledgerRowsForResult(fixtureWithScore, pick, createdAt, "manual"));
   } else {
-    state.localResults[fixtureId] = { status: "settled", score };
-    state.ledger.push(...ledgerRowsForResult(fixtureWithScore, pick, createdAt));
+    state.localResults[fixtureId] = { status: "settled", score, source: "manual", locked: false };
+    state.ledger.push(...ledgerRowsForResult(fixtureWithScore, pick, createdAt, "manual"));
   }
 
   saveState();
@@ -241,12 +274,21 @@ function settleFixture(fixtureId, homeScore, awayScore) {
 
 function resetLocalGame() {
   const currentUser = state.currentUser;
+  const protectedFixtureIds = new Set([
+    ...generated.recordedResults.map((fixture) => fixture.id),
+    ...Object.keys(state.localResults).filter((fixtureId) => {
+      const fixture = allFixtures().find((item) => item.id === fixtureId);
+      const result = state.localResults[fixtureId];
+      return result?.source === "api" || result?.locked || (fixture && matchHasPassed(fixture));
+    }),
+  ]);
+
   state = {
     currentUser,
     activeView: "fixtures",
-    picks: {},
-    ledger: [],
-    localResults: {},
+    picks: Object.fromEntries(Object.entries(state.picks).filter(([fixtureId]) => protectedFixtureIds.has(fixtureId))),
+    ledger: state.ledger.filter((item) => protectedFixtureIds.has(item.fixtureId)),
+    localResults: Object.fromEntries(Object.entries(state.localResults).filter(([fixtureId]) => protectedFixtureIds.has(fixtureId))),
   };
   saveState();
   render();
@@ -396,6 +438,7 @@ function renderFixtureCard(fixture) {
   const pick = fixturePick(fixture);
   const locked = Boolean(fixture.pintsLockedAt);
   const firstPickerName = USERS[fixture.firstPicker].name;
+  const settled = isSettledFixture(fixture);
 
   return `
     <article class="fixture-card">
@@ -422,7 +465,13 @@ function renderFixtureCard(fixture) {
               <strong>${USERS[pick.firstPickerUserId].name} picked ${escapeHtml(pick.chosenTeam)}</strong>
               <span>${USERS[pick.otherUserId].name} auto-assigned ${escapeHtml(pick.autoAssignedTeam)}</span>
             </div>
-            ${isSettledFixture(fixture) ? `<div class="assignment locked-final">Final settlement locked.</div>` : renderSettleControls(fixture)}`
+            ${
+              settled
+                ? `<div class="assignment locked-final">${fixture.status === "recorded" || state.localResults[fixture.id]?.source === "api" ? "API settlement locked." : "Test settlement active."}</div>`
+                : canManualSettle(fixture)
+                  ? renderSettleControls(fixture)
+                  : `<div class="assignment empty">Awaiting final score sync.</div>`
+            }`
           : canPick(fixture)
             ? `<div class="pick-actions">
                 <button data-action="pick" data-fixture-id="${fixture.id}" data-team="${escapeHtml(fixture.home)}">Pick ${escapeHtml(fixture.home)}</button>

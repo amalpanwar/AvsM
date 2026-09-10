@@ -60,8 +60,8 @@ This local MVP uses generated Excel data plus localStorage persistence for priva
 
 ## Session and Settlement Notes
 
-The current local app stores the signed-in user, picks, settlements and ledger in this browser's `localStorage`. Refreshing the page keeps the session. Pressing `Reset local picks` now clears picks and ledger but keeps the current login.
+The current local app stores the signed-in user, picks, settlements and ledger in this browser's `localStorage`. Refreshing the page keeps the session. Pressing `Reset local picks` keeps the current login and clears only test/future picks and manual settlements.
 
 For automatic settlement, run `python3 scripts/sync_results.py`, then refresh the app. If Amal or Matt had already made a pick for that fixture, the app settles it automatically using the locked pint values. Manual scoring is only a local fallback while testing.
 
-Once a fixture has a ledger entry, settlement is locked and will not be recalculated by later score changes.
+Manual scores can only be entered before the estimated full-time lock window and are treated as test settlements. The app uses kickoff time plus two hours because the fixture workbook does not contain final-whistle timestamps. Once that window has passed, the app waits for API/Excel sync instead of accepting a manual score. When an API/Excel result appears, it overrides any earlier manual test score for that fixture, writes the official ledger entry, and locks settlement permanently.
