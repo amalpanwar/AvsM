@@ -8,16 +8,16 @@ android {
 
     signingConfigs {
         release {
-            def keystorePath = System.getenv("ANDROID_KEYSTORE_PATH")
-            def keystorePassword = System.getenv("ANDROID_KEYSTORE_PASSWORD")
-            def keyAlias = System.getenv("ANDROID_KEY_ALIAS")
-            def keyPassword = System.getenv("ANDROID_KEY_PASSWORD")
+            def uploadKeystorePath = System.getenv("ANDROID_KEYSTORE_PATH")
+            def uploadKeystorePassword = System.getenv("ANDROID_KEYSTORE_PASSWORD")
+            def uploadKeyAlias = System.getenv("ANDROID_KEY_ALIAS")
+            def uploadKeyPassword = System.getenv("ANDROID_KEY_PASSWORD")
 
-            if (keystorePath && keystorePassword && keyAlias && keyPassword) {
-                storeFile file(keystorePath)
-                storePassword keystorePassword
-                keyAlias keyAlias
-                keyPassword keyPassword
+            if (uploadKeystorePath && uploadKeystorePassword && uploadKeyAlias && uploadKeyPassword) {
+                storeFile = file(uploadKeystorePath)
+                storePassword = uploadKeystorePassword
+                keyAlias = uploadKeyAlias
+                keyPassword = uploadKeyPassword
             }
         }
     }
