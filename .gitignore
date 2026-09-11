@@ -4,3 +4,4 @@ __pycache__/
 .env
 android/.gradle/
 android/**/build/
+download/

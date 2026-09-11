@@ -30,6 +30,15 @@ The workflow publishes the static app from the repository root.
 
 The repo includes a small Android WebView wrapper in `android/`. It loads the live app at `https://amalpanwar.github.io/AvsM/`, so the Android build stays current with the deployed web app.
 
+Google Play requires every uploaded `.aab` to be signed. The GitHub workflow signs the bundle when these repository secrets exist:
+
+- `ANDROID_KEYSTORE_BASE64`
+- `ANDROID_KEYSTORE_PASSWORD`
+- `ANDROID_KEY_ALIAS`
+- `ANDROID_KEY_PASSWORD`
+
+Create the upload keystore locally with Android Studio or `keytool`, then base64 encode the `.jks` file and save that encoded text as `ANDROID_KEYSTORE_BASE64`. Keep the original `.jks` file and passwords private because the same upload key is needed for future app updates.
+
 To generate an `.aab` file in GitHub:
 
 1. Open the repo's Actions tab.
