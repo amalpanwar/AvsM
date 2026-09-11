@@ -1,4 +1,4 @@
-name: Build Android App Bundle
+name: Build Android Release Artifacts
 
 on:
   workflow_dispatch:
@@ -43,16 +43,22 @@ jobs:
           fi
           echo "$ANDROID_KEYSTORE_BASE64" | base64 --decode > android/upload-keystore.jks
 
-      - name: Build release app bundle
+      - name: Build release AAB and APK
         env:
           ANDROID_KEYSTORE_PATH: ${{ github.workspace }}/android/upload-keystore.jks
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-        run: gradle -p android :app:bundleRelease
+        run: gradle -p android :app:bundleRelease :app:assembleRelease
 
       - name: Upload AAB artifact
         uses: actions/upload-artifact@v4
         with:
           name: avsm-release-aab
           path: android/app/build/outputs/bundle/release/app-release.aab
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: avsm-release-apk
+          path: android/app/build/outputs/apk/release/app-release.apk

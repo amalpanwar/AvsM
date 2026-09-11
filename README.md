@@ -26,11 +26,11 @@ One-time setup in GitHub:
 
 The workflow publishes the static app from the repository root.
 
-## Android App Bundle
+## Android Release Artifacts
 
 The repo includes a small Android WebView wrapper in `android/`. It loads the live app at `https://amalpanwar.github.io/AvsM/`, so the Android build stays current with the deployed web app.
 
-Google Play requires every uploaded `.aab` to be signed. The GitHub workflow signs the bundle when these repository secrets exist:
+Google Play requires every uploaded `.aab` to be signed. The GitHub workflow signs the bundle and APK when these repository secrets exist:
 
 - `ANDROID_KEYSTORE_BASE64`
 - `ANDROID_KEYSTORE_PASSWORD`
@@ -39,14 +39,15 @@ Google Play requires every uploaded `.aab` to be signed. The GitHub workflow sig
 
 Create the upload keystore locally with Android Studio or `keytool`, then base64 encode the `.jks` file and save that encoded text as `ANDROID_KEYSTORE_BASE64`. Keep the original `.jks` file and passwords private because the same upload key is needed for future app updates.
 
-To generate an `.aab` file in GitHub:
+To generate Android release files in GitHub:
 
 1. Open the repo's Actions tab.
-2. Select `Build Android App Bundle`.
+2. Select `Build Android Release Artifacts`.
 3. Run the workflow on `main`.
-4. Download the `avsm-release-aab` artifact when the workflow completes.
+4. Download `avsm-release-aab` for Google Play.
+5. Download `avsm-release-apk` for direct Android sharing.
 
-The uploaded file is `app-release.aab`. It is suitable as a generated release bundle artifact. For Google Play distribution, add Play upload signing before publishing.
+The Play Console upload file is `app-release.aab`. The direct-install file is `app-release.apk`.
 
 ## Automatic Result Sync
 
