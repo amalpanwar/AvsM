@@ -16,7 +16,7 @@ android {
             if (keystorePath && keystorePassword && keyAlias && keyPassword) {
                 storeFile file(keystorePath)
                 storePassword keystorePassword
-                alias keyAlias
+                keyAlias keyAlias
                 keyPassword keyPassword
             }
         }
