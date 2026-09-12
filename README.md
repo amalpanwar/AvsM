@@ -57,6 +57,8 @@ On GitHub, the `Sync Premier League Results` workflow uses the repository secret
 
 GitHub Actions cannot create true per-fixture dynamic timers from a static GitHub Pages app. Instead, the 30-minute sync cadence checks football-data.org for finished matches. In practice, history updates after football-data.org marks the match `FINISHED`, the next scheduled sync runs, and GitHub Pages redeploys.
 
+The page loads `generated-data.js` with a cache-busting query string so browsers and Android WebView fetch the latest generated fixture/history data after each refresh.
+
 To run the same sync locally, either export the token in your shell or create a private `.env` file:
 
 ```bash
