@@ -395,7 +395,7 @@ function dataNote() {
   return `
       <section class="data-note">
       <strong>${generated.fixtures.length} upcoming fixtures</strong>
-      <span>Predictions start ${shortDateTime(generated.predictionStartsAt)} from ${escapeHtml(generated.sourceFiles.fixtures)}. New Excel results auto-settle saved picks.</span>
+      <span>Predictions start ${shortDateTime(generated.predictionStartsAt)} from ${escapeHtml(generated.sourceFiles.fixtures)}. Match times show in your device timezone. API results auto-settle saved picks.</span>
     </section>
   `;
 }

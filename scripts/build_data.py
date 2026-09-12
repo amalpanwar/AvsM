@@ -288,6 +288,7 @@ def build_payload(now):
         "sourceFiles": {
             "strengths": HISTORY_FILE.name,
             "fixtures": FIXTURE_FILE.name,
+            "fixtureTimezone": str(FIXTURE_TIMEZONE),
             "apiResults": source_path(API_RESULTS_FILE),
         },
         "model": {

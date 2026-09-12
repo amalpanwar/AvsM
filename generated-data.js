@@ -1,9 +1,10 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-09-12T14:49:35.090961Z",
-  "predictionStartsAt": "2026-09-12T14:49:35.061441Z",
+  "generatedAt": "2026-09-12T14:53:53.021409Z",
+  "predictionStartsAt": "2026-09-12T14:53:52.994598Z",
   "sourceFiles": {
     "strengths": "epl-2025-GMTStandardTime.xlsx",
     "fixtures": "epl-2026-GMTStandardTime.xlsx",
+    "fixtureTimezone": "Europe/London",
     "apiResults": "data/api-results.json"
   },
   "model": {
@@ -31,7 +32,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-39",
@@ -47,7 +48,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-34",
@@ -63,7 +64,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-38",
@@ -79,7 +80,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-36",
@@ -95,7 +96,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-42",
@@ -111,7 +112,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-50",
@@ -127,7 +128,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-43",
@@ -143,7 +144,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-44",
@@ -159,7 +160,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-48",
@@ -175,7 +176,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-49",
@@ -191,7 +192,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-41",
@@ -207,7 +208,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-46",
@@ -223,7 +224,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-47",
@@ -239,7 +240,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-45",
@@ -255,7 +256,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-51",
@@ -271,7 +272,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-52",
@@ -287,7 +288,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-53",
@@ -303,7 +304,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-57",
@@ -319,7 +320,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-60",
@@ -335,7 +336,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-59",
@@ -351,7 +352,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-55",
@@ -367,7 +368,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-56",
@@ -383,7 +384,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-58",
@@ -399,7 +400,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-54",
@@ -415,7 +416,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-64",
@@ -431,7 +432,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-62",
@@ -447,7 +448,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-65",
@@ -463,7 +464,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-67",
@@ -479,7 +480,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-68",
@@ -495,7 +496,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-61",
@@ -511,7 +512,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-63",
@@ -527,7 +528,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-66",
@@ -543,7 +544,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-69",
@@ -559,7 +560,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-70",
@@ -575,7 +576,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-77",
@@ -591,7 +592,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-72",
@@ -607,7 +608,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-71",
@@ -623,7 +624,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-74",
@@ -639,7 +640,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-73",
@@ -655,7 +656,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-75",
@@ -671,7 +672,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-76",
@@ -687,7 +688,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-78",
@@ -703,7 +704,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-79",
@@ -719,7 +720,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-80",
@@ -735,7 +736,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-84",
@@ -751,7 +752,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-81",
@@ -767,7 +768,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-83",
@@ -783,7 +784,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-85",
@@ -799,7 +800,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-86",
@@ -815,7 +816,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-88",
@@ -831,7 +832,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-90",
@@ -847,7 +848,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-82",
@@ -863,7 +864,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-87",
@@ -879,7 +880,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-89",
@@ -895,7 +896,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-91",
@@ -911,7 +912,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-92",
@@ -927,7 +928,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-93",
@@ -943,7 +944,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-94",
@@ -959,7 +960,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-95",
@@ -975,7 +976,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-96",
@@ -991,7 +992,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-97",
@@ -1007,7 +1008,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-98",
@@ -1023,7 +1024,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-99",
@@ -1039,7 +1040,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-100",
@@ -1055,7 +1056,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-101",
@@ -1071,7 +1072,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-102",
@@ -1087,7 +1088,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-103",
@@ -1103,7 +1104,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-104",
@@ -1119,7 +1120,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-105",
@@ -1135,7 +1136,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-106",
@@ -1151,7 +1152,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-107",
@@ -1167,7 +1168,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-108",
@@ -1183,7 +1184,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-109",
@@ -1199,7 +1200,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-110",
@@ -1215,7 +1216,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-111",
@@ -1231,7 +1232,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-112",
@@ -1247,7 +1248,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-113",
@@ -1263,7 +1264,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-114",
@@ -1279,7 +1280,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-115",
@@ -1295,7 +1296,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-116",
@@ -1311,7 +1312,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-117",
@@ -1327,7 +1328,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-118",
@@ -1343,7 +1344,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-119",
@@ -1359,7 +1360,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-120",
@@ -1375,7 +1376,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-121",
@@ -1391,7 +1392,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-122",
@@ -1407,7 +1408,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-123",
@@ -1423,7 +1424,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-124",
@@ -1439,7 +1440,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-125",
@@ -1455,7 +1456,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-126",
@@ -1471,7 +1472,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-127",
@@ -1487,7 +1488,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-128",
@@ -1503,7 +1504,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-129",
@@ -1519,7 +1520,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-130",
@@ -1535,7 +1536,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-131",
@@ -1551,7 +1552,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-132",
@@ -1567,7 +1568,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-133",
@@ -1583,7 +1584,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-134",
@@ -1599,7 +1600,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-135",
@@ -1615,7 +1616,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-136",
@@ -1631,7 +1632,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-137",
@@ -1647,7 +1648,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-138",
@@ -1663,7 +1664,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-139",
@@ -1679,7 +1680,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-140",
@@ -1695,7 +1696,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-141",
@@ -1711,7 +1712,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-142",
@@ -1727,7 +1728,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-143",
@@ -1743,7 +1744,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-144",
@@ -1759,7 +1760,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-145",
@@ -1775,7 +1776,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-146",
@@ -1791,7 +1792,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-147",
@@ -1807,7 +1808,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-148",
@@ -1823,7 +1824,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-149",
@@ -1839,7 +1840,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-150",
@@ -1855,7 +1856,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-151",
@@ -1871,7 +1872,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-152",
@@ -1887,7 +1888,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-153",
@@ -1903,7 +1904,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-154",
@@ -1919,7 +1920,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-155",
@@ -1935,7 +1936,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-156",
@@ -1951,7 +1952,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-157",
@@ -1967,7 +1968,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-158",
@@ -1983,7 +1984,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-159",
@@ -1999,7 +2000,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-160",
@@ -2015,7 +2016,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-161",
@@ -2031,7 +2032,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-162",
@@ -2047,7 +2048,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-163",
@@ -2063,7 +2064,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-164",
@@ -2079,7 +2080,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-165",
@@ -2095,7 +2096,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-166",
@@ -2111,7 +2112,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-167",
@@ -2127,7 +2128,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-168",
@@ -2143,7 +2144,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-169",
@@ -2159,7 +2160,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-170",
@@ -2175,7 +2176,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-171",
@@ -2191,7 +2192,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-172",
@@ -2207,7 +2208,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-173",
@@ -2223,7 +2224,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-174",
@@ -2239,7 +2240,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-175",
@@ -2255,7 +2256,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-176",
@@ -2271,7 +2272,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-177",
@@ -2287,7 +2288,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-178",
@@ -2303,7 +2304,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-179",
@@ -2319,7 +2320,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-180",
@@ -2335,7 +2336,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-181",
@@ -2351,7 +2352,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-182",
@@ -2367,7 +2368,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-183",
@@ -2383,7 +2384,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-184",
@@ -2399,7 +2400,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-185",
@@ -2415,7 +2416,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-186",
@@ -2431,7 +2432,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-187",
@@ -2447,7 +2448,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-188",
@@ -2463,7 +2464,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-189",
@@ -2479,7 +2480,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-190",
@@ -2495,7 +2496,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-191",
@@ -2511,7 +2512,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-192",
@@ -2527,7 +2528,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-193",
@@ -2543,7 +2544,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-194",
@@ -2559,7 +2560,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-195",
@@ -2575,7 +2576,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-196",
@@ -2591,7 +2592,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-197",
@@ -2607,7 +2608,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-198",
@@ -2623,7 +2624,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-199",
@@ -2639,7 +2640,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-200",
@@ -2655,7 +2656,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-201",
@@ -2671,7 +2672,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-202",
@@ -2687,7 +2688,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-203",
@@ -2703,7 +2704,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-204",
@@ -2719,7 +2720,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-205",
@@ -2735,7 +2736,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-206",
@@ -2751,7 +2752,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-207",
@@ -2767,7 +2768,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-208",
@@ -2783,7 +2784,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-209",
@@ -2799,7 +2800,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-210",
@@ -2815,7 +2816,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-211",
@@ -2831,7 +2832,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-212",
@@ -2847,7 +2848,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-213",
@@ -2863,7 +2864,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-214",
@@ -2879,7 +2880,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-215",
@@ -2895,7 +2896,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-216",
@@ -2911,7 +2912,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-217",
@@ -2927,7 +2928,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-218",
@@ -2943,7 +2944,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-219",
@@ -2959,7 +2960,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-220",
@@ -2975,7 +2976,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-221",
@@ -2991,7 +2992,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-222",
@@ -3007,7 +3008,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-223",
@@ -3023,7 +3024,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-224",
@@ -3039,7 +3040,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-225",
@@ -3055,7 +3056,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-226",
@@ -3071,7 +3072,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-227",
@@ -3087,7 +3088,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-228",
@@ -3103,7 +3104,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-229",
@@ -3119,7 +3120,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-230",
@@ -3135,7 +3136,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-231",
@@ -3151,7 +3152,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-232",
@@ -3167,7 +3168,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-233",
@@ -3183,7 +3184,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-234",
@@ -3199,7 +3200,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-235",
@@ -3215,7 +3216,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-236",
@@ -3231,7 +3232,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-237",
@@ -3247,7 +3248,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-238",
@@ -3263,7 +3264,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-239",
@@ -3279,7 +3280,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-240",
@@ -3295,7 +3296,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-241",
@@ -3311,7 +3312,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-242",
@@ -3327,7 +3328,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-243",
@@ -3343,7 +3344,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-244",
@@ -3359,7 +3360,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-245",
@@ -3375,7 +3376,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-246",
@@ -3391,7 +3392,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-247",
@@ -3407,7 +3408,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-248",
@@ -3423,7 +3424,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-249",
@@ -3439,7 +3440,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-250",
@@ -3455,7 +3456,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-251",
@@ -3471,7 +3472,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-252",
@@ -3487,7 +3488,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-253",
@@ -3503,7 +3504,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-254",
@@ -3519,7 +3520,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-255",
@@ -3535,7 +3536,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-256",
@@ -3551,7 +3552,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-257",
@@ -3567,7 +3568,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-258",
@@ -3583,7 +3584,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-259",
@@ -3599,7 +3600,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-260",
@@ -3615,7 +3616,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-261",
@@ -3631,7 +3632,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-262",
@@ -3647,7 +3648,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-263",
@@ -3663,7 +3664,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-264",
@@ -3679,7 +3680,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-265",
@@ -3695,7 +3696,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-266",
@@ -3711,7 +3712,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-267",
@@ -3727,7 +3728,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-268",
@@ -3743,7 +3744,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-269",
@@ -3759,7 +3760,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-270",
@@ -3775,7 +3776,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-271",
@@ -3791,7 +3792,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-272",
@@ -3807,7 +3808,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-273",
@@ -3823,7 +3824,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-274",
@@ -3839,7 +3840,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-275",
@@ -3855,7 +3856,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-276",
@@ -3871,7 +3872,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-277",
@@ -3887,7 +3888,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-278",
@@ -3903,7 +3904,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-279",
@@ -3919,7 +3920,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-280",
@@ -3935,7 +3936,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-281",
@@ -3951,7 +3952,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-282",
@@ -3967,7 +3968,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-283",
@@ -3983,7 +3984,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-284",
@@ -3999,7 +4000,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-285",
@@ -4015,7 +4016,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-286",
@@ -4031,7 +4032,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-287",
@@ -4047,7 +4048,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-288",
@@ -4063,7 +4064,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-289",
@@ -4079,7 +4080,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-290",
@@ -4095,7 +4096,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-291",
@@ -4111,7 +4112,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-292",
@@ -4127,7 +4128,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-293",
@@ -4143,7 +4144,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-294",
@@ -4159,7 +4160,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-295",
@@ -4175,7 +4176,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-296",
@@ -4191,7 +4192,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-297",
@@ -4207,7 +4208,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-298",
@@ -4223,7 +4224,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-299",
@@ -4239,7 +4240,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-300",
@@ -4255,7 +4256,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-301",
@@ -4271,7 +4272,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-302",
@@ -4287,7 +4288,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-303",
@@ -4303,7 +4304,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-304",
@@ -4319,7 +4320,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-305",
@@ -4335,7 +4336,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-306",
@@ -4351,7 +4352,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-307",
@@ -4367,7 +4368,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-308",
@@ -4383,7 +4384,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-309",
@@ -4399,7 +4400,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-310",
@@ -4415,7 +4416,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-311",
@@ -4431,7 +4432,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-312",
@@ -4447,7 +4448,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-313",
@@ -4463,7 +4464,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-314",
@@ -4479,7 +4480,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-315",
@@ -4495,7 +4496,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-316",
@@ -4511,7 +4512,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-317",
@@ -4527,7 +4528,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-318",
@@ -4543,7 +4544,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-319",
@@ -4559,7 +4560,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-320",
@@ -4575,7 +4576,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-321",
@@ -4591,7 +4592,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-322",
@@ -4607,7 +4608,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-323",
@@ -4623,7 +4624,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-324",
@@ -4639,7 +4640,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-325",
@@ -4655,7 +4656,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-326",
@@ -4671,7 +4672,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-327",
@@ -4687,7 +4688,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-328",
@@ -4703,7 +4704,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-329",
@@ -4719,7 +4720,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-330",
@@ -4735,7 +4736,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-331",
@@ -4751,7 +4752,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-332",
@@ -4767,7 +4768,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-333",
@@ -4783,7 +4784,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-334",
@@ -4799,7 +4800,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-335",
@@ -4815,7 +4816,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-336",
@@ -4831,7 +4832,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-337",
@@ -4847,7 +4848,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-338",
@@ -4863,7 +4864,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-339",
@@ -4879,7 +4880,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-340",
@@ -4895,7 +4896,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-341",
@@ -4911,7 +4912,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-342",
@@ -4927,7 +4928,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-343",
@@ -4943,7 +4944,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-344",
@@ -4959,7 +4960,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-345",
@@ -4975,7 +4976,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-346",
@@ -4991,7 +4992,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-347",
@@ -5007,7 +5008,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-348",
@@ -5023,7 +5024,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-349",
@@ -5039,7 +5040,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-350",
@@ -5055,7 +5056,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-351",
@@ -5071,7 +5072,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-352",
@@ -5087,7 +5088,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-353",
@@ -5103,7 +5104,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-354",
@@ -5119,7 +5120,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-355",
@@ -5135,7 +5136,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-356",
@@ -5151,7 +5152,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-357",
@@ -5167,7 +5168,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-358",
@@ -5183,7 +5184,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-359",
@@ -5199,7 +5200,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-360",
@@ -5215,7 +5216,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-361",
@@ -5231,7 +5232,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-362",
@@ -5247,7 +5248,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-363",
@@ -5263,7 +5264,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-364",
@@ -5279,7 +5280,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-365",
@@ -5295,7 +5296,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-366",
@@ -5311,7 +5312,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-367",
@@ -5327,7 +5328,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-368",
@@ -5343,7 +5344,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-369",
@@ -5359,7 +5360,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-370",
@@ -5375,7 +5376,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-371",
@@ -5391,7 +5392,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-372",
@@ -5407,7 +5408,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-373",
@@ -5423,7 +5424,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-374",
@@ -5439,7 +5440,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-375",
@@ -5455,7 +5456,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-376",
@@ -5471,7 +5472,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-377",
@@ -5487,7 +5488,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-378",
@@ -5503,7 +5504,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-379",
@@ -5519,7 +5520,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     },
     {
       "id": "epl2026-380",
@@ -5535,7 +5536,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
+      "pintsLockedAt": "2026-09-12T14:53:52.994598Z"
     }
   ],
   "recordedResults": [

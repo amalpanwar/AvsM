@@ -71,7 +71,7 @@ That script pulls finished Premier League matches, writes final scores into `dat
 
 - Private Amal/Matt login.
 - Fixture cards generated from `epl-2026-GMTStandardTime.xlsx`, starting after the current date/time.
-- Fixture times in the Excel files are interpreted as UK local time (`Europe/London`) so BST/GMT daylight saving changes are handled before the app stores UTC kickoff times.
+- Fixture times in the Excel files are interpreted as UK local time (`Europe/London`) so BST/GMT daylight saving changes are handled before the app stores UTC kickoff times. The app displays those UTC kickoff times in the viewer's device timezone, so London viewers see London time and Delhi viewers see IST.
 - Team strengths calculated from completed `epl-2025-GMTStandardTime.xlsx` results.
 - Weighted Poisson match probabilities converted to locked 1/2/3 pint values.
 - Pick flow where the first picker chooses one team and the other player is auto-assigned the opposite team.
