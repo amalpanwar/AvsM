@@ -21,6 +21,7 @@ FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 BUILD_SCRIPT = ROOT / "scripts" / "build_data.py"
 ENV_FILE = ROOT / ".env"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
+GENERATED_DATA_FILE = ROOT / "generated-data.js"
 FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
 
 TEAM_ALIASES = {
@@ -133,29 +134,52 @@ def write_api_result_cache(results):
     API_RESULTS_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
 
+def load_generated_cutoff():
+    if not GENERATED_DATA_FILE.exists():
+        return None
+
+    text = GENERATED_DATA_FILE.read_text(encoding="utf-8")
+    prefix = "window.AVSM_DATA = "
+    if not text.startswith(prefix):
+        return None
+
+    payload = json.loads(text.removeprefix(prefix).removesuffix(";\n"))
+    value = payload.get("predictionStartsAt")
+    if not value:
+        return None
+    return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc)
+
+
 def sync_results(token, season, dry_run):
+    now = datetime.now(timezone.utc)
     wb = load_workbook(FIXTURE_FILE)
     ws = wb[wb.sheetnames[0]]
     header = [cell.value for cell in ws[1]]
     col = {name: index + 1 for index, name in enumerate(header)}
 
     sheet_rows = {}
+    fixtures = []
     for row_number in range(2, ws.max_row + 1):
         home = ws.cell(row_number, col["Home Team"]).value
         away = ws.cell(row_number, col["Away Team"]).value
         kickoff = parse_excel_datetime(ws.cell(row_number, col["Date"]).value)
         key = (normalise_team(home), normalise_team(away), kickoff.date())
-        sheet_rows[key] = {
+        fixture = {
             "row_number": row_number,
             "id": f"epl2026-{int(ws.cell(row_number, col['Match Number']).value)}",
             "sequence": int(ws.cell(row_number, col["Match Number"]).value),
             "gameweek": int(ws.cell(row_number, col["Round Number"]).value),
+            "kickoff_dt": kickoff,
             "kickoff": kickoff.isoformat().replace("+00:00", "Z"),
             "home": home,
             "away": away,
         }
+        sheet_rows[key] = fixture
+        fixtures.append(fixture)
 
     cached_results = load_api_result_cache()
+    previous_cutoff = load_generated_cutoff()
+    crossed_kickoff = previous_cutoff is None or any(previous_cutoff < fixture["kickoff_dt"] <= now for fixture in fixtures)
     updates = []
     for match in football_data_matches(token, season):
         if match.get("status") != "FINISHED":
@@ -198,11 +222,13 @@ def sync_results(token, season, dry_run):
                 "settledAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             }
 
-    if updates and not dry_run:
+    if not dry_run and updates:
         write_api_result_cache(cached_results)
+
+    if not dry_run and (updates or crossed_kickoff):
         subprocess.run([sys.executable, str(BUILD_SCRIPT)], cwd=ROOT, check=True)
 
-    return updates
+    return updates, crossed_kickoff
 
 
 def main():
@@ -216,9 +242,11 @@ def main():
     if not token:
         raise SystemExit("Set FOOTBALL_DATA_API_TOKEN in your shell or in a private .env file before running this script.")
 
-    updates = sync_results(token, args.season, args.dry_run)
+    updates, crossed_kickoff = sync_results(token, args.season, args.dry_run)
     if not updates:
         print("No new final scores found.")
+        if crossed_kickoff and not args.dry_run:
+            print("Regenerated app data for fixture kickoff changes.")
         return
 
     verb = "Would update" if args.dry_run else "Updated"

@@ -3,6 +3,9 @@ name: Sync Premier League Results
 on:
   schedule:
     - cron: "*/30 * * * *"
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -39,3 +42,11 @@ jobs:
           else
             echo "No result changes to commit."
           fi
+
+      - name: Upload result cache
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-results-cache
+          path: data/api-results.json
+          if-no-files-found: ignore

@@ -233,7 +233,7 @@ def build_payload(now):
     for rows in rounds.values():
         first_pickers.update(first_picker_for_round(rows))
 
-    played = [row for row in fixture_rows if row["result"] and row["date"] < now]
+    past = [row for row in fixture_rows if row["date"] < now]
     upcoming = [row for row in fixture_rows if row["result"] is None and row["date"] >= now]
 
     fixtures = []
@@ -259,9 +259,15 @@ def build_payload(now):
         )
 
     history = []
-    for row in played:
-        home_score, away_score = row["result"]
+    for row in past:
         prediction = model_fixture(strengths, row)
+        score = None
+        status = "awaiting"
+        if row["result"]:
+            home_score, away_score = row["result"]
+            score = {"home": home_score, "away": away_score}
+            status = "recorded"
+
         history.append(
             {
                 "id": f"epl2026-{row['match_number']}",
@@ -275,8 +281,8 @@ def build_payload(now):
                 "firstPicker": first_pickers[row["match_number"]],
                 "homePints": prediction["home_pints"],
                 "awayPints": prediction["away_pints"],
-                "status": "recorded",
-                "score": {"home": home_score, "away": away_score},
+                "status": status,
+                "score": score,
                 "resultSource": row["result_source"],
                 "pintsLockedAt": row["date"].isoformat().replace("+00:00", "Z"),
             }

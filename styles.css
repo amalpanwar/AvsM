@@ -505,6 +505,10 @@ small {
   color: var(--red);
 }
 
+.history-row b.pending {
+  color: #7c2d12;
+}
+
 .empty-state {
   margin: 0;
   padding: 18px;

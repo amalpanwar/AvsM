@@ -541,7 +541,7 @@ function renderHistory() {
         <h1>History</h1>
       </section>
       <div class="history-list">
-        ${fixtures.map(renderHistoryRow).join("") || `<p class="empty-state">No completed fixtures yet.</p>`}
+        ${fixtures.map(renderHistoryRow).join("") || `<p class="empty-state">No past fixtures yet.</p>`}
       </div>
     </main>
   `;
@@ -552,7 +552,10 @@ function renderHistoryRow(fixture) {
   const ledger = state.ledger.filter((item) => item.fixtureId === fixture.id && item.pintsChange > 0);
   let outcome = "Recorded result";
   let outcomeClass = "";
-  if (fixture.status === "void") {
+  if (fixture.status === "awaiting") {
+    outcome = "Awaiting final score sync";
+    outcomeClass = "pending";
+  } else if (fixture.status === "void") {
     outcome = "VOID";
     outcomeClass = "void";
   } else if (ledger.length) {
