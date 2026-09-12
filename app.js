@@ -342,6 +342,10 @@ function logout() {
   render();
 }
 
+function refreshApp() {
+  window.location.reload();
+}
+
 function appShell(content) {
   const user = state.currentUser ? USERS[state.currentUser] : null;
   return `
@@ -623,7 +627,10 @@ function renderAuthed() {
   };
 
   return appShell(`
-    <button class="logout" data-action="logout">Sign out</button>
+    <div class="floating-actions">
+      <button data-action="refresh">Refresh</button>
+      <button data-action="logout">Sign out</button>
+    </div>
     ${views[state.activeView]()}
   `);
 }
@@ -639,6 +646,7 @@ document.addEventListener("click", (event) => {
   const { action } = button.dataset;
   if (action === "login") login(button.dataset.user);
   if (action === "logout") logout();
+  if (action === "refresh") refreshApp();
   if (action === "view") setView(button.dataset.view);
   if (action === "reset") resetLocalGame();
   if (action === "reset-pick") resetFixturePick(button.dataset.fixtureId);
