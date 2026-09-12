@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:33:02.998728Z",
+  "updatedAt": "2026-09-12T21:08:40.004341Z",
   "source": "football-data.org",
   "results": [
     {
@@ -561,6 +561,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560573,
       "settledAt": "2026-09-12T16:58:34.099716Z"
+    },
+    {
+      "id": "epl2026-39",
+      "season": "2026/27",
+      "gameweek": 4,
+      "sequence": 39,
+      "kickoff": "2026-09-12T19:00:00Z",
+      "home": "Sunderland",
+      "away": "Arsenal",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560577,
+      "settledAt": "2026-09-12T21:08:39.199176Z"
     },
     {
       "id": "epl2026-40",
