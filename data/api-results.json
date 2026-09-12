@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T16:58:34.100161Z",
+  "updatedAt": "2026-09-12T18:33:02.998728Z",
   "source": "football-data.org",
   "results": [
     {
@@ -561,6 +561,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560573,
       "settledAt": "2026-09-12T16:58:34.099716Z"
+    },
+    {
+      "id": "epl2026-40",
+      "season": "2026/27",
+      "gameweek": 4,
+      "sequence": 40,
+      "kickoff": "2026-09-12T16:30:00Z",
+      "home": "Spurs",
+      "away": "Everton",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560575,
+      "settledAt": "2026-09-12T18:33:01.929739Z"
     }
   ]
 }
