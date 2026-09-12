@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
@@ -23,38 +25,71 @@ ENV_FILE = ROOT / ".env"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
 GENERATED_DATA_FILE = ROOT / "generated-data.js"
 FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
+NATIVE_STATS_URL = "https://native-stats.org/competition/PL/"
 
 TEAM_ALIASES = {
     "afc bournemouth": "bournemouth",
+    "aston villa": "aston villa",
     "arsenal fc": "arsenal",
+    "arsenal": "arsenal",
     "aston villa fc": "aston villa",
     "brentford fc": "brentford",
+    "brentford": "brentford",
     "brighton & hove albion fc": "brighton",
     "brighton and hove albion fc": "brighton",
+    "brighton": "brighton",
+    "bournemouth": "bournemouth",
     "burnley fc": "burnley",
     "chelsea fc": "chelsea",
+    "chelsea": "chelsea",
     "coventry city fc": "coventry",
+    "coventry city": "coventry",
+    "coventry": "coventry",
     "crystal palace fc": "crystal palace",
+    "crystal palace": "crystal palace",
     "everton fc": "everton",
+    "everton": "everton",
     "fulham fc": "fulham",
+    "fulham": "fulham",
     "hull city afc": "hull",
+    "hull city": "hull",
+    "hull": "hull",
     "ipswich town fc": "ipswich",
+    "ipswich town": "ipswich",
+    "ipswich": "ipswich",
     "leeds united fc": "leeds",
+    "leeds united": "leeds",
+    "leeds": "leeds",
     "liverpool fc": "liverpool",
+    "liverpool": "liverpool",
     "manchester city fc": "man city",
+    "manchester city": "man city",
+    "man city": "man city",
     "manchester united fc": "man utd",
+    "manchester united": "man utd",
+    "man utd": "man utd",
     "newcastle united fc": "newcastle",
+    "newcastle united": "newcastle",
+    "newcastle": "newcastle",
     "nottingham forest fc": "nott'm forest",
+    "nottingham forest": "nott'm forest",
     "sunderland afc": "sunderland",
+    "sunderland": "sunderland",
     "tottenham hotspur fc": "spurs",
+    "tottenham hotspur": "spurs",
+    "spurs": "spurs",
     "west ham united fc": "west ham",
+    "west ham united": "west ham",
+    "west ham": "west ham",
     "wolverhampton wanderers fc": "wolves",
+    "wolves": "wolves",
 }
 
 
 def normalise_team(value):
     text = str(value or "").lower().strip()
     text = text.replace("’", "'")
+    text = re.sub(r"\s*\(\d+\)\s*$", "", text).strip()
     return TEAM_ALIASES.get(text, text)
 
 
@@ -86,6 +121,53 @@ def football_data_matches(token, season):
         raise SystemExit(f"football-data.org request failed: HTTP {error.code} {body}") from error
 
     return payload.get("matches", [])
+
+
+def strip_tags(value):
+    return html.unescape(re.sub(r"<[^>]+>", " ", value)).strip()
+
+
+def native_stats_results():
+    request = Request(
+        NATIVE_STATS_URL,
+        headers={"User-Agent": "Mozilla/5.0", "Accept": "text/html"},
+    )
+
+    try:
+        with urlopen(request, timeout=30) as response:
+            page = response.read().decode("utf-8", errors="replace")
+    except HTTPError as error:
+        body = error.read().decode("utf-8", errors="replace")
+        raise SystemExit(f"native-stats.org request failed: HTTP {error.code} {body}") from error
+
+    results = []
+    for row in re.findall(r'<tr id="last-(\d+)">(.*?)</tr>', page, flags=re.DOTALL):
+        native_id, row_html = row
+        if "animate-pulse" in row_html:
+            continue
+
+        date_match = re.search(r"<th>(\d{4})/(\d{2})/(\d{2}),\s*(\d{1,2})h(\d{2})</th>", row_html)
+        score_match = re.search(r">\s*(\d+):(\d+)\s*</div>", row_html)
+        teams = [
+            strip_tags(match)
+            for match in re.findall(r'<span class="hidden text-gray-200 align-middle md:inline-block">\s*(.*?)\s*</span>', row_html, flags=re.DOTALL)
+        ]
+        if not date_match or not score_match or len(teams) < 2:
+            continue
+
+        year, month, day, *_ = date_match.groups()
+        results.append(
+            {
+                "utcDate": f"{year}-{month}-{day}T00:00:00Z",
+                "home": normalise_team(teams[0]),
+                "away": normalise_team(teams[1]),
+                "score": {"home": int(score_match.group(1)), "away": int(score_match.group(2))},
+                "source": "native-stats.org",
+                "sourceMatchId": int(native_id),
+            }
+        )
+
+    return results
 
 
 def result_from_match(match):
@@ -181,32 +263,25 @@ def sync_results(token, season, dry_run):
     previous_cutoff = load_generated_cutoff()
     crossed_kickoff = previous_cutoff is None or any(previous_cutoff < fixture["kickoff_dt"] <= now for fixture in fixtures)
     updates = []
-    for match in football_data_matches(token, season):
-        if match.get("status") != "FINISHED":
-            continue
 
-        utc_date = datetime.fromisoformat(match["utcDate"].replace("Z", "+00:00")).astimezone(timezone.utc)
-        home = normalise_team(match.get("homeTeam", {}).get("name"))
-        away = normalise_team(match.get("awayTeam", {}).get("name"))
-        result = result_from_match(match)
-        if not result:
-            continue
-
+    def cache_result(source_result):
+        utc_date = datetime.fromisoformat(source_result["utcDate"].replace("Z", "+00:00")).astimezone(timezone.utc)
+        result = source_result["score"]
         candidates = [
-            (home, away, utc_date.date()),
-            (home, away, (utc_date - timedelta(days=1)).date()),
-            (home, away, (utc_date + timedelta(days=1)).date()),
+            (source_result["home"], source_result["away"], utc_date.date()),
+            (source_result["home"], source_result["away"], (utc_date - timedelta(days=1)).date()),
+            (source_result["home"], source_result["away"], (utc_date + timedelta(days=1)).date()),
         ]
         fixture = next((sheet_rows[key] for key in candidates if key in sheet_rows), None)
         if not fixture:
-            continue
+            return
 
         cached = cached_results.get(fixture["id"])
         if cached and cached.get("score") == result:
-            continue
+            return
 
         previous = format_score(cached["score"]) if cached else "blank"
-        updates.append((fixture["home"], fixture["away"], previous, format_score(result)))
+        updates.append((fixture["home"], fixture["away"], previous, format_score(result), source_result["source"]))
         if not dry_run:
             cached_results[fixture["id"]] = {
                 "id": fixture["id"],
@@ -217,10 +292,32 @@ def sync_results(token, season, dry_run):
                 "home": fixture["home"],
                 "away": fixture["away"],
                 "score": result,
-                "source": "football-data.org",
-                "sourceMatchId": match.get("id"),
+                "source": source_result["source"],
+                "sourceMatchId": source_result["sourceMatchId"],
                 "settledAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             }
+
+    for match in football_data_matches(token, season):
+        if match.get("status") != "FINISHED":
+            continue
+
+        result = result_from_match(match)
+        if not result:
+            continue
+
+        cache_result(
+            {
+                "utcDate": match["utcDate"],
+                "home": normalise_team(match.get("homeTeam", {}).get("name")),
+                "away": normalise_team(match.get("awayTeam", {}).get("name")),
+                "score": result,
+                "source": "football-data.org",
+                "sourceMatchId": match.get("id"),
+            }
+        )
+
+    for result in native_stats_results():
+        cache_result(result)
 
     if not dry_run and updates:
         write_api_result_cache(cached_results)
@@ -251,8 +348,8 @@ def main():
 
     verb = "Would update" if args.dry_run else "Updated"
     print(f"{verb} {len(updates)} result(s):")
-    for home, away, previous, new in updates:
-        print(f"- {home} vs {away}: {previous} -> {new}")
+    for home, away, previous, new, source in updates:
+        print(f"- {home} vs {away}: {previous} -> {new} ({source})")
 
 
 if __name__ == "__main__":

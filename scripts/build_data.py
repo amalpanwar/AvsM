@@ -54,7 +54,7 @@ def load_api_results():
             continue
         results[item["id"]] = {
             "result": (int(home_score), int(away_score)),
-            "source": "api",
+            "source": item.get("source") or "api",
         }
     return results
 
