@@ -5,15 +5,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "android/**"
-      - "assets/**"
-      - "app.js"
-      - "generated-data.js"
-      - "index.html"
-      - "manifest.webmanifest"
-      - "styles.css"
-      - ".github/workflows/android-aab.yml"
 
 jobs:
   build:
