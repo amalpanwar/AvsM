@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-09-10T04:46:56.131397Z",
-  "predictionStartsAt": "2026-09-10T04:46:56.093778Z",
+  "generatedAt": "2026-09-12T14:49:35.090961Z",
+  "predictionStartsAt": "2026-09-12T14:49:35.061441Z",
   "sourceFiles": {
     "strengths": "epl-2025-GMTStandardTime.xlsx",
     "fixtures": "epl-2026-GMTStandardTime.xlsx",
@@ -18,91 +18,11 @@ window.AVSM_DATA = {
   },
   "fixtures": [
     {
-      "id": "epl2026-31",
-      "season": "2026/27",
-      "gameweek": 4,
-      "sequence": 31,
-      "kickoff": "2026-09-12T15:00:00Z",
-      "location": "Vitality Stadium",
-      "home": "Bournemouth",
-      "away": "Brentford",
-      "firstPicker": "M",
-      "homePints": 1,
-      "awayPints": 2,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
-    },
-    {
-      "id": "epl2026-32",
-      "season": "2026/27",
-      "gameweek": 4,
-      "sequence": 32,
-      "kickoff": "2026-09-12T15:00:00Z",
-      "location": "Villa Park",
-      "home": "Aston Villa",
-      "away": "Nott'm Forest",
-      "firstPicker": "A",
-      "homePints": 1,
-      "awayPints": 1,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
-    },
-    {
-      "id": "epl2026-33",
-      "season": "2026/27",
-      "gameweek": 4,
-      "sequence": 33,
-      "kickoff": "2026-09-12T15:00:00Z",
-      "location": "Stamford Bridge",
-      "home": "Chelsea",
-      "away": "Hull",
-      "firstPicker": "M",
-      "homePints": 1,
-      "awayPints": 1,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
-    },
-    {
-      "id": "epl2026-35",
-      "season": "2026/27",
-      "gameweek": 4,
-      "sequence": 35,
-      "kickoff": "2026-09-12T15:00:00Z",
-      "location": "Selhurst Park",
-      "home": "Crystal Palace",
-      "away": "Ipswich",
-      "firstPicker": "A",
-      "homePints": 1,
-      "awayPints": 1,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
-    },
-    {
-      "id": "epl2026-37",
-      "season": "2026/27",
-      "gameweek": 4,
-      "sequence": 37,
-      "kickoff": "2026-09-12T15:00:00Z",
-      "location": "Anfield",
-      "home": "Liverpool",
-      "away": "Fulham",
-      "firstPicker": "M",
-      "homePints": 1,
-      "awayPints": 3,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
-    },
-    {
       "id": "epl2026-40",
       "season": "2026/27",
       "gameweek": 4,
       "sequence": 40,
-      "kickoff": "2026-09-12T17:30:00Z",
+      "kickoff": "2026-09-12T16:30:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Everton",
@@ -111,14 +31,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-39",
       "season": "2026/27",
       "gameweek": 4,
       "sequence": 39,
-      "kickoff": "2026-09-12T20:00:00Z",
+      "kickoff": "2026-09-12T19:00:00Z",
       "location": "Stadium of Light",
       "home": "Sunderland",
       "away": "Arsenal",
@@ -127,14 +47,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-34",
       "season": "2026/27",
       "gameweek": 4,
       "sequence": 34,
-      "kickoff": "2026-09-13T14:00:00Z",
+      "kickoff": "2026-09-13T13:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Brighton",
@@ -143,14 +63,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-38",
       "season": "2026/27",
       "gameweek": 4,
       "sequence": 38,
-      "kickoff": "2026-09-13T16:30:00Z",
+      "kickoff": "2026-09-13T15:30:00Z",
       "location": "Old Trafford",
       "home": "Man Utd",
       "away": "Man City",
@@ -159,14 +79,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-36",
       "season": "2026/27",
       "gameweek": 4,
       "sequence": 36,
-      "kickoff": "2026-09-14T20:00:00Z",
+      "kickoff": "2026-09-14T19:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Newcastle",
@@ -175,14 +95,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-42",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 42,
-      "kickoff": "2026-09-18T20:00:00Z",
+      "kickoff": "2026-09-18T19:00:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Chelsea",
@@ -191,14 +111,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-50",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 50,
-      "kickoff": "2026-09-19T12:30:00Z",
+      "kickoff": "2026-09-19T11:30:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Aston Villa",
@@ -207,14 +127,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-43",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 43,
-      "kickoff": "2026-09-19T15:00:00Z",
+      "kickoff": "2026-09-19T14:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Arsenal",
@@ -223,14 +143,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-44",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 44,
-      "kickoff": "2026-09-19T15:00:00Z",
+      "kickoff": "2026-09-19T14:00:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Ipswich",
@@ -239,14 +159,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-48",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 48,
-      "kickoff": "2026-09-19T15:00:00Z",
+      "kickoff": "2026-09-19T14:00:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Hull",
@@ -255,14 +175,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-49",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 49,
-      "kickoff": "2026-09-19T17:30:00Z",
+      "kickoff": "2026-09-19T16:30:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Coventry",
@@ -271,14 +191,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-41",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 41,
-      "kickoff": "2026-09-20T14:00:00Z",
+      "kickoff": "2026-09-20T13:00:00Z",
       "location": "Vitality Stadium",
       "home": "Bournemouth",
       "away": "Liverpool",
@@ -287,14 +207,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-46",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 46,
-      "kickoff": "2026-09-20T14:00:00Z",
+      "kickoff": "2026-09-20T13:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Crystal Palace",
@@ -303,14 +223,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-47",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 47,
-      "kickoff": "2026-09-20T14:00:00Z",
+      "kickoff": "2026-09-20T13:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Sunderland",
@@ -319,14 +239,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-45",
       "season": "2026/27",
       "gameweek": 5,
       "sequence": 45,
-      "kickoff": "2026-09-20T16:30:00Z",
+      "kickoff": "2026-09-20T15:30:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Man Utd",
@@ -335,14 +255,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-51",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 51,
-      "kickoff": "2026-10-10T12:30:00Z",
+      "kickoff": "2026-10-10T11:30:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Leeds",
@@ -351,14 +271,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-52",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 52,
-      "kickoff": "2026-10-10T15:00:00Z",
+      "kickoff": "2026-10-10T14:00:00Z",
       "location": "Villa Park",
       "home": "Aston Villa",
       "away": "Brentford",
@@ -367,14 +287,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-53",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 53,
-      "kickoff": "2026-10-10T15:00:00Z",
+      "kickoff": "2026-10-10T14:00:00Z",
       "location": "Stamford Bridge",
       "home": "Chelsea",
       "away": "Bournemouth",
@@ -383,14 +303,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-57",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 57,
-      "kickoff": "2026-10-10T15:00:00Z",
+      "kickoff": "2026-10-10T14:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Fulham",
@@ -399,14 +319,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-60",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 60,
-      "kickoff": "2026-10-10T15:00:00Z",
+      "kickoff": "2026-10-10T14:00:00Z",
       "location": "Stadium of Light",
       "home": "Sunderland",
       "away": "Brighton",
@@ -415,14 +335,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-59",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 59,
-      "kickoff": "2026-10-10T17:30:00Z",
+      "kickoff": "2026-10-10T16:30:00Z",
       "location": "Old Trafford",
       "home": "Man Utd",
       "away": "Spurs",
@@ -431,14 +351,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-55",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 55,
-      "kickoff": "2026-10-11T14:00:00Z",
+      "kickoff": "2026-10-11T13:00:00Z",
       "location": "Selhurst Park",
       "home": "Crystal Palace",
       "away": "Nott'm Forest",
@@ -447,14 +367,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-56",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 56,
-      "kickoff": "2026-10-11T14:00:00Z",
+      "kickoff": "2026-10-11T13:00:00Z",
       "location": "MKM Stadium",
       "home": "Hull",
       "away": "Everton",
@@ -463,14 +383,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-58",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 58,
-      "kickoff": "2026-10-11T16:30:00Z",
+      "kickoff": "2026-10-11T15:30:00Z",
       "location": "Anfield",
       "home": "Liverpool",
       "away": "Man City",
@@ -479,14 +399,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-54",
       "season": "2026/27",
       "gameweek": 6,
       "sequence": 54,
-      "kickoff": "2026-10-12T20:00:00Z",
+      "kickoff": "2026-10-12T19:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Newcastle",
@@ -495,14 +415,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-64",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 64,
-      "kickoff": "2026-10-17T12:30:00Z",
+      "kickoff": "2026-10-17T11:30:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Chelsea",
@@ -511,14 +431,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-62",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 62,
-      "kickoff": "2026-10-17T15:00:00Z",
+      "kickoff": "2026-10-17T14:00:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Liverpool",
@@ -527,14 +447,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-65",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 65,
-      "kickoff": "2026-10-17T15:00:00Z",
+      "kickoff": "2026-10-17T14:00:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Hull",
@@ -543,14 +463,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-67",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 67,
-      "kickoff": "2026-10-17T15:00:00Z",
+      "kickoff": "2026-10-17T14:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Ipswich",
@@ -559,14 +479,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-68",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 68,
-      "kickoff": "2026-10-17T17:30:00Z",
+      "kickoff": "2026-10-17T16:30:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Aston Villa",
@@ -575,14 +495,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-61",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 61,
-      "kickoff": "2026-10-18T14:00:00Z",
+      "kickoff": "2026-10-18T13:00:00Z",
       "location": "Vitality Stadium",
       "home": "Bournemouth",
       "away": "Sunderland",
@@ -591,14 +511,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-63",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 63,
-      "kickoff": "2026-10-18T14:00:00Z",
+      "kickoff": "2026-10-18T13:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Crystal Palace",
@@ -607,14 +527,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-66",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 66,
-      "kickoff": "2026-10-18T14:00:00Z",
+      "kickoff": "2026-10-18T13:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Man Utd",
@@ -623,14 +543,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-69",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 69,
-      "kickoff": "2026-10-18T16:30:00Z",
+      "kickoff": "2026-10-18T15:30:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Arsenal",
@@ -639,14 +559,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-70",
       "season": "2026/27",
       "gameweek": 7,
       "sequence": 70,
-      "kickoff": "2026-10-19T20:00:00Z",
+      "kickoff": "2026-10-19T19:00:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Coventry",
@@ -655,14 +575,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-77",
       "season": "2026/27",
       "gameweek": 8,
       "sequence": 77,
-      "kickoff": "2026-10-23T20:00:00Z",
+      "kickoff": "2026-10-23T19:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Nott'm Forest",
@@ -671,14 +591,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-72",
       "season": "2026/27",
       "gameweek": 8,
       "sequence": 72,
-      "kickoff": "2026-10-24T12:30:00Z",
+      "kickoff": "2026-10-24T11:30:00Z",
       "location": "Villa Park",
       "home": "Aston Villa",
       "away": "Man City",
@@ -687,14 +607,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-71",
       "season": "2026/27",
       "gameweek": 8,
       "sequence": 71,
-      "kickoff": "2026-10-24T15:00:00Z",
+      "kickoff": "2026-10-24T14:00:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Everton",
@@ -703,14 +623,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-74",
       "season": "2026/27",
       "gameweek": 8,
       "sequence": 74,
-      "kickoff": "2026-10-24T15:00:00Z",
+      "kickoff": "2026-10-24T14:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Fulham",
@@ -719,14 +639,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-73",
       "season": "2026/27",
       "gameweek": 8,
       "sequence": 73,
-      "kickoff": "2026-10-24T17:30:00Z",
+      "kickoff": "2026-10-24T16:30:00Z",
       "location": "Stamford Bridge",
       "home": "Chelsea",
       "away": "Spurs",
@@ -735,7 +655,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-75",
@@ -751,7 +671,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-76",
@@ -767,7 +687,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-78",
@@ -783,7 +703,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-79",
@@ -799,7 +719,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-80",
@@ -815,7 +735,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-84",
@@ -831,7 +751,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-81",
@@ -847,7 +767,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-83",
@@ -863,7 +783,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-85",
@@ -879,7 +799,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-86",
@@ -895,7 +815,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-88",
@@ -911,7 +831,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-90",
@@ -927,7 +847,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-82",
@@ -943,7 +863,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-87",
@@ -959,7 +879,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-89",
@@ -975,7 +895,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-91",
@@ -991,7 +911,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-92",
@@ -1007,7 +927,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-93",
@@ -1023,7 +943,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-94",
@@ -1039,7 +959,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-95",
@@ -1055,7 +975,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-96",
@@ -1071,7 +991,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-97",
@@ -1087,7 +1007,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-98",
@@ -1103,7 +1023,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-99",
@@ -1119,7 +1039,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-100",
@@ -1135,7 +1055,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-101",
@@ -1151,7 +1071,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-102",
@@ -1167,7 +1087,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-103",
@@ -1183,7 +1103,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-104",
@@ -1199,7 +1119,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-105",
@@ -1215,7 +1135,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-106",
@@ -1231,7 +1151,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-107",
@@ -1247,7 +1167,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-108",
@@ -1263,7 +1183,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-109",
@@ -1279,7 +1199,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-110",
@@ -1295,7 +1215,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-111",
@@ -1311,7 +1231,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-112",
@@ -1327,7 +1247,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-113",
@@ -1343,7 +1263,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-114",
@@ -1359,7 +1279,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-115",
@@ -1375,7 +1295,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-116",
@@ -1391,7 +1311,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-117",
@@ -1407,7 +1327,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-118",
@@ -1423,7 +1343,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-119",
@@ -1439,7 +1359,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-120",
@@ -1455,7 +1375,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-121",
@@ -1471,7 +1391,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-122",
@@ -1487,7 +1407,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-123",
@@ -1503,7 +1423,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-124",
@@ -1519,7 +1439,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-125",
@@ -1535,7 +1455,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-126",
@@ -1551,7 +1471,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-127",
@@ -1567,7 +1487,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-128",
@@ -1583,7 +1503,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-129",
@@ -1599,7 +1519,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-130",
@@ -1615,7 +1535,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-131",
@@ -1631,7 +1551,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-132",
@@ -1647,7 +1567,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-133",
@@ -1663,7 +1583,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-134",
@@ -1679,7 +1599,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-135",
@@ -1695,7 +1615,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-136",
@@ -1711,7 +1631,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-137",
@@ -1727,7 +1647,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-138",
@@ -1743,7 +1663,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-139",
@@ -1759,7 +1679,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-140",
@@ -1775,7 +1695,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-141",
@@ -1791,7 +1711,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-142",
@@ -1807,7 +1727,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-143",
@@ -1823,7 +1743,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-144",
@@ -1839,7 +1759,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-145",
@@ -1855,7 +1775,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-146",
@@ -1871,7 +1791,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-147",
@@ -1887,7 +1807,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-148",
@@ -1903,7 +1823,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-149",
@@ -1919,7 +1839,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-150",
@@ -1935,7 +1855,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-151",
@@ -1951,7 +1871,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-152",
@@ -1967,7 +1887,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-153",
@@ -1983,7 +1903,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-154",
@@ -1999,7 +1919,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-155",
@@ -2015,7 +1935,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-156",
@@ -2031,7 +1951,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-157",
@@ -2047,7 +1967,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-158",
@@ -2063,7 +1983,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-159",
@@ -2079,7 +1999,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-160",
@@ -2095,7 +2015,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-161",
@@ -2111,7 +2031,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-162",
@@ -2127,7 +2047,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-163",
@@ -2143,7 +2063,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-164",
@@ -2159,7 +2079,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-165",
@@ -2175,7 +2095,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-166",
@@ -2191,7 +2111,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-167",
@@ -2207,7 +2127,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-168",
@@ -2223,7 +2143,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-169",
@@ -2239,7 +2159,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-170",
@@ -2255,7 +2175,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-171",
@@ -2271,7 +2191,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-172",
@@ -2287,7 +2207,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-173",
@@ -2303,7 +2223,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-174",
@@ -2319,7 +2239,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-175",
@@ -2335,7 +2255,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-176",
@@ -2351,7 +2271,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-177",
@@ -2367,7 +2287,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-178",
@@ -2383,7 +2303,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-179",
@@ -2399,7 +2319,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-180",
@@ -2415,7 +2335,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-181",
@@ -2431,7 +2351,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-182",
@@ -2447,7 +2367,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-183",
@@ -2463,7 +2383,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-184",
@@ -2479,7 +2399,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-185",
@@ -2495,7 +2415,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-186",
@@ -2511,7 +2431,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-187",
@@ -2527,7 +2447,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-188",
@@ -2543,7 +2463,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-189",
@@ -2559,7 +2479,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-190",
@@ -2575,7 +2495,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-191",
@@ -2591,7 +2511,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-192",
@@ -2607,7 +2527,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-193",
@@ -2623,7 +2543,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-194",
@@ -2639,7 +2559,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-195",
@@ -2655,7 +2575,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-196",
@@ -2671,7 +2591,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-197",
@@ -2687,7 +2607,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-198",
@@ -2703,7 +2623,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-199",
@@ -2719,7 +2639,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-200",
@@ -2735,7 +2655,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-201",
@@ -2751,7 +2671,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-202",
@@ -2767,7 +2687,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-203",
@@ -2783,7 +2703,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-204",
@@ -2799,7 +2719,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-205",
@@ -2815,7 +2735,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-206",
@@ -2831,7 +2751,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-207",
@@ -2847,7 +2767,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-208",
@@ -2863,7 +2783,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-209",
@@ -2879,7 +2799,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-210",
@@ -2895,7 +2815,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-211",
@@ -2911,7 +2831,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-212",
@@ -2927,7 +2847,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-213",
@@ -2943,7 +2863,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-214",
@@ -2959,7 +2879,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-215",
@@ -2975,7 +2895,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-216",
@@ -2991,7 +2911,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-217",
@@ -3007,7 +2927,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-218",
@@ -3023,7 +2943,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-219",
@@ -3039,7 +2959,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-220",
@@ -3055,7 +2975,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-221",
@@ -3071,7 +2991,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-222",
@@ -3087,7 +3007,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-223",
@@ -3103,7 +3023,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-224",
@@ -3119,7 +3039,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-225",
@@ -3135,7 +3055,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-226",
@@ -3151,7 +3071,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-227",
@@ -3167,7 +3087,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-228",
@@ -3183,7 +3103,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-229",
@@ -3199,7 +3119,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-230",
@@ -3215,7 +3135,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-231",
@@ -3231,7 +3151,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-232",
@@ -3247,7 +3167,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-233",
@@ -3263,7 +3183,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-234",
@@ -3279,7 +3199,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-235",
@@ -3295,7 +3215,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-236",
@@ -3311,7 +3231,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-237",
@@ -3327,7 +3247,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-238",
@@ -3343,7 +3263,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-239",
@@ -3359,7 +3279,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-240",
@@ -3375,7 +3295,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-241",
@@ -3391,7 +3311,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-242",
@@ -3407,7 +3327,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-243",
@@ -3423,7 +3343,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-244",
@@ -3439,7 +3359,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-245",
@@ -3455,7 +3375,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-246",
@@ -3471,7 +3391,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-247",
@@ -3487,7 +3407,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-248",
@@ -3503,7 +3423,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-249",
@@ -3519,7 +3439,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-250",
@@ -3535,7 +3455,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-251",
@@ -3551,7 +3471,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-252",
@@ -3567,7 +3487,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-253",
@@ -3583,7 +3503,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-254",
@@ -3599,7 +3519,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-255",
@@ -3615,7 +3535,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-256",
@@ -3631,7 +3551,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-257",
@@ -3647,7 +3567,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-258",
@@ -3663,7 +3583,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-259",
@@ -3679,7 +3599,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-260",
@@ -3695,7 +3615,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-261",
@@ -3711,7 +3631,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-262",
@@ -3727,7 +3647,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-263",
@@ -3743,7 +3663,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-264",
@@ -3759,7 +3679,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-265",
@@ -3775,7 +3695,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-266",
@@ -3791,7 +3711,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-267",
@@ -3807,7 +3727,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-268",
@@ -3823,7 +3743,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-269",
@@ -3839,7 +3759,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-270",
@@ -3855,7 +3775,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-271",
@@ -3871,7 +3791,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-272",
@@ -3887,7 +3807,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-273",
@@ -3903,7 +3823,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-274",
@@ -3919,7 +3839,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-275",
@@ -3935,7 +3855,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-276",
@@ -3951,7 +3871,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-277",
@@ -3967,7 +3887,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-278",
@@ -3983,7 +3903,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-279",
@@ -3999,7 +3919,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-280",
@@ -4015,7 +3935,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-281",
@@ -4031,7 +3951,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-282",
@@ -4047,7 +3967,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-283",
@@ -4063,7 +3983,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-284",
@@ -4079,7 +3999,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-285",
@@ -4095,7 +4015,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-286",
@@ -4111,7 +4031,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-287",
@@ -4127,7 +4047,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-288",
@@ -4143,7 +4063,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-289",
@@ -4159,7 +4079,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-290",
@@ -4175,7 +4095,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-291",
@@ -4191,7 +4111,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-292",
@@ -4207,7 +4127,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-293",
@@ -4223,7 +4143,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-294",
@@ -4239,7 +4159,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-295",
@@ -4255,7 +4175,7 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-296",
@@ -4271,7 +4191,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-297",
@@ -4287,7 +4207,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-298",
@@ -4303,7 +4223,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-299",
@@ -4319,7 +4239,7 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-300",
@@ -4335,14 +4255,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-301",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 301,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Vitality Stadium",
       "home": "Bournemouth",
       "away": "Man City",
@@ -4351,14 +4271,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-302",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 302,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Villa Park",
       "home": "Aston Villa",
       "away": "Brighton",
@@ -4367,14 +4287,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-303",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 303,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Stamford Bridge",
       "home": "Chelsea",
       "away": "Fulham",
@@ -4383,14 +4303,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-304",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 304,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Arsenal",
@@ -4399,14 +4319,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-305",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 305,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Selhurst Park",
       "home": "Crystal Palace",
       "away": "Everton",
@@ -4415,14 +4335,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-306",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 306,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Nott'm Forest",
@@ -4431,14 +4351,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-307",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 307,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Anfield",
       "home": "Liverpool",
       "away": "Newcastle",
@@ -4447,14 +4367,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-308",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 308,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Old Trafford",
       "home": "Man Utd",
       "away": "Hull",
@@ -4463,14 +4383,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-309",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 309,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Stadium of Light",
       "home": "Sunderland",
       "away": "Ipswich",
@@ -4479,14 +4399,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-310",
       "season": "2026/27",
       "gameweek": 31,
       "sequence": 310,
-      "kickoff": "2027-04-10T15:00:00Z",
+      "kickoff": "2027-04-10T14:00:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Brentford",
@@ -4495,14 +4415,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-311",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 311,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Aston Villa",
@@ -4511,14 +4431,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-312",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 312,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Leeds",
@@ -4527,14 +4447,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-313",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 313,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Chelsea",
@@ -4543,14 +4463,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-314",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 314,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Bournemouth",
@@ -4559,14 +4479,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-315",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 315,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Sunderland",
@@ -4575,14 +4495,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-316",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 316,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "MKM Stadium",
       "home": "Hull",
       "away": "Coventry",
@@ -4591,14 +4511,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-317",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 317,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Man Utd",
@@ -4607,14 +4527,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-318",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 318,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Crystal Palace",
@@ -4623,14 +4543,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-319",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 319,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Spurs",
@@ -4639,14 +4559,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-320",
       "season": "2026/27",
       "gameweek": 32,
       "sequence": 320,
-      "kickoff": "2027-04-17T15:00:00Z",
+      "kickoff": "2027-04-17T14:00:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Liverpool",
@@ -4655,14 +4575,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-321",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 321,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Vitality Stadium",
       "home": "Bournemouth",
       "away": "Arsenal",
@@ -4671,14 +4591,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-322",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 322,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Villa Park",
       "home": "Aston Villa",
       "away": "Coventry",
@@ -4687,14 +4607,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-323",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 323,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Fulham",
@@ -4703,14 +4623,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-324",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 324,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Stamford Bridge",
       "home": "Chelsea",
       "away": "Man City",
@@ -4719,14 +4639,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-325",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 325,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Brighton",
@@ -4735,14 +4655,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-326",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 326,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Liverpool",
@@ -4751,14 +4671,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-327",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 327,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Old Trafford",
       "home": "Man Utd",
       "away": "Crystal Palace",
@@ -4767,14 +4687,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-328",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 328,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Ipswich",
@@ -4783,14 +4703,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-329",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 329,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Sunderland",
@@ -4799,14 +4719,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-330",
       "season": "2026/27",
       "gameweek": 33,
       "sequence": 330,
-      "kickoff": "2027-04-24T15:00:00Z",
+      "kickoff": "2027-04-24T14:00:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Hull",
@@ -4815,14 +4735,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-331",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 331,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Spurs",
@@ -4831,14 +4751,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-332",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 332,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Nott'm Forest",
@@ -4847,14 +4767,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-333",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 333,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Man Utd",
@@ -4863,14 +4783,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-334",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 334,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Selhurst Park",
       "home": "Crystal Palace",
       "away": "Aston Villa",
@@ -4879,14 +4799,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-335",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 335,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Everton",
@@ -4895,14 +4815,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-336",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 336,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "MKM Stadium",
       "home": "Hull",
       "away": "Bournemouth",
@@ -4911,14 +4831,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-337",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 337,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Leeds",
@@ -4927,14 +4847,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-338",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 338,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Anfield",
       "home": "Liverpool",
       "away": "Chelsea",
@@ -4943,14 +4863,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-339",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 339,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Brentford",
@@ -4959,14 +4879,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-340",
       "season": "2026/27",
       "gameweek": 34,
       "sequence": 340,
-      "kickoff": "2027-05-01T15:00:00Z",
+      "kickoff": "2027-05-01T14:00:00Z",
       "location": "Stadium of Light",
       "home": "Sunderland",
       "away": "Newcastle",
@@ -4975,14 +4895,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-341",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 341,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "Vitality Stadium",
       "home": "Bournemouth",
       "away": "Man Utd",
@@ -4991,14 +4911,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-342",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 342,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Aston Villa",
@@ -5007,14 +4927,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-343",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 343,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Sunderland",
@@ -5023,14 +4943,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-344",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 344,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Hull",
@@ -5039,14 +4959,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-345",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 345,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Ipswich",
@@ -5055,14 +4975,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-346",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 346,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Arsenal",
@@ -5071,14 +4991,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-347",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 347,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Liverpool",
@@ -5087,14 +5007,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-348",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 348,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Coventry",
@@ -5103,14 +5023,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-349",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 349,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Crystal Palace",
@@ -5119,14 +5039,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-350",
       "season": "2026/27",
       "gameweek": 35,
       "sequence": 350,
-      "kickoff": "2027-05-08T15:00:00Z",
+      "kickoff": "2027-05-08T14:00:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Chelsea",
@@ -5135,14 +5055,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-351",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 351,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Nott'm Forest",
@@ -5151,14 +5071,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-352",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 352,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Villa Park",
       "home": "Aston Villa",
       "away": "Newcastle",
@@ -5167,14 +5087,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-353",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 353,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Stamford Bridge",
       "home": "Chelsea",
       "away": "Everton",
@@ -5183,14 +5103,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-354",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 354,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Spurs",
@@ -5199,14 +5119,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-355",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 355,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Selhurst Park",
       "home": "Crystal Palace",
       "away": "Brighton",
@@ -5215,14 +5135,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-356",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 356,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "MKM Stadium",
       "home": "Hull",
       "away": "Fulham",
@@ -5231,14 +5151,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-357",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 357,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Man City",
@@ -5247,14 +5167,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-358",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 358,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Anfield",
       "home": "Liverpool",
       "away": "Brentford",
@@ -5263,14 +5183,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-359",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 359,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Old Trafford",
       "home": "Man Utd",
       "away": "Leeds",
@@ -5279,14 +5199,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-360",
       "season": "2026/27",
       "gameweek": 36,
       "sequence": 360,
-      "kickoff": "2027-05-15T15:00:00Z",
+      "kickoff": "2027-05-15T14:00:00Z",
       "location": "Stadium of Light",
       "home": "Sunderland",
       "away": "Bournemouth",
@@ -5295,14 +5215,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-361",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 361,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "Vitality Stadium",
       "home": "Bournemouth",
       "away": "Chelsea",
@@ -5311,14 +5231,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-362",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 362,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Hull",
@@ -5327,14 +5247,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-363",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 363,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Liverpool",
@@ -5343,14 +5263,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-364",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 364,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Arsenal",
@@ -5359,14 +5279,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-365",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 365,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Coventry",
@@ -5375,14 +5295,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-366",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 366,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Sunderland",
@@ -5391,14 +5311,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-367",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 367,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Aston Villa",
@@ -5407,14 +5327,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-368",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 368,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Crystal Palace",
@@ -5423,14 +5343,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-369",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 369,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Ipswich",
@@ -5439,14 +5359,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-370",
       "season": "2026/27",
       "gameweek": 37,
       "sequence": 370,
-      "kickoff": "2027-05-23T15:00:00Z",
+      "kickoff": "2027-05-23T14:00:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Man Utd",
@@ -5455,14 +5375,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-371",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 371,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Brighton",
@@ -5471,14 +5391,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-372",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 372,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Villa Park",
       "home": "Aston Villa",
       "away": "Spurs",
@@ -5487,14 +5407,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-373",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 373,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Stamford Bridge",
       "home": "Chelsea",
       "away": "Brentford",
@@ -5503,14 +5423,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-374",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 374,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Nott'm Forest",
@@ -5519,14 +5439,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-375",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 375,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Selhurst Park",
       "home": "Crystal Palace",
       "away": "Leeds",
@@ -5535,14 +5455,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-376",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 376,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "MKM Stadium",
       "home": "Hull",
       "away": "Newcastle",
@@ -5551,14 +5471,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-377",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 377,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Everton",
@@ -5567,14 +5487,14 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-378",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 378,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Anfield",
       "home": "Liverpool",
       "away": "Bournemouth",
@@ -5583,14 +5503,14 @@ window.AVSM_DATA = {
       "awayPints": 2,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-379",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 379,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Old Trafford",
       "home": "Man Utd",
       "away": "Fulham",
@@ -5599,14 +5519,14 @@ window.AVSM_DATA = {
       "awayPints": 3,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     },
     {
       "id": "epl2026-380",
       "season": "2026/27",
       "gameweek": 38,
       "sequence": 380,
-      "kickoff": "2027-05-30T16:00:00Z",
+      "kickoff": "2027-05-30T15:00:00Z",
       "location": "Stadium of Light",
       "home": "Sunderland",
       "away": "Man City",
@@ -5615,7 +5535,7 @@ window.AVSM_DATA = {
       "awayPints": 1,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-09-10T04:46:56.093778Z"
+      "pintsLockedAt": "2026-09-12T14:49:35.061441Z"
     }
   ],
   "recordedResults": [
@@ -5624,7 +5544,7 @@ window.AVSM_DATA = {
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 1,
-      "kickoff": "2026-08-21T20:00:00Z",
+      "kickoff": "2026-08-21T19:00:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Coventry",
@@ -5637,14 +5557,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-21T20:00:00Z"
+      "pintsLockedAt": "2026-08-21T19:00:00Z"
     },
     {
       "id": "epl2026-2",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 2,
-      "kickoff": "2026-08-22T12:30:00Z",
+      "kickoff": "2026-08-22T11:30:00Z",
       "location": "MKM Stadium",
       "home": "Hull",
       "away": "Man Utd",
@@ -5657,14 +5577,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-22T12:30:00Z"
+      "pintsLockedAt": "2026-08-22T11:30:00Z"
     },
     {
       "id": "epl2026-3",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 3,
-      "kickoff": "2026-08-22T15:00:00Z",
+      "kickoff": "2026-08-22T14:00:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Crystal Palace",
@@ -5677,14 +5597,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-22T15:00:00Z"
+      "pintsLockedAt": "2026-08-22T14:00:00Z"
     },
     {
       "id": "epl2026-4",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 4,
-      "kickoff": "2026-08-22T15:00:00Z",
+      "kickoff": "2026-08-22T14:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Sunderland",
@@ -5697,14 +5617,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-22T15:00:00Z"
+      "pintsLockedAt": "2026-08-22T14:00:00Z"
     },
     {
       "id": "epl2026-5",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 5,
-      "kickoff": "2026-08-22T15:00:00Z",
+      "kickoff": "2026-08-22T14:00:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Leeds",
@@ -5717,14 +5637,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-22T15:00:00Z"
+      "pintsLockedAt": "2026-08-22T14:00:00Z"
     },
     {
       "id": "epl2026-6",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 6,
-      "kickoff": "2026-08-22T17:30:00Z",
+      "kickoff": "2026-08-22T16:30:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Spurs",
@@ -5737,14 +5657,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-22T17:30:00Z"
+      "pintsLockedAt": "2026-08-22T16:30:00Z"
     },
     {
       "id": "epl2026-7",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 7,
-      "kickoff": "2026-08-23T14:00:00Z",
+      "kickoff": "2026-08-23T13:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Aston Villa",
@@ -5757,14 +5677,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-23T14:00:00Z"
+      "pintsLockedAt": "2026-08-23T13:00:00Z"
     },
     {
       "id": "epl2026-8",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 8,
-      "kickoff": "2026-08-23T14:00:00Z",
+      "kickoff": "2026-08-23T13:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Bournemouth",
@@ -5777,14 +5697,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-23T14:00:00Z"
+      "pintsLockedAt": "2026-08-23T13:00:00Z"
     },
     {
       "id": "epl2026-9",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 9,
-      "kickoff": "2026-08-23T16:30:00Z",
+      "kickoff": "2026-08-23T15:30:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Liverpool",
@@ -5797,14 +5717,14 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-23T16:30:00Z"
+      "pintsLockedAt": "2026-08-23T15:30:00Z"
     },
     {
       "id": "epl2026-10",
       "season": "2026/27",
       "gameweek": 1,
       "sequence": 10,
-      "kickoff": "2026-08-24T20:00:00Z",
+      "kickoff": "2026-08-24T19:00:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Chelsea",
@@ -5817,14 +5737,14 @@ window.AVSM_DATA = {
         "away": 3
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-24T20:00:00Z"
+      "pintsLockedAt": "2026-08-24T19:00:00Z"
     },
     {
       "id": "epl2026-15",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 15,
-      "kickoff": "2026-08-28T20:00:00Z",
+      "kickoff": "2026-08-28T19:00:00Z",
       "location": "Selhurst Park",
       "home": "Crystal Palace",
       "away": "Man City",
@@ -5837,14 +5757,14 @@ window.AVSM_DATA = {
         "away": 4
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-28T20:00:00Z"
+      "pintsLockedAt": "2026-08-28T19:00:00Z"
     },
     {
       "id": "epl2026-17",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 17,
-      "kickoff": "2026-08-29T12:30:00Z",
+      "kickoff": "2026-08-29T11:30:00Z",
       "location": "Anfield",
       "home": "Liverpool",
       "away": "Nott'm Forest",
@@ -5857,14 +5777,14 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-29T12:30:00Z"
+      "pintsLockedAt": "2026-08-29T11:30:00Z"
     },
     {
       "id": "epl2026-11",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 11,
-      "kickoff": "2026-08-29T15:00:00Z",
+      "kickoff": "2026-08-29T14:00:00Z",
       "location": "Vitality Stadium",
       "home": "Bournemouth",
       "away": "Everton",
@@ -5877,14 +5797,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-29T15:00:00Z"
+      "pintsLockedAt": "2026-08-29T14:00:00Z"
     },
     {
       "id": "epl2026-14",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 14,
-      "kickoff": "2026-08-29T15:00:00Z",
+      "kickoff": "2026-08-29T14:00:00Z",
       "location": "Coventry Building Society Arena",
       "home": "Coventry",
       "away": "Hull",
@@ -5897,14 +5817,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-29T15:00:00Z"
+      "pintsLockedAt": "2026-08-29T14:00:00Z"
     },
     {
       "id": "epl2026-20",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 20,
-      "kickoff": "2026-08-29T17:30:00Z",
+      "kickoff": "2026-08-29T16:30:00Z",
       "location": "Tottenham Hotspur Stadium",
       "home": "Spurs",
       "away": "Newcastle",
@@ -5917,14 +5837,14 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-29T17:30:00Z"
+      "pintsLockedAt": "2026-08-29T16:30:00Z"
     },
     {
       "id": "epl2026-13",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 13,
-      "kickoff": "2026-08-30T14:00:00Z",
+      "kickoff": "2026-08-30T13:00:00Z",
       "location": "Stamford Bridge",
       "home": "Chelsea",
       "away": "Brighton",
@@ -5937,14 +5857,14 @@ window.AVSM_DATA = {
         "away": 3
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-30T14:00:00Z"
+      "pintsLockedAt": "2026-08-30T13:00:00Z"
     },
     {
       "id": "epl2026-16",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 16,
-      "kickoff": "2026-08-30T14:00:00Z",
+      "kickoff": "2026-08-30T13:00:00Z",
       "location": "Elland Road",
       "home": "Leeds",
       "away": "Brentford",
@@ -5957,14 +5877,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-30T14:00:00Z"
+      "pintsLockedAt": "2026-08-30T13:00:00Z"
     },
     {
       "id": "epl2026-19",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 19,
-      "kickoff": "2026-08-30T14:00:00Z",
+      "kickoff": "2026-08-30T13:00:00Z",
       "location": "Stadium of Light",
       "home": "Sunderland",
       "away": "Fulham",
@@ -5977,14 +5897,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-30T14:00:00Z"
+      "pintsLockedAt": "2026-08-30T13:00:00Z"
     },
     {
       "id": "epl2026-18",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 18,
-      "kickoff": "2026-08-30T16:30:00Z",
+      "kickoff": "2026-08-30T15:30:00Z",
       "location": "Old Trafford",
       "home": "Man Utd",
       "away": "Ipswich",
@@ -5997,14 +5917,14 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-30T16:30:00Z"
+      "pintsLockedAt": "2026-08-30T15:30:00Z"
     },
     {
       "id": "epl2026-12",
       "season": "2026/27",
       "gameweek": 2,
       "sequence": 12,
-      "kickoff": "2026-08-31T20:00:00Z",
+      "kickoff": "2026-08-31T19:00:00Z",
       "location": "Villa Park",
       "home": "Aston Villa",
       "away": "Arsenal",
@@ -6017,14 +5937,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-08-31T20:00:00Z"
+      "pintsLockedAt": "2026-08-31T19:00:00Z"
     },
     {
       "id": "epl2026-27",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 27,
-      "kickoff": "2026-09-04T20:00:00Z",
+      "kickoff": "2026-09-04T19:00:00Z",
       "location": "Portman Road",
       "home": "Ipswich",
       "away": "Liverpool",
@@ -6037,14 +5957,14 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-04T20:00:00Z"
+      "pintsLockedAt": "2026-09-04T19:00:00Z"
     },
     {
       "id": "epl2026-29",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 29,
-      "kickoff": "2026-09-05T12:30:00Z",
+      "kickoff": "2026-09-05T11:30:00Z",
       "location": "St. James' Park",
       "home": "Newcastle",
       "away": "Bournemouth",
@@ -6057,14 +5977,14 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-05T12:30:00Z"
+      "pintsLockedAt": "2026-09-05T11:30:00Z"
     },
     {
       "id": "epl2026-22",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 22,
-      "kickoff": "2026-09-05T15:00:00Z",
+      "kickoff": "2026-09-05T14:00:00Z",
       "location": "Gtech Community Stadium",
       "home": "Brentford",
       "away": "Sunderland",
@@ -6077,14 +5997,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-05T15:00:00Z"
+      "pintsLockedAt": "2026-09-05T14:00:00Z"
     },
     {
       "id": "epl2026-23",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 23,
-      "kickoff": "2026-09-05T15:00:00Z",
+      "kickoff": "2026-09-05T14:00:00Z",
       "location": "American Express Stadium",
       "home": "Brighton",
       "away": "Leeds",
@@ -6097,14 +6017,14 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-05T15:00:00Z"
+      "pintsLockedAt": "2026-09-05T14:00:00Z"
     },
     {
       "id": "epl2026-25",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 25,
-      "kickoff": "2026-09-05T15:00:00Z",
+      "kickoff": "2026-09-05T14:00:00Z",
       "location": "Craven Cottage",
       "home": "Fulham",
       "away": "Crystal Palace",
@@ -6117,14 +6037,14 @@ window.AVSM_DATA = {
         "away": 3
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-05T15:00:00Z"
+      "pintsLockedAt": "2026-09-05T14:00:00Z"
     },
     {
       "id": "epl2026-28",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 28,
-      "kickoff": "2026-09-05T15:00:00Z",
+      "kickoff": "2026-09-05T14:00:00Z",
       "location": "Etihad Stadium",
       "home": "Man City",
       "away": "Coventry",
@@ -6137,14 +6057,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-05T15:00:00Z"
+      "pintsLockedAt": "2026-09-05T14:00:00Z"
     },
     {
       "id": "epl2026-30",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 30,
-      "kickoff": "2026-09-05T15:00:00Z",
+      "kickoff": "2026-09-05T14:00:00Z",
       "location": "The City Ground",
       "home": "Nott'm Forest",
       "away": "Spurs",
@@ -6157,14 +6077,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-05T15:00:00Z"
+      "pintsLockedAt": "2026-09-05T14:00:00Z"
     },
     {
       "id": "epl2026-26",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 26,
-      "kickoff": "2026-09-05T17:30:00Z",
+      "kickoff": "2026-09-05T16:30:00Z",
       "location": "MKM Stadium",
       "home": "Hull",
       "away": "Aston Villa",
@@ -6177,14 +6097,14 @@ window.AVSM_DATA = {
         "away": 0
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-05T17:30:00Z"
+      "pintsLockedAt": "2026-09-05T16:30:00Z"
     },
     {
       "id": "epl2026-24",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 24,
-      "kickoff": "2026-09-06T14:00:00Z",
+      "kickoff": "2026-09-06T13:00:00Z",
       "location": "Hill Dickinson Stadium",
       "home": "Everton",
       "away": "Man Utd",
@@ -6197,14 +6117,14 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-06T14:00:00Z"
+      "pintsLockedAt": "2026-09-06T13:00:00Z"
     },
     {
       "id": "epl2026-21",
       "season": "2026/27",
       "gameweek": 3,
       "sequence": 21,
-      "kickoff": "2026-09-06T16:30:00Z",
+      "kickoff": "2026-09-06T15:30:00Z",
       "location": "Emirates Stadium",
       "home": "Arsenal",
       "away": "Chelsea",
@@ -6217,7 +6137,7 @@ window.AVSM_DATA = {
         "away": 1
       },
       "resultSource": "api",
-      "pintsLockedAt": "2026-09-06T16:30:00Z"
+      "pintsLockedAt": "2026-09-06T15:30:00Z"
     }
   ]
 };

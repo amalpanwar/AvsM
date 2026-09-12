@@ -6,6 +6,7 @@ import math
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from openpyxl import load_workbook
 from openpyxl.utils.datetime import from_excel
@@ -16,14 +17,20 @@ HISTORY_FILE = ROOT / "epl-2025-GMTStandardTime.xlsx"
 FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 OUT_FILE = ROOT / "generated-data.js"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
+FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
 
 
 def parse_excel_datetime(value):
     if isinstance(value, datetime):
-        return value.replace(tzinfo=timezone.utc)
-    if isinstance(value, (int, float)):
-        return from_excel(value).replace(tzinfo=timezone.utc)
-    raise ValueError(f"Unsupported Excel date value: {value!r}")
+        parsed = value
+    elif isinstance(value, (int, float)):
+        parsed = from_excel(value)
+    else:
+        raise ValueError(f"Unsupported Excel date value: {value!r}")
+
+    if parsed.tzinfo:
+        return parsed.astimezone(timezone.utc)
+    return parsed.replace(tzinfo=FIXTURE_TIMEZONE).astimezone(timezone.utc)
 
 
 def parse_result(value):

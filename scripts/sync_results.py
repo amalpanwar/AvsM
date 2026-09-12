@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 from openpyxl import load_workbook
 from openpyxl.utils.datetime import from_excel
@@ -20,6 +21,7 @@ FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 BUILD_SCRIPT = ROOT / "scripts" / "build_data.py"
 ENV_FILE = ROOT / ".env"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
+FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
 
 TEAM_ALIASES = {
     "afc bournemouth": "bournemouth",
@@ -57,10 +59,15 @@ def normalise_team(value):
 
 def parse_excel_datetime(value):
     if isinstance(value, datetime):
-        return value.replace(tzinfo=timezone.utc)
-    if isinstance(value, (int, float)):
-        return from_excel(value).replace(tzinfo=timezone.utc)
-    raise ValueError(f"Unsupported Excel date value: {value!r}")
+        parsed = value
+    elif isinstance(value, (int, float)):
+        parsed = from_excel(value)
+    else:
+        raise ValueError(f"Unsupported Excel date value: {value!r}")
+
+    if parsed.tzinfo:
+        return parsed.astimezone(timezone.utc)
+    return parsed.replace(tzinfo=FIXTURE_TIMEZONE).astimezone(timezone.utc)
 
 
 def football_data_matches(token, season):
