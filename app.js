@@ -1,4 +1,4 @@
-const STORAGE_KEY = "avsm-state-v2";
+const STORAGE_KEY = "avsm-state-v3";
 const MATCH_SETTLEMENT_LOCK_MS = 2 * 60 * 60 * 1000;
 
 const USERS = {
@@ -110,13 +110,17 @@ function shortDateTime(value) {
 }
 
 function totals() {
-  return state.ledger.reduce(
+  return officialLedger().reduce(
     (acc, item) => {
       acc[item.userId] += item.pintsChange;
       return acc;
     },
     { A: 0, M: 0 },
   );
+}
+
+function officialLedger() {
+  return state.ledger.filter((item) => item.source !== "manual");
 }
 
 function leaderText() {
@@ -549,17 +553,11 @@ function renderHistory() {
 
 function renderHistoryRow(fixture) {
   const result = fixture.score ? `${fixture.score.home}-${fixture.score.away}` : "-";
-  const ledger = state.ledger.filter((item) => item.fixtureId === fixture.id && item.pintsChange > 0);
   let outcome = "Recorded result";
   let outcomeClass = "";
   if (fixture.status === "awaiting") {
     outcome = "Awaiting final score sync";
     outcomeClass = "pending";
-  } else if (fixture.status === "void") {
-    outcome = "VOID";
-    outcomeClass = "void";
-  } else if (ledger.length) {
-    outcome = `${USERS[ledger[0].userId].name} +${ledger[0].pintsChange}`;
   }
 
   return `
@@ -575,7 +573,7 @@ function renderHistoryRow(fixture) {
 
 function renderLeaderboard() {
   const score = totals();
-  const byGameweek = state.ledger.reduce((acc, item) => {
+  const byGameweek = officialLedger().reduce((acc, item) => {
     const fixture = allFixtures().find((match) => match.id === item.fixtureId);
     const key = fixture ? `Gameweek ${fixture.gameweek}` : "Other";
     acc[key] ||= { A: 0, M: 0 };
