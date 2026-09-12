@@ -53,7 +53,9 @@ The Play Console upload file is `app-release.aab`. The direct-install file is `a
 
 Google match cards are not a stable public data API, so the app does not scrape Google Search results. Use a football results API instead.
 
-On GitHub, the `Sync Premier League Results` workflow uses the repository secret named `FOOTBALL_DATA_API_TOKEN`. The workflow runs four times per day, writes finished Premier League scores into `data/api-results.json`, regenerates `generated-data.js`, and pushes the update back to this repo. The Excel workbook remains the fixture source and does not need to be modified for API settlement.
+On GitHub, the `Sync Premier League Results` workflow uses the repository secret named `FOOTBALL_DATA_API_TOKEN`. The workflow runs every 30 minutes, writes finished Premier League scores into `data/api-results.json`, regenerates `generated-data.js`, and pushes the update back to this repo. The Excel workbook remains the fixture source and does not need to be modified for API settlement.
+
+GitHub Actions cannot create true per-fixture dynamic timers from a static GitHub Pages app. Instead, the 30-minute sync cadence checks football-data.org for finished matches. In practice, history updates after football-data.org marks the match `FINISHED`, the next scheduled sync runs, and GitHub Pages redeploys.
 
 To run the same sync locally, either export the token in your shell or create a private `.env` file:
 
