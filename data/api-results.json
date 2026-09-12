@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T04:46:56.000077Z",
+  "updatedAt": "2026-09-12T16:58:34.100161Z",
   "source": "football-data.org",
   "results": [
     {
@@ -481,6 +481,86 @@
       "source": "football-data.org",
       "sourceMatchId": 560562,
       "settledAt": "2026-09-10T04:46:55.999615Z"
+    },
+    {
+      "id": "epl2026-31",
+      "season": "2026/27",
+      "gameweek": 4,
+      "sequence": 31,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "home": "Bournemouth",
+      "away": "Brentford",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560576,
+      "settledAt": "2026-09-12T16:58:34.099738Z"
+    },
+    {
+      "id": "epl2026-32",
+      "season": "2026/27",
+      "gameweek": 4,
+      "sequence": 32,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "home": "Aston Villa",
+      "away": "Nott'm Forest",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560574,
+      "settledAt": "2026-09-12T16:58:34.099729Z"
+    },
+    {
+      "id": "epl2026-33",
+      "season": "2026/27",
+      "gameweek": 4,
+      "sequence": 33,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "home": "Chelsea",
+      "away": "Hull",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560581,
+      "settledAt": "2026-09-12T16:58:34.099747Z"
+    },
+    {
+      "id": "epl2026-35",
+      "season": "2026/27",
+      "gameweek": 4,
+      "sequence": 35,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "home": "Crystal Palace",
+      "away": "Ipswich",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560572,
+      "settledAt": "2026-09-12T16:58:34.099692Z"
+    },
+    {
+      "id": "epl2026-37",
+      "season": "2026/27",
+      "gameweek": 4,
+      "sequence": 37,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "home": "Liverpool",
+      "away": "Fulham",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560573,
+      "settledAt": "2026-09-12T16:58:34.099716Z"
     }
   ]
 }
