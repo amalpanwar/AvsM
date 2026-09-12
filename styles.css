@@ -147,7 +147,8 @@ small {
 .pick-actions button,
 .settle-form button,
 .notice button,
-.ghost {
+.ghost,
+.link-button {
   min-height: 42px;
   padding: 0 14px;
   border-radius: 8px;
@@ -166,6 +167,15 @@ small {
 .ghost {
   color: var(--navy);
   background: #eef2f7;
+}
+
+.link-button {
+  width: fit-content;
+  min-height: 34px;
+  margin-top: 10px;
+  color: #7c2d12;
+  background: #ffedd5;
+  border: 1px solid #fdba74;
 }
 
 .layout {
@@ -257,6 +267,21 @@ small {
 
 .scoreboard h1 {
   font-size: clamp(28px, 4vw, 44px);
+}
+
+.scoreboard-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.scoreboard-title img {
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
 }
 
 .scoreboard.compact h1 {

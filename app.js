@@ -148,7 +148,8 @@ function canPick(fixture) {
     state.currentUser === fixture.firstPicker &&
     fixture.status === "open" &&
     !fixturePick(fixture) &&
-    !hasLedgerEntry(fixture.id)
+    !hasLedgerEntry(fixture.id) &&
+    !kickoffHasStarted(fixture)
   );
 }
 
@@ -168,8 +169,24 @@ function matchHasPassed(fixture) {
   return Date.now() >= new Date(fixture.kickoff).getTime() + MATCH_SETTLEMENT_LOCK_MS;
 }
 
+function kickoffHasStarted(fixture) {
+  return Date.now() >= new Date(fixture.kickoff).getTime();
+}
+
 function canManualSettle(fixture) {
   return fixture.status === "open" && !hasLedgerEntry(fixture.id) && !matchHasPassed(fixture);
+}
+
+function canResetPick(fixture) {
+  const pick = fixturePick(fixture);
+  const result = state.localResults[fixture.id];
+  return Boolean(
+    pick &&
+      state.currentUser === pick.firstPickerUserId &&
+      !kickoffHasStarted(fixture) &&
+      result?.source !== "api" &&
+      !result?.locked,
+  );
 }
 
 function sameScore(left, right) {
@@ -250,6 +267,17 @@ function placePick(fixtureId, team) {
   render();
 }
 
+function resetFixturePick(fixtureId) {
+  const fixture = allFixtures().find((item) => item.id === fixtureId);
+  if (!fixture || !canResetPick(fixture)) return;
+
+  delete state.picks[fixtureId];
+  delete state.localResults[fixtureId];
+  state.ledger = state.ledger.filter((item) => item.fixtureId !== fixtureId);
+  saveState();
+  render();
+}
+
 function settleFixture(fixtureId, homeScore, awayScore) {
   const fixture = allFixtures().find((item) => item.id === fixtureId);
   const pick = state.picks[fixtureId];
@@ -274,21 +302,18 @@ function settleFixture(fixtureId, homeScore, awayScore) {
 
 function resetLocalGame() {
   const currentUser = state.currentUser;
-  const protectedFixtureIds = new Set([
-    ...generated.recordedResults.map((fixture) => fixture.id),
-    ...Object.keys(state.localResults).filter((fixtureId) => {
-      const fixture = allFixtures().find((item) => item.id === fixtureId);
-      const result = state.localResults[fixtureId];
-      return result?.source === "api" || result?.locked || (fixture && matchHasPassed(fixture));
-    }),
-  ]);
+  const resettableFixtureIds = new Set(
+    allFixtures()
+      .filter((fixture) => canResetPick(fixture))
+      .map((fixture) => fixture.id),
+  );
 
   state = {
     currentUser,
     activeView: "fixtures",
-    picks: Object.fromEntries(Object.entries(state.picks).filter(([fixtureId]) => protectedFixtureIds.has(fixtureId))),
-    ledger: state.ledger.filter((item) => protectedFixtureIds.has(item.fixtureId)),
-    localResults: Object.fromEntries(Object.entries(state.localResults).filter(([fixtureId]) => protectedFixtureIds.has(fixtureId))),
+    picks: Object.fromEntries(Object.entries(state.picks).filter(([fixtureId]) => !resettableFixtureIds.has(fixtureId))),
+    ledger: state.ledger.filter((item) => !resettableFixtureIds.has(item.fixtureId)),
+    localResults: Object.fromEntries(Object.entries(state.localResults).filter(([fixtureId]) => !resettableFixtureIds.has(fixtureId))),
   };
   saveState();
   render();
@@ -387,7 +412,7 @@ function renderDashboard() {
       <section class="scoreboard">
         <div>
           <span class="label">Season lead</span>
-          <h1>${leaderText()}</h1>
+          <h1 class="scoreboard-title"><img src="assets/pint.svg" alt="" />${leaderText()}</h1>
         </div>
         <div class="totals">
           <div><span>A</span><strong>${score.A}</strong><small>Amal</small></div>
@@ -424,7 +449,7 @@ function renderFixtures() {
       ${nav()}
       <section class="section-heading">
         <h1>Fixtures</h1>
-        <button class="ghost" data-action="reset">Reset local picks</button>
+        <button class="ghost" data-action="reset">Reset my picks</button>
       </section>
       ${dataNote()}
       <div class="fixture-grid">
@@ -464,6 +489,7 @@ function renderFixtureCard(fixture) {
           ? `<div class="assignment">
               <strong>${USERS[pick.firstPickerUserId].name} picked ${escapeHtml(pick.chosenTeam)}</strong>
               <span>${USERS[pick.otherUserId].name} auto-assigned ${escapeHtml(pick.autoAssignedTeam)}</span>
+              ${canResetPick(fixture) ? `<button class="link-button" data-action="reset-pick" data-fixture-id="${fixture.id}">Reset my pick</button>` : ""}
             </div>
             ${
               settled
@@ -560,7 +586,7 @@ function renderLeaderboard() {
       <section class="scoreboard compact">
         <div>
           <span class="label">Ledger total</span>
-          <h1>${leaderText()}</h1>
+          <h1 class="scoreboard-title"><img src="assets/pint.svg" alt="" />${leaderText()}</h1>
         </div>
         <div class="totals">
           <div><span>A</span><strong>${score.A}</strong><small>Amal</small></div>
@@ -614,6 +640,7 @@ document.addEventListener("click", (event) => {
   if (action === "logout") logout();
   if (action === "view") setView(button.dataset.view);
   if (action === "reset") resetLocalGame();
+  if (action === "reset-pick") resetFixturePick(button.dataset.fixtureId);
   if (action === "pick") placePick(button.dataset.fixtureId, button.dataset.team);
 });
 
