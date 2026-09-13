@@ -9,7 +9,7 @@ import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
@@ -107,6 +107,10 @@ def parse_excel_datetime(value):
 
 
 def football_data_matches(token, season):
+    if not token:
+        print("FOOTBALL_DATA_API_TOKEN is not set; skipping football-data.org and using fallback sources.")
+        return []
+
     params = urlencode({"season": season})
     request = Request(
         f"https://api.football-data.org/v4/competitions/PL/matches?{params}",
@@ -118,7 +122,11 @@ def football_data_matches(token, season):
             payload = json.loads(response.read().decode("utf-8"))
     except HTTPError as error:
         body = error.read().decode("utf-8", errors="replace")
-        raise SystemExit(f"football-data.org request failed: HTTP {error.code} {body}") from error
+        print(f"football-data.org request failed: HTTP {error.code} {body}")
+        return []
+    except URLError as error:
+        print(f"football-data.org request failed: {error}")
+        return []
 
     return payload.get("matches", [])
 
@@ -138,7 +146,11 @@ def native_stats_results():
             page = response.read().decode("utf-8", errors="replace")
     except HTTPError as error:
         body = error.read().decode("utf-8", errors="replace")
-        raise SystemExit(f"native-stats.org request failed: HTTP {error.code} {body}") from error
+        print(f"native-stats.org request failed: HTTP {error.code} {body}")
+        return []
+    except URLError as error:
+        print(f"native-stats.org request failed: {error}")
+        return []
 
     results = []
     for row in re.findall(r'<tr id="last-(\d+)">(.*?)</tr>', page, flags=re.DOTALL):
@@ -210,7 +222,7 @@ def write_api_result_cache(results):
     API_RESULTS_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "source": "football-data.org",
+        "source": "football-data.org,native-stats.org",
         "results": sorted(results.values(), key=lambda item: item["sequence"]),
     }
     API_RESULTS_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
@@ -336,8 +348,6 @@ def main():
 
     load_env_file(ENV_FILE)
     token = os.environ.get("FOOTBALL_DATA_API_TOKEN")
-    if not token:
-        raise SystemExit("Set FOOTBALL_DATA_API_TOKEN in your shell or in a private .env file before running this script.")
 
     updates, crossed_kickoff = sync_results(token, args.season, args.dry_run)
     if not updates:
