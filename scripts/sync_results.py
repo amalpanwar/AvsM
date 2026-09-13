@@ -23,9 +23,13 @@ FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 BUILD_SCRIPT = ROOT / "scripts" / "build_data.py"
 ENV_FILE = ROOT / ".env"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
+SCORE_OBSERVATIONS_FILE = ROOT / "data" / "score-observations.json"
 GENERATED_DATA_FILE = ROOT / "generated-data.js"
 FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
 NATIVE_STATS_URL = "https://native-stats.org/competition/PL/"
+OBSERVATION_START_DELAY = timedelta(hours=2)
+OBSERVATION_STABILITY_WINDOW = timedelta(hours=1)
+OBSERVATION_MIN_SEEN_COUNT = 2
 
 TEAM_ALIASES = {
     "afc bournemouth": "bournemouth",
@@ -155,8 +159,7 @@ def native_stats_results():
     results = []
     for row in re.findall(r'<tr id="last-(\d+)">(.*?)</tr>', page, flags=re.DOTALL):
         native_id, row_html = row
-        if "animate-pulse" in row_html:
-            continue
+        provisional = "animate-pulse" in row_html
 
         date_match = re.search(r"<th>(\d{4})/(\d{2})/(\d{2}),\s*(\d{1,2})h(\d{2})</th>", row_html)
         score_match = re.search(r">\s*(\d+):(\d+)\s*</div>", row_html)
@@ -176,6 +179,7 @@ def native_stats_results():
                 "score": {"home": int(score_match.group(1)), "away": int(score_match.group(2))},
                 "source": "native-stats.org",
                 "sourceMatchId": int(native_id),
+                "provisional": provisional,
             }
         )
 
@@ -218,6 +222,14 @@ def load_api_result_cache():
     return {item["id"]: item for item in payload.get("results", [])}
 
 
+def load_score_observations():
+    if not SCORE_OBSERVATIONS_FILE.exists():
+        return {}
+
+    payload = json.loads(SCORE_OBSERVATIONS_FILE.read_text(encoding="utf-8"))
+    return {item["id"]: item for item in payload.get("observations", [])}
+
+
 def write_api_result_cache(results):
     API_RESULTS_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -226,6 +238,21 @@ def write_api_result_cache(results):
         "results": sorted(results.values(), key=lambda item: item["sequence"]),
     }
     API_RESULTS_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+
+def write_score_observations(observations):
+    SCORE_OBSERVATIONS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "source": "native-stats.org",
+        "policy": {
+            "observeAfterKickoffMinutes": int(OBSERVATION_START_DELAY.total_seconds() / 60),
+            "stableForMinutes": int(OBSERVATION_STABILITY_WINDOW.total_seconds() / 60),
+            "minimumSeenCount": OBSERVATION_MIN_SEEN_COUNT,
+        },
+        "observations": sorted(observations.values(), key=lambda item: item["sequence"]),
+    }
+    SCORE_OBSERVATIONS_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
 
 def load_generated_cutoff():
@@ -272,9 +299,70 @@ def sync_results(token, season, dry_run):
         fixtures.append(fixture)
 
     cached_results = load_api_result_cache()
+    score_observations = load_score_observations()
     previous_cutoff = load_generated_cutoff()
     crossed_kickoff = previous_cutoff is None or any(previous_cutoff < fixture["kickoff_dt"] <= now for fixture in fixtures)
     updates = []
+    observations_changed = False
+
+    def remove_observation(fixture_id):
+        nonlocal observations_changed
+        if fixture_id in score_observations:
+            observations_changed = True
+            if not dry_run:
+                score_observations.pop(fixture_id, None)
+
+    def write_cached_result(fixture, result, source_result, source_name=None):
+        cached_results[fixture["id"]] = {
+            "id": fixture["id"],
+            "season": "2026/27",
+            "gameweek": fixture["gameweek"],
+            "sequence": fixture["sequence"],
+            "kickoff": fixture["kickoff"],
+            "home": fixture["home"],
+            "away": fixture["away"],
+            "score": result,
+            "source": source_name or source_result["source"],
+            "sourceMatchId": source_result.get("sourceMatchId"),
+            "settledAt": now.isoformat().replace("+00:00", "Z"),
+        }
+
+    def observe_score(fixture, result, source_result):
+        nonlocal observations_changed
+        if now < fixture["kickoff_dt"] + OBSERVATION_START_DELAY:
+            return False
+
+        current = score_observations.get(fixture["id"])
+        if not current or current.get("score") != result:
+            observation = {
+                "id": fixture["id"],
+                "season": "2026/27",
+                "gameweek": fixture["gameweek"],
+                "sequence": fixture["sequence"],
+                "kickoff": fixture["kickoff"],
+                "home": fixture["home"],
+                "away": fixture["away"],
+                "score": result,
+                "source": source_result["source"],
+                "sourceMatchId": source_result.get("sourceMatchId"),
+                "firstSeenAt": now.isoformat().replace("+00:00", "Z"),
+                "lastSeenAt": now.isoformat().replace("+00:00", "Z"),
+                "seenCount": 1,
+            }
+            observations_changed = True
+            if not dry_run:
+                score_observations[fixture["id"]] = observation
+            return False
+
+        first_seen = datetime.fromisoformat(current["firstSeenAt"].replace("Z", "+00:00")).astimezone(timezone.utc)
+        seen_count = int(current.get("seenCount", 1)) + 1
+        observations_changed = True
+        if not dry_run:
+            current["lastSeenAt"] = now.isoformat().replace("+00:00", "Z")
+            current["seenCount"] = seen_count
+            current["sourceMatchId"] = source_result.get("sourceMatchId")
+
+        return now - first_seen >= OBSERVATION_STABILITY_WINDOW and seen_count >= OBSERVATION_MIN_SEEN_COUNT
 
     def cache_result(source_result):
         utc_date = datetime.fromisoformat(source_result["utcDate"].replace("Z", "+00:00")).astimezone(timezone.utc)
@@ -290,24 +378,20 @@ def sync_results(token, season, dry_run):
 
         cached = cached_results.get(fixture["id"])
         if cached and cached.get("score") == result:
+            remove_observation(fixture["id"])
             return
 
+        source_name = source_result["source"]
+        if source_result.get("provisional"):
+            if not observe_score(fixture, result, source_result):
+                return
+            source_name = f"{source_name}-stable-score"
+
         previous = format_score(cached["score"]) if cached else "blank"
-        updates.append((fixture["home"], fixture["away"], previous, format_score(result), source_result["source"]))
+        updates.append((fixture["home"], fixture["away"], previous, format_score(result), source_name))
         if not dry_run:
-            cached_results[fixture["id"]] = {
-                "id": fixture["id"],
-                "season": "2026/27",
-                "gameweek": fixture["gameweek"],
-                "sequence": fixture["sequence"],
-                "kickoff": fixture["kickoff"],
-                "home": fixture["home"],
-                "away": fixture["away"],
-                "score": result,
-                "source": source_result["source"],
-                "sourceMatchId": source_result["sourceMatchId"],
-                "settledAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-            }
+            write_cached_result(fixture, result, source_result, source_name)
+            remove_observation(fixture["id"])
 
     for match in football_data_matches(token, season):
         if match.get("status") != "FINISHED":
@@ -334,10 +418,13 @@ def sync_results(token, season, dry_run):
     if not dry_run and updates:
         write_api_result_cache(cached_results)
 
+    if not dry_run and observations_changed:
+        write_score_observations(score_observations)
+
     if not dry_run and (updates or crossed_kickoff):
         subprocess.run([sys.executable, str(BUILD_SCRIPT)], cwd=ROOT, check=True)
 
-    return updates, crossed_kickoff
+    return updates, crossed_kickoff, observations_changed
 
 
 def main():
@@ -349,11 +436,13 @@ def main():
     load_env_file(ENV_FILE)
     token = os.environ.get("FOOTBALL_DATA_API_TOKEN")
 
-    updates, crossed_kickoff = sync_results(token, args.season, args.dry_run)
+    updates, crossed_kickoff, observations_changed = sync_results(token, args.season, args.dry_run)
     if not updates:
         print("No new final scores found.")
         if crossed_kickoff and not args.dry_run:
             print("Regenerated app data for fixture kickoff changes.")
+        if observations_changed and not args.dry_run:
+            print("Updated post-match score observations.")
         return
 
     verb = "Would update" if args.dry_run else "Updated"
