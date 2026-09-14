@@ -10,6 +10,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   sync:
@@ -32,6 +34,7 @@ jobs:
         run: python scripts/sync_results.py
 
       - name: Commit generated data
+        id: commit
         run: |
           if [[ -n "$(git status --porcelain -- data generated-data.js)" ]]; then
             git config user.name "github-actions[bot]"
@@ -39,9 +42,25 @@ jobs:
             git add data generated-data.js
             git commit -m "Sync Premier League results"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No result changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Setup Pages
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload static site
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/deploy-pages@v4
 
       - name: Upload result cache
         if: always()
