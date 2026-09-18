@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T22:54:05.170979Z",
+  "updatedAt": "2026-09-18T22:42:48.724672Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -641,6 +641,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560575,
       "settledAt": "2026-09-12T18:33:01.929739Z"
+    },
+    {
+      "id": "epl2026-42",
+      "season": "2026/27",
+      "gameweek": 5,
+      "sequence": 42,
+      "kickoff": "2026-09-18T19:00:00Z",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560591,
+      "settledAt": "2026-09-18T22:42:43.667945Z"
     }
   ]
 }
