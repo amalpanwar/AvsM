@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T13:37:58.227686Z",
+  "updatedAt": "2026-09-19T16:58:01.211483Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -657,6 +657,54 @@
       "source": "football-data.org",
       "sourceMatchId": 560591,
       "settledAt": "2026-09-18T22:42:43.667945Z"
+    },
+    {
+      "id": "epl2026-43",
+      "season": "2026/27",
+      "gameweek": 5,
+      "sequence": 43,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560586,
+      "settledAt": "2026-09-19T16:57:58.805735Z"
+    },
+    {
+      "id": "epl2026-44",
+      "season": "2026/27",
+      "gameweek": 5,
+      "sequence": 44,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "home": "Everton",
+      "away": "Ipswich",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560584,
+      "settledAt": "2026-09-19T16:57:58.805735Z"
+    },
+    {
+      "id": "epl2026-48",
+      "season": "2026/27",
+      "gameweek": 5,
+      "sequence": 48,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "home": "Newcastle",
+      "away": "Hull",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560588,
+      "settledAt": "2026-09-19T16:57:58.805735Z"
     },
     {
       "id": "epl2026-50",
