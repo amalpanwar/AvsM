@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T22:42:48.724672Z",
+  "updatedAt": "2026-09-19T13:37:58.227686Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -657,6 +657,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560591,
       "settledAt": "2026-09-18T22:42:43.667945Z"
+    },
+    {
+      "id": "epl2026-50",
+      "season": "2026/27",
+      "gameweek": 5,
+      "sequence": 50,
+      "kickoff": "2026-09-19T11:30:00Z",
+      "home": "Spurs",
+      "away": "Aston Villa",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "source": "native-stats.org",
+      "sourceMatchId": 381088,
+      "settledAt": "2026-09-19T13:37:56.325272Z"
     }
   ]
 }
