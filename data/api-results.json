@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:58:01.211483Z",
+  "updatedAt": "2026-09-19T19:12:51.163328Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -705,6 +705,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560588,
       "settledAt": "2026-09-19T16:57:58.805735Z"
+    },
+    {
+      "id": "epl2026-49",
+      "season": "2026/27",
+      "gameweek": 5,
+      "sequence": 49,
+      "kickoff": "2026-09-19T16:30:00Z",
+      "home": "Nott'm Forest",
+      "away": "Coventry",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560589,
+      "settledAt": "2026-09-19T19:12:49.370182Z"
     },
     {
       "id": "epl2026-50",
