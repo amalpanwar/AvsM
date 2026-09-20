@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T16:55:08.654123Z",
+  "updatedAt": "2026-09-20T19:13:06.031885Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -705,6 +705,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560584,
       "settledAt": "2026-09-19T16:57:58.805735Z"
+    },
+    {
+      "id": "epl2026-45",
+      "season": "2026/27",
+      "gameweek": 5,
+      "sequence": 45,
+      "kickoff": "2026-09-20T15:30:00Z",
+      "home": "Fulham",
+      "away": "Man Utd",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560583,
+      "settledAt": "2026-09-20T19:13:04.416353Z"
     },
     {
       "id": "epl2026-46",
