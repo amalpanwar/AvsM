@@ -18,9 +18,14 @@
       const dataScript = document.createElement("script");
       dataScript.src = `generated-data.js?v=${cacheVersion}`;
       dataScript.onload = () => {
-        const appScript = document.createElement("script");
-        appScript.src = `app.js?v=${cacheVersion}`;
-        document.body.appendChild(appScript);
+        const configScript = document.createElement("script");
+        configScript.src = `firebase-config.js?v=${cacheVersion}`;
+        configScript.onload = () => {
+          const appScript = document.createElement("script");
+          appScript.src = `app.js?v=${cacheVersion}`;
+          document.body.appendChild(appScript);
+        };
+        document.body.appendChild(configScript);
       };
       document.body.appendChild(dataScript);
     </script>

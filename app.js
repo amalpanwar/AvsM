@@ -1,4 +1,5 @@
 const STORAGE_KEY = "avsm-state-v3";
+const CLOUD_MIGRATION_KEY = "avsm-cloud-migrated-v1";
 const MATCH_SETTLEMENT_LOCK_MS = 2 * 60 * 60 * 1000;
 
 const USERS = {
@@ -16,7 +17,9 @@ const generated = window.AVSM_DATA || {
 };
 
 let state = loadState();
-reconcileRecordedResults();
+let cloudStore = null;
+let cloudStatus = "connecting";
+const initialReconciledFixtures = reconcileRecordedResults();
 
 function loadState() {
   const saved = localStorage.getItem(STORAGE_KEY);
@@ -42,6 +45,74 @@ function saveState() {
       localResults: state.localResults,
     }),
   );
+}
+
+function sharedState() {
+  return {
+    picks: state.picks,
+    ledger: state.ledger,
+    localResults: state.localResults,
+  };
+}
+
+function applySharedState(shared) {
+  state.picks = shared.picks || {};
+  state.ledger = shared.ledger || [];
+  state.localResults = shared.localResults || {};
+  const reconciledFixtures = reconcileRecordedResults();
+  saveState();
+  render();
+
+  for (const fixtureId of reconciledFixtures) {
+    syncFixture(fixtureId);
+  }
+}
+
+function setCloudStatus(status) {
+  cloudStatus = status;
+  render();
+}
+
+function syncFixture(fixtureId, options) {
+  if (!cloudStore) return;
+  cloudStore.writeFixture(fixtureId, sharedState(), options).catch(() => setCloudStatus("error"));
+}
+
+async function initializeCloudSync() {
+  const config = window.AVSM_FIREBASE_CONFIG;
+  const configured = Boolean(
+    config?.apiKey &&
+      config?.authDomain &&
+      config?.databaseURL &&
+      config?.projectId &&
+      config?.appId,
+  );
+
+  if (!configured) {
+    setCloudStatus("local");
+    return;
+  }
+
+  try {
+    const { connectSharedStore } = await import(`./firebase-sync.js?v=${Date.now()}`);
+
+    const migrateLocal = localStorage.getItem(CLOUD_MIGRATION_KEY) !== "done";
+    cloudStore = await connectSharedStore({
+      config,
+      initialState: sharedState(),
+      migrateLocal,
+      onState: applySharedState,
+      onStatus: setCloudStatus,
+    });
+    localStorage.setItem(CLOUD_MIGRATION_KEY, "done");
+
+    for (const fixtureId of initialReconciledFixtures) {
+      syncFixture(fixtureId);
+    }
+  } catch (error) {
+    console.error("Cloud sync failed to start", error);
+    setCloudStatus("error");
+  }
 }
 
 function allFixtures() {
@@ -227,6 +298,7 @@ function ledgerRowsForResult(fixture, pick, createdAt, source) {
 
 function reconcileRecordedResults() {
   let changed = false;
+  const changedFixtureIds = [];
   const createdAt = generated.generatedAt || new Date().toISOString();
 
   for (const fixture of generated.recordedResults) {
@@ -250,9 +322,11 @@ function reconcileRecordedResults() {
     state.ledger = state.ledger.filter((item) => item.fixtureId !== fixture.id);
     state.ledger.push(...ledgerRowsForResult(fixture, pick, createdAt, "api"));
     changed = true;
+    changedFixtureIds.push(fixture.id);
   }
 
   if (changed) saveState();
+  return changedFixtureIds;
 }
 
 function placePick(fixtureId, team) {
@@ -269,6 +343,7 @@ function placePick(fixtureId, team) {
   };
   saveState();
   render();
+  syncFixture(fixtureId, { onlyIfMissing: true });
 }
 
 function resetFixturePick(fixtureId) {
@@ -280,6 +355,7 @@ function resetFixturePick(fixtureId) {
   state.ledger = state.ledger.filter((item) => item.fixtureId !== fixtureId);
   saveState();
   render();
+  syncFixture(fixtureId);
 }
 
 function settleFixture(fixtureId, homeScore, awayScore) {
@@ -302,6 +378,7 @@ function settleFixture(fixtureId, homeScore, awayScore) {
 
   saveState();
   render();
+  syncFixture(fixtureId);
 }
 
 function resetLocalGame() {
@@ -321,6 +398,7 @@ function resetLocalGame() {
   };
   saveState();
   render();
+  for (const fixtureId of resettableFixtureIds) syncFixture(fixtureId);
 }
 
 function setView(view) {
@@ -348,6 +426,14 @@ function refreshApp() {
 
 function appShell(content) {
   const user = state.currentUser ? USERS[state.currentUser] : null;
+  const syncLabels = {
+    connecting: "Connecting",
+    syncing: "Syncing",
+    online: "Synced",
+    offline: "Offline",
+    error: "Sync issue",
+    local: "Device only",
+  };
   return `
     <header class="topbar">
       <div class="brand">
@@ -357,7 +443,10 @@ function appShell(content) {
           <span>Premier League pint picks</span>
         </div>
       </div>
-      ${user ? `<div class="user-pill"><span>${user.code}</span>${user.name}</div>` : ""}
+      <div class="topbar-status">
+        <div class="sync-status ${cloudStatus}"><i></i>${syncLabels[cloudStatus]}</div>
+        ${user ? `<div class="user-pill"><span>${user.code}</span>${user.name}</div>` : ""}
+      </div>
     </header>
     ${content}
   `;
@@ -661,3 +750,4 @@ document.addEventListener("submit", (event) => {
 });
 
 render();
+initializeCloudSync();

@@ -100,6 +100,40 @@ small {
   font-weight: 800;
 }
 
+.topbar-status,
+.sync-status {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-status {
+  gap: 8px;
+}
+
+.sync-status {
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.sync-status i {
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  border-radius: 50%;
+}
+
+.sync-status.online i {
+  background: var(--green);
+}
+
+.sync-status.offline i,
+.sync-status.error i,
+.sync-status.local i {
+  background: var(--red);
+}
+
 .login-screen {
   display: grid;
   min-height: calc(100vh - 71px);
@@ -558,6 +592,11 @@ th:not(:first-child) {
 
   .brand span {
     display: none;
+  }
+
+  .topbar-status {
+    align-items: flex-end;
+    flex-direction: column-reverse;
   }
 
   .scoreboard,

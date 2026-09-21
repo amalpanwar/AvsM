@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "avsm": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

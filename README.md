@@ -26,6 +26,23 @@ One-time setup in GitHub:
 
 The workflow publishes the static app from the repository root.
 
+## Shared Picks Between Android and Web
+
+The app can use Firebase Realtime Database to keep picks, test settlements and the official ledger synchronized between the Android WebView and every browser. Login choice and the selected tab remain local to each device.
+
+One-time Firebase setup:
+
+1. Create a Firebase project and register a Web app.
+2. Create a Realtime Database. Start in locked mode and copy its database URL.
+3. In Authentication -> Sign-in method, enable Anonymous authentication.
+4. In Realtime Database -> Rules, paste the contents of `database.rules.json` and publish the rules.
+5. Copy the Firebase Web app configuration values into `firebase-config.js`.
+6. Commit and push `firebase-config.js`, then wait for GitHub Pages to deploy.
+
+Firebase Web configuration values are identifiers, not private credentials, and are expected to be present in client code. The database rules require a Firebase-authenticated session. The football-data.org API token remains a private GitHub Actions secret and must never be placed in `firebase-config.js`.
+
+On the first launch after Firebase is enabled, each device merges its existing local picks into the shared database once. The header displays `Synced` when the live connection is active. A pick made in the APK should then appear on GitHub Pages immediately without rebuilding the APK; the other open client receives the change through Firebase's real-time listener.
+
 ## Android Release Artifacts
 
 The repo includes a small Android WebView wrapper in `android/`. It loads the live app at `https://amalpanwar.github.io/AvsM/`, so the Android build stays current with the deployed web app.
@@ -84,11 +101,11 @@ That script pulls finished Premier League matches, writes final scores into `dat
 - Leaderboard is calculated from the ledger, not stored as a separate total.
 - No bookmaker odds or model probabilities are displayed.
 
-This local MVP uses generated Excel data plus localStorage persistence for private picks and settlements. The code keeps hidden model fields separate from the UI so a future FastAPI/PostgreSQL backend can replace the local store.
+The app keeps a local cache for resilience and uses Firebase Realtime Database for cross-device picks and settlements when `firebase-config.js` is configured.
 
 ## Session and Settlement Notes
 
-The current local app stores the signed-in user, picks, settlements and ledger in this browser's `localStorage`. Refreshing the page keeps the session. Pressing `Reset my picks` keeps the current login and clears only that user's resettable test/future picks and manual settlements. The active storage namespace is `avsm-state-v3`, which resets older test leaderboard data.
+The signed-in user and selected view remain in this browser's `localStorage`. Picks, settlements and ledger are also cached locally, then synchronized through Firebase when configured. Refreshing the page keeps the session. Pressing `Reset my picks` keeps the current login and clears only that user's resettable test/future picks and manual settlements. The active storage namespace is `avsm-state-v3`, which resets older test leaderboard data.
 
 For automatic settlement, run `python3 scripts/sync_results.py`, then refresh the app. If Amal or Matt had already made a pick for that fixture, the app settles it automatically using the locked pint values. Manual scoring is only a local fallback while testing. API results are stored in `data/api-results.json`, so the settlement flow does not require Excel write access.
 
