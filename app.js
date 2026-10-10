@@ -23,10 +23,13 @@ const initialReconciledFixtures = reconcileRecordedResults();
 function loadState() {
   const saved = localStorage.getItem(STORAGE_KEY);
   const persisted = saved ? JSON.parse(saved) : {};
+  const activeView = ["dashboard", "history", "leaderboard"].includes(persisted.activeView)
+    ? persisted.activeView
+    : "dashboard";
 
   return {
     currentUser: persisted.currentUser || null,
-    activeView: persisted.activeView || "dashboard",
+    activeView,
     picks: persisted.picks || {},
     ledger: persisted.ledger || [],
     localResults: persisted.localResults || {},
@@ -135,7 +138,7 @@ function recordedFixtures() {
 }
 
 function openFixtures() {
-  return allFixtures().filter((fixture) => fixture.status === "open");
+  return allFixtures().filter((fixture) => fixture.status === "open" && !kickoffHasStarted(fixture));
 }
 
 function historyFixtures() {
@@ -359,7 +362,7 @@ function resetLocalGame() {
 
   state = {
     currentUser,
-    activeView: "fixtures",
+    activeView: "dashboard",
     picks: Object.fromEntries(Object.entries(state.picks).filter(([fixtureId]) => !resettableFixtureIds.has(fixtureId))),
     ledger: state.ledger.filter((item) => !resettableFixtureIds.has(item.fixtureId)),
     localResults: Object.fromEntries(Object.entries(state.localResults).filter(([fixtureId]) => !resettableFixtureIds.has(fixtureId))),
@@ -439,7 +442,6 @@ function renderLogin() {
 function nav() {
   const items = [
     ["dashboard", "Dashboard"],
-    ["fixtures", "Fixtures"],
     ["history", "History"],
     ["leaderboard", "Leaderboard"],
   ];
@@ -460,7 +462,7 @@ function dataNote() {
   const gameweek = generated.upcomingGameweek ? `Gameweek ${generated.upcomingGameweek}` : "Upcoming gameweek";
   return `
       <section class="data-note">
-      <strong>${gameweek} - ${generated.fixtures.length} fixtures</strong>
+      <strong>${gameweek} - ${openFixtures().length} upcoming fixtures</strong>
       <span>Pint values updated ${shortDateTime(generated.oddsUpdatedAt || generated.generatedAt)} from completed match history. Times use your device timezone; API results settle saved picks.</span>
     </section>
   `;
@@ -470,7 +472,6 @@ function renderDashboard() {
   const score = totals();
   const fixtures = openFixtures();
   const nextRequired = fixtures.find((fixture) => !fixturePick(fixture) && fixture.firstPicker === state.currentUser);
-  const nextFixtures = fixtures.slice(0, 3);
 
   return `
     <main class="layout">
@@ -491,33 +492,17 @@ function renderDashboard() {
           ? `<section class="notice">
               <span class="status-dot"></span>
               <div><strong>Your next first pick</strong><p>${escapeHtml(nextRequired.home)} vs ${escapeHtml(nextRequired.away)} closes before kickoff.</p></div>
-              <button data-action="view" data-view="fixtures">Pick</button>
+              <button data-action="scroll-fixtures">Pick</button>
             </section>`
           : `<section class="notice muted">
               <span class="status-dot"></span>
-              <div><strong>No first pick waiting</strong><p>Open fixtures can still be reviewed from the fixture list.</p></div>
+              <div><strong>No first pick waiting</strong><p>All upcoming fixtures are shown below.</p></div>
             </section>`
       }
-      <section class="section-heading">
-        <h2>Next Fixtures</h2>
-      </section>
-      <div class="fixture-grid">
-        ${nextFixtures.map(renderFixtureCard).join("") || `<p class="empty-state">No upcoming fixtures after the current cutoff.</p>`}
-      </div>
-    </main>
-  `;
-}
-
-function renderFixtures() {
-  const fixtures = openFixtures();
-  return `
-    <main class="layout">
-      ${nav()}
-      <section class="section-heading">
-        <h1>Fixtures</h1>
+      <section class="section-heading" id="upcoming-fixtures">
+        <h2>Upcoming Fixtures</h2>
         <button class="ghost" data-action="reset">Reset my picks</button>
       </section>
-      ${dataNote()}
       <div class="fixture-grid">
         ${fixtures.map(renderFixtureCard).join("") || `<p class="empty-state">No upcoming fixtures after the current cutoff.</p>`}
       </div>
@@ -667,7 +652,6 @@ function renderLeaderboard() {
 function renderAuthed() {
   const views = {
     dashboard: renderDashboard,
-    fixtures: renderFixtures,
     history: renderHistory,
     leaderboard: renderLeaderboard,
   };
@@ -677,7 +661,7 @@ function renderAuthed() {
       <button data-action="refresh">Refresh</button>
       <button data-action="logout">Sign out</button>
     </div>
-    ${views[state.activeView]()}
+    ${(views[state.activeView] || renderDashboard)()}
   `);
 }
 
@@ -694,6 +678,9 @@ document.addEventListener("click", (event) => {
   if (action === "logout") logout();
   if (action === "refresh") refreshApp();
   if (action === "view") setView(button.dataset.view);
+  if (action === "scroll-fixtures") {
+    document.getElementById("upcoming-fixtures")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   if (action === "reset") resetLocalGame();
   if (action === "reset-pick") resetFixturePick(button.dataset.fixtureId);
   if (action === "pick") placePick(button.dataset.fixtureId, button.dataset.team);
