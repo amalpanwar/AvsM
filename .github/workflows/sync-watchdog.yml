@@ -4,6 +4,11 @@ on:
   schedule:
     # Check ten minutes after each expected result-sync run.
     - cron: "17,47 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-watchdog.yml"
   workflow_dispatch:
     inputs:
       force_recovery:
@@ -26,8 +31,9 @@ jobs:
           script: |
             const workflowId = "sync-results.yml";
             const maximumAgeMs = 35 * 60 * 1000;
-            const forceRecovery = context.eventName === "workflow_dispatch"
-              && context.payload.inputs?.force_recovery === "true";
+            const forceRecovery = context.eventName === "push"
+              || (context.eventName === "workflow_dispatch"
+                && context.payload.inputs?.force_recovery === "true");
             const { owner, repo } = context.repo;
             const response = await github.rest.actions.listWorkflowRuns({
               owner,
