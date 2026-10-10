@@ -419,42 +419,6 @@ small {
   font-size: 13px;
 }
 
-.fixture-odds {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
-}
-
-.fixture-odds span {
-  display: flex;
-  min-width: 0;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  padding: 9px 10px;
-  background: #ecfdf5;
-  border: 1px solid #a7f3d0;
-  border-radius: 8px;
-}
-
-.fixture-odds small {
-  color: #047857;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.fixture-odds strong {
-  color: #064e3b;
-  font-variant-numeric: tabular-nums;
-}
-
-.odds-caption {
-  margin-top: -8px;
-  color: var(--muted);
-  font-size: 11px;
-  text-align: right;
-}
-
 .fixture-title h3 {
   margin: 0;
   font-size: 20px;

@@ -180,11 +180,6 @@ function shortDateTime(value) {
   }).format(new Date(value));
 }
 
-function formatOdds(value) {
-  const odds = Number(value);
-  return Number.isFinite(odds) ? odds.toFixed(2) : "-";
-}
-
 function totals() {
   return officialLedger().reduce(
     (acc, item) => {
@@ -498,7 +493,7 @@ function dataNote() {
   return `
       <section class="data-note">
       <strong>${gameweek} - ${generated.fixtures.length} fixtures</strong>
-      <span>Model odds updated ${shortDateTime(generated.oddsUpdatedAt || generated.generatedAt)} from completed match history. Times use your device timezone; API results settle saved picks.</span>
+      <span>Pint values updated ${shortDateTime(generated.oddsUpdatedAt || generated.generatedAt)} from completed match history. Times use your device timezone; API results settle saved picks.</span>
     </section>
   `;
 }
@@ -579,12 +574,6 @@ function renderFixtureCard(fixture) {
         <span class="${locked ? "badge locked" : "badge"}">${locked ? "Pints locked" : "Pending"}</span>
       </div>
       <div class="venue">${escapeHtml(fixture.location || "Premier League")}</div>
-      <div class="fixture-odds" aria-label="Model fair decimal odds">
-        <span><small>1</small><strong>${formatOdds(fixture.homeOdds)}</strong></span>
-        <span><small>X</small><strong>${formatOdds(fixture.drawOdds)}</strong></span>
-        <span><small>2</small><strong>${formatOdds(fixture.awayOdds)}</strong></span>
-      </div>
-      <div class="odds-caption">Model fair odds</div>
       <div class="teams">
         ${renderTeamRow(fixture, fixture.home, fixture.homePints)}
         ${renderTeamRow(fixture, fixture.away, fixture.awayPints)}

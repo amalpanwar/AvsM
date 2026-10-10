@@ -78,7 +78,7 @@ The page loads `generated-data.js` with a cache-busting query string so browsers
 
 ## Weekly Odds Update
 
-The app displays only the nearest upcoming Premier League gameweek. Its model fair decimal odds and 1/2/3 pint values are calculated from the completed 2025/26 season plus completed 2026/27 API results. Current-season results receive three times the weight of prior-season results, with a small league-average prior to keep early-season and promoted-team estimates stable.
+The app displays only the nearest upcoming Premier League gameweek. Its 1/2/3 pint values are calculated from internal Poisson probabilities using the completed 2025/26 season plus completed 2026/27 API results. Current-season results receive three times the weight of prior-season results, with a small league-average prior to keep early-season and promoted-team estimates stable. Decimal fair odds remain internal and are not displayed in the app.
 
 The `Update Weekly Premier League Odds` workflow runs every Tuesday at 04:15 UTC and can also be run manually from GitHub Actions. It recalculates the next gameweek after the weekend and Monday results, commits `generated-data.js`, and deploys the refreshed app. The 30-minute result workflow continues to settle matches but does not move the active gameweek's odds after they have been published.
 
@@ -100,12 +100,12 @@ That script pulls finished Premier League matches, writes final scores into `dat
 - Fixture cards generated from `epl-2026-GMTStandardTime.xlsx`, limited to the nearest upcoming gameweek after the current date/time.
 - Fixture times in the Excel files are interpreted as UK local time (`Europe/London`) so BST/GMT daylight saving changes are handled before the app stores UTC kickoff times. The app displays those UTC kickoff times in the viewer's device timezone, so London viewers see London time and Delhi viewers see IST.
 - Team strengths calculated from completed 2025/26 matches and completed 2026/27 API results.
-- Weighted Poisson match probabilities displayed as model fair decimal odds and converted to locked 1/2/3 pint values.
+- Weighted Poisson match probabilities converted to locked 1/2/3 pint values.
 - Pick flow where the first picker chooses one team and the other player is auto-assigned the opposite team.
 - API results added to `data/api-results.json` auto-settle matching saved picks after `python3 scripts/build_data.py` is rerun.
 - Draws settle as void for 0 pints each.
 - Leaderboard is calculated from the ledger, not stored as a separate total.
-- Displayed odds are model fair odds, not bookmaker prices, and do not include a bookmaker margin.
+- Decimal model probabilities and fair odds remain internal rather than being shown to users.
 
 The app keeps a local cache for resilience and uses Firebase Realtime Database for cross-device picks and settlements when `firebase-config.js` is configured.
 
