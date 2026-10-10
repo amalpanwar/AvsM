@@ -504,6 +504,11 @@ small {
   padding: 16px;
 }
 
+.history-row.expandable {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
 .history-row div {
   display: grid;
   gap: 4px;
@@ -519,6 +524,67 @@ small {
 
 .history-row b.pending {
   color: #7c2d12;
+}
+
+.history-result {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  color: var(--green);
+  background: transparent;
+  font-weight: 800;
+}
+
+.history-result b {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  color: var(--green);
+  background: #dcfce7;
+  border-radius: 6px;
+}
+
+.history-details {
+  grid-column: 1 / -1;
+  margin-top: 12px;
+  padding-top: 4px;
+  border-top: 1px solid var(--line);
+}
+
+.history-details[hidden] {
+  display: none;
+}
+
+.history-picks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.history-pick {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  padding: 12px 14px 8px 0;
+}
+
+.history-pick + .history-pick {
+  padding-left: 14px;
+  border-left: 1px solid var(--line);
+}
+
+.history-pick > div:last-child {
+  justify-items: end;
+  text-align: right;
+}
+
+.history-pick b {
+  color: var(--navy);
+}
+
+.history-no-pick {
+  margin: 8px 0 4px;
+  color: var(--muted);
 }
 
 .empty-state {
@@ -604,6 +670,28 @@ th:not(:first-child) {
 
   .fixture-title {
     display: grid;
+  }
+
+  .history-row.expandable {
+    grid-template-columns: 1fr;
+  }
+
+  .history-result {
+    justify-self: start;
+  }
+
+  .history-picks {
+    grid-template-columns: 1fr;
+  }
+
+  .history-pick {
+    padding-right: 0;
+  }
+
+  .history-pick + .history-pick {
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
   }
 
   .badge {

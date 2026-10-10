@@ -588,22 +588,58 @@ function renderHistory() {
 
 function renderHistoryRow(fixture) {
   const result = fixture.score ? `${fixture.score.home}-${fixture.score.away}` : "-";
-  let outcome = "Recorded result";
-  let outcomeClass = "";
   if (fixture.status === "awaiting") {
-    outcome = "Awaiting final score sync";
-    outcomeClass = "pending";
+    return `
+      <article class="history-row">
+        <div>
+          <strong>${escapeHtml(fixture.home)} ${result} ${escapeHtml(fixture.away)}</strong>
+          <span>${formatKickoff(fixture.kickoff)}</span>
+        </div>
+        <b class="pending">Awaiting final score sync</b>
+      </article>
+    `;
   }
 
+  const detailsId = `history-details-${fixture.id}`;
   return `
-    <article class="history-row">
+    <article class="history-row expandable">
       <div>
         <strong>${escapeHtml(fixture.home)} ${result} ${escapeHtml(fixture.away)}</strong>
         <span>${formatKickoff(fixture.kickoff)}</span>
       </div>
-      <b class="${outcomeClass}">${outcome}</b>
+      <button class="history-result" data-action="toggle-history" data-details-id="${detailsId}" aria-expanded="false" aria-controls="${detailsId}">
+        <span>Recorded result</span><b aria-hidden="true">+</b>
+      </button>
+      <div class="history-details" id="${detailsId}" hidden>
+        ${renderHistoryPickDetails(fixture)}
+      </div>
     </article>
   `;
+}
+
+function renderHistoryPickDetails(fixture) {
+  const pick = fixturePick(fixture);
+  if (!pick) return `<p class="history-no-pick">No saved pick for this fixture.</p>`;
+
+  const assignments = ["A", "M"].map((userId) => {
+    const pickedFirst = pick.firstPickerUserId === userId;
+    const team = pickedFirst ? pick.chosenTeam : pick.autoAssignedTeam;
+    const pints = teamPints(fixture, team);
+    return `
+      <div class="history-pick">
+        <div>
+          <strong>${USERS[userId].name}</strong>
+          <span>${pickedFirst ? "Picked first" : "Auto-assigned"}</span>
+        </div>
+        <div>
+          <strong>${escapeHtml(team)}</strong>
+          <b>${pints} ${pints === 1 ? "pint" : "pints"}</b>
+        </div>
+      </div>
+    `;
+  });
+
+  return `<div class="history-picks">${assignments.join("")}</div>`;
 }
 
 function renderLeaderboard() {
@@ -680,6 +716,14 @@ document.addEventListener("click", (event) => {
   if (action === "view") setView(button.dataset.view);
   if (action === "scroll-fixtures") {
     document.getElementById("upcoming-fixtures")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  if (action === "toggle-history") {
+    const details = document.getElementById(button.dataset.detailsId);
+    if (!details) return;
+    const expanded = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!expanded));
+    button.querySelector("b").textContent = expanded ? "+" : "-";
+    details.hidden = expanded;
   }
   if (action === "reset") resetLocalGame();
   if (action === "reset-pick") resetFixturePick(button.dataset.fixtureId);

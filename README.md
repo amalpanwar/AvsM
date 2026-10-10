@@ -105,6 +105,7 @@ That script pulls finished Premier League matches, writes final scores into `dat
 - Weighted Poisson match probabilities converted to locked 1/2/3 pint values.
 - Pick flow where the first picker chooses one team and the other player is auto-assigned the opposite team.
 - API results added to `data/api-results.json` auto-settle matching saved picks after `python3 scripts/build_data.py` is rerun.
+- Recorded History results expand to show Amal's and Matt's assigned teams with their locked pint values.
 - Draws settle as void for 0 pints each.
 - Leaderboard is calculated from the ledger, not stored as a separate total.
 - Decimal model probabilities and fair odds remain internal rather than being shown to users.
