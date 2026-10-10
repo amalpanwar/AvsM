@@ -179,7 +179,6 @@ small {
 .primary,
 .secondary,
 .pick-actions button,
-.settle-form button,
 .notice button,
 .ghost,
 .link-button {
@@ -191,7 +190,6 @@ small {
 
 .primary,
 .pick-actions button,
-.settle-form button,
 .notice button {
   color: #fff;
   background: var(--navy);
@@ -497,31 +495,6 @@ small {
   font-weight: 800;
 }
 
-.settle-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  gap: 8px;
-  align-items: end;
-}
-
-.settle-form label {
-  display: grid;
-  gap: 5px;
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 750;
-}
-
-.settle-form input {
-  width: 100%;
-  height: 42px;
-  padding: 0 10px;
-  color: var(--ink);
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-}
-
 .history-list {
   display: grid;
   gap: 10px;
@@ -602,8 +575,7 @@ th:not(:first-child) {
   .scoreboard,
   .data-note,
   .notice,
-  .fixture-title,
-  .settle-form {
+  .fixture-title {
     grid-template-columns: 1fr;
   }
 
