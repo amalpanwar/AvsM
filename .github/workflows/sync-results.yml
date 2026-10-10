@@ -2,7 +2,8 @@ name: Sync Premier League Results
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Avoid GitHub's busiest :00/:30 scheduler slots, where queued runs can be dropped.
+    - cron: "7,37 * * * *"
   push:
     branches:
       - main
