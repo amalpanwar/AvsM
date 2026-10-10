@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T19:13:06.031885Z",
+  "updatedAt": "2026-10-10T14:43:43.137333Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -801,6 +801,22 @@
       "source": "native-stats.org",
       "sourceMatchId": 381088,
       "settledAt": "2026-09-19T13:37:56.325272Z"
+    },
+    {
+      "id": "epl2026-51",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 51,
+      "kickoff": "2026-10-10T11:30:00Z",
+      "home": "Arsenal",
+      "away": "Leeds",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560593,
+      "settledAt": "2026-10-10T14:43:40.432017Z"
     }
   ]
 }
