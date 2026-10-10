@@ -422,7 +422,7 @@ def sync_results(token, season, dry_run):
         write_score_observations(score_observations)
 
     if not dry_run and (updates or crossed_kickoff):
-        subprocess.run([sys.executable, str(BUILD_SCRIPT)], cwd=ROOT, check=True)
+        subprocess.run([sys.executable, str(BUILD_SCRIPT), "--preserve-odds"], cwd=ROOT, check=True)
 
     return updates, crossed_kickoff, observations_changed
 

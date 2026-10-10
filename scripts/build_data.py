@@ -18,6 +18,9 @@ FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 OUT_FILE = ROOT / "generated-data.js"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
 FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
+PRIOR_SEASON_WEIGHT = 1.0
+CURRENT_SEASON_WEIGHT = 3.0
+NEUTRAL_PRIOR_MATCHES = 4.0
 
 
 def parse_excel_datetime(value):
@@ -91,42 +94,69 @@ def poisson_pmf(lam, goals):
     return math.exp(-lam) * (lam**goals) / math.factorial(goals)
 
 
-def build_strengths(history_rows):
-    played = [row for row in history_rows if row["result"]]
-    total_home_goals = sum(row["result"][0] for row in played)
-    total_away_goals = sum(row["result"][1] for row in played)
-    league_home_avg = total_home_goals / len(played)
-    league_away_avg = total_away_goals / len(played)
+def build_strengths(history_rows, current_rows):
+    prior_played = [row for row in history_rows if row["result"]]
+    current_played = [row for row in current_rows if row["result"]]
+    weighted_rows = [
+        *((row, PRIOR_SEASON_WEIGHT) for row in prior_played),
+        *((row, CURRENT_SEASON_WEIGHT) for row in current_played),
+    ]
+    total_weight = sum(weight for _, weight in weighted_rows)
+    if not total_weight:
+        raise ValueError("At least one completed match is required to calculate team strengths.")
+
+    total_home_goals = sum(row["result"][0] * weight for row, weight in weighted_rows)
+    total_away_goals = sum(row["result"][1] * weight for row, weight in weighted_rows)
+    league_home_avg = total_home_goals / total_weight
+    league_away_avg = total_away_goals / total_weight
 
     buckets = defaultdict(lambda: defaultdict(int))
     teams = set()
-    for row in played:
+    for row, weight in weighted_rows:
         home_score, away_score = row["result"]
         teams.add(row["home"])
         teams.add(row["away"])
-        buckets[row["home"]]["home_played"] += 1
-        buckets[row["home"]]["home_goals_for"] += home_score
-        buckets[row["home"]]["home_goals_against"] += away_score
-        buckets[row["away"]]["away_played"] += 1
-        buckets[row["away"]]["away_goals_for"] += away_score
-        buckets[row["away"]]["away_goals_against"] += home_score
+        buckets[row["home"]]["home_played"] += weight
+        buckets[row["home"]]["home_goals_for"] += home_score * weight
+        buckets[row["home"]]["home_goals_against"] += away_score * weight
+        buckets[row["away"]]["away_played"] += weight
+        buckets[row["away"]]["away_goals_for"] += away_score * weight
+        buckets[row["away"]]["away_goals_against"] += home_score * weight
 
     strengths = {}
     for team in teams:
         stats = buckets[team]
-        home_played = max(stats["home_played"], 1)
-        away_played = max(stats["away_played"], 1)
+        home_played = stats["home_played"]
+        away_played = stats["away_played"]
         strengths[team] = {
-            "home_attack": (stats["home_goals_for"] / home_played) / league_home_avg,
-            "home_defence": (stats["home_goals_against"] / home_played) / league_away_avg,
-            "away_attack": (stats["away_goals_for"] / away_played) / league_away_avg,
-            "away_defence": (stats["away_goals_against"] / away_played) / league_home_avg,
-            "prior_source": "epl-2025",
+            "home_attack": (
+                (stats["home_goals_for"] + NEUTRAL_PRIOR_MATCHES * league_home_avg)
+                / (home_played + NEUTRAL_PRIOR_MATCHES)
+            )
+            / league_home_avg,
+            "home_defence": (
+                (stats["home_goals_against"] + NEUTRAL_PRIOR_MATCHES * league_away_avg)
+                / (home_played + NEUTRAL_PRIOR_MATCHES)
+            )
+            / league_away_avg,
+            "away_attack": (
+                (stats["away_goals_for"] + NEUTRAL_PRIOR_MATCHES * league_away_avg)
+                / (away_played + NEUTRAL_PRIOR_MATCHES)
+            )
+            / league_away_avg,
+            "away_defence": (
+                (stats["away_goals_against"] + NEUTRAL_PRIOR_MATCHES * league_home_avg)
+                / (away_played + NEUTRAL_PRIOR_MATCHES)
+            )
+            / league_home_avg,
+            "prior_source": "weighted-completed-history",
         }
 
     return {
         "league_home_avg": league_home_avg,
         "league_away_avg": league_away_avg,
+        "prior_matches": len(prior_played),
+        "current_matches": len(current_played),
         "teams": strengths,
     }
 
@@ -210,11 +240,59 @@ def first_picker_for_round(rows_in_round):
     }
 
 
-def build_payload(now):
+def select_upcoming_gameweek(fixture_rows, now):
+    all_upcoming = [row for row in fixture_rows if row["result"] is None and row["date"] >= now]
+    if not all_upcoming:
+        return None, []
+
+    gameweek = min(all_upcoming, key=lambda item: (item["date"], item["match_number"]))["round"]
+    return gameweek, [row for row in all_upcoming if row["round"] == gameweek]
+
+
+def load_previous_payload():
+    if not OUT_FILE.exists():
+        return {}
+
+    text = OUT_FILE.read_text(encoding="utf-8")
+    prefix = "window.AVSM_DATA = "
+    if not text.startswith(prefix):
+        return {}
+    return json.loads(text.removeprefix(prefix).removesuffix(";\n"))
+
+
+def saved_prediction(saved, fallback):
+    if not saved:
+        return fallback
+
+    field_map = {
+        "home_pints": "homePints",
+        "away_pints": "awayPints",
+        "home_probability": "homeProbability",
+        "draw_probability": "drawProbability",
+        "away_probability": "awayProbability",
+        "home_fair_decimal_odds": "homeOdds",
+        "draw_fair_decimal_odds": "drawOdds",
+        "away_fair_decimal_odds": "awayOdds",
+    }
+    prediction = dict(fallback)
+    for prediction_key, saved_key in field_map.items():
+        if saved.get(saved_key) is not None:
+            prediction[prediction_key] = saved[saved_key]
+    return prediction
+
+
+def build_payload(now, preserve_odds=False):
     history_rows = read_rows(HISTORY_FILE)
     fixture_rows = read_rows(FIXTURE_FILE)
     api_results = load_api_results()
-    strengths = build_strengths(history_rows)
+    previous_payload = load_previous_payload()
+    previous_matches = {
+        item["id"]: item
+        for item in [
+            *previous_payload.get("fixtures", []),
+            *previous_payload.get("recordedResults", []),
+        ]
+    }
 
     for row in fixture_rows:
         api_result = api_results.get(f"epl2026-{row['match_number']}")
@@ -226,6 +304,9 @@ def build_payload(now):
         else:
             row["result_source"] = None
 
+    completed_current_rows = [row for row in fixture_rows if row["result"] and row["date"] < now]
+    strengths = build_strengths(history_rows, completed_current_rows)
+
     first_pickers = {}
     rounds = defaultdict(list)
     for row in fixture_rows:
@@ -234,14 +315,25 @@ def build_payload(now):
         first_pickers.update(first_picker_for_round(rows))
 
     past = [row for row in fixture_rows if row["date"] < now]
-    upcoming = [row for row in fixture_rows if row["result"] is None and row["date"] >= now]
+    upcoming_gameweek, upcoming = select_upcoming_gameweek(fixture_rows, now)
+
+    previous_gameweek = previous_payload.get("upcomingGameweek")
+    preserving_current_week = preserve_odds and previous_gameweek == upcoming_gameweek
+    odds_updated_at = (
+        previous_payload.get("oddsUpdatedAt")
+        if preserving_current_week and previous_payload.get("oddsUpdatedAt")
+        else now.isoformat().replace("+00:00", "Z")
+    )
 
     fixtures = []
     for row in upcoming:
         prediction = model_fixture(strengths, row)
+        fixture_id = f"epl2026-{row['match_number']}"
+        saved = previous_matches.get(fixture_id) if preserving_current_week else None
+        prediction = saved_prediction(saved, prediction)
         fixtures.append(
             {
-                "id": f"epl2026-{row['match_number']}",
+                "id": fixture_id,
                 "season": "2026/27",
                 "gameweek": row["round"],
                 "sequence": row["match_number"],
@@ -252,15 +344,24 @@ def build_payload(now):
                 "firstPicker": first_pickers[row["match_number"]],
                 "homePints": prediction["home_pints"],
                 "awayPints": prediction["away_pints"],
+                "homeProbability": prediction["home_probability"],
+                "drawProbability": prediction["draw_probability"],
+                "awayProbability": prediction["away_probability"],
+                "homeOdds": prediction["home_fair_decimal_odds"],
+                "drawOdds": prediction["draw_fair_decimal_odds"],
+                "awayOdds": prediction["away_fair_decimal_odds"],
                 "status": "open",
                 "score": None,
-                "pintsLockedAt": now.isoformat().replace("+00:00", "Z"),
+                "pintsLockedAt": saved.get("pintsLockedAt") if saved else odds_updated_at,
             }
         )
 
     history = []
     for row in past:
         prediction = model_fixture(strengths, row)
+        fixture_id = f"epl2026-{row['match_number']}"
+        saved = previous_matches.get(fixture_id)
+        prediction = saved_prediction(saved, prediction)
         score = None
         status = "awaiting"
         if row["result"]:
@@ -270,7 +371,7 @@ def build_payload(now):
 
         history.append(
             {
-                "id": f"epl2026-{row['match_number']}",
+                "id": fixture_id,
                 "season": "2026/27",
                 "gameweek": row["round"],
                 "sequence": row["match_number"],
@@ -281,26 +382,39 @@ def build_payload(now):
                 "firstPicker": first_pickers[row["match_number"]],
                 "homePints": prediction["home_pints"],
                 "awayPints": prediction["away_pints"],
+                "homeProbability": prediction["home_probability"],
+                "drawProbability": prediction["draw_probability"],
+                "awayProbability": prediction["away_probability"],
+                "homeOdds": prediction["home_fair_decimal_odds"],
+                "drawOdds": prediction["draw_fair_decimal_odds"],
+                "awayOdds": prediction["away_fair_decimal_odds"],
                 "status": status,
                 "score": score,
                 "resultSource": row["result_source"],
-                "pintsLockedAt": row["date"].isoformat().replace("+00:00", "Z"),
+                "pintsLockedAt": saved.get("pintsLockedAt") if saved else row["date"].isoformat().replace("+00:00", "Z"),
             }
         )
 
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "predictionStartsAt": now.isoformat().replace("+00:00", "Z"),
+        "oddsUpdatedAt": odds_updated_at,
+        "upcomingGameweek": upcoming_gameweek,
         "sourceFiles": {
-            "strengths": HISTORY_FILE.name,
+            "strengths": f"{HISTORY_FILE.name} and completed 2026/27 results",
             "fixtures": FIXTURE_FILE.name,
             "fixtureTimezone": str(FIXTURE_TIMEZONE),
             "apiResults": source_path(API_RESULTS_FILE),
         },
         "model": {
-            "version": "weighted-poisson-epl2025-v1",
+            "version": "weighted-poisson-completed-history-v2",
             "leagueHomeGoals": round(strengths["league_home_avg"], 4),
             "leagueAwayGoals": round(strengths["league_away_avg"], 4),
+            "priorSeasonMatches": strengths["prior_matches"],
+            "currentSeasonMatches": strengths["current_matches"],
+            "priorSeasonWeight": PRIOR_SEASON_WEIGHT,
+            "currentSeasonWeight": CURRENT_SEASON_WEIGHT,
+            "neutralPriorMatches": NEUTRAL_PRIOR_MATCHES,
             "maxGoals": 8,
             "pintThresholds": {
                 "oneOneBelow": 0.60,
@@ -315,13 +429,18 @@ def build_payload(now):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--now", help="UTC timestamp to use as the prediction cutoff, e.g. 2026-09-09T03:04:18Z")
+    parser.add_argument(
+        "--preserve-odds",
+        action="store_true",
+        help="Keep the current gameweek's published odds while refreshing fixtures and results.",
+    )
     args = parser.parse_args()
     if args.now:
         now = datetime.fromisoformat(args.now.replace("Z", "+00:00")).astimezone(timezone.utc)
     else:
         now = datetime.now(timezone.utc)
 
-    payload = build_payload(now)
+    payload = build_payload(now, preserve_odds=args.preserve_odds)
     OUT_FILE.write_text(
         "window.AVSM_DATA = "
         + json.dumps(payload, indent=2)
@@ -329,6 +448,7 @@ def main():
         encoding="utf-8",
     )
     print(f"Wrote {OUT_FILE}")
+    print(f"Upcoming gameweek: {payload['upcomingGameweek']}")
     print(f"Upcoming fixtures: {len(payload['fixtures'])}")
     print(f"Recorded 2026/27 results before cutoff: {len(payload['recordedResults'])}")
 

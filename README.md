@@ -70,11 +70,17 @@ The Play Console upload file is `app-release.aab`. The direct-install file is `a
 
 Google match cards are not a stable public data API, so the app does not scrape Google Search results. Use a football results API instead.
 
-On GitHub, the `Sync Premier League Results` workflow uses the repository secret named `FOOTBALL_DATA_API_TOKEN`. The workflow runs every 30 minutes, writes finished Premier League scores into `data/api-results.json`, regenerates `generated-data.js`, and pushes the update back to this repo. It uses football-data.org first and Native Stats as a fallback. If Native Stats still marks a score as live/uncertain, the workflow starts observing it two hours after kickoff, checks again on each 30-minute run, and only promotes that score to a settled result after it has remained unchanged for at least one hour. If football-data.org is unavailable or the token is missing, the fallback still runs so past fixtures can continue to update. The Excel workbook remains the fixture source and does not need to be modified for API settlement.
+On GitHub, the `Sync Premier League Results` workflow uses the repository secret named `FOOTBALL_DATA_API_TOKEN`. The workflow runs every 30 minutes, writes finished Premier League scores into `data/api-results.json`, regenerates `generated-data.js`, and pushes the update back to this repo. It uses football-data.org first and Native Stats as a fallback. If Native Stats still marks a score as live/uncertain, the workflow starts observing it two hours after kickoff, checks again on each 30-minute run, and only promotes that score to a settled result after it has remained unchanged for at least one hour. If football-data.org is unavailable or the token is missing, the fallback still runs so past fixtures can continue to update. The Excel workbook remains the fixture source and does not need to be modified for API settlement. Result refreshes preserve the odds already published for the active gameweek.
 
 GitHub Actions cannot create true per-fixture dynamic timers from a static GitHub Pages app. Instead, the 30-minute sync cadence checks football-data.org for finished matches, observes Native Stats fallback scores after the estimated full-time window, and regenerates app data when fixtures cross kickoff. In practice, a past fixture appears in History as awaiting final score first, then updates after football-data.org marks the match `FINISHED` or after the Native Stats fallback score passes the stability check, the next scheduled sync runs, and GitHub Pages redeploys.
 
 The page loads `generated-data.js` with a cache-busting query string so browsers and Android WebView fetch the latest generated fixture/history data after each refresh.
+
+## Weekly Odds Update
+
+The app displays only the nearest upcoming Premier League gameweek. Its model fair decimal odds and 1/2/3 pint values are calculated from the completed 2025/26 season plus completed 2026/27 API results. Current-season results receive three times the weight of prior-season results, with a small league-average prior to keep early-season and promoted-team estimates stable.
+
+The `Update Weekly Premier League Odds` workflow runs every Tuesday at 04:15 UTC and can also be run manually from GitHub Actions. It recalculates the next gameweek after the weekend and Monday results, commits `generated-data.js`, and deploys the refreshed app. The 30-minute result workflow continues to settle matches but does not move the active gameweek's odds after they have been published.
 
 To run the same sync locally, either export the token in your shell or create a private `.env` file:
 
@@ -91,15 +97,15 @@ That script pulls finished Premier League matches, writes final scores into `dat
 ## MVP Scope
 
 - Private Amal/Matt login.
-- Fixture cards generated from `epl-2026-GMTStandardTime.xlsx`, starting after the current date/time.
+- Fixture cards generated from `epl-2026-GMTStandardTime.xlsx`, limited to the nearest upcoming gameweek after the current date/time.
 - Fixture times in the Excel files are interpreted as UK local time (`Europe/London`) so BST/GMT daylight saving changes are handled before the app stores UTC kickoff times. The app displays those UTC kickoff times in the viewer's device timezone, so London viewers see London time and Delhi viewers see IST.
-- Team strengths calculated from completed `epl-2025-GMTStandardTime.xlsx` results.
-- Weighted Poisson match probabilities converted to locked 1/2/3 pint values.
+- Team strengths calculated from completed 2025/26 matches and completed 2026/27 API results.
+- Weighted Poisson match probabilities displayed as model fair decimal odds and converted to locked 1/2/3 pint values.
 - Pick flow where the first picker chooses one team and the other player is auto-assigned the opposite team.
 - API results added to `data/api-results.json` auto-settle matching saved picks after `python3 scripts/build_data.py` is rerun.
 - Draws settle as void for 0 pints each.
 - Leaderboard is calculated from the ledger, not stored as a separate total.
-- No bookmaker odds or model probabilities are displayed.
+- Displayed odds are model fair odds, not bookmaker prices, and do not include a bookmaker margin.
 
 The app keeps a local cache for resilience and uses Firebase Realtime Database for cross-device picks and settlements when `firebase-config.js` is configured.
 
