@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-10T14:43:43.231921Z",
-  "predictionStartsAt": "2026-10-10T14:43:43.207296Z",
+  "generatedAt": "2026-10-10T17:02:52.741261Z",
+  "predictionStartsAt": "2026-10-10T17:02:52.699109Z",
   "oddsUpdatedAt": "2026-10-10T03:32:01.727518Z",
   "upcomingGameweek": 6,
   "sourceFiles": {
@@ -11,10 +11,10 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "weighted-poisson-completed-history-v2",
-    "leagueHomeGoals": 1.5272,
-    "leagueAwayGoals": 1.2439,
+    "leagueHomeGoals": 1.5431,
+    "leagueAwayGoals": 1.2495,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 51,
+    "currentSeasonMatches": 55,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "neutralPriorMatches": 4.0,
@@ -25,28 +25,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-59",
-      "season": "2026/27",
-      "gameweek": 6,
-      "sequence": 59,
-      "kickoff": "2026-10-10T16:30:00Z",
-      "location": "Old Trafford",
-      "home": "Man Utd",
-      "away": "Spurs",
-      "firstPicker": "A",
-      "homePints": 1,
-      "awayPints": 3,
-      "homeProbability": 0.560568,
-      "drawProbability": 0.220687,
-      "awayProbability": 0.218745,
-      "homeOdds": 1.784,
-      "drawOdds": 4.531,
-      "awayOdds": 4.572,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
-    },
     {
       "id": "epl2026-55",
       "season": "2026/27",
@@ -1481,9 +1459,12 @@ window.AVSM_DATA = {
       "homeOdds": 2.338,
       "drawOdds": 3.918,
       "awayOdds": 3.155,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
     },
     {
@@ -1504,9 +1485,12 @@ window.AVSM_DATA = {
       "homeOdds": 2.314,
       "drawOdds": 4.769,
       "awayOdds": 2.792,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
     },
     {
@@ -1527,9 +1511,12 @@ window.AVSM_DATA = {
       "homeOdds": 2.439,
       "drawOdds": 3.225,
       "awayOdds": 3.572,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
     },
     {
@@ -1550,6 +1537,32 @@ window.AVSM_DATA = {
       "homeOdds": 3.386,
       "drawOdds": 3.921,
       "awayOdds": 2.224,
+      "status": "recorded",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
+    },
+    {
+      "id": "epl2026-59",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 59,
+      "kickoff": "2026-10-10T16:30:00Z",
+      "location": "Old Trafford",
+      "home": "Man Utd",
+      "away": "Spurs",
+      "firstPicker": "A",
+      "homePints": 1,
+      "awayPints": 3,
+      "homeProbability": 0.560568,
+      "drawProbability": 0.220687,
+      "awayProbability": 0.218745,
+      "homeOdds": 1.784,
+      "drawOdds": 4.531,
+      "awayOdds": 4.572,
       "status": "awaiting",
       "score": null,
       "resultSource": null,
