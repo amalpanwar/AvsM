@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T17:02:52.587030Z",
+  "updatedAt": "2026-10-10T19:12:15.014293Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -865,6 +865,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560599,
       "settledAt": "2026-10-10T17:02:50.178060Z"
+    },
+    {
+      "id": "epl2026-59",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 59,
+      "kickoff": "2026-10-10T16:30:00Z",
+      "home": "Man Utd",
+      "away": "Spurs",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560600,
+      "settledAt": "2026-10-10T19:12:12.911026Z"
     },
     {
       "id": "epl2026-60",
