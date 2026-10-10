@@ -38,6 +38,9 @@ jobs:
           FOOTBALL_DATA_API_TOKEN: ${{ secrets.FOOTBALL_DATA_API_TOKEN }}
         run: python scripts/sync_results.py
 
+      - name: Refresh weekly scheduler heartbeat
+        run: python scripts/update_sync_heartbeat.py
+
       - name: Commit generated data
         id: commit
         run: |
@@ -45,7 +48,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data generated-data.js
-            git commit -m "Sync Premier League results"
+            git commit -m "Sync Premier League data"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else

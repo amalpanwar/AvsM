@@ -1,0 +1,62 @@
+name: Monitor Premier League Result Sync
+
+on:
+  schedule:
+    # Check ten minutes after each expected result-sync run.
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+    inputs:
+      force_recovery:
+        description: Dispatch a result sync even when the latest run is healthy
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recover a stale or failed result sync
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const workflowId = "sync-results.yml";
+            const maximumAgeMs = 35 * 60 * 1000;
+            const forceRecovery = context.eventName === "workflow_dispatch"
+              && context.payload.inputs?.force_recovery === "true";
+            const { owner, repo } = context.repo;
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: workflowId,
+              per_page: 10,
+            });
+
+            const latest = response.data.workflow_runs[0];
+            const stale = !latest || Date.now() - Date.parse(latest.created_at) > maximumAgeMs;
+            const failed = latest?.status === "completed" && latest.conclusion !== "success";
+
+            if (!forceRecovery && !stale && !failed) {
+              core.info(`Result sync is healthy: ${latest.status} run ${latest.id}.`);
+              return;
+            }
+
+            const reason = forceRecovery
+              ? "a manual recovery was requested"
+              : !latest
+                ? "no previous result-sync run exists"
+                : failed
+                  ? `run ${latest.id} finished with ${latest.conclusion}`
+                  : `run ${latest.id} is older than 35 minutes`;
+            core.warning(`Dispatching recovery because ${reason}.`);
+
+            await github.rest.actions.createWorkflowDispatch({
+              owner,
+              repo,
+              workflow_id: workflowId,
+              ref: context.payload.repository.default_branch,
+            });
