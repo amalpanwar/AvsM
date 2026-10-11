@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T15:45:59.447808Z",
+  "updatedAt": "2026-10-11T19:27:43.009638Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -897,6 +897,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560599,
       "settledAt": "2026-10-10T17:02:50.178060Z"
+    },
+    {
+      "id": "epl2026-58",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 58,
+      "kickoff": "2026-10-11T15:30:00Z",
+      "home": "Liverpool",
+      "away": "Man City",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560598,
+      "settledAt": "2026-10-11T19:27:40.778338Z"
     },
     {
       "id": "epl2026-59",
