@@ -18,6 +18,7 @@ const generated = window.AVSM_DATA || {
 let state = loadState();
 let cloudStore = null;
 let cloudStatus = "connecting";
+let kickoffRefreshTimer = null;
 const initialReconciledFixtures = reconcileRecordedResults();
 
 function loadState() {
@@ -142,10 +143,19 @@ function openFixtures() {
 }
 
 function historyFixtures() {
-  return [
-    ...recordedFixtures(),
-    ...allFixtures().filter((fixture) => fixture.status === "settled" || fixture.status === "void"),
-  ].sort((a, b) => new Date(b.kickoff) - new Date(a.kickoff));
+  const fixturesById = new Map(recordedFixtures().map((fixture) => [fixture.id, fixture]));
+
+  for (const fixture of allFixtures()) {
+    if (fixturesById.has(fixture.id)) continue;
+
+    if (fixture.status === "settled" || fixture.status === "void") {
+      fixturesById.set(fixture.id, fixture);
+    } else if (kickoffHasStarted(fixture)) {
+      fixturesById.set(fixture.id, { ...fixture, status: "awaiting", score: null });
+    }
+  }
+
+  return [...fixturesById.values()].sort((a, b) => new Date(b.kickoff) - new Date(a.kickoff));
 }
 
 function otherUser(code) {
@@ -393,6 +403,23 @@ function logout() {
 
 function refreshApp() {
   window.location.reload();
+}
+
+function scheduleKickoffRefresh() {
+  window.clearTimeout(kickoffRefreshTimer);
+  kickoffRefreshTimer = null;
+  if (!state.currentUser) return;
+
+  const now = Date.now();
+  const nextKickoff = allFixtures()
+    .filter((fixture) => fixture.status === "open")
+    .map((fixture) => new Date(fixture.kickoff).getTime())
+    .filter((kickoff) => kickoff > now)
+    .sort((left, right) => left - right)[0];
+
+  if (!nextKickoff) return;
+  const maximumDelay = 2_147_483_647;
+  kickoffRefreshTimer = window.setTimeout(render, Math.min(nextKickoff - now + 1000, maximumDelay));
 }
 
 function appShell(content) {
@@ -703,6 +730,7 @@ function renderAuthed() {
 
 function render() {
   document.getElementById("app").innerHTML = state.currentUser ? renderAuthed() : renderLogin();
+  scheduleKickoffRefresh();
 }
 
 document.addEventListener("click", (event) => {
@@ -728,6 +756,10 @@ document.addEventListener("click", (event) => {
   if (action === "reset") resetLocalGame();
   if (action === "reset-pick") resetFixturePick(button.dataset.fixtureId);
   if (action === "pick") placePick(button.dataset.fixtureId, button.dataset.team);
+});
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && state.currentUser) render();
 });
 
 render();
