@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T19:12:15.014293Z",
+  "updatedAt": "2026-10-11T15:45:59.447808Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -849,6 +849,38 @@
       "source": "football-data.org",
       "sourceMatchId": 560595,
       "settledAt": "2026-10-10T17:02:50.178060Z"
+    },
+    {
+      "id": "epl2026-55",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 55,
+      "kickoff": "2026-10-11T13:00:00Z",
+      "home": "Crystal Palace",
+      "away": "Nott'm Forest",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560596,
+      "settledAt": "2026-10-11T15:45:57.709027Z"
+    },
+    {
+      "id": "epl2026-56",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 56,
+      "kickoff": "2026-10-11T13:00:00Z",
+      "home": "Hull",
+      "away": "Everton",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560594,
+      "settledAt": "2026-10-11T15:45:57.709027Z"
     },
     {
       "id": "epl2026-57",

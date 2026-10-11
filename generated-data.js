@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-11T14:09:04.463107Z",
-  "predictionStartsAt": "2026-10-11T14:09:04.431288Z",
+  "generatedAt": "2026-10-11T15:45:59.620665Z",
+  "predictionStartsAt": "2026-10-11T15:45:59.575194Z",
   "oddsUpdatedAt": "2026-10-10T03:32:01.727518Z",
   "upcomingGameweek": 6,
   "sourceFiles": {
@@ -11,10 +11,10 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "weighted-poisson-completed-history-v2",
-    "leagueHomeGoals": 1.5401,
-    "leagueAwayGoals": 1.2482,
+    "leagueHomeGoals": 1.5505,
+    "leagueAwayGoals": 1.2509,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 56,
+    "currentSeasonMatches": 58,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "neutralPriorMatches": 4.0,
@@ -25,28 +25,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-58",
-      "season": "2026/27",
-      "gameweek": 6,
-      "sequence": 58,
-      "kickoff": "2026-10-11T15:30:00Z",
-      "location": "Anfield",
-      "home": "Liverpool",
-      "away": "Man City",
-      "firstPicker": "M",
-      "homePints": 2,
-      "awayPints": 1,
-      "homeProbability": 0.267193,
-      "drawProbability": 0.254745,
-      "awayProbability": 0.478062,
-      "homeOdds": 3.743,
-      "drawOdds": 3.925,
-      "awayOdds": 2.092,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
-    },
     {
       "id": "epl2026-54",
       "season": "2026/27",
@@ -1545,9 +1523,12 @@ window.AVSM_DATA = {
       "homeOdds": 4.986,
       "drawOdds": 4.847,
       "awayOdds": 1.686,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
     },
     {
@@ -1568,6 +1549,32 @@ window.AVSM_DATA = {
       "homeOdds": 2.202,
       "drawOdds": 2.595,
       "awayOdds": 6.225,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
+    },
+    {
+      "id": "epl2026-58",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 58,
+      "kickoff": "2026-10-11T15:30:00Z",
+      "location": "Anfield",
+      "home": "Liverpool",
+      "away": "Man City",
+      "firstPicker": "M",
+      "homePints": 2,
+      "awayPints": 1,
+      "homeProbability": 0.267193,
+      "drawProbability": 0.254745,
+      "awayProbability": 0.478062,
+      "homeOdds": 3.743,
+      "drawOdds": 3.925,
+      "awayOdds": 2.092,
       "status": "awaiting",
       "score": null,
       "resultSource": null,
