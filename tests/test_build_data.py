@@ -2,7 +2,15 @@ import math
 import unittest
 from datetime import datetime, timedelta, timezone
 
-from scripts.build_data import build_strengths, model_fixture, saved_prediction, select_upcoming_gameweek
+from scripts.build_data import (
+    CURRENT_SEASON_WEIGHT,
+    PRIOR_SEASON_WEIGHT,
+    build_strengths,
+    model_fixture,
+    recency_weight,
+    saved_prediction,
+    select_upcoming_gameweek,
+)
 
 
 def match(number, gameweek, kickoff, home, away, result=None):
@@ -52,6 +60,18 @@ class BuildDataTests(unittest.TestCase):
             1,
             places=5,
         )
+
+    def test_recency_decay_favours_newer_current_results(self):
+        now = datetime(2026, 10, 13, tzinfo=timezone.utc)
+        recent = match(1, 6, now - timedelta(days=7), "A", "B", (2, 0))
+        older = match(2, 1, now - timedelta(days=90), "A", "B", (1, 0))
+
+        recent_weight = recency_weight(recent, CURRENT_SEASON_WEIGHT, now)
+        older_weight = recency_weight(older, CURRENT_SEASON_WEIGHT, now)
+        prior_weight = recency_weight(recent, PRIOR_SEASON_WEIGHT, now)
+
+        self.assertGreater(recent_weight, older_weight)
+        self.assertAlmostEqual(recent_weight, prior_weight * 3)
 
     def test_saved_weekly_odds_override_a_fresh_prediction(self):
         fresh = {

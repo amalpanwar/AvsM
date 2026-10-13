@@ -20,6 +20,7 @@ API_RESULTS_FILE = ROOT / "data" / "api-results.json"
 FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
 PRIOR_SEASON_WEIGHT = 1.0
 CURRENT_SEASON_WEIGHT = 3.0
+RECENCY_HALF_LIFE_DAYS = 180.0
 NEUTRAL_PRIOR_MATCHES = 4.0
 
 
@@ -94,16 +95,31 @@ def poisson_pmf(lam, goals):
     return math.exp(-lam) * (lam**goals) / math.factorial(goals)
 
 
-def build_strengths(history_rows, current_rows):
+def recency_weight(row, base_weight, as_of):
+    age_days = max((as_of - row["date"]).total_seconds() / 86400, 0.0)
+    return base_weight * math.pow(0.5, age_days / RECENCY_HALF_LIFE_DAYS)
+
+
+def build_strengths(history_rows, current_rows, as_of=None):
     prior_played = [row for row in history_rows if row["result"]]
     current_played = [row for row in current_rows if row["result"]]
+    all_played = [*prior_played, *current_played]
+    if not all_played:
+        raise ValueError("At least one completed match is required to calculate team strengths.")
+    if as_of is None:
+        as_of = max(row["date"] for row in all_played)
+
+    prior_weighted = [
+        (row, recency_weight(row, PRIOR_SEASON_WEIGHT, as_of)) for row in prior_played
+    ]
+    current_weighted = [
+        (row, recency_weight(row, CURRENT_SEASON_WEIGHT, as_of)) for row in current_played
+    ]
     weighted_rows = [
-        *((row, PRIOR_SEASON_WEIGHT) for row in prior_played),
-        *((row, CURRENT_SEASON_WEIGHT) for row in current_played),
+        *prior_weighted,
+        *current_weighted,
     ]
     total_weight = sum(weight for _, weight in weighted_rows)
-    if not total_weight:
-        raise ValueError("At least one completed match is required to calculate team strengths.")
 
     total_home_goals = sum(row["result"][0] * weight for row, weight in weighted_rows)
     total_away_goals = sum(row["result"][1] * weight for row, weight in weighted_rows)
@@ -157,6 +173,8 @@ def build_strengths(history_rows, current_rows):
         "league_away_avg": league_away_avg,
         "prior_matches": len(prior_played),
         "current_matches": len(current_played),
+        "prior_effective_weight": sum(weight for _, weight in prior_weighted),
+        "current_effective_weight": sum(weight for _, weight in current_weighted),
         "teams": strengths,
     }
 
@@ -305,7 +323,7 @@ def build_payload(now, preserve_odds=False):
             row["result_source"] = None
 
     completed_current_rows = [row for row in fixture_rows if row["result"] and row["date"] < now]
-    strengths = build_strengths(history_rows, completed_current_rows)
+    strengths = build_strengths(history_rows, completed_current_rows, as_of=now)
 
     first_pickers = {}
     rounds = defaultdict(list)
@@ -407,13 +425,16 @@ def build_payload(now, preserve_odds=False):
             "apiResults": source_path(API_RESULTS_FILE),
         },
         "model": {
-            "version": "weighted-poisson-completed-history-v2",
+            "version": "recency-weighted-poisson-completed-history-v3",
             "leagueHomeGoals": round(strengths["league_home_avg"], 4),
             "leagueAwayGoals": round(strengths["league_away_avg"], 4),
             "priorSeasonMatches": strengths["prior_matches"],
             "currentSeasonMatches": strengths["current_matches"],
             "priorSeasonWeight": PRIOR_SEASON_WEIGHT,
             "currentSeasonWeight": CURRENT_SEASON_WEIGHT,
+            "recencyHalfLifeDays": RECENCY_HALF_LIFE_DAYS,
+            "priorSeasonEffectiveWeight": round(strengths["prior_effective_weight"], 4),
+            "currentSeasonEffectiveWeight": round(strengths["current_effective_weight"], 4),
             "neutralPriorMatches": NEUTRAL_PRIOR_MATCHES,
             "maxGoals": 8,
             "pintThresholds": {

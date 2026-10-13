@@ -80,9 +80,9 @@ The page loads `generated-data.js` with a cache-busting query string so browsers
 
 ## Weekly Odds Update
 
-The Dashboard displays every still-upcoming fixture in the nearest Premier League gameweek. Its 1/2/3 pint values are calculated from internal Poisson probabilities using the completed 2025/26 season plus completed 2026/27 API results. Current-season results receive three times the weight of prior-season results, with a small league-average prior to keep early-season and promoted-team estimates stable. Decimal fair odds remain internal and are not displayed in the app.
+The Dashboard displays every still-upcoming fixture in the nearest Premier League gameweek. Its 1/2/3 pint values are calculated from internal Poisson probabilities using the completed 2025/26 season plus completed 2026/27 API results. Current-season results receive three times the base weight of prior-season results, and both seasons use exponential recency decay with a 180-day half-life so newer form matters more without discarding the larger historical sample. A small league-average prior keeps early-season and promoted-team estimates stable. Decimal fair odds remain internal and are not displayed in the app.
 
-The `Update Weekly Premier League Odds` workflow runs every Tuesday at 04:15 UTC and can also be run manually from GitHub Actions. It replaces the Dashboard list with the nearest upcoming gameweek after the weekend and Monday results, recalculates the pint values, commits `generated-data.js`, and deploys the refreshed app. The 30-minute result workflow continues to settle matches but does not move the active gameweek's odds after they have been published.
+The `Update Weekly Premier League Odds` workflow runs every Tuesday at 03:30 UTC (09:00 IST) and can also be run manually from GitHub Actions. It replaces the Dashboard list with the nearest upcoming gameweek after the weekend and Monday results, recalculates the pint values, commits `generated-data.js`, and deploys the refreshed app. The 30-minute result workflow continues to settle matches but does not move the active gameweek's odds after they have been published.
 
 To run the same sync locally, either export the token in your shell or create a private `.env` file:
 
