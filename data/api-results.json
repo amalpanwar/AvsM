@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T19:27:43.009638Z",
+  "updatedAt": "2026-10-13T01:56:06.972595Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -849,6 +849,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560595,
       "settledAt": "2026-10-10T17:02:50.178060Z"
+    },
+    {
+      "id": "epl2026-54",
+      "season": "2026/27",
+      "gameweek": 6,
+      "sequence": 54,
+      "kickoff": "2026-10-12T19:00:00Z",
+      "home": "Coventry",
+      "away": "Newcastle",
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560597,
+      "settledAt": "2026-10-13T01:56:04.861648Z"
     },
     {
       "id": "epl2026-55",
