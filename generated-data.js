@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-17T16:30:46.390901Z",
-  "predictionStartsAt": "2026-10-17T16:30:46.343738Z",
+  "generatedAt": "2026-10-17T18:52:22.737979Z",
+  "predictionStartsAt": "2026-10-17T18:52:22.714424Z",
   "oddsUpdatedAt": "2026-10-13T04:20:29.588630Z",
   "upcomingGameweek": 7,
   "sourceFiles": {
@@ -11,15 +11,15 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "recency-weighted-poisson-completed-history-v3",
-    "leagueHomeGoals": 1.5648,
-    "leagueAwayGoals": 1.2953,
+    "leagueHomeGoals": 1.5494,
+    "leagueAwayGoals": 1.2924,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 64,
+    "currentSeasonMatches": 65,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 132.581,
-    "currentSeasonEffectiveWeight": 169.0674,
+    "priorSeasonEffectiveWeight": 132.5308,
+    "currentSeasonEffectiveWeight": 172.0022,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -1822,9 +1822,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.947,
       "drawOdds": 4.659,
       "awayOdds": 3.679,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-13T04:20:29.588630Z"
     }
   ]

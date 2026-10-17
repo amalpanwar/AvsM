@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T16:30:46.215084Z",
+  "updatedAt": "2026-10-17T18:52:22.645405Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1025,6 +1025,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560610,
       "settledAt": "2026-10-17T16:30:40.890901Z"
+    },
+    {
+      "id": "epl2026-68",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 68,
+      "kickoff": "2026-10-17T16:30:00Z",
+      "home": "Newcastle",
+      "away": "Aston Villa",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560607,
+      "settledAt": "2026-10-17T18:52:18.379306Z"
     }
   ]
 }
