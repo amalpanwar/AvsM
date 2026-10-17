@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T01:56:06.972595Z",
+  "updatedAt": "2026-10-17T13:52:37.071124Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -961,6 +961,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560592,
       "settledAt": "2026-10-10T17:02:50.178060Z"
+    },
+    {
+      "id": "epl2026-64",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 64,
+      "kickoff": "2026-10-17T11:30:00Z",
+      "home": "Everton",
+      "away": "Chelsea",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560603,
+      "settledAt": "2026-10-17T13:52:35.314579Z"
     }
   ]
 }
