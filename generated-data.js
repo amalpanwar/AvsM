@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-13T04:20:29.614592Z",
-  "predictionStartsAt": "2026-10-13T04:20:29.588630Z",
+  "generatedAt": "2026-10-17T13:16:00.897584Z",
+  "predictionStartsAt": "2026-10-17T13:16:00.861739Z",
   "oddsUpdatedAt": "2026-10-13T04:20:29.588630Z",
   "upcomingGameweek": 7,
   "sourceFiles": {
@@ -18,8 +18,8 @@ window.AVSM_DATA = {
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 134.9022,
-    "currentSeasonEffectiveWeight": 159.8234,
+    "priorSeasonEffectiveWeight": 132.65,
+    "currentSeasonEffectiveWeight": 157.1552,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -28,28 +28,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-64",
-      "season": "2026/27",
-      "gameweek": 7,
-      "sequence": 64,
-      "kickoff": "2026-10-17T11:30:00Z",
-      "location": "Hill Dickinson Stadium",
-      "home": "Everton",
-      "away": "Chelsea",
-      "firstPicker": "A",
-      "homePints": 1,
-      "awayPints": 2,
-      "homeProbability": 0.527193,
-      "drawProbability": 0.227105,
-      "awayProbability": 0.245702,
-      "homeOdds": 1.897,
-      "drawOdds": 4.403,
-      "awayOdds": 4.07,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-13T04:20:29.588630Z"
-    },
     {
       "id": "epl2026-62",
       "season": "2026/27",
@@ -1809,6 +1787,29 @@ window.AVSM_DATA = {
       },
       "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-10T03:32:01.727518Z"
+    },
+    {
+      "id": "epl2026-64",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 64,
+      "kickoff": "2026-10-17T11:30:00Z",
+      "location": "Hill Dickinson Stadium",
+      "home": "Everton",
+      "away": "Chelsea",
+      "firstPicker": "A",
+      "homePints": 1,
+      "awayPints": 2,
+      "homeProbability": 0.527193,
+      "drawProbability": 0.227105,
+      "awayProbability": 0.245702,
+      "homeOdds": 1.897,
+      "drawOdds": 4.403,
+      "awayOdds": 4.07,
+      "status": "awaiting",
+      "score": null,
+      "resultSource": null,
+      "pintsLockedAt": "2026-10-13T04:20:29.588630Z"
     }
   ]
 };
