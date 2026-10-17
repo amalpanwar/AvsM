@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T13:52:37.071124Z",
+  "updatedAt": "2026-10-17T16:30:46.215084Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -963,6 +963,22 @@
       "settledAt": "2026-10-10T17:02:50.178060Z"
     },
     {
+      "id": "epl2026-62",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 62,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "home": "Brentford",
+      "away": "Liverpool",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560611,
+      "settledAt": "2026-10-17T16:30:40.890901Z"
+    },
+    {
       "id": "epl2026-64",
       "season": "2026/27",
       "gameweek": 7,
@@ -977,6 +993,38 @@
       "source": "football-data.org",
       "sourceMatchId": 560603,
       "settledAt": "2026-10-17T13:52:35.314579Z"
+    },
+    {
+      "id": "epl2026-65",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 65,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "home": "Fulham",
+      "away": "Hull",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560602,
+      "settledAt": "2026-10-17T16:30:40.890901Z"
+    },
+    {
+      "id": "epl2026-67",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 67,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "home": "Man City",
+      "away": "Ipswich",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560610,
+      "settledAt": "2026-10-17T16:30:40.890901Z"
     }
   ]
 }
