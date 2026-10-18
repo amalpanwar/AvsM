@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T16:46:11.157188Z",
+  "updatedAt": "2026-10-18T18:10:05.131514Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1089,6 +1089,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560607,
       "settledAt": "2026-10-17T18:52:18.379306Z"
+    },
+    {
+      "id": "epl2026-69",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 69,
+      "kickoff": "2026-10-18T15:30:00Z",
+      "home": "Nott'm Forest",
+      "away": "Arsenal",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560608,
+      "settledAt": "2026-10-18T18:10:02.928632Z"
     }
   ]
 }
