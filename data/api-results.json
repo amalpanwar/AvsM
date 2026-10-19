@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T18:10:05.131514Z",
+  "updatedAt": "2026-10-19T21:42:23.485541Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1105,6 +1105,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560608,
       "settledAt": "2026-10-18T18:10:02.928632Z"
+    },
+    {
+      "id": "epl2026-70",
+      "season": "2026/27",
+      "gameweek": 7,
+      "sequence": 70,
+      "kickoff": "2026-10-19T19:00:00Z",
+      "home": "Spurs",
+      "away": "Coventry",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "source": "native-stats.org",
+      "sourceMatchId": 381115,
+      "settledAt": "2026-10-19T21:42:21.582292Z"
     }
   ]
 }
