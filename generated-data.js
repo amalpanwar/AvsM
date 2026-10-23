@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-20T08:46:00.732259Z",
-  "predictionStartsAt": "2026-10-20T08:46:00.707136Z",
+  "generatedAt": "2026-10-23T19:18:58.531727Z",
+  "predictionStartsAt": "2026-10-23T19:18:58.506593Z",
   "oddsUpdatedAt": "2026-10-20T08:46:00.707136Z",
   "upcomingGameweek": 8,
   "sourceFiles": {
@@ -18,8 +18,8 @@ window.AVSM_DATA = {
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 131.2211,
-    "currentSeasonEffectiveWeight": 185.2131,
+    "priorSeasonEffectiveWeight": 129.4946,
+    "currentSeasonEffectiveWeight": 182.7761,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -28,28 +28,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-77",
-      "season": "2026/27",
-      "gameweek": 8,
-      "sequence": 77,
-      "kickoff": "2026-10-23T19:00:00Z",
-      "location": "Portman Road",
-      "home": "Ipswich",
-      "away": "Nott'm Forest",
-      "firstPicker": "M",
-      "homePints": 1,
-      "awayPints": 1,
-      "homeProbability": 0.367044,
-      "drawProbability": 0.233557,
-      "awayProbability": 0.399398,
-      "homeOdds": 2.724,
-      "drawOdds": 4.282,
-      "awayOdds": 2.504,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-20T08:46:00.707136Z"
-    },
     {
       "id": "epl2026-72",
       "season": "2026/27",
@@ -2069,6 +2047,29 @@ window.AVSM_DATA = {
       },
       "resultSource": "native-stats.org",
       "pintsLockedAt": "2026-10-13T04:20:29.588630Z"
+    },
+    {
+      "id": "epl2026-77",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 77,
+      "kickoff": "2026-10-23T19:00:00Z",
+      "location": "Portman Road",
+      "home": "Ipswich",
+      "away": "Nott'm Forest",
+      "firstPicker": "M",
+      "homePints": 1,
+      "awayPints": 1,
+      "homeProbability": 0.367044,
+      "drawProbability": 0.233557,
+      "awayProbability": 0.399398,
+      "homeOdds": 2.724,
+      "drawOdds": 4.282,
+      "awayOdds": 2.504,
+      "status": "awaiting",
+      "score": null,
+      "resultSource": null,
+      "pintsLockedAt": "2026-10-20T08:46:00.707136Z"
     }
   ]
 };
