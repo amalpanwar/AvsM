@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-24T14:36:14.200310Z",
-  "predictionStartsAt": "2026-10-24T14:36:14.164657Z",
+  "generatedAt": "2026-10-24T17:38:22.277295Z",
+  "predictionStartsAt": "2026-10-24T17:38:22.229107Z",
   "oddsUpdatedAt": "2026-10-20T08:46:00.707136Z",
   "upcomingGameweek": 8,
   "sourceFiles": {
@@ -11,15 +11,15 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "recency-weighted-poisson-completed-history-v3",
-    "leagueHomeGoals": 1.5785,
-    "leagueAwayGoals": 1.2549,
+    "leagueHomeGoals": 1.5678,
+    "leagueAwayGoals": 1.2409,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 72,
+    "currentSeasonMatches": 74,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 129.0944,
-    "currentSeasonEffectiveWeight": 188.2005,
+    "priorSeasonEffectiveWeight": 129.0316,
+    "currentSeasonEffectiveWeight": 194.1053,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -28,28 +28,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-73",
-      "season": "2026/27",
-      "gameweek": 8,
-      "sequence": 73,
-      "kickoff": "2026-10-24T16:30:00Z",
-      "location": "Stamford Bridge",
-      "home": "Chelsea",
-      "away": "Spurs",
-      "firstPicker": "M",
-      "homePints": 1,
-      "awayPints": 3,
-      "homeProbability": 0.598514,
-      "drawProbability": 0.205884,
-      "awayProbability": 0.195602,
-      "homeOdds": 1.671,
-      "drawOdds": 4.857,
-      "awayOdds": 5.112,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-20T08:46:00.707136Z"
-    },
     {
       "id": "epl2026-75",
       "season": "2026/27",
@@ -2052,9 +2030,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.686,
       "drawOdds": 4.04,
       "awayOdds": 6.273,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "resultSource": "native-stats.org",
       "pintsLockedAt": "2026-10-20T08:46:00.707136Z"
     },
     {
@@ -2075,6 +2056,32 @@ window.AVSM_DATA = {
       "homeOdds": 2.513,
       "drawOdds": 3.628,
       "awayOdds": 3.063,
+      "status": "recorded",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "resultSource": "native-stats.org",
+      "pintsLockedAt": "2026-10-20T08:46:00.707136Z"
+    },
+    {
+      "id": "epl2026-73",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 73,
+      "kickoff": "2026-10-24T16:30:00Z",
+      "location": "Stamford Bridge",
+      "home": "Chelsea",
+      "away": "Spurs",
+      "firstPicker": "M",
+      "homePints": 1,
+      "awayPints": 3,
+      "homeProbability": 0.598514,
+      "drawProbability": 0.205884,
+      "awayProbability": 0.195602,
+      "homeOdds": 1.671,
+      "drawOdds": 4.857,
+      "awayOdds": 5.112,
       "status": "awaiting",
       "score": null,
       "resultSource": null,

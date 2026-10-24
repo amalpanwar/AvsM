@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T14:36:14.063787Z",
+  "updatedAt": "2026-10-24T17:38:22.098449Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1123,6 +1123,22 @@
       "settledAt": "2026-10-19T21:42:21.582292Z"
     },
     {
+      "id": "epl2026-71",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 71,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "home": "Arsenal",
+      "away": "Everton",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "native-stats.org",
+      "sourceMatchId": 381119,
+      "settledAt": "2026-10-24T17:38:20.013178Z"
+    },
+    {
       "id": "epl2026-72",
       "season": "2026/27",
       "gameweek": 8,
@@ -1137,6 +1153,22 @@
       "source": "native-stats.org",
       "sourceMatchId": 381116,
       "settledAt": "2026-10-24T14:36:11.256672Z"
+    },
+    {
+      "id": "epl2026-74",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 74,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "home": "Coventry",
+      "away": "Fulham",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "native-stats.org",
+      "sourceMatchId": 381120,
+      "settledAt": "2026-10-24T17:38:20.013178Z"
     },
     {
       "id": "epl2026-77",
