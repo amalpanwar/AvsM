@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:40:05.741140Z",
+  "updatedAt": "2026-10-24T14:36:14.063787Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1121,6 +1121,22 @@
       "source": "native-stats.org",
       "sourceMatchId": 381115,
       "settledAt": "2026-10-19T21:42:21.582292Z"
+    },
+    {
+      "id": "epl2026-72",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 72,
+      "kickoff": "2026-10-24T11:30:00Z",
+      "home": "Aston Villa",
+      "away": "Man City",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "source": "native-stats.org",
+      "sourceMatchId": 381116,
+      "settledAt": "2026-10-24T14:36:11.256672Z"
     },
     {
       "id": "epl2026-77",
