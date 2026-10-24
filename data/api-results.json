@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T17:38:22.098449Z",
+  "updatedAt": "2026-10-24T19:50:57.425105Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1153,6 +1153,22 @@
       "source": "native-stats.org",
       "sourceMatchId": 381116,
       "settledAt": "2026-10-24T14:36:11.256672Z"
+    },
+    {
+      "id": "epl2026-73",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 73,
+      "kickoff": "2026-10-24T16:30:00Z",
+      "home": "Chelsea",
+      "away": "Spurs",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "source": "native-stats.org",
+      "sourceMatchId": 381121,
+      "settledAt": "2026-10-24T19:50:55.335548Z"
     },
     {
       "id": "epl2026-74",
