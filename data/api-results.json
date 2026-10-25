@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T19:50:57.425105Z",
+  "updatedAt": "2026-10-25T17:53:23.962296Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1187,6 +1187,38 @@
       "settledAt": "2026-10-24T17:38:20.013178Z"
     },
     {
+      "id": "epl2026-75",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 75,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "home": "Crystal Palace",
+      "away": "Newcastle",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560613,
+      "settledAt": "2026-10-25T17:53:21.776013Z"
+    },
+    {
+      "id": "epl2026-76",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 76,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "home": "Hull",
+      "away": "Brentford",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560619,
+      "settledAt": "2026-10-25T17:53:21.776013Z"
+    },
+    {
       "id": "epl2026-77",
       "season": "2026/27",
       "gameweek": 8,
@@ -1201,6 +1233,38 @@
       "source": "football-data.org",
       "sourceMatchId": 560620,
       "settledAt": "2026-10-23T22:40:03.889391Z"
+    },
+    {
+      "id": "epl2026-78",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 78,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "home": "Liverpool",
+      "away": "Brighton",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560612,
+      "settledAt": "2026-10-25T17:53:21.776013Z"
+    },
+    {
+      "id": "epl2026-79",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 79,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "home": "Man Utd",
+      "away": "Bournemouth",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560615,
+      "settledAt": "2026-10-25T17:53:21.776013Z"
     }
   ]
 }
