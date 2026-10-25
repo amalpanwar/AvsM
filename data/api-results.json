@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T17:53:23.962296Z",
+  "updatedAt": "2026-10-25T20:55:30.316604Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1265,6 +1265,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560615,
       "settledAt": "2026-10-25T17:53:21.776013Z"
+    },
+    {
+      "id": "epl2026-80",
+      "season": "2026/27",
+      "gameweek": 8,
+      "sequence": 80,
+      "kickoff": "2026-10-25T16:30:00Z",
+      "home": "Sunderland",
+      "away": "Leeds",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560621,
+      "settledAt": "2026-10-25T20:55:27.671465Z"
     }
   ]
 }
