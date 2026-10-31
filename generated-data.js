@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-31T15:13:27.381393Z",
-  "predictionStartsAt": "2026-10-31T15:13:27.334583Z",
+  "generatedAt": "2026-10-31T19:29:19.545411Z",
+  "predictionStartsAt": "2026-10-31T19:29:19.497518Z",
   "oddsUpdatedAt": "2026-10-27T09:14:00.978637Z",
   "upcomingGameweek": 9,
   "sourceFiles": {
@@ -11,15 +11,15 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "recency-weighted-poisson-completed-history-v3",
-    "leagueHomeGoals": 1.5157,
-    "leagueAwayGoals": 1.2346,
+    "leagueHomeGoals": 1.5279,
+    "leagueAwayGoals": 1.216,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 81,
+    "currentSeasonMatches": 86,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 125.6486,
-    "currentSeasonEffectiveWeight": 209.5914,
+    "priorSeasonEffectiveWeight": 125.5626,
+    "currentSeasonEffectiveWeight": 224.4372,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -28,28 +28,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-90",
-      "season": "2026/27",
-      "gameweek": 9,
-      "sequence": 90,
-      "kickoff": "2026-10-31T17:30:00Z",
-      "location": "Tottenham Hotspur Stadium",
-      "home": "Spurs",
-      "away": "Crystal Palace",
-      "firstPicker": "A",
-      "homePints": 1,
-      "awayPints": 2,
-      "homeProbability": 0.508667,
-      "drawProbability": 0.238811,
-      "awayProbability": 0.252522,
-      "homeOdds": 1.966,
-      "drawOdds": 4.187,
-      "awayOdds": 3.96,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
-    },
     {
       "id": "epl2026-82",
       "season": "2026/27",
@@ -2242,9 +2220,12 @@ window.AVSM_DATA = {
       "homeOdds": 2.313,
       "drawOdds": 3.218,
       "awayOdds": 3.893,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
     },
     {
@@ -2265,9 +2246,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.845,
       "drawOdds": 4.499,
       "awayOdds": 4.243,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
     },
     {
@@ -2288,9 +2272,12 @@ window.AVSM_DATA = {
       "homeOdds": 2.742,
       "drawOdds": 4.309,
       "awayOdds": 2.48,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
     },
     {
@@ -2311,9 +2298,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.731,
       "drawOdds": 4.796,
       "awayOdds": 4.675,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
     },
     {
@@ -2334,6 +2324,32 @@ window.AVSM_DATA = {
       "homeOdds": 2.037,
       "drawOdds": 4.982,
       "awayOdds": 3.244,
+      "status": "recorded",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
+    },
+    {
+      "id": "epl2026-90",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 90,
+      "kickoff": "2026-10-31T17:30:00Z",
+      "location": "Tottenham Hotspur Stadium",
+      "home": "Spurs",
+      "away": "Crystal Palace",
+      "firstPicker": "A",
+      "homePints": 1,
+      "awayPints": 2,
+      "homeProbability": 0.508667,
+      "drawProbability": 0.238811,
+      "awayProbability": 0.252522,
+      "homeOdds": 1.966,
+      "drawOdds": 4.187,
+      "awayOdds": 3.96,
       "status": "awaiting",
       "score": null,
       "resultSource": null,

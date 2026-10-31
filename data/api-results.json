@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:13:27.209141Z",
+  "updatedAt": "2026-10-31T19:29:19.372587Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1283,6 +1283,38 @@
       "settledAt": "2026-10-25T20:55:27.671465Z"
     },
     {
+      "id": "epl2026-81",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 81,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "home": "Bournemouth",
+      "away": "Leeds",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560624,
+      "settledAt": "2026-10-31T19:29:17.252269Z"
+    },
+    {
+      "id": "epl2026-83",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 83,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "home": "Brentford",
+      "away": "Nott'm Forest",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560630,
+      "settledAt": "2026-10-31T19:29:17.252269Z"
+    },
+    {
       "id": "epl2026-84",
       "season": "2026/27",
       "gameweek": 9,
@@ -1297,6 +1329,54 @@
       "source": "football-data.org",
       "sourceMatchId": 560626,
       "settledAt": "2026-10-31T15:13:25.192777Z"
+    },
+    {
+      "id": "epl2026-85",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 85,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "home": "Coventry",
+      "away": "Sunderland",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560625,
+      "settledAt": "2026-10-31T19:29:17.252269Z"
+    },
+    {
+      "id": "epl2026-86",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 86,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "home": "Hull",
+      "away": "Ipswich",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560629,
+      "settledAt": "2026-10-31T19:29:17.252269Z"
+    },
+    {
+      "id": "epl2026-88",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 88,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "home": "Man City",
+      "away": "Brighton",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560623,
+      "settledAt": "2026-10-31T19:29:17.252269Z"
     }
   ]
 }
