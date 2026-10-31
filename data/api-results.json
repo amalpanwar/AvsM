@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:29:19.372587Z",
+  "updatedAt": "2026-10-31T22:43:58.603908Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1299,6 +1299,22 @@
       "settledAt": "2026-10-31T19:29:17.252269Z"
     },
     {
+      "id": "epl2026-82",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 82,
+      "kickoff": "2026-10-31T20:00:00Z",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560628,
+      "settledAt": "2026-10-31T22:43:53.679918Z"
+    },
+    {
       "id": "epl2026-83",
       "season": "2026/27",
       "gameweek": 9,
@@ -1377,6 +1393,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560623,
       "settledAt": "2026-10-31T19:29:17.252269Z"
+    },
+    {
+      "id": "epl2026-90",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 90,
+      "kickoff": "2026-10-31T17:30:00Z",
+      "home": "Spurs",
+      "away": "Crystal Palace",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560627,
+      "settledAt": "2026-10-31T22:43:53.679918Z"
     }
   ]
 }

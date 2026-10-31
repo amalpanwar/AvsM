@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-31T19:29:19.545411Z",
-  "predictionStartsAt": "2026-10-31T19:29:19.497518Z",
+  "generatedAt": "2026-10-31T22:43:58.772889Z",
+  "predictionStartsAt": "2026-10-31T22:43:58.727404Z",
   "oddsUpdatedAt": "2026-10-27T09:14:00.978637Z",
   "upcomingGameweek": 9,
   "sourceFiles": {
@@ -11,15 +11,15 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "recency-weighted-poisson-completed-history-v3",
-    "leagueHomeGoals": 1.5279,
-    "leagueAwayGoals": 1.216,
+    "leagueHomeGoals": 1.5274,
+    "leagueAwayGoals": 1.2039,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 86,
+    "currentSeasonMatches": 88,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 125.5626,
-    "currentSeasonEffectiveWeight": 224.4372,
+    "priorSeasonEffectiveWeight": 125.4973,
+    "currentSeasonEffectiveWeight": 230.3166,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -28,28 +28,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-82",
-      "season": "2026/27",
-      "gameweek": 9,
-      "sequence": 82,
-      "kickoff": "2026-10-31T20:00:00Z",
-      "location": "Villa Park",
-      "home": "Aston Villa",
-      "away": "Fulham",
-      "firstPicker": "M",
-      "homePints": 1,
-      "awayPints": 2,
-      "homeProbability": 0.420043,
-      "drawProbability": 0.306076,
-      "awayProbability": 0.273881,
-      "homeOdds": 2.381,
-      "drawOdds": 3.267,
-      "awayOdds": 3.651,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
-    },
     {
       "id": "epl2026-87",
       "season": "2026/27",
@@ -2350,9 +2328,38 @@ window.AVSM_DATA = {
       "homeOdds": 1.966,
       "drawOdds": 4.187,
       "awayOdds": 3.96,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
+    },
+    {
+      "id": "epl2026-82",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 82,
+      "kickoff": "2026-10-31T20:00:00Z",
+      "location": "Villa Park",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "firstPicker": "M",
+      "homePints": 1,
+      "awayPints": 2,
+      "homeProbability": 0.420043,
+      "drawProbability": 0.306076,
+      "awayProbability": 0.273881,
+      "homeOdds": 2.381,
+      "drawOdds": 3.267,
+      "awayOdds": 3.651,
+      "status": "recorded",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
     }
   ]
