@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:55:30.316604Z",
+  "updatedAt": "2026-10-31T15:13:27.209141Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1281,6 +1281,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560621,
       "settledAt": "2026-10-25T20:55:27.671465Z"
+    },
+    {
+      "id": "epl2026-84",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 84,
+      "kickoff": "2026-10-31T12:30:00Z",
+      "home": "Chelsea",
+      "away": "Man Utd",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560626,
+      "settledAt": "2026-10-31T15:13:25.192777Z"
     }
   ]
 }
