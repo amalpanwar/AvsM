@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T22:43:58.603908Z",
+  "updatedAt": "2026-11-01T20:23:53.846051Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1377,6 +1377,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560629,
       "settledAt": "2026-10-31T19:29:17.252269Z"
+    },
+    {
+      "id": "epl2026-87",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 87,
+      "kickoff": "2026-11-01T16:30:00Z",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560631,
+      "settledAt": "2026-11-01T20:23:52.163903Z"
     },
     {
       "id": "epl2026-88",

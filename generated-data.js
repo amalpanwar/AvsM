@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-10-31T22:43:58.772889Z",
-  "predictionStartsAt": "2026-10-31T22:43:58.727404Z",
+  "generatedAt": "2026-11-01T20:23:54.015710Z",
+  "predictionStartsAt": "2026-11-01T20:23:53.969747Z",
   "oddsUpdatedAt": "2026-10-27T09:14:00.978637Z",
   "upcomingGameweek": 9,
   "sourceFiles": {
@@ -11,15 +11,15 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "recency-weighted-poisson-completed-history-v3",
-    "leagueHomeGoals": 1.5274,
-    "leagueAwayGoals": 1.2039,
+    "leagueHomeGoals": 1.5146,
+    "leagueAwayGoals": 1.2022,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 88,
+    "currentSeasonMatches": 89,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 125.4973,
-    "currentSeasonEffectiveWeight": 230.3166,
+    "priorSeasonEffectiveWeight": 125.0618,
+    "currentSeasonEffectiveWeight": 232.5155,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -28,28 +28,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-87",
-      "season": "2026/27",
-      "gameweek": 9,
-      "sequence": 87,
-      "kickoff": "2026-11-01T16:30:00Z",
-      "location": "Anfield",
-      "home": "Liverpool",
-      "away": "Arsenal",
-      "firstPicker": "A",
-      "homePints": 2,
-      "awayPints": 1,
-      "homeProbability": 0.258926,
-      "drawProbability": 0.303066,
-      "awayProbability": 0.438007,
-      "homeOdds": 3.862,
-      "drawOdds": 3.3,
-      "awayOdds": 2.283,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
-    },
     {
       "id": "epl2026-89",
       "season": "2026/27",
@@ -2357,6 +2335,32 @@ window.AVSM_DATA = {
       "status": "recorded",
       "score": {
         "home": 1,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-10-27T09:14:00.978637Z"
+    },
+    {
+      "id": "epl2026-87",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 87,
+      "kickoff": "2026-11-01T16:30:00Z",
+      "location": "Anfield",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "firstPicker": "A",
+      "homePints": 2,
+      "awayPints": 1,
+      "homeProbability": 0.258926,
+      "drawProbability": 0.303066,
+      "awayProbability": 0.438007,
+      "homeOdds": 3.862,
+      "drawOdds": 3.3,
+      "awayOdds": 2.283,
+      "status": "recorded",
+      "score": {
+        "home": 0,
         "away": 1
       },
       "resultSource": "football-data.org",
