@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:23:53.846051Z",
+  "updatedAt": "2026-11-02T22:40:17.442230Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1409,6 +1409,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560623,
       "settledAt": "2026-10-31T19:29:17.252269Z"
+    },
+    {
+      "id": "epl2026-89",
+      "season": "2026/27",
+      "gameweek": 9,
+      "sequence": 89,
+      "kickoff": "2026-11-02T20:00:00Z",
+      "home": "Newcastle",
+      "away": "Everton",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560622,
+      "settledAt": "2026-11-02T22:40:15.507085Z"
     },
     {
       "id": "epl2026-90",
