@@ -1,7 +1,7 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-11-02T22:40:17.615463Z",
-  "predictionStartsAt": "2026-11-02T22:40:17.568057Z",
-  "oddsUpdatedAt": "2026-11-02T22:40:17.568057Z",
+  "generatedAt": "2026-11-03T11:10:55.001663Z",
+  "predictionStartsAt": "2026-11-03T11:10:54.953431Z",
+  "oddsUpdatedAt": "2026-11-03T11:10:54.953431Z",
   "upcomingGameweek": 10,
   "sourceFiles": {
     "strengths": "epl-2025-GMTStandardTime.xlsx and completed 2026/27 results",
@@ -18,8 +18,8 @@ window.AVSM_DATA = {
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 124.5357,
-    "currentSeasonEffectiveWeight": 234.5361,
+    "priorSeasonEffectiveWeight": 124.286,
+    "currentSeasonEffectiveWeight": 234.0658,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -40,15 +40,15 @@ window.AVSM_DATA = {
       "firstPicker": "M",
       "homePints": 1,
       "awayPints": 3,
-      "homeProbability": 0.670195,
-      "drawProbability": 0.218053,
-      "awayProbability": 0.111752,
+      "homeProbability": 0.670121,
+      "drawProbability": 0.218072,
+      "awayProbability": 0.111807,
       "homeOdds": 1.492,
       "drawOdds": 4.586,
-      "awayOdds": 8.948,
+      "awayOdds": 8.944,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-92",
@@ -62,15 +62,15 @@ window.AVSM_DATA = {
       "firstPicker": "A",
       "homePints": 1,
       "awayPints": 3,
-      "homeProbability": 0.746755,
-      "drawProbability": 0.158411,
-      "awayProbability": 0.094834,
+      "homeProbability": 0.746649,
+      "drawProbability": 0.158458,
+      "awayProbability": 0.094893,
       "homeOdds": 1.339,
-      "drawOdds": 6.313,
-      "awayOdds": 10.545,
+      "drawOdds": 6.311,
+      "awayOdds": 10.538,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-93",
@@ -84,15 +84,15 @@ window.AVSM_DATA = {
       "firstPicker": "M",
       "homePints": 3,
       "awayPints": 1,
-      "homeProbability": 0.156182,
-      "drawProbability": 0.180869,
-      "awayProbability": 0.662949,
-      "homeOdds": 6.403,
-      "drawOdds": 5.529,
-      "awayOdds": 1.508,
+      "homeProbability": 0.156264,
+      "drawProbability": 0.180919,
+      "awayProbability": 0.662817,
+      "homeOdds": 6.399,
+      "drawOdds": 5.527,
+      "awayOdds": 1.509,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-94",
@@ -106,15 +106,15 @@ window.AVSM_DATA = {
       "firstPicker": "A",
       "homePints": 1,
       "awayPints": 3,
-      "homeProbability": 0.550497,
-      "drawProbability": 0.263331,
-      "awayProbability": 0.186173,
+      "homeProbability": 0.55042,
+      "drawProbability": 0.263333,
+      "awayProbability": 0.186246,
       "homeOdds": 1.817,
-      "drawOdds": 3.798,
-      "awayOdds": 5.371,
+      "drawOdds": 3.797,
+      "awayOdds": 5.369,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-95",
@@ -128,15 +128,15 @@ window.AVSM_DATA = {
       "firstPicker": "M",
       "homePints": 1,
       "awayPints": 1,
-      "homeProbability": 0.442399,
-      "drawProbability": 0.234725,
-      "awayProbability": 0.322876,
+      "homeProbability": 0.4424,
+      "drawProbability": 0.234732,
+      "awayProbability": 0.322868,
       "homeOdds": 2.26,
       "drawOdds": 4.26,
       "awayOdds": 3.097,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-96",
@@ -150,15 +150,15 @@ window.AVSM_DATA = {
       "firstPicker": "A",
       "homePints": 1,
       "awayPints": 1,
-      "homeProbability": 0.393588,
-      "drawProbability": 0.231753,
-      "awayProbability": 0.374659,
+      "homeProbability": 0.39362,
+      "drawProbability": 0.231759,
+      "awayProbability": 0.374621,
       "homeOdds": 2.541,
       "drawOdds": 4.315,
       "awayOdds": 2.669,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-97",
@@ -172,15 +172,15 @@ window.AVSM_DATA = {
       "firstPicker": "M",
       "homePints": 1,
       "awayPints": 2,
-      "homeProbability": 0.449901,
-      "drawProbability": 0.303367,
-      "awayProbability": 0.246731,
+      "homeProbability": 0.449903,
+      "drawProbability": 0.303343,
+      "awayProbability": 0.246754,
       "homeOdds": 2.223,
-      "drawOdds": 3.296,
+      "drawOdds": 3.297,
       "awayOdds": 4.053,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-98",
@@ -194,15 +194,15 @@ window.AVSM_DATA = {
       "firstPicker": "A",
       "homePints": 1,
       "awayPints": 1,
-      "homeProbability": 0.403567,
-      "drawProbability": 0.241677,
-      "awayProbability": 0.354757,
+      "homeProbability": 0.40358,
+      "drawProbability": 0.241681,
+      "awayProbability": 0.354739,
       "homeOdds": 2.478,
       "drawOdds": 4.138,
       "awayOdds": 2.819,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-99",
@@ -216,15 +216,15 @@ window.AVSM_DATA = {
       "firstPicker": "M",
       "homePints": 3,
       "awayPints": 1,
-      "homeProbability": 0.105079,
-      "drawProbability": 0.261188,
-      "awayProbability": 0.633733,
-      "homeOdds": 9.517,
-      "drawOdds": 3.829,
+      "homeProbability": 0.105165,
+      "drawProbability": 0.261208,
+      "awayProbability": 0.633627,
+      "homeOdds": 9.509,
+      "drawOdds": 3.828,
       "awayOdds": 1.578,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
       "id": "epl2026-100",
@@ -238,15 +238,15 @@ window.AVSM_DATA = {
       "firstPicker": "A",
       "homePints": 2,
       "awayPints": 1,
-      "homeProbability": 0.232142,
-      "drawProbability": 0.286862,
-      "awayProbability": 0.480996,
-      "homeOdds": 4.308,
+      "homeProbability": 0.23223,
+      "drawProbability": 0.286857,
+      "awayProbability": 0.480913,
+      "homeOdds": 4.306,
       "drawOdds": 3.486,
       "awayOdds": 2.079,
       "status": "open",
       "score": null,
-      "pintsLockedAt": "2026-11-02T22:40:17.568057Z"
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     }
   ],
   "recordedResults": [
