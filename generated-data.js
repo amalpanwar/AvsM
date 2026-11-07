@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-11-07T16:13:51.165539Z",
-  "predictionStartsAt": "2026-11-07T16:13:51.117081Z",
+  "generatedAt": "2026-11-07T20:25:50.217022Z",
+  "predictionStartsAt": "2026-11-07T20:25:50.169912Z",
   "oddsUpdatedAt": "2026-11-03T11:10:54.953431Z",
   "upcomingGameweek": 10,
   "sourceFiles": {
@@ -12,15 +12,15 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "recency-weighted-poisson-completed-history-v3",
-    "leagueHomeGoals": 1.5102,
-    "leagueAwayGoals": 1.1888,
+    "leagueHomeGoals": 1.5141,
+    "leagueAwayGoals": 1.176,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 92,
+    "currentSeasonMatches": 95,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 122.2871,
-    "currentSeasonEffectiveWeight": 236.2898,
+    "priorSeasonEffectiveWeight": 122.2047,
+    "currentSeasonEffectiveWeight": 245.124,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -29,28 +29,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-99",
-      "season": "2026/27",
-      "gameweek": 10,
-      "sequence": 99,
-      "kickoff": "2026-11-07T17:30:00Z",
-      "location": "The City Ground",
-      "home": "Nott'm Forest",
-      "away": "Man City",
-      "firstPicker": "M",
-      "homePints": 3,
-      "awayPints": 1,
-      "homeProbability": 0.105165,
-      "drawProbability": 0.261208,
-      "awayProbability": 0.633627,
-      "homeOdds": 9.509,
-      "drawOdds": 3.828,
-      "awayOdds": 1.578,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
-    },
     {
       "id": "epl2026-92",
       "season": "2026/27",
@@ -2573,9 +2551,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.492,
       "drawOdds": 4.586,
       "awayOdds": 8.944,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     },
     {
@@ -2596,9 +2577,38 @@ window.AVSM_DATA = {
       "homeOdds": 2.26,
       "drawOdds": 4.26,
       "awayOdds": 3.097,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
+    },
+    {
+      "id": "epl2026-99",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 99,
+      "kickoff": "2026-11-07T17:30:00Z",
+      "location": "The City Ground",
+      "home": "Nott'm Forest",
+      "away": "Man City",
+      "firstPicker": "M",
+      "homePints": 3,
+      "awayPints": 1,
+      "homeProbability": 0.105165,
+      "drawProbability": 0.261208,
+      "awayProbability": 0.633627,
+      "homeOdds": 9.509,
+      "drawOdds": 3.828,
+      "awayOdds": 1.578,
+      "status": "recorded",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
     }
   ]

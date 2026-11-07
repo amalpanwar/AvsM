@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:13:50.986754Z",
+  "updatedAt": "2026-11-07T20:25:50.042849Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1443,6 +1443,22 @@
       "settledAt": "2026-10-31T22:43:53.679918Z"
     },
     {
+      "id": "epl2026-91",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 91,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "home": "Arsenal",
+      "away": "Hull",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560640,
+      "settledAt": "2026-11-07T20:25:47.763629Z"
+    },
+    {
       "id": "epl2026-94",
       "season": "2026/27",
       "gameweek": 10,
@@ -1459,6 +1475,22 @@
       "settledAt": "2026-11-07T03:05:24.904768Z"
     },
     {
+      "id": "epl2026-95",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 95,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "home": "Fulham",
+      "away": "Newcastle",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560633,
+      "settledAt": "2026-11-07T20:25:47.763629Z"
+    },
+    {
       "id": "epl2026-97",
       "season": "2026/27",
       "gameweek": 10,
@@ -1473,6 +1505,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560632,
       "settledAt": "2026-11-07T16:13:48.375144Z"
+    },
+    {
+      "id": "epl2026-99",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 99,
+      "kickoff": "2026-11-07T17:30:00Z",
+      "home": "Nott'm Forest",
+      "away": "Man City",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560641,
+      "settledAt": "2026-11-07T20:25:47.763629Z"
     }
   ]
 }
