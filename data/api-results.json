@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T22:40:17.442230Z",
+  "updatedAt": "2026-11-07T03:05:27.028278Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1441,6 +1441,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560627,
       "settledAt": "2026-10-31T22:43:53.679918Z"
+    },
+    {
+      "id": "epl2026-94",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 94,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "home": "Everton",
+      "away": "Coventry",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560634,
+      "settledAt": "2026-11-07T03:05:24.904768Z"
     }
   ]
 }

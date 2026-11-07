@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-11-03T11:10:55.001663Z",
-  "predictionStartsAt": "2026-11-03T11:10:54.953431Z",
+  "generatedAt": "2026-11-07T03:05:27.198910Z",
+  "predictionStartsAt": "2026-11-07T03:05:27.152022Z",
   "oddsUpdatedAt": "2026-11-03T11:10:54.953431Z",
   "upcomingGameweek": 10,
   "sourceFiles": {
@@ -18,8 +18,8 @@ window.AVSM_DATA = {
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 124.286,
-    "currentSeasonEffectiveWeight": 234.0658,
+    "priorSeasonEffectiveWeight": 122.5452,
+    "currentSeasonEffectiveWeight": 230.7874,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -90,28 +90,6 @@ window.AVSM_DATA = {
       "homeOdds": 6.399,
       "drawOdds": 5.527,
       "awayOdds": 1.509,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
-    },
-    {
-      "id": "epl2026-94",
-      "season": "2026/27",
-      "gameweek": 10,
-      "sequence": 94,
-      "kickoff": "2026-11-07T15:00:00Z",
-      "location": "Hill Dickinson Stadium",
-      "home": "Everton",
-      "away": "Coventry",
-      "firstPicker": "A",
-      "homePints": 1,
-      "awayPints": 3,
-      "homeProbability": 0.55042,
-      "drawProbability": 0.263333,
-      "awayProbability": 0.186246,
-      "homeOdds": 1.817,
-      "drawOdds": 3.797,
-      "awayOdds": 5.369,
       "status": "open",
       "score": null,
       "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
