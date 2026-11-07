@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T03:05:27.028278Z",
+  "updatedAt": "2026-11-07T16:13:50.986754Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1457,6 +1457,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560634,
       "settledAt": "2026-11-07T03:05:24.904768Z"
+    },
+    {
+      "id": "epl2026-97",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 97,
+      "kickoff": "2026-11-07T12:30:00Z",
+      "home": "Leeds",
+      "away": "Spurs",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560632,
+      "settledAt": "2026-11-07T16:13:48.375144Z"
     }
   ]
 }
