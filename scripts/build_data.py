@@ -17,6 +17,7 @@ HISTORY_FILE = ROOT / "epl-2025-GMTStandardTime.xlsx"
 FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 OUT_FILE = ROOT / "generated-data.js"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
+API_FIXTURES_FILE = ROOT / "data" / "api-fixtures.json"
 FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
 PRIOR_SEASON_WEIGHT = 1.0
 CURRENT_SEASON_WEIGHT = 3.0
@@ -61,6 +62,27 @@ def load_api_results():
             "source": item.get("source") or "api",
         }
     return results
+
+
+def load_api_fixtures():
+    if not API_FIXTURES_FILE.exists():
+        return {}
+
+    payload = json.loads(API_FIXTURES_FILE.read_text(encoding="utf-8"))
+    fixtures = {}
+    for item in payload.get("fixtures", []):
+        kickoff = item.get("kickoff")
+        if not item.get("id") or not kickoff:
+            continue
+        fixtures[item["id"]] = datetime.fromisoformat(kickoff.replace("Z", "+00:00")).astimezone(timezone.utc)
+    return fixtures
+
+
+def apply_kickoff_overrides(rows, overrides):
+    for row in rows:
+        fixture_id = f"epl2026-{row['match_number']}"
+        if fixture_id in overrides:
+            row["date"] = overrides[fixture_id]
 
 
 def source_path(path):
@@ -303,6 +325,8 @@ def build_payload(now, preserve_odds=False):
     history_rows = read_rows(HISTORY_FILE)
     fixture_rows = read_rows(FIXTURE_FILE)
     api_results = load_api_results()
+    api_fixtures = load_api_fixtures()
+    apply_kickoff_overrides(fixture_rows, api_fixtures)
     previous_payload = load_previous_payload()
     previous_matches = {
         item["id"]: item
@@ -422,6 +446,7 @@ def build_payload(now, preserve_odds=False):
             "strengths": f"{HISTORY_FILE.name} and completed 2026/27 results",
             "fixtures": FIXTURE_FILE.name,
             "fixtureTimezone": str(FIXTURE_TIMEZONE),
+            "apiFixtures": source_path(API_FIXTURES_FILE),
             "apiResults": source_path(API_RESULTS_FILE),
         },
         "model": {

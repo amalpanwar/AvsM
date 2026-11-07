@@ -23,6 +23,7 @@ FIXTURE_FILE = ROOT / "epl-2026-GMTStandardTime.xlsx"
 BUILD_SCRIPT = ROOT / "scripts" / "build_data.py"
 ENV_FILE = ROOT / ".env"
 API_RESULTS_FILE = ROOT / "data" / "api-results.json"
+API_FIXTURES_FILE = ROOT / "data" / "api-fixtures.json"
 SCORE_OBSERVATIONS_FILE = ROOT / "data" / "score-observations.json"
 GENERATED_DATA_FILE = ROOT / "generated-data.js"
 FIXTURE_TIMEZONE = ZoneInfo("Europe/London")
@@ -222,6 +223,14 @@ def load_api_result_cache():
     return {item["id"]: item for item in payload.get("results", [])}
 
 
+def load_api_fixture_cache():
+    if not API_FIXTURES_FILE.exists():
+        return {}
+
+    payload = json.loads(API_FIXTURES_FILE.read_text(encoding="utf-8"))
+    return {item["id"]: item for item in payload.get("fixtures", [])}
+
+
 def load_score_observations():
     if not SCORE_OBSERVATIONS_FILE.exists():
         return {}
@@ -238,6 +247,16 @@ def write_api_result_cache(results):
         "results": sorted(results.values(), key=lambda item: item["sequence"]),
     }
     API_RESULTS_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+
+def write_api_fixture_cache(fixtures):
+    API_FIXTURES_FILE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "source": "football-data.org",
+        "fixtures": sorted(fixtures.values(), key=lambda item: item["sequence"]),
+    }
+    API_FIXTURES_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
 
 def write_score_observations(observations):
@@ -284,7 +303,7 @@ def sync_results(token, season, dry_run):
         home = ws.cell(row_number, col["Home Team"]).value
         away = ws.cell(row_number, col["Away Team"]).value
         kickoff = parse_excel_datetime(ws.cell(row_number, col["Date"]).value)
-        key = (normalise_team(home), normalise_team(away), kickoff.date())
+        key = (normalise_team(home), normalise_team(away))
         fixture = {
             "row_number": row_number,
             "id": f"epl2026-{int(ws.cell(row_number, col['Match Number']).value)}",
@@ -299,7 +318,45 @@ def sync_results(token, season, dry_run):
         fixtures.append(fixture)
 
     cached_results = load_api_result_cache()
+    cached_fixtures = load_api_fixture_cache()
     score_observations = load_score_observations()
+    api_matches = football_data_matches(token, season)
+    fixture_schedule_changed = False
+
+    for match in api_matches:
+        key = (
+            normalise_team(match.get("homeTeam", {}).get("name")),
+            normalise_team(match.get("awayTeam", {}).get("name")),
+        )
+        fixture = sheet_rows.get(key)
+        kickoff = match.get("utcDate")
+        if not fixture or not kickoff:
+            continue
+
+        entry = {
+            "id": fixture["id"],
+            "season": "2026/27",
+            "gameweek": fixture["gameweek"],
+            "sequence": fixture["sequence"],
+            "kickoff": kickoff,
+            "home": fixture["home"],
+            "away": fixture["away"],
+            "status": match.get("status"),
+            "source": "football-data.org",
+            "sourceMatchId": match.get("id"),
+        }
+        if cached_fixtures.get(fixture["id"]) != entry:
+            fixture_schedule_changed = True
+            cached_fixtures[fixture["id"]] = entry
+
+    for fixture in fixtures:
+        cached = cached_fixtures.get(fixture["id"])
+        if not cached or not cached.get("kickoff"):
+            continue
+        kickoff = datetime.fromisoformat(cached["kickoff"].replace("Z", "+00:00")).astimezone(timezone.utc)
+        fixture["kickoff_dt"] = kickoff
+        fixture["kickoff"] = kickoff.isoformat().replace("+00:00", "Z")
+
     previous_cutoff = load_generated_cutoff()
     crossed_kickoff = previous_cutoff is None or any(previous_cutoff < fixture["kickoff_dt"] <= now for fixture in fixtures)
     updates = []
@@ -365,14 +422,8 @@ def sync_results(token, season, dry_run):
         return now - first_seen >= OBSERVATION_STABILITY_WINDOW and seen_count >= OBSERVATION_MIN_SEEN_COUNT
 
     def cache_result(source_result):
-        utc_date = datetime.fromisoformat(source_result["utcDate"].replace("Z", "+00:00")).astimezone(timezone.utc)
         result = source_result["score"]
-        candidates = [
-            (source_result["home"], source_result["away"], utc_date.date()),
-            (source_result["home"], source_result["away"], (utc_date - timedelta(days=1)).date()),
-            (source_result["home"], source_result["away"], (utc_date + timedelta(days=1)).date()),
-        ]
-        fixture = next((sheet_rows[key] for key in candidates if key in sheet_rows), None)
+        fixture = sheet_rows.get((source_result["home"], source_result["away"]))
         if not fixture:
             return
 
@@ -393,7 +444,7 @@ def sync_results(token, season, dry_run):
             write_cached_result(fixture, result, source_result, source_name)
             remove_observation(fixture["id"])
 
-    for match in football_data_matches(token, season):
+    for match in api_matches:
         if match.get("status") != "FINISHED":
             continue
 
@@ -418,13 +469,16 @@ def sync_results(token, season, dry_run):
     if not dry_run and updates:
         write_api_result_cache(cached_results)
 
+    if not dry_run and fixture_schedule_changed:
+        write_api_fixture_cache(cached_fixtures)
+
     if not dry_run and observations_changed:
         write_score_observations(score_observations)
 
-    if not dry_run and (updates or crossed_kickoff):
+    if not dry_run and (updates or crossed_kickoff or fixture_schedule_changed):
         subprocess.run([sys.executable, str(BUILD_SCRIPT), "--preserve-odds"], cwd=ROOT, check=True)
 
-    return updates, crossed_kickoff, observations_changed
+    return updates, crossed_kickoff, observations_changed, fixture_schedule_changed
 
 
 def main():
@@ -436,13 +490,17 @@ def main():
     load_env_file(ENV_FILE)
     token = os.environ.get("FOOTBALL_DATA_API_TOKEN")
 
-    updates, crossed_kickoff, observations_changed = sync_results(token, args.season, args.dry_run)
+    updates, crossed_kickoff, observations_changed, fixture_schedule_changed = sync_results(
+        token, args.season, args.dry_run
+    )
     if not updates:
         print("No new final scores found.")
         if crossed_kickoff and not args.dry_run:
             print("Regenerated app data for fixture kickoff changes.")
         if observations_changed and not args.dry_run:
             print("Updated post-match score observations.")
+        if fixture_schedule_changed and not args.dry_run:
+            print("Updated confirmed fixture kickoff times from football-data.org.")
         return
 
     verb = "Would update" if args.dry_run else "Updated"

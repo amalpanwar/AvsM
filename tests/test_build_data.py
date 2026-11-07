@@ -5,6 +5,7 @@ from datetime import datetime, timedelta, timezone
 from scripts.build_data import (
     CURRENT_SEASON_WEIGHT,
     PRIOR_SEASON_WEIGHT,
+    apply_kickoff_overrides,
     build_strengths,
     model_fixture,
     recency_weight,
@@ -25,6 +26,15 @@ def match(number, gameweek, kickoff, home, away, result=None):
 
 
 class BuildDataTests(unittest.TestCase):
+    def test_api_kickoff_overrides_replace_provisional_excel_times(self):
+        provisional = datetime(2026, 11, 7, 15, tzinfo=timezone.utc)
+        confirmed = datetime(2026, 11, 8, 16, 30, tzinfo=timezone.utc)
+        rows = [match(91, 10, provisional, "Arsenal", "Hull")]
+
+        apply_kickoff_overrides(rows, {"epl2026-91": confirmed})
+
+        self.assertEqual(rows[0]["date"], confirmed)
+
     def test_selects_only_nearest_upcoming_gameweek(self):
         now = datetime(2026, 10, 10, tzinfo=timezone.utc)
         rows = [
