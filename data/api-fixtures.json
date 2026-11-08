@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T18:02:05.876731Z",
+  "updatedAt": "2026-11-08T21:53:57.939425Z",
   "source": "football-data.org",
   "fixtures": [
     {
@@ -1174,7 +1174,7 @@
       "kickoff": "2026-11-08T16:30:00Z",
       "home": "Man Utd",
       "away": "Aston Villa",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560639
     },
