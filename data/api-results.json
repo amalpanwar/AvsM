@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T20:25:50.042849Z",
+  "updatedAt": "2026-11-08T18:02:05.875488Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1459,6 +1459,38 @@
       "settledAt": "2026-11-07T20:25:47.763629Z"
     },
     {
+      "id": "epl2026-92",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 92,
+      "kickoff": "2026-11-08T14:00:00Z",
+      "home": "Brighton",
+      "away": "Brentford",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560638,
+      "settledAt": "2026-11-08T18:02:03.857947Z"
+    },
+    {
+      "id": "epl2026-93",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 93,
+      "kickoff": "2026-11-08T14:00:00Z",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560635,
+      "settledAt": "2026-11-08T18:02:03.857947Z"
+    },
+    {
       "id": "epl2026-94",
       "season": "2026/27",
       "gameweek": 10,
@@ -1491,6 +1523,22 @@
       "settledAt": "2026-11-07T20:25:47.763629Z"
     },
     {
+      "id": "epl2026-96",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 96,
+      "kickoff": "2026-11-08T14:00:00Z",
+      "home": "Ipswich",
+      "away": "Bournemouth",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560637,
+      "settledAt": "2026-11-08T18:02:03.857947Z"
+    },
+    {
       "id": "epl2026-97",
       "season": "2026/27",
       "gameweek": 10,
@@ -1521,6 +1569,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560641,
       "settledAt": "2026-11-07T20:25:47.763629Z"
+    },
+    {
+      "id": "epl2026-100",
+      "season": "2026/27",
+      "gameweek": 10,
+      "sequence": 100,
+      "kickoff": "2026-11-08T14:00:00Z",
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560636,
+      "settledAt": "2026-11-08T18:02:03.857947Z"
     }
   ]
 }
