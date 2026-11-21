@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-11-21T16:20:15.610265Z",
-  "predictionStartsAt": "2026-11-21T16:20:15.583425Z",
+  "generatedAt": "2026-11-21T19:50:08.182047Z",
+  "predictionStartsAt": "2026-11-21T19:50:08.148695Z",
   "oddsUpdatedAt": "2026-11-17T12:14:28.970847Z",
   "upcomingGameweek": 11,
   "sourceFiles": {
@@ -12,15 +12,15 @@ window.AVSM_DATA = {
   },
   "model": {
     "version": "recency-weighted-poisson-completed-history-v3",
-    "leagueHomeGoals": 1.521,
-    "leagueAwayGoals": 1.1989,
+    "leagueHomeGoals": 1.5279,
+    "leagueAwayGoals": 1.2052,
     "priorSeasonMatches": 380,
-    "currentSeasonMatches": 101,
+    "currentSeasonMatches": 107,
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 115.867,
-    "currentSeasonEffectiveWeight": 249.6731,
+    "priorSeasonEffectiveWeight": 115.802,
+    "currentSeasonEffectiveWeight": 267.5202,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -29,28 +29,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-109",
-      "season": "2026/27",
-      "gameweek": 11,
-      "sequence": 109,
-      "kickoff": "2026-11-21T17:30:00Z",
-      "location": "St. James' Park",
-      "home": "Newcastle",
-      "away": "Arsenal",
-      "firstPicker": "A",
-      "homePints": 3,
-      "awayPints": 1,
-      "homeProbability": 0.20318,
-      "drawProbability": 0.275643,
-      "awayProbability": 0.521177,
-      "homeOdds": 4.922,
-      "drawOdds": 3.628,
-      "awayOdds": 1.919,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
-    },
     {
       "id": "epl2026-106",
       "season": "2026/27",
@@ -2763,9 +2741,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.929,
       "drawOdds": 4.034,
       "awayOdds": 4.279,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
     },
     {
@@ -2786,9 +2767,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.834,
       "drawOdds": 4.652,
       "awayOdds": 4.173,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
     },
     {
@@ -2809,9 +2793,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.798,
       "drawOdds": 4.248,
       "awayOdds": 4.794,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
     },
     {
@@ -2832,9 +2819,12 @@ window.AVSM_DATA = {
       "homeOdds": 1.755,
       "drawOdds": 4.562,
       "awayOdds": 4.74,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
     },
     {
@@ -2855,9 +2845,38 @@ window.AVSM_DATA = {
       "homeOdds": 2.178,
       "drawOdds": 4.826,
       "awayOdds": 2.996,
-      "status": "awaiting",
-      "score": null,
-      "resultSource": null,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
+    },
+    {
+      "id": "epl2026-109",
+      "season": "2026/27",
+      "gameweek": 11,
+      "sequence": 109,
+      "kickoff": "2026-11-21T17:30:00Z",
+      "location": "St. James' Park",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "firstPicker": "A",
+      "homePints": 3,
+      "awayPints": 1,
+      "homeProbability": 0.20318,
+      "drawProbability": 0.275643,
+      "awayProbability": 0.521177,
+      "homeOdds": 4.922,
+      "drawOdds": 3.628,
+      "awayOdds": 1.919,
+      "status": "recorded",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
     }
   ]
