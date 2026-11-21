@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T17:25:07.911074Z",
+  "updatedAt": "2026-11-21T12:43:54.919187Z",
   "source": "football-data.org",
   "fixtures": [
     {
@@ -1294,7 +1294,7 @@
       "kickoff": "2026-11-21T12:30:00Z",
       "home": "Man City",
       "away": "Fulham",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "source": "football-data.org",
       "sourceMatchId": 560643
     },

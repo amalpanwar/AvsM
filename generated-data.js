@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-11-19T17:25:08.083126Z",
-  "predictionStartsAt": "2026-11-19T17:25:08.036143Z",
+  "generatedAt": "2026-11-21T12:43:55.051333Z",
+  "predictionStartsAt": "2026-11-21T12:43:55.017351Z",
   "oddsUpdatedAt": "2026-11-17T12:14:28.970847Z",
   "upcomingGameweek": 11,
   "sourceFiles": {
@@ -19,8 +19,8 @@ window.AVSM_DATA = {
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 116.7426,
-    "currentSeasonEffectiveWeight": 248.5389,
+    "priorSeasonEffectiveWeight": 115.9341,
+    "currentSeasonEffectiveWeight": 246.8177,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -29,28 +29,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-108",
-      "season": "2026/27",
-      "gameweek": 11,
-      "sequence": 108,
-      "kickoff": "2026-11-21T12:30:00Z",
-      "location": "Etihad Stadium",
-      "home": "Man City",
-      "away": "Fulham",
-      "firstPicker": "A",
-      "homePints": 1,
-      "awayPints": 3,
-      "homeProbability": 0.552611,
-      "drawProbability": 0.255843,
-      "awayProbability": 0.191546,
-      "homeOdds": 1.81,
-      "drawOdds": 3.909,
-      "awayOdds": 5.221,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
-    },
     {
       "id": "epl2026-101",
       "season": "2026/27",
@@ -2850,6 +2828,29 @@ window.AVSM_DATA = {
       },
       "resultSource": "football-data.org",
       "pintsLockedAt": "2026-11-03T11:10:54.953431Z"
+    },
+    {
+      "id": "epl2026-108",
+      "season": "2026/27",
+      "gameweek": 11,
+      "sequence": 108,
+      "kickoff": "2026-11-21T12:30:00Z",
+      "location": "Etihad Stadium",
+      "home": "Man City",
+      "away": "Fulham",
+      "firstPicker": "A",
+      "homePints": 1,
+      "awayPints": 3,
+      "homeProbability": 0.552611,
+      "drawProbability": 0.255843,
+      "awayProbability": 0.191546,
+      "homeOdds": 1.81,
+      "drawOdds": 3.909,
+      "awayOdds": 5.221,
+      "status": "awaiting",
+      "score": null,
+      "resultSource": null,
+      "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
     }
   ]
 };
