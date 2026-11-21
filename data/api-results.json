@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T21:53:57.938588Z",
+  "updatedAt": "2026-11-21T16:20:15.506399Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1601,6 +1601,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560636,
       "settledAt": "2026-11-08T18:02:03.857947Z"
+    },
+    {
+      "id": "epl2026-108",
+      "season": "2026/27",
+      "gameweek": 11,
+      "sequence": 108,
+      "kickoff": "2026-11-21T12:30:00Z",
+      "home": "Man City",
+      "away": "Fulham",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560643,
+      "settledAt": "2026-11-21T16:20:13.389485Z"
     }
   ]
 }
