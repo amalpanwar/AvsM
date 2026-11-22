@@ -20,6 +20,8 @@ concurrency:
 
 jobs:
   sync:
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -66,10 +68,6 @@ jobs:
         with:
           path: .
 
-      - name: Deploy to GitHub Pages
-        if: steps.commit.outputs.changed == 'true'
-        uses: actions/deploy-pages@v5
-
       - name: Upload result cache
         if: always()
         uses: actions/upload-artifact@v7
@@ -79,3 +77,15 @@ jobs:
             data/api-results.json
             data/score-observations.json
           if-no-files-found: ignore
+
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
