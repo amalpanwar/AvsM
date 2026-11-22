@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T19:50:08.053847Z",
+  "updatedAt": "2026-11-22T17:20:44.868871Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1665,6 +1665,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560650,
       "settledAt": "2026-11-21T19:50:05.590767Z"
+    },
+    {
+      "id": "epl2026-106",
+      "season": "2026/27",
+      "gameweek": 11,
+      "sequence": 106,
+      "kickoff": "2026-11-22T14:00:00Z",
+      "home": "Hull",
+      "away": "Brighton",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560646,
+      "settledAt": "2026-11-22T17:20:40.628082Z"
     },
     {
       "id": "epl2026-108",
