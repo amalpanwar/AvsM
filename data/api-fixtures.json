@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:19:03.568327Z",
+  "updatedAt": "2026-11-22T22:43:06.607666Z",
   "source": "football-data.org",
   "fixtures": [
     {
@@ -1270,7 +1270,7 @@
       "kickoff": "2026-11-22T14:00:00Z",
       "home": "Hull",
       "away": "Brighton",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560646
     },
@@ -1282,7 +1282,7 @@
       "kickoff": "2026-11-22T16:30:00Z",
       "home": "Liverpool",
       "away": "Man Utd",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560645
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:20:44.868871Z",
+  "updatedAt": "2026-11-22T22:43:06.605997Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1681,6 +1681,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560646,
       "settledAt": "2026-11-22T17:20:40.628082Z"
+    },
+    {
+      "id": "epl2026-107",
+      "season": "2026/27",
+      "gameweek": 11,
+      "sequence": 107,
+      "kickoff": "2026-11-22T16:30:00Z",
+      "home": "Liverpool",
+      "away": "Man Utd",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560645,
+      "settledAt": "2026-11-22T22:43:04.716412Z"
     },
     {
       "id": "epl2026-108",
