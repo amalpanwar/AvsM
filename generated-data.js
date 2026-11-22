@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-11-22T00:22:52.622751Z",
-  "predictionStartsAt": "2026-11-22T00:22:52.574672Z",
+  "generatedAt": "2026-11-22T02:00:17.678706Z",
+  "predictionStartsAt": "2026-11-22T02:00:17.649225Z",
   "oddsUpdatedAt": "2026-11-17T12:14:28.970847Z",
   "upcomingGameweek": 11,
   "sourceFiles": {
@@ -19,8 +19,8 @@ window.AVSM_DATA = {
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 115.7176,
-    "currentSeasonEffectiveWeight": 267.3252,
+    "priorSeasonEffectiveWeight": 115.6874,
+    "currentSeasonEffectiveWeight": 267.2555,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {

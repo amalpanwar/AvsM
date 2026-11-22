@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T00:22:52.445924Z",
+  "updatedAt": "2026-11-22T02:00:17.566723Z",
   "source": "football-data.org",
   "fixtures": [
     {
@@ -1210,7 +1210,7 @@
       "kickoff": "2026-11-21T15:00:00Z",
       "home": "Bournemouth",
       "away": "Nott'm Forest",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560647
     },
@@ -1222,7 +1222,7 @@
       "kickoff": "2026-11-21T15:00:00Z",
       "home": "Aston Villa",
       "away": "Sunderland",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560644
     },
@@ -1246,7 +1246,7 @@
       "kickoff": "2026-11-21T15:00:00Z",
       "home": "Chelsea",
       "away": "Leeds",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560642
     },
@@ -1258,7 +1258,7 @@
       "kickoff": "2026-11-21T15:00:00Z",
       "home": "Coventry",
       "away": "Crystal Palace",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560650
     },
@@ -1294,7 +1294,7 @@
       "kickoff": "2026-11-21T12:30:00Z",
       "home": "Man City",
       "away": "Fulham",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560643
     },
@@ -1306,7 +1306,7 @@
       "kickoff": "2026-11-21T17:30:00Z",
       "home": "Newcastle",
       "away": "Arsenal",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560651
     },
@@ -1318,7 +1318,7 @@
       "kickoff": "2026-11-21T15:00:00Z",
       "home": "Spurs",
       "away": "Ipswich",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560648
     },
