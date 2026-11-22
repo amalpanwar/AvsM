@@ -1,6 +1,6 @@
 window.AVSM_DATA = {
-  "generatedAt": "2026-11-22T02:00:17.678706Z",
-  "predictionStartsAt": "2026-11-22T02:00:17.649225Z",
+  "generatedAt": "2026-11-22T15:42:50.033533Z",
+  "predictionStartsAt": "2026-11-22T15:42:49.986402Z",
   "oddsUpdatedAt": "2026-11-17T12:14:28.970847Z",
   "upcomingGameweek": 11,
   "sourceFiles": {
@@ -19,8 +19,8 @@ window.AVSM_DATA = {
     "priorSeasonWeight": 1.0,
     "currentSeasonWeight": 3.0,
     "recencyHalfLifeDays": 180.0,
-    "priorSeasonEffectiveWeight": 115.6874,
-    "currentSeasonEffectiveWeight": 267.2555,
+    "priorSeasonEffectiveWeight": 115.4332,
+    "currentSeasonEffectiveWeight": 266.6683,
     "neutralPriorMatches": 4.0,
     "maxGoals": 8,
     "pintThresholds": {
@@ -29,28 +29,6 @@ window.AVSM_DATA = {
     }
   },
   "fixtures": [
-    {
-      "id": "epl2026-106",
-      "season": "2026/27",
-      "gameweek": 11,
-      "sequence": 106,
-      "kickoff": "2026-11-22T14:00:00Z",
-      "location": "MKM Stadium",
-      "home": "Hull",
-      "away": "Brighton",
-      "firstPicker": "M",
-      "homePints": 2,
-      "awayPints": 1,
-      "homeProbability": 0.29145,
-      "drawProbability": 0.251391,
-      "awayProbability": 0.457159,
-      "homeOdds": 3.431,
-      "drawOdds": 3.978,
-      "awayOdds": 2.187,
-      "status": "open",
-      "score": null,
-      "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
-    },
     {
       "id": "epl2026-107",
       "season": "2026/27",
@@ -2877,6 +2855,29 @@ window.AVSM_DATA = {
         "away": 2
       },
       "resultSource": "football-data.org",
+      "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
+    },
+    {
+      "id": "epl2026-106",
+      "season": "2026/27",
+      "gameweek": 11,
+      "sequence": 106,
+      "kickoff": "2026-11-22T14:00:00Z",
+      "location": "MKM Stadium",
+      "home": "Hull",
+      "away": "Brighton",
+      "firstPicker": "M",
+      "homePints": 2,
+      "awayPints": 1,
+      "homeProbability": 0.29145,
+      "drawProbability": 0.251391,
+      "awayProbability": 0.457159,
+      "homeOdds": 3.431,
+      "drawOdds": 3.978,
+      "awayOdds": 2.187,
+      "status": "awaiting",
+      "score": null,
+      "resultSource": null,
       "pintsLockedAt": "2026-11-17T12:14:28.970847Z"
     }
   ]
