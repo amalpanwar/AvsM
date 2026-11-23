@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:43:06.607666Z",
+  "updatedAt": "2026-11-23T22:41:44.383481Z",
   "source": "football-data.org",
   "fixtures": [
     {
@@ -1234,7 +1234,7 @@
       "kickoff": "2026-11-23T20:00:00Z",
       "home": "Brentford",
       "away": "Everton",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560649
     },

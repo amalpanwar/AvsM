@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:43:06.605997Z",
+  "updatedAt": "2026-11-23T22:41:44.382362Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1633,6 +1633,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560644,
       "settledAt": "2026-11-21T19:50:05.590767Z"
+    },
+    {
+      "id": "epl2026-103",
+      "season": "2026/27",
+      "gameweek": 11,
+      "sequence": 103,
+      "kickoff": "2026-11-23T20:00:00Z",
+      "home": "Brentford",
+      "away": "Everton",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560649,
+      "settledAt": "2026-11-23T22:41:42.108833Z"
     },
     {
       "id": "epl2026-104",
