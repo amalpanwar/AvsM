@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T22:41:44.383481Z",
+  "updatedAt": "2026-11-28T02:34:25.504118Z",
   "source": "football-data.org",
   "fixtures": [
     {
@@ -1426,7 +1426,7 @@
       "kickoff": "2026-11-27T20:00:00Z",
       "home": "Nott'm Forest",
       "away": "Chelsea",
-      "status": "TIMED",
+      "status": "FINISHED",
       "source": "football-data.org",
       "sourceMatchId": 560658
     },

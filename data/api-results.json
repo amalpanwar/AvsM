@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T22:41:44.382362Z",
+  "updatedAt": "2026-11-28T02:34:25.503027Z",
   "source": "football-data.org,native-stats.org",
   "results": [
     {
@@ -1761,6 +1761,22 @@
       "source": "football-data.org",
       "sourceMatchId": 560648,
       "settledAt": "2026-11-21T19:50:05.590767Z"
+    },
+    {
+      "id": "epl2026-119",
+      "season": "2026/27",
+      "gameweek": 12,
+      "sequence": 119,
+      "kickoff": "2026-11-27T20:00:00Z",
+      "home": "Nott'm Forest",
+      "away": "Chelsea",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "source": "football-data.org",
+      "sourceMatchId": 560658,
+      "settledAt": "2026-11-28T02:34:20.492927Z"
     }
   ]
 }
